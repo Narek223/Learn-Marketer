@@ -1,0 +1,43 @@
+.history {
+    height:100vh ;
+    margin: 5% 10%;
+    .image{
+       position: relative;
+        .img{
+      position: absolute;
+         left:43%;
+         bottom: 4%;
+              
+          }
+    }
+    .our_history {
+        p {
+            width: 45%;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .title {
+            height: 10%;
+            text-align: center;
+            h1 {
+                font-size: 3em;
+                line-height: 0.8;
+                height: 50px;
+            }
+            h1:nth-child(1) {
+                color: #003366;
+            }
+            h1:nth-child(2) {
+                color: #FFA500;
+            }
+        }
+        button {
+            border-radius: 5px;
+            border: none;
+            padding: 15px;
+            background-color: #003366;  
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

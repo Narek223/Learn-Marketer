@@ -1,0 +1,23 @@
+.header {
+  background-color: #003366;
+}
+.header header {
+  display: flex;
+  justify-content: space-around;
+}
+.header header p {
+  margin-left: 150px;
+  margin-right: 100px;
+  color: white;
+  cursor: pointer;
+}
+.header header ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+.header header ul li {
+  cursor: pointer;
+  color: white;
+  list-style: none;
+}/*# sourceMappingURL=header.css.map */

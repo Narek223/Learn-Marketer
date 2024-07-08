@@ -1,0 +1,28 @@
+.header{
+    background-color: #003366;
+    header{
+       display: flex;
+       justify-content: space-around;
+       p{
+        margin-left: 150px;
+        margin-right: 100px;
+        color: white;
+        cursor: pointer;
+       }
+    
+         ul{
+             display: flex;
+             justify-content: space-evenly;
+            width: 60%;
+             
+             li{
+                cursor: pointer;
+                 color: white;
+                 list-style: none;
+                 
+             }
+             
+         }
+    }
+ 
+}

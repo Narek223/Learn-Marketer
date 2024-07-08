@@ -1,0 +1,36 @@
+.homepage {
+  height: 100vh;
+}
+.homepage img {
+  margin-left: 35%;
+}
+.homepage .home {
+  margin: 10%;
+  width: 30%;
+}
+.homepage .home h1 {
+  color: #003366;
+  font-size: 4em;
+}
+.homepage .home h1 span {
+  color: #FFA500;
+}
+.homepage .home button {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 50px 15px 50px;
+  margin: 5px;
+  cursor: pointer;
+}
+.homepage .home :nth-child(3) {
+  background-color: #003366;
+  color: white;
+}
+.homepage .home :nth-child(4) {
+  background-color: white;
+  border: 2px solid #FFA500;
+}
+.homepage .home p {
+  font-size: 2em;
+  padding: 5px;
+}/*# sourceMappingURL=home.css.map */
