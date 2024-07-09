@@ -1,0 +1,25 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+footer h1 {
+  color: rgb(0, 51, 102);
+}
+footer p {
+  font-size: 1.1em;
+  color: rgb(0, 51, 102);
+}
+footer img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 350px;
+}/*# sourceMappingURL=footer.css.map */

@@ -26,9 +26,12 @@ export default function Opinion() {
         <p>{text[stete].p} </p>
         <p>{text[stete].text} </p>
         </div>
- 
+ <div className='btn'>
  <button onClick={prev}><FaArrowLeft/></button>
  <button onClick={next}><FaArrowRight/></button>
+ </div>
+
+
     </div>
  </div>
     </div>

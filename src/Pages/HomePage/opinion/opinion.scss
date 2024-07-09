@@ -1,11 +1,21 @@
 .conteier_2{
     height: 100vh;
+
  .opinion_2{
     display: flex;
     align-items: center;
+    width: 70vw;
+    margin-left: 10%;
     .opinion{
+        display: flex;
+        padding: 25px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+  
+    }
         .text{
             width: 80%;
+            margin: 0 50px;
         }
         padding: 25px;
         p:nth-child(1){
@@ -13,8 +23,8 @@
             color: #003366;
         }
         p:nth-child(3){
-            line-height: 1.5;
-            font-size: 1.1em;
+            line-height: 28.8px;
+            font-size: 18px;
             font-weight: 400;
             color: #003366;
         }
@@ -23,17 +33,21 @@
             color: #FFA500
         }
     }
-    button{
-        border: none;
-        color: #FFA500;
-        background-color: white;
-        font-size: 1.5em;
-        cursor: pointer;
-        margin: 5px;
+    .btn{
+
+        button{
+            border: none;
+            color: #FFA500;
+            background-color: white;
+            font-size: 1.5em;
+            cursor: pointer;
+            margin: 5px;
+        }
     }
  }
     h1{
-        font-size: 3em;
+        font-size: 50px;
+        font-weight: 700;
         text-align: center;
         span{
             color:#FFA500;

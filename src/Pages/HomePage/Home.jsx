@@ -3,6 +3,7 @@ import History from './history/History'
 import groub2 from '../../assets/Group.png'
 import Choose from './choose/Choose'
 import Opinion from './opinion/Opinion'
+import Footer from './footer/Footer'
 
 import './home.css'
 
@@ -21,6 +22,7 @@ export default function Home() {
 <History/>
 <Choose/>
 <Opinion/>
+<Footer/>
     </div>
 
   )

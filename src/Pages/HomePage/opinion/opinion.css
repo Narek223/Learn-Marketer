@@ -4,36 +4,44 @@
 .conteier_2 .opinion_2 {
   display: flex;
   align-items: center;
-}
-.conteier_2 .opinion_2 .opinion {
+  width: 70vw;
+  margin-left: 10%;
   padding: 25px;
 }
-.conteier_2 .opinion_2 .opinion .text {
-  width: 80%;
+.conteier_2 .opinion_2 .opinion {
+  display: flex;
+  padding: 25px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: baseline;
 }
-.conteier_2 .opinion_2 .opinion p:nth-child(1) {
+.conteier_2 .opinion_2 .text {
+  width: 80%;
+  margin: 0 50px;
+}
+.conteier_2 .opinion_2 p:nth-child(1) {
   font-size: 1.8em;
   color: #003366;
 }
-.conteier_2 .opinion_2 .opinion p:nth-child(3) {
-  line-height: 1.5;
-  font-size: 1.1em;
+.conteier_2 .opinion_2 p:nth-child(3) {
+  line-height: 28.8px;
+  font-size: 18px;
   font-weight: 400;
   color: #003366;
 }
-.conteier_2 .opinion_2 .opinion p:nth-child(2) {
+.conteier_2 .opinion_2 p:nth-child(2) {
   color: #FFA500;
 }
-.conteier_2 .opinion_2 button {
+.conteier_2 .btn button {
   border: none;
   color: #FFA500;
   background-color: white;
   font-size: 1.5em;
   cursor: pointer;
-  margin: 5px;
 }
 .conteier_2 h1 {
-  font-size: 3em;
+  font-size: 50px;
+  font-weight: 700;
   text-align: center;
 }
 .conteier_2 h1 span {
