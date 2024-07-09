@@ -1,6 +1,9 @@
 import React from 'react'
 import History from './history/History'
 import groub2 from '../../assets/Group.png'
+import Choose from './choose/Choose'
+import Opinion from './opinion/Opinion'
+
 import './home.css'
 
 export default function Home() {
@@ -16,6 +19,8 @@ export default function Home() {
 <img src={groub2}/> 
       </div>
 <History/>
+<Choose/>
+<Opinion/>
     </div>
 
   )

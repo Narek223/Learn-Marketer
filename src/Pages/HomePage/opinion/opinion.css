@@ -1,0 +1,41 @@
+.conteier_2 {
+  height: 100vh;
+}
+.conteier_2 .opinion_2 {
+  display: flex;
+  align-items: center;
+}
+.conteier_2 .opinion_2 .opinion {
+  padding: 25px;
+}
+.conteier_2 .opinion_2 .opinion .text {
+  width: 80%;
+}
+.conteier_2 .opinion_2 .opinion p:nth-child(1) {
+  font-size: 1.8em;
+  color: #003366;
+}
+.conteier_2 .opinion_2 .opinion p:nth-child(3) {
+  line-height: 1.5;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #003366;
+}
+.conteier_2 .opinion_2 .opinion p:nth-child(2) {
+  color: #FFA500;
+}
+.conteier_2 .opinion_2 button {
+  border: none;
+  color: #FFA500;
+  background-color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 5px;
+}
+.conteier_2 h1 {
+  font-size: 3em;
+  text-align: center;
+}
+.conteier_2 h1 span {
+  color: #FFA500;
+}/*# sourceMappingURL=opinion.css.map */

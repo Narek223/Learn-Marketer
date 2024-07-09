@@ -1,0 +1,43 @@
+.conteier_2{
+    height: 100vh;
+ .opinion_2{
+    display: flex;
+    align-items: center;
+    .opinion{
+        .text{
+            width: 80%;
+        }
+        padding: 25px;
+        p:nth-child(1){
+            font-size: 1.8em;
+            color: #003366;
+        }
+        p:nth-child(3){
+            line-height: 1.5;
+            font-size: 1.1em;
+            font-weight: 400;
+            color: #003366;
+        }
+        p:nth-child(2){
+        
+            color: #FFA500
+        }
+    }
+    button{
+        border: none;
+        color: #FFA500;
+        background-color: white;
+        font-size: 1.5em;
+        cursor: pointer;
+        margin: 5px;
+    }
+ }
+    h1{
+        font-size: 3em;
+        text-align: center;
+        span{
+            color:#FFA500;
+        }
+    }
+   
+}
