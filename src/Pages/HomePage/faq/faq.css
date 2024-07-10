@@ -4,13 +4,23 @@
   align-items: center;
 }
 .cont .faq {
+  width: 30%;
   height: 100vh;
   color: #003366;
 }
-.cont .faq h1 {
+.cont .faq .line {
+  display: flex;
+  justify-content: space-between;
+align-items: baseline;
+flex-wrap: wrap;
+}
+.cont .faq .line h1 {
   font-size: 2.2em;
 }
-.cont .faq h2 {
+.cont .faq .line h2 {
   line-height: 1.5;
   font-weight: 400;
+}
+.cont .faq .line .question {
+  font-size: 1.2em;
 }/*# sourceMappingURL=faq.css.map */
