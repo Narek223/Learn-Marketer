@@ -1,7 +1,7 @@
 footer{
     display: flex;  
   
-
+line-height:0.2;
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
@@ -14,6 +14,17 @@ display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+}
+ul{
+    display: flex;
+    margin-right: 55px;
+
+    li{
+        font-size: 1.2em;
+        margin: 5px;
+        color:#FFA500; 
+        list-style: none;
+    }
 }
     h1{
   

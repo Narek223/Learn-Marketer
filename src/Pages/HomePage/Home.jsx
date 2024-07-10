@@ -2,7 +2,9 @@ import React from 'react'
 import History from './history/History'
 import groub2 from '../../assets/Group.png'
 import Choose from './choose/Choose'
+import Courses from './courses/Courses'
 import Opinion from './opinion/Opinion'
+import Faq from './faq/Faq'
 import Footer from './footer/Footer'
 
 import './home.css'
@@ -21,7 +23,9 @@ export default function Home() {
       </div>
 <History/>
 <Choose/>
+<Courses/>
 <Opinion/>
+<Faq/>
 <Footer/>
     </div>
 

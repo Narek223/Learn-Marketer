@@ -10,7 +10,7 @@ export default function Choose() {
     <div className='conteiner'>
   <div className='title_2'>
     <h1> why<span className='change_color'> choose us</span></h1>
-    <p>At LearnMarketer, we are dedicated to providing top-notch education and resources to help you thrive in the dynamic world of digital marketing. </p>
+    <p>At LearnMarketer, we are dedicated to providing top-notch education and resources to help you thrive in <br/> the dynamic world of digital marketing. </p>
    
     </div>
     <div className='main'>

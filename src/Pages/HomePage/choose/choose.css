@@ -4,11 +4,12 @@
 }
 .conteiner .title_2 {
   text-align: center;
-  line-height: 0.8;
+  line-height: 0.9;
   height: 20vh;
 }
 .conteiner .title_2 p {
-  padding: 0 85px;
+  line-height: 1.2;
+  font-size: 1.3em;
 }
 .conteiner .title_2 h1 {
   font-size: 3em;
@@ -36,7 +37,7 @@
 }
 .conteiner .main .one {
   width: 30%;
-  padding: 20px 15px;
+  padding: 15px 15px;
   border-right-width: 2px;
   border-right-height: 25px;
   border-right-style: solid;
@@ -56,7 +57,7 @@
 }
 .conteiner .main .two {
   width: 30%;
-  padding: 20px 15px;
+  padding: 15px 15px;
   border-right-width: 2px;
   border-right-height: 25px;
   border-right-style: solid;
@@ -73,7 +74,7 @@
 }
 .conteiner .main .three {
   width: 30%;
-  padding: 20px 15px;
+  padding: 15px 15px;
 }
 .conteiner .main .three .text_3 {
   padding: 25px;

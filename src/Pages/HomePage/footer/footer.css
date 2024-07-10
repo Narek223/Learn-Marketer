@@ -1,5 +1,6 @@
 footer {
   display: flex;
+  line-height: 0.2;
   flex-direction: column;
   justify-content: center;
   flex-wrap: nowrap;
@@ -10,6 +11,16 @@ footer .footer {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
+}
+footer ul {
+  display: flex;
+  margin-right: 55px;
+}
+footer ul li {
+  font-size: 1.2em;
+  margin: 5px;
+  color: #FFA500;
+  list-style: none;
 }
 footer h1 {
   color: rgb(0, 51, 102);
