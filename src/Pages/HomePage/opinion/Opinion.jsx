@@ -16,9 +16,9 @@ export default function Opinion() {
 
   return (
     <div className='conteier_2'>
-
  <h1>What <span> people say</span></h1>
  <div className='opinion_2'>
+  
     <img src={pic}/>
     <div className='opinion'>
         <div className='text'>
@@ -30,8 +30,6 @@ export default function Opinion() {
  <button onClick={prev}><FaArrowLeft/></button>
  <button onClick={next}><FaArrowRight/></button>
  </div>
-
-
     </div>
  </div>
     </div>

@@ -1,12 +1,12 @@
 .conteier_2{
     height: 100vh;
-    margin: 35% 25%;
+
 
  .opinion_2{
     display: flex;
     align-items: center;
     width: 70vw;
-    margin-left: 10%;
+    margin-left: 1%;
     .opinion{
         display: flex;
         padding: 25px;
@@ -18,7 +18,7 @@
             width: 80%;
             margin: 0 50px;
         }
-        padding: 25px;
+     
         p:nth-child(1){
             font-size: 1.8em;
             color: #003366;
@@ -50,6 +50,7 @@
         font-size: 50px;
         font-weight: 700;
         text-align: center;
+      
         span{
             color:#FFA500;
         }

@@ -1,6 +1,6 @@
 .history {
-  height: 100vh;
-  margin: 5% 10%;
+  height: 60vh;
+  margin: 8% 10%;
 }
 .history .image {
   position: relative;
@@ -11,7 +11,7 @@
   bottom: 4%;
 }
 .history .our_history p {
-  width: 45%;
+  width: 55%;
   font-size: 1.1em;
   line-height: 1.8;
 }
@@ -20,7 +20,8 @@
   line-height: 0.6;
 }
 .history .our_history .title h1 {
-  font-size: 3em;
+  font-size: 50px;
+  font-weight: 700;
 }
 .history .our_history .title h1:nth-child(1) {
   color: #003366;

@@ -24,13 +24,13 @@
 }
 .conteiner .main {
   border: 1px solid #657790;
-  width: 95%;
+  width: 85%;
   border-radius: 8px;
-  margin-left: 2vw;
+  margin-left: 8vw;
   padding: 15px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .conteiner .main img {
   padding: 25px;

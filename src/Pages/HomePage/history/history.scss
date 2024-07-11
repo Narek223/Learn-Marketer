@@ -1,6 +1,6 @@
 .history {
-    height:100vh ;
-    margin: 5% 10%;
+    height:60vh ;
+    margin: 8% 10%;
     .image{
        position: relative;
         .img{
@@ -12,7 +12,7 @@
     }
     .our_history {
         p {
-            width: 45%;
+            width: 55%;
             font-size: 1.1em;
             line-height: 1.8;
         }
@@ -21,7 +21,8 @@
             text-align: center;
             line-height: 0.6;
             h1 {
-                font-size: 3em;
+                font-size: 50px;
+                font-weight: 700;
           
             }
             h1:nth-child(1) {

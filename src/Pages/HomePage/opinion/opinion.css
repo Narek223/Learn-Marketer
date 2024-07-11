@@ -1,13 +1,11 @@
 .conteier_2 {
   height: 100vh;
-  margin: 20% 5%;
+  
 }
 .conteier_2 .opinion_2 {
   display: flex;
   align-items: center;
-  width: 70vw;
-  margin-left: 10%;
-  padding: 25px;
+  
 }
 .conteier_2 .opinion_2 .opinion {
   display: flex;

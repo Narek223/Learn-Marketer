@@ -6,6 +6,7 @@ import Courses from './courses/Courses'
 import Opinion from './opinion/Opinion'
 import Faq from './faq/Faq'
 import Footer from './footer/Footer'
+import Workers from './best_workers/Workers'
 
 import './home.css'
 
@@ -25,6 +26,7 @@ export default function Home() {
 <Choose/>
 <Courses/>
 <Opinion/>
+<Workers/>
 <Faq/>
 <Footer/>
     </div>

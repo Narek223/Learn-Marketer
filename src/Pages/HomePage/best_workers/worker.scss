@@ -1,0 +1,60 @@
+.mainn{
+    height: 100vh;
+    width: 100%;
+  
+   box-sizing: border-box;
+    
+    .worker{
+     
+width: 100%;
+        .blog{
+            width: 40%;
+h1{
+    color:#FFA500 ;
+    font-size: 50px;
+    font-weight: 700;
+    span{
+        color:  #003366;;
+    }
+}
+p{
+    font-size: 18px;
+    line-height: 1.8;
+    width: 22vw;
+}
+button{
+    color: #f5f6f8;
+    background-color: #003366;
+    padding: 15px 25px ;
+    border-radius:5px;
+    cursor: pointer;
+}
+        }
+        .images{
+       
+            imgone{
+                border: 1px solid green;
+                display: flex;
+                .one{
+                    width: 15%;
+                 }
+                 ul{
+                    >li{
+                        list-style: none;
+                    }
+                }
+            }
+         .vector{
+           
+         }
+       
+         .two{
+            width: 15%;
+            
+         }
+         .three{
+          
+         }
+        }
+    }
+}
