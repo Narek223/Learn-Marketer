@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import pic from '../../../assets/Frame.png';
 import { text } from './obj';
-import {FaArrowLeft,FaArrowRight}  from 'react-icons/fa';
+import {FaArrowLeft,FaArrowRight,FaStar}  from 'react-icons/fa';
 import './opinion.css';
 
 export default function Opinion() {
@@ -19,12 +19,22 @@ export default function Opinion() {
  <h1 className='h1'>What <span className='span'> people say</span></h1>
  <div className='opinion_2'>
   <div>
-  <img src={pic}/>
+  <img  src={pic}/>
   </div>
 
     <div className='opinion'>
         <div className='text'>
-        <p>{text[stete].name}</p>
+          <div className='stars'> 
+          <p>{text[stete].name}</p>
+          <div className='icons'>
+          <FaStar className='star'/>
+            <FaStar className='star'/>
+            <FaStar className='star'/>
+            <FaStar className='star'/>
+            <FaStar className='star'/>
+          </div>
+           
+          </div>
         <p>{text[stete].p} </p>
         <p>{text[stete].text} </p>
         <button onClick={prev}><FaArrowLeft/></button>

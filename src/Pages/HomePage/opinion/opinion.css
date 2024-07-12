@@ -1,14 +1,12 @@
 .conteier_4 {
   height: 100vh;
-  margin: 15% 15%;
+  margin: 15% 13%;
 }
 .conteier_4 .opinion_2 {
   display: flex;
   align-items: center;
-  width: 70vw;
-}
-.conteier_4 .opinion_2 img {
-  margin-right: 10%;
+  width: 80vw;
+  margin-right: 25%;
 }
 .conteier_4 .opinion_2 .opinion {
   display: flex;
@@ -25,6 +23,18 @@
 .conteier_4 .opinion_2 .text {
   width: 80%;
   margin: 0 90px;
+}
+.conteier_4 .opinion_2 .text .stars {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+.conteier_4 .opinion_2 .text .stars .icons {
+  padding-left: 30%;
+}
+.conteier_4 .opinion_2 .text .stars .icons .star {
+  font-size: 1.2em;
+  color: #FFA500;
 }
 .conteier_4 .opinion_2 p:nth-child(1) {
   font-size: 1.8em;

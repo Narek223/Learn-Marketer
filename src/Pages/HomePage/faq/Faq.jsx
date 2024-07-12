@@ -35,7 +35,7 @@ export default function Faq() {
         <h1>FAQ</h1>
         {questions.map((item, index) => (
           <div key={index} className='line'>
-            <h2>{item.question}</h2>
+            <h2 onClick={() => toggle(index)}>{item.question}</h2>
             <p onClick={() => toggle(index)}>{visibleIndex === index ? <IoIosArrowUp /> : <IoIosArrowDown/> }</p>
             {visibleIndex === index && <h2 className='question'>{item.answer}</h2>}
           </div>

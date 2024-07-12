@@ -1,17 +1,17 @@
 .mainn{
-    height: 100vh;
+    height: 130vh;
     width: 100%;
-  padding: 10% 15%;
+  padding: 10% 12%;
    box-sizing: border-box;
-    
+
     .worker{
-     
+        display: flex;
 width: 100%;
         .blog{
             width: 40%;
 h1{
     color:#FFA500 ;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     span{
         color:  #003366;;
@@ -31,30 +31,88 @@ button{
 }
         }
         .images{
-       
-            imgone{
-                border: 1px solid green;
-                display: flex;
-                .one{
-                    width: 15%;
-                 }
-                 ul{
-                    >li{
-                        list-style: none;
-                    }
-                }
-            }
-         .vector{
+    
+        width: 60vw;
+        height: 70vh;
+         background-image:url('../../../assets/Vector 28974.png');
+         background-repeat: no-repeat;
+         background-position: center;
+         background-size: cover;
+         position: relative;
+         z-index: 1;
+         img{
+            width: 265px;
+            height: 331px;
            
-         }
-       
-         .two{
-            width: 15%;
             
          }
-         .three{
-          
-         }
+            .imgone{
+                display: flex;
+                flex-direction: column;
+            align-items: center;
+        
+                line-height: 0.3;
+                   position: absolute;
+                  left: 15%;
+                  top: 10%;
+                   z-index: 2;
+              bottom: 25%;
+             
+              z-index: 2;
+              h1{
+              margin-top: 10px;
+                font-weight: 500;
+                font-size: 1.1;
+            }
+.img_one{
+
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        margin-top: -1%;
+       
+        background-color: #003366;
+        color: #f5f6f8;
+        text-align: center;
+        li{
+            list-style: none;
+        }
+    }
+    
+}
+            }
+            .imgtwo{
+             display: flex;
+             flex-direction: column;
+    align-items: center;
+line-height: 0.3;
+               
+                position: absolute;
+               left: 55%;
+              bottom: 35%;
+                z-index: 2;
+                h1{
+                    font-weight: 500;
+                    font-size: 1.5;
+                }
+            }
+            .imgthree{
+                display: flex;
+             flex-direction: column;
+    align-items: center;
+    line-height: 0.3;
+             
+                position: absolute;
+               left: 55%;
+               top:70%;
+                z-index: 2;
+                h1{
+                    font-weight: 500;
+                    font-size: 1.5;
+                }
+            }
+      
         }
     }
 }

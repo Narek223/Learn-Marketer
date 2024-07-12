@@ -1,15 +1,16 @@
 .conteier_4{
     height: 100vh;
-    margin:  15% 15%;
+    margin:  15% 13%;
     
 
  .opinion_2{
 
     display: flex;
     align-items: center;
-    width: 70vw;
+    width: 80vw;
+    margin-right: 25%;
 img{
-    margin-right: 10%;
+    
 }
     .opinion{
         display: flex;
@@ -25,12 +26,25 @@ img{
                 cursor: pointer;
              
             }  
+           
     }
         .text{
             width: 80%;
             margin: 0 90px;
-        }
-     
+            
+            .stars{
+                display: flex;
+                align-items: baseline;
+                justify-content: flex-start;
+            .icons{
+                padding-left:30%;
+                .star{
+                    font-size: 1.2em;
+                    color: #FFA500;
+                }  
+            }        
+            }
+        } 
         p:nth-child(1){
             font-size: 1.8em;
             color: #003366;
