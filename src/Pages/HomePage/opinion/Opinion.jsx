@@ -15,21 +15,25 @@ export default function Opinion() {
       } 
 
   return (
-    <div className='conteier_2'>
- <h1>What <span> people say</span></h1>
+    <div className='conteier_4'>
+ <h1 className='h1'>What <span className='span'> people say</span></h1>
  <div className='opinion_2'>
-  
-    <img src={pic}/>
+  <div>
+  <img src={pic}/>
+  </div>
+
     <div className='opinion'>
         <div className='text'>
         <p>{text[stete].name}</p>
         <p>{text[stete].p} </p>
         <p>{text[stete].text} </p>
+        <button onClick={prev}><FaArrowLeft/></button>
+        <button onClick={next}><FaArrowRight/></button>
         </div>
- <div className='btn'>
- <button onClick={prev}><FaArrowLeft/></button>
- <button onClick={next}><FaArrowRight/></button>
- </div>
+ 
+
+
+ 
     </div>
  </div>
     </div>

@@ -1,48 +1,50 @@
-.conteier_2 {
+.conteier_4 {
   height: 100vh;
-  
+  margin: 15% 15%;
 }
-.conteier_2 .opinion_2 {
+.conteier_4 .opinion_2 {
   display: flex;
   align-items: center;
-  
+  width: 70vw;
 }
-.conteier_2 .opinion_2 .opinion {
+.conteier_4 .opinion_2 img {
+  margin-right: 10%;
+}
+.conteier_4 .opinion_2 .opinion {
   display: flex;
-  padding: 25px;
   flex-wrap: nowrap;
   flex-direction: column;
-  align-items: baseline;
 }
-.conteier_2 .opinion_2 .text {
-  width: 80%;
-  margin: 0 50px;
-}
-.conteier_2 .opinion_2 p:nth-child(1) {
-  font-size: 1.8em;
-  color: #003366;
-}
-.conteier_2 .opinion_2 p:nth-child(3) {
-  line-height: 28.8px;
-  font-size: 18px;
-  font-weight: 400;
-  color: #003366;
-}
-.conteier_2 .opinion_2 p:nth-child(2) {
-  color: #FFA500;
-}
-.conteier_2 .btn button {
+.conteier_4 .opinion_2 .opinion button {
   border: none;
   color: #FFA500;
   background-color: white;
   font-size: 1.5em;
   cursor: pointer;
 }
-.conteier_2 h1 {
+.conteier_4 .opinion_2 .text {
+  width: 80%;
+  margin: 0 90px;
+}
+.conteier_4 .opinion_2 p:nth-child(1) {
+  font-size: 1.8em;
+  color: #003366;
+}
+.conteier_4 .opinion_2 p:nth-child(3) {
+  line-height: 28.8px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #003366;
+}
+.conteier_4 .opinion_2 p:nth-child(2) {
+  color: #FFA500;
+}
+
+.h1 {
   font-size: 50px;
   font-weight: 700;
   text-align: center;
 }
-.conteier_2 h1 span {
+.h1 .span {
   color: #FFA500;
 }/*# sourceMappingURL=opinion.css.map */
