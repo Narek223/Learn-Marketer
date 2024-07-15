@@ -3,7 +3,4 @@ body{
     padding: 0;
     margin: 0;
 }
-button:active{
-  transform: scale(0.8);
-  animation-duration: 2s;
-  }
+

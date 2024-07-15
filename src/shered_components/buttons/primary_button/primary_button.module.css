@@ -1,0 +1,14 @@
+.primary_button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 15px 50px 15px 50px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.primary_button:active {
+  transform: scale(0.8);
+  animation-duration: 2s;
+}/*# sourceMappingURL=primary_button.module.css.map */

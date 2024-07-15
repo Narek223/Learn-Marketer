@@ -1,37 +1,26 @@
 .conteier_4{
     height: 100vh;
     margin:  15% 13%;
-    
-
  .opinion_2{
-
     display: flex;
     align-items: center;
     width: 80vw;
     margin-right: 25%;
-img{
-    
-}
     .opinion{
         display: flex;
-  
         flex-wrap: nowrap;
         flex-direction: column;
-  
             button{
                 border: none;
                 color: #FFA500;
                 background-color: white;
                 font-size: 1.5em;
                 cursor: pointer;
-             
             }  
-           
     }
         .text{
             width: 80%;
             margin: 0 90px;
-            
             .stars{
                 display: flex;
                 align-items: baseline;
@@ -56,17 +45,14 @@ img{
             color: #003366;
         }
         p:nth-child(2){
-        
             color: #FFA500
         }
     }
-   
  }
     .h1{
         font-size: 50px;
         font-weight: 700;
         text-align: center;
-      
         .span{
             color:#FFA500;
         }

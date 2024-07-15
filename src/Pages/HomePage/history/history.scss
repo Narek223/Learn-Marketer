@@ -6,8 +6,7 @@
         .img{
       position: absolute;
          left:51%;
-         bottom: 5%;
-              
+         bottom: 5%;   
           }
     }
     .our_history {
@@ -17,13 +16,11 @@
             line-height: 1.8;
         }
         .title {
-       
             text-align: center;
             line-height: 0.6;
             h1 {
                 font-size: 50px;
                 font-weight: 700;
-          
             }
             h1:nth-child(1) {
                 color: #003366;
@@ -32,13 +29,13 @@
                 color: #FFA500;
             }
         }
-        button {
-            border-radius: 5px;
-            border: none;
-            padding: 14px;
-            background-color: #003366;  
-            color: white;
-            cursor: pointer;
-        }
+      //  button {
+      //      border-radius: 5px;
+       //     border: none;
+       //     padding: 14px;
+       //     background-color: #003366;  
+       //     color: white;
+       //     cursor: pointer;
+       // }
     }
 }

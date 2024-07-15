@@ -1,16 +1,12 @@
 footer{
     display: flex;  
-  
-line-height:0.2;
+    line-height:0.2;
     flex-direction: column;
     justify-content: center;
     flex-wrap: nowrap;
     align-items: center;
-
-
 .footer{
-
-display: flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
@@ -18,7 +14,6 @@ display: flex;
 ul{
     display: flex;
     margin-right: 55px;
-
     li{
         font-size: 1.2em;
         margin: 5px;
@@ -27,7 +22,6 @@ ul{
     }
 }
     h1{
-  
         color:rgb(0,51,102);
     }
     p{
@@ -35,7 +29,6 @@ ul{
         color:rgb(0,51,102);
     }
     img{
-
         object-fit: contain;
         width: 350px;
     }

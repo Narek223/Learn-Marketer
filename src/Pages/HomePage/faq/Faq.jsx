@@ -12,18 +12,22 @@ export default function Faq() {
 
   const questions = [
     {
+      id:1,
       question: "How long is the course?",
       answer: "The duration of the course depends on the specific program you choose. Generally, our courses range from 6 weeks to 6 months."
     },
     {
+      id:2,
       question: "When does the next intake start?",
       answer: "The next intake for our courses typically starts at the beginning of each month."
     },
     {
+      id:3,
       question: "I'm not sure if this course is suitable for me?",
       answer: "Choosing the right course can be challenging, but we're here to help! Our courses are designed to cater to different skill levels, from beginners to advanced learners."
     },
     {
+      id:4,
       question: "How long do I have to complete the course?",
       answer: "The time you have to complete the course varies depending on the specific program you choose. Most of our courses offer flexible completion times, ranging from 6 weeks to 6 months."
     }
@@ -34,7 +38,7 @@ export default function Faq() {
       <div className='faq'>
         <h1>FAQ</h1>
         {questions.map((item, index) => (
-          <div key={index} className='line'>
+          <div key={item.id} className='line'>
             <h2 onClick={() => toggle(index)}>{item.question}</h2>
             <p onClick={() => toggle(index)}>{visibleIndex === index ? <IoIosArrowUp /> : <IoIosArrowDown/> }</p>
             {visibleIndex === index && <h2 className='question'>{item.answer}</h2>}

@@ -1,66 +1,37 @@
-.homepage{
-    img{
+.homepage {
+    img {
         margin-left: 42%;
         margin-bottom: -12%;
     }
     height: 100vh;
-    .home{
+    .home {
         margin: 10%;
         width: 35%;
-        h1{
+        h1 {
             color: #003366;
             font-size: 4em;
-            span{
-                color:#FFA500
+            span {
+                color: #ffa500;
             }
-    
         }
-        button{
-            border: none;
-           border-radius: 5px;
-           padding: 15px 50px 15px 50px;
-           margin: 5px;
-           cursor: pointer;
-        }
-    :nth-child(3){
+        // button{
+        //     border: none;
+        //    border-radius: 5px;
+        //    padding: 15px 50px 15px 50px;
+        //    margin: 5px;
+        //    cursor: pointer;
+        // }
+        :nth-child(3) {
             background-color: #003366;
             color: white;
         }
-        :nth-child(4){
+        :nth-child(4) {
             background-color: white;
-            border: 2px solid #FFA500;
+            border: 2px solid #ffa500;
         }
-        p{
+        p {
             font-size: 2em;
             padding: 5px;
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
