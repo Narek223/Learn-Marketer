@@ -1,6 +1,6 @@
 footer {
   display: flex;
-  line-height: 0.2;
+  line-height: 0.5;
   flex-direction: column;
   justify-content: center;
   flex-wrap: nowrap;
@@ -33,4 +33,4 @@ footer img {
   -o-object-fit: contain;
      object-fit: contain;
   width: 350px;
-}/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=footer.module.css.map */

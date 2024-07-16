@@ -1,9 +1,8 @@
 import React from 'react';
 import { FaFacebookF,FaTelegramPlane, FaLinkedinIn,FaInstagram, FaYoutube  } from "react-icons/fa"
+import logo from '../../assets/log.png'
 
-
-import logo from '../../../assets/log.png'
-import './footer.css';
+import styles from './footer.module.scss'
 
 
 export default function Footer() {
@@ -11,7 +10,7 @@ export default function Footer() {
   return (
     <div>
         <footer>
-          <div className='footer'>
+          <div className={styles.footer}>
           <img src={logo}  />
           
 <h1>+374 93 55 55 66</h1>

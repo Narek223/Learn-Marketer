@@ -16,15 +16,10 @@
 .homepage .home h1 span {
   color: #ffa500;
 }
-.homepage .home :nth-child(3) {
-  background-color: #003366;
-  color: white;
-}
-.homepage .home :nth-child(4) {
-  background-color: white;
-  border: 2px solid #ffa500;
+.homepage .home .btn {
+  display: flex;
 }
 .homepage .home p {
   font-size: 2em;
   padding: 5px;
-}/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.module.css.map */

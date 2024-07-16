@@ -1,27 +1,28 @@
 import React from 'react'
 import vector from '../../../assets/Vector.png'
-import './history.css'
+import  styles from './history.module.scss'
 import Primary_button from '../../../shered_components/buttons/primary_button/Primary_button'
 
 export default function History() {
   return (
-    <div className='history'>
+    <div className={styles.history}>
       
-      <div className='image'>
-      <img className='img' src ={vector} />
+      <div className={styles.image}>
+      <img className={styles.img} src ={vector} />
       </div>
 
-<div className='our_history'>
+<div className={styles.our_history}>
 
-    <div className='title'>
+    <div className={styles.title}>
     <h1>Our History</h1>
     <h1>Welcome to LearnMarketer!</h1>
     </div>
 
 
  <p>At LearnMarketer, our journey began in 2017 with a vision to empower individuals and businesses with the skills and knowledge needed to excel in the rapidly evolving digital marketing landscape. Founded by LearnMarketer, a seasoned expert in digital marketing with over 7 years of industry experience, our mission has always been to provide high-quality, accessible education to aspiring digital marketers around the world.</p>
-<button>Read more</button>
+  <div style={{width:'200px'}}>
 <Primary_button>Read more</Primary_button>
+</div>
 </div>
 
     </div>

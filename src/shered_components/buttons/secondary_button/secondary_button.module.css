@@ -1,16 +1,17 @@
-.primary_button {
+.secendary_button {
   border: none;
-  width: 100%;
+  width: 90%;
   height: 100%;
   border-radius: 5px;
   padding: 15px 50px 15px 50px;
   margin: 5px;
   cursor: pointer;
   transition: 0.5s;
-  background-color: #003366;
-  color: white;
+  color: #003366;
+  background-color: white;
+  border: 2px solid #ffa500;
 }
-.primary_button:active {
+.secendary_button:active {
   transform: scale(0.8);
   animation-duration: 2s;
-}/*# sourceMappingURL=Primary_button.module.css.map */
+}/*# sourceMappingURL=secondary_button.module.css.map */

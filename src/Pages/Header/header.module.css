@@ -19,10 +19,15 @@
 .header header ul {
   display: flex;
   justify-content: space-evenly;
-  width: 60%;
+  width: 70%;
+  margin-right: 5%;
+}
+.header header ul .link {
+  color: white;
 }
 .header header ul li {
+  width: 30%;
   cursor: pointer;
   color: white;
   list-style: none;
-}/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.module.css.map */

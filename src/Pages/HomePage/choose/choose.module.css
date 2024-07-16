@@ -1,28 +1,28 @@
-.conteiner {
+.container {
   width: 100%;
   height: 100vh;
 }
-.conteiner .title_2 {
+.container .title_2 {
   text-align: center;
   line-height: 0.9;
   height: 20vh;
 }
-.conteiner .title_2 p {
+.container .title_2 p {
   line-height: 1.2;
   font-size: 1.3em;
 }
-.conteiner .title_2 h1 {
+.container .title_2 h1 {
   font-size: 3em;
   color: #003366;
 }
-.conteiner .title_2 h1 .change_color {
+.container .title_2 h1 .change_color {
   color: #FFA500;
 }
-.conteiner .title_2 p {
+.container .title_2 p {
   font-size: 1.1em;
   margin: 0 50px 0 50px;
 }
-.conteiner .main {
+.container .main {
   border: 1px solid #657790;
   width: 85%;
   border-radius: 8px;
@@ -32,10 +32,10 @@
   justify-content: center;
   align-items: flex-start;
 }
-.conteiner .main img {
+.container .main img {
   padding: 25px;
 }
-.conteiner .main .one {
+.container .main .one {
   width: 30%;
   padding: 15px 15px;
   border-right-width: 2px;
@@ -44,18 +44,18 @@
   border-right-color: #657790;
   line-height: 20px;
 }
-.conteiner .main .one .text {
+.container .main .one .text {
   padding: 25px;
 }
-.conteiner .main .one .text p {
+.container .main .one .text p {
   line-height: 1.5;
   color: #657790;
   font-weight: 800;
 }
-.conteiner .main .one p {
+.container .main .one p {
   padding: 15px;
 }
-.conteiner .main .two {
+.container .main .two {
   width: 30%;
   padding: 15px 15px;
   border-right-width: 2px;
@@ -64,23 +64,23 @@
   border-right-color: #657790;
   line-height: 20px;
 }
-.conteiner .main .two .text_2 {
+.container .main .two .text_2 {
   padding: 25px;
 }
-.conteiner .main .two .text_2 p {
+.container .main .two .text_2 p {
   line-height: 1.5;
   color: #657790;
   font-weight: 800;
 }
-.conteiner .main .three {
+.container .main .three {
   width: 30%;
   padding: 15px 15px;
 }
-.conteiner .main .three .text_3 {
+.container .main .three .text_3 {
   padding: 25px;
 }
-.conteiner .main .three .text_3 p {
+.container .main .three .text_3 p {
   line-height: 1.5;
   color: #657790;
   font-weight: 800;
-}/*# sourceMappingURL=choose.css.map */
+}/*# sourceMappingURL=choose.module.css.map */
