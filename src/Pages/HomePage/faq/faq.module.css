@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-
+  height: 100vh;
+  margin-top: 50%;
 }
 .cont .faq {
   width: 35%;
@@ -13,16 +13,17 @@
 .cont .faq .line {
   display: flex;
   justify-content: space-between;
-align-items: baseline;
-flex-wrap: wrap;
+  align-items: baseline;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
-.cont .faq .line h1 {
+.cont .faq h1 {
   font-size: 2.2em;
 }
-.cont .faq .line h2 {
+.cont .faq h2 {
   line-height: 1.5;
   font-weight: 400;
 }
-.cont .faq .line .question {
+.cont .faq .question {
   font-size: 1.2em;
-}/*# sourceMappingURL=faq.css.map */
+}/*# sourceMappingURL=faq.module.css.map */

@@ -33,10 +33,10 @@ export default function Home() {
       </div>
       <History/>
        <Choose /> 
-      {/* <Courses /> */}
-      {/* <Opinion /> */}
-      {/* <Workers /> */}
-      {/* <Faq /> */}
+    <Courses /> 
+       <Opinion /> 
+       <Workers /> 
+      <Faq /> 
 
     </div>
   );

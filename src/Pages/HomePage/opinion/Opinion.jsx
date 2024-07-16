@@ -2,7 +2,9 @@ import {useState} from 'react';
 import pic from '../../../assets/Frame.png';
 import { text } from './obj';
 import {FaArrowLeft,FaArrowRight,FaStar}  from 'react-icons/fa';
-import './opinion.css';
+import styles from  './opinion.module.scss'
+
+
 
 export default function Opinion() {
     let [stete, setstate]=useState(0)
@@ -14,24 +16,29 @@ export default function Opinion() {
         setstate(stete===0?text.length-1: stete-1)
       } 
 
+     
+
+
+
+
   return (
-    <div className='conteier_4'>
- <h1 className='h1'>What <span className='span'> people say</span></h1>
- <div className='opinion_2'>
+    <div className={styles.conteier_4}>
+ <h1 className={styles.h1}>What <span className={styles.span}> people say</span></h1>
+ <div className={styles.opinion_2}>
   <div>
   <img  src={pic}/>
   </div>
 
-    <div className='opinion'>
-        <div className='text'>
-          <div className='stars'> 
+    <div className={styles.opinion}>
+        <div className={styles.text}>
+          <div className={styles.stars}> 
           <p>{text[stete].name}</p>
-          <div className='icons'>
-          <FaStar className='star'/>
-            <FaStar className='star'/>
-            <FaStar className='star'/>
-            <FaStar className='star'/>
-            <FaStar className='star'/>
+          <div className={styles.icons}>
+          <FaStar className={styles.stars}/>
+            <FaStar className={styles.stars}/>
+            <FaStar className={styles.stars}/>
+            <FaStar className={styles.stars}/>
+            <FaStar className={styles.stars}/>
           </div>
            
           </div>

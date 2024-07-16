@@ -1,7 +1,7 @@
 .container{
     width: 100%;
     height:100vh;
- 
+
     @mixin cont {
         width: 30%;
         padding: 15px 15px ;
@@ -50,6 +50,17 @@
        .one{
         @include cont;
         @include border;
+        &:nth-child(3){
+          @include cont;
+          .text_3{
+              padding: 25px;
+              p{
+                 line-height: 1.5;
+                 color:#657790;
+                 font-weight: 800;
+              }
+          }
+        }
          .text{
  padding: 25px;
  p{
@@ -62,28 +73,16 @@
             padding: 15px;
          }
        } 
-       .two{
-        @include cont;
-        @include border;
-        .text_2{
-            padding: 25px;
-            p{
-               line-height: 1.5;
-               color:#657790;
-               font-weight: 800;
-            }
-        }
-       }
-       .three{
-        @include cont;
-        .text_3{
-            padding: 25px;
-            p{
-               line-height: 1.5;
-               color:#657790;
-               font-weight: 800;
-            }
-        }
+       div:nth-child(3){
+      
+      
+      
+      
+      
+      
+      
+      
+      
        }
     }
 }

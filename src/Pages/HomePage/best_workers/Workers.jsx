@@ -9,13 +9,14 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
-import "./worker.css";
+import styles from './workers.module.scss'
+import Primary_button from "../../../shered_components/buttons/primary_button/Primary_button";
 
 export default function Workers() {
   return (
-    <div className="mainn">
-      <div className="worker">
-        <div className="blog">
+    <div className={styles.mainn}>
+      <div className={styles.worker}>
+        <div className={styles.blog}>
           <h1>
             Our{" "}
             <span>
@@ -28,12 +29,15 @@ export default function Workers() {
             experienced professionals who are passionate about digital marketing
             and committed to your learning journey.
           </p>
-          <button>See All</button>
+         <div style={{width:'150px'}}>
+         <Primary_button> See All</Primary_button>
+         </div>
+   
         </div>
 
-        <div className="images">
-          <div className="imgone">
-            <div className="img_one">
+        <div className={styles.images}>
+          <div className={styles.imgone}>
+            <div className={styles.img_one}>
               <img src={one} />
               <ul>
                 <li>
@@ -57,13 +61,13 @@ export default function Workers() {
             <p>Head of SEO</p>
           </div>
 
-          <div className="imgtwo">
+          <div className={styles.imgtwo}>
             <img src={two} />
             <h1>Mary D. Greenwell</h1>
             <p>Head of SEO</p>
           </div>
 
-          <div className="imgthree">
+          <div className={styles.imgthree}>
             <img src={three} />
             <h1>Mary D. Greenwell</h1>
             <p>Head of SEO</p>

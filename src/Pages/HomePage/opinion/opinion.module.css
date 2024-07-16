@@ -31,6 +31,10 @@
 }
 .conteier_4 .opinion_2 .text .stars .icons {
   padding-left: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #FFA500;
 }
 .conteier_4 .opinion_2 .text .stars .icons .star {
   font-size: 1.2em;
@@ -57,4 +61,4 @@
 }
 .h1 .span {
   color: #FFA500;
-}/*# sourceMappingURL=opinion.css.map */
+}/*# sourceMappingURL=opinion.module.css.map */

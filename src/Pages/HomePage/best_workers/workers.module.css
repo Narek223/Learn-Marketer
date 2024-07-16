@@ -24,13 +24,6 @@
   line-height: 1.8;
   width: 22vw;
 }
-.mainn .worker .blog button {
-  color: #f5f6f8;
-  background-color: #003366;
-  padding: 15px 25px;
-  border-radius: 5px;
-  cursor: pointer;
-}
 .mainn .worker .images {
   width: 60vw;
   height: 70vh;
@@ -101,4 +94,4 @@
 .mainn .worker .images .imgthree h1 {
   font-weight: 500;
   font-size: 1.5;
-}/*# sourceMappingURL=worker.css.map */
+}/*# sourceMappingURL=workers.module.css.map */

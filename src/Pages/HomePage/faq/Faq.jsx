@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import vector from '../../../assets/Vector 28974.png';
 import { IoIosArrowDown, IoIosArrowUp }  from "react-icons/io";
-import './faq.css';
+import styles from './faq.module.scss'
+
 
 export default function Faq() {
   const [visibleIndex, setVisibleIndex] = useState(null);
@@ -34,14 +35,14 @@ export default function Faq() {
   ];
 
   return (
-    <div className='cont'>
-      <div className='faq'>
+    <div className={styles.cont}>
+      <div className={styles.faq}>
         <h1>FAQ</h1>
         {questions.map((item, index) => (
-          <div key={item.id} className='line'>
+          <div key={item.id} className={styles.line}>
             <h2 onClick={() => toggle(index)}>{item.question}</h2>
             <p onClick={() => toggle(index)}>{visibleIndex === index ? <IoIosArrowUp /> : <IoIosArrowDown/> }</p>
-            {visibleIndex === index && <h2 className='question'>{item.answer}</h2>}
+            {visibleIndex === index && <h2 className={styles.question}>{item.answer}</h2>}
           </div>
         ))}
       </div>

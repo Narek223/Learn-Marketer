@@ -44,6 +44,18 @@
   border-right-color: #657790;
   line-height: 20px;
 }
+.container .main .one:nth-child(3) {
+  width: 30%;
+  padding: 15px 15px;
+}
+.container .main .one:nth-child(3) .text_3 {
+  padding: 25px;
+}
+.container .main .one:nth-child(3) .text_3 p {
+  line-height: 1.5;
+  color: #657790;
+  font-weight: 800;
+}
 .container .main .one .text {
   padding: 25px;
 }
@@ -54,33 +66,4 @@
 }
 .container .main .one p {
   padding: 15px;
-}
-.container .main .two {
-  width: 30%;
-  padding: 15px 15px;
-  border-right-width: 2px;
-  border-right-height: 25px;
-  border-right-style: solid;
-  border-right-color: #657790;
-  line-height: 20px;
-}
-.container .main .two .text_2 {
-  padding: 25px;
-}
-.container .main .two .text_2 p {
-  line-height: 1.5;
-  color: #657790;
-  font-weight: 800;
-}
-.container .main .three {
-  width: 30%;
-  padding: 15px 15px;
-}
-.container .main .three .text_3 {
-  padding: 25px;
-}
-.container .main .three .text_3 p {
-  line-height: 1.5;
-  color: #657790;
-  font-weight: 800;
 }/*# sourceMappingURL=choose.module.css.map */
