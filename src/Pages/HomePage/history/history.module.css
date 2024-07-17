@@ -1,14 +1,15 @@
 .history {
   height: 60vh;
   margin: 8% 10%;
-}
-.history .image {
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: space-between;
+  align-items: center;
   position: relative;
 }
-.history .image .img {
+.history .image {
   position: absolute;
-  left: 51%;
-  bottom: 5%;
+  top: 40%;
 }
 .history .our_history p {
   width: 55%;

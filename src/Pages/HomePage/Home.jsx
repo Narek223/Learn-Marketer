@@ -24,14 +24,16 @@ export default function Home() {
             At LearnMarketer,our journey begun in 2017 with a vision to empower
             individuals
           </p>
-       <img src={img}/>
            <div  className={styles.btn}> 
             <Primary_button>Explore Courses</Primary_button>
             <Secondary_button>Cantact us</Secondary_button>
            </div> 
-          
+     
         </div>
-   
+        <div className={styles.img}>
+        <img src={img}/>
+        </div>
+     
       </div>
       <History/>
        <Choose /> 

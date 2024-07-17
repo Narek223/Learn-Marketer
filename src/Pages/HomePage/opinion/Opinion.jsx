@@ -6,6 +6,7 @@ import styles from  './opinion.module.scss'
 
 
 export default function Opinion() {
+  
     let [stete, setstate]=useState(0)
 
     let next=()=>{

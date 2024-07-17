@@ -19,8 +19,7 @@
 .header header ul {
   display: flex;
   justify-content: space-evenly;
-  width: 70%;
-  margin-right: 5%;
+  width: 50%;
 }
 .header header ul .link {
   color: white;

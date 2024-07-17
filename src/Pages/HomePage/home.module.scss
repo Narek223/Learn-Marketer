@@ -1,7 +1,19 @@
 .homepage {
-    img {
-        margin-left: 42%;
-        margin-bottom: -12%;
+display: flex;
+align-items: flex-start;
+position: relative;
+    .img {
+        position: absolute;
+        left: 30%;
+        top: 13%;
+       margin-top:10%;
+       margin-left: 5%;
+     
+
+        img{  
+ background-size: contain;
+ object-fit: contain;
+        }
     }
     height: 100vh;
     .home {
@@ -14,13 +26,8 @@
                 color: #ffa500;
             }
         }
-        // button{
-        //     border: none;
-        //    border-radius: 5px;
-        //    padding: 15px 50px 15px 50px;
-        //    margin: 5px;
-        //    cursor: pointer;
-        // }
+
+
      .btn{
             display: flex;
         }
