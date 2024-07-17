@@ -3,7 +3,7 @@ import Header from './Pages/Header/Header'
 import Home from './Pages/HomePage/Home'
 import { Routes, Route} from "react-router-dom";
 import Footer from './Pages/Footer/Footer';
-//import About from './Pages/About_us/About'
+import About from './Pages/About_us/About'
 import './App.css'
 
  export default function App() {
@@ -14,10 +14,11 @@ import './App.css'
     <Header/>
       <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/About' element={<About />} />
       </Routes>
      <Footer/>
  
-   {/* <About/> */}
+
     </div>
   )
 }

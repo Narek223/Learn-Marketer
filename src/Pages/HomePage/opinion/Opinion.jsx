@@ -5,7 +5,6 @@ import {FaArrowLeft,FaArrowRight,FaStar}  from 'react-icons/fa';
 import styles from  './opinion.module.scss'
 
 
-
 export default function Opinion() {
     let [stete, setstate]=useState(0)
 
@@ -15,11 +14,6 @@ export default function Opinion() {
       let prev=()=>{
         setstate(stete===0?text.length-1: stete-1)
       } 
-
-     
-
-
-
 
   return (
     <div className={styles.conteier_4}>

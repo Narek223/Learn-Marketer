@@ -4,7 +4,7 @@
 
     @mixin cont {
         width: 30%;
-        padding: 15px 15px ;
+        padding: 15px 25px ;
       }
       @mixin border{
         border-right-width: 2px;
@@ -44,13 +44,8 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        img{
-            padding: 25px;
-        }
-       .one{
-        @include cont;
-        @include border;
-        &:nth-child(3){
+        div:nth-child(3){
+   border: none;
           @include cont;
           .text_3{
               padding: 25px;
@@ -61,6 +56,13 @@
               }
           }
         }
+        img{
+            padding: 25px;
+        }
+       .one{
+        @include cont;
+        @include border;
+       
          .text{
  padding: 25px;
  p{
@@ -73,16 +75,6 @@
             padding: 15px;
          }
        } 
-       div:nth-child(3){
-      
-      
-      
-      
-      
-      
-      
-      
-      
-       }
+       
     }
 }

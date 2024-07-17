@@ -1,14 +1,14 @@
 import React from 'react'
-import vector from '../../../assets/Vector.png'
+
 import  styles from './history.module.scss'
 import Primary_button from '../../../shered_components/buttons/primary_button/Primary_button'
 
 export default function History() {
+
   return (
     <div className={styles.history}>
-      
       <div className={styles.image}>
-      <img className={styles.img} src ={vector} />
+
       </div>
 
 <div className={styles.our_history}>

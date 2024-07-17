@@ -2,16 +2,11 @@ import React from "react";
 import {arr} from './choose.js'
 import styles from './choose.module.scss'
 
-
-
-
 export default function Choose() {
-
   return (
     <div className={styles.container}>
       <div className={styles.title_2}>
         <h1>
-          {" "}
           Why<span className={styles.change_color}> Choose Us</span>
         </h1>
         <p>

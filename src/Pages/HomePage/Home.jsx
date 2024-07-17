@@ -9,6 +9,8 @@ import Faq from "./faq/Faq";
 import Workers from "./best_workers/Workers";
 import Secondary_button from "../../shered_components/buttons/secondary_button/Secondary_button";
 import Primary_button from "../../shered_components/buttons/primary_button/Primary_button";
+import img from '../../assets/Frame 1.png'
+
 
 export default function Home() {
   return (
@@ -22,14 +24,14 @@ export default function Home() {
             At LearnMarketer,our journey begun in 2017 with a vision to empower
             individuals
           </p>
-       
+       <img src={img}/>
            <div  className={styles.btn}> 
             <Primary_button>Explore Courses</Primary_button>
             <Secondary_button>Cantact us</Secondary_button>
            </div> 
           
         </div>
-        <img src={groub2} />
+   
       </div>
       <History/>
        <Choose /> 
