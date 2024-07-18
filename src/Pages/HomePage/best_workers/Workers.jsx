@@ -14,6 +14,30 @@ import Primary_button from "../../../shered_components/buttons/primary_button/Pr
 
 export default function Workers() {
   
+  const socialIcons = [
+    { icon: FaFacebookF, key: "facebook" },
+    { icon: FaTelegramPlane, key: "telegram" },
+    { icon: FaLinkedinIn, key: "linkedin" },
+    { icon: FaInstagram, key: "instagram" },
+    { icon: FaYoutube, key: "youtube" },
+  ];
+  
+  const Worker = ({ imgSrc, name, position,worker }) => (
+    <div className={worker}>
+      <img src={imgSrc} alt={name} />
+      <ul>
+        {socialIcons.map(({ icon: Icon, key }) => (
+          <li key={key}><Icon /></li>
+        ))}
+      </ul>
+      <h1>{name}</h1>
+      <p>{position}</p>
+    </div>
+  );
+
+
+
+
   return (
     <div className={styles.mainn}>
       <div className={styles.worker}>
@@ -21,7 +45,7 @@ export default function Workers() {
           <h1>
             Our
             <span>
-              Best
+                Best
               <br /> Workers
             </span>
           </h1>
@@ -38,41 +62,15 @@ export default function Workers() {
 
         <div className={styles.images}>
           <div className={styles.imgone}>
-            <div className={styles.img_one}>
-              <img src={one} />
-              <ul >
-                <li>
-                  <FaFacebookF />
-                </li>
-                <li>
-                  <FaTelegramPlane />
-                </li>
-                <li>
-                  <FaLinkedinIn />
-                </li>
-                <li>
-                  <FaInstagram />
-                </li>
-                <li>
-                  <FaYoutube />
-                </li>
-              </ul>
-            </div>
-            <h1>Mary D. Greenwell</h1>
-            <p>Head of SEO</p>
+
+            <Worker imgSrc={one} name="Mary D. Greenwell" position="Head of SEO"  worker={styles.img_one} />
+        <Worker imgSrc={two} name="Mary D. Greenwell" position="Head of SEO" worker={styles.imgtwo} />
+        <Worker imgSrc={three} name="Mary D. Greenwell" position="Head of SEO" worker={styles.imgthree} />
+           
           </div>
 
-          <div className={styles.imgtwo}>
-            <img src={two} />
-            <h1>Mary D. Greenwell</h1>
-            <p>Head of SEO</p>
-          </div>
-
-          <div className={styles.imgthree}>
-            <img src={three} />
-            <h1>Mary D. Greenwell</h1>
-            <p>Head of SEO</p>
-          </div>
+        
+      
         </div>
       </div>
     </div>

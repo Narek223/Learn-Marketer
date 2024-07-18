@@ -56,12 +56,15 @@
   font-size: 1.1;
 }
 .mainn .worker .images .imgone .img_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
   height: 100vh;
   position: relative;
 }
 .mainn .worker .images .imgone .img_one:hover ul {
-  width: 90%;
+  width: 93%;
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
@@ -72,12 +75,13 @@
   animation-duration: 2s;
   animation-delay: 1s;
   position: absolute;
-  top: 90%;
+  top: 71%;
 }
 .mainn .worker .images .imgone .img_one ul {
   display: none;
 }
 .mainn .worker .images .imgone .img_one ul li {
+  text-align: center;
   list-style: none;
 }
 .mainn .worker .images .imgtwo {
@@ -85,10 +89,31 @@
   flex-direction: column;
   align-items: center;
   line-height: 0.3;
+  margin-left: 15%;
   position: absolute;
-  left: 55%;
+  left: 95%;
   bottom: 35%;
   z-index: 2;
+}
+.mainn .worker .images .imgtwo:hover ul {
+  width: 93%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: -1%;
+  background-color: #003366;
+  color: #f5f6f8;
+  text-align: center;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: absolute;
+  top: 73%;
+}
+.mainn .worker .images .imgtwo ul {
+  display: none;
+}
+.mainn .worker .images .imgtwo ul li {
+  list-style: none;
 }
 .mainn .worker .images .imgtwo h1 {
   font-weight: 500;
@@ -99,10 +124,31 @@
   flex-direction: column;
   align-items: center;
   line-height: 0.3;
+  margin-left: 15%;
   position: absolute;
-  left: 55%;
+  left: 95%;
   top: 70%;
   z-index: 2;
+}
+.mainn .worker .images .imgthree:hover ul {
+  width: 93%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin-top: -1%;
+  background-color: #003366;
+  color: #f5f6f8;
+  text-align: center;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: absolute;
+  top: 73%;
+}
+.mainn .worker .images .imgthree ul {
+  display: none;
+}
+.mainn .worker .images .imgthree ul li {
+  list-style: none;
 }
 .mainn .worker .images .imgthree h1 {
   font-weight: 500;
