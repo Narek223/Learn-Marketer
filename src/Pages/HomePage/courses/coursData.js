@@ -31,10 +31,6 @@ const courses = [
     title: "Social Media Marketing Mastery",
     description: "Master the nuances of social media marketing and learn how to build a strong online presence...",
   },
-];
-
-
-const coursesTwo=[
   {
     id:4,
    imgSrc: img4,
@@ -59,5 +55,8 @@ const coursesTwo=[
    title: "Data Analytics for DM",
    description: "Gain the skills to analyze and interpret data to make informed marketing decisions.",
  },
-]
-export { courses,coursesTwo}
+];
+
+
+
+export { courses}

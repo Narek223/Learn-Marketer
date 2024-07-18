@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./cours.module.scss";
-import {courses,coursesTwo} from './coursData.js'
+import {courses} from './coursData.js'
+import CourseCard from "./CourseCard.jsx";
 
 export default function Courses() {
   
+
+
   return (
+
     <div className={styles.main_2}>
       <div className={styles.title_2}>
         <h1>
@@ -18,35 +22,12 @@ export default function Courses() {
       </div>
       <div className={styles.main_3}>
         <div className={styles.pages}>
+
         {courses.map((elem) => (
-            <div className={styles.one} key={elem.id}>
-              <img src={elem.imgSrc} alt={elem.title} />
-              <p>
-                <span className={styles.span}>{elem.duration}</span>{" "}
-                {elem.mode}
-              </p>
-              <h2>{elem.title}</h2>
-              <p>{elem.description}</p>
-              <h3>Read more...</h3>
-            </div>
+             <CourseCard id={elem.id} img={elem.imgSrc} title={elem.title} mode={elem.mode} description={elem.description} duration={elem.duration} />
           ))}
-        </div>
-
-        <div className={styles.pages_3}>
-        {coursesTwo.map((elem) => (
-            <div className={styles.one} key={elem.id}>
-              <img src={elem.imgSrc} alt={elem.title} />
-              <p>
-                <span className={styles.span}>{elem.duration}</span>{" "}
-                {elem.mode}
-              </p>
-              <h2>{elem.title}</h2>
-              <p>{elem.description}</p>
-              <h3>Read more...</h3>
-            </div>
-
-          ))}
-        </div>
+          
+        </div> 
       </div>
     </div>
   );

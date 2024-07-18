@@ -3,10 +3,9 @@
     width: 100%;
   padding: 10% 12%;
    box-sizing: border-box;
-
     .worker{
         display: flex;
-width: 100%;
+        width: 100%;
         .blog{
             width: 40%;
 h1{
@@ -22,10 +21,8 @@ p{
     line-height: 1.8;
     width: 22vw;
 }
-
         }
         .images{
-    
         width: 60vw;
         height: 70vh;
          background-image:url('../../../assets/Vector 28974.png');
@@ -36,15 +33,12 @@ p{
          z-index: 1;
          img{
             width: 265px;
-            height: 331px;
-           
-            
+            height: 331px;    
          }
             .imgone{
                 display: flex;
                 flex-direction: column;
             align-items: center;
-        
                 line-height: 0.3;
                    position: absolute;
                   left: 15%;
@@ -53,22 +47,34 @@ p{
               bottom: 25%;
              
               z-index: 2;
+              
               h1{
               margin-top: 10px;
                 font-weight: 500;
                 font-size: 1.1;
             }
 .img_one{
-
-    ul{
-        display: flex;
+    margin-bottom: 20px;
+    height:100vh;
+    position: relative;
+   &:hover ul{
+    width: 90%;
+    display: flex;
         justify-content: space-evenly;
         padding: 10px;
         margin-top: -1%;
-       
         background-color: #003366;
         color: #f5f6f8;
         text-align: center;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        position: absolute;
+        top: 90%
+   }
+   
+    ul{ 
+       display: none;
+  
         li{
             list-style: none;
         }
@@ -86,6 +92,7 @@ line-height: 0.3;
                left: 55%;
               bottom: 35%;
                 z-index: 2;
+                
                 h1{
                     font-weight: 500;
                     font-size: 1.5;

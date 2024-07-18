@@ -24,31 +24,29 @@ h1{
     }
 }
 p{
-    font-size: 1.3em;
-   
+    font-size: 1.3em; 
 }
     }
-
 .main_3{
+    
     h2{
         font-weight: 500;
     }
     .pages{
         display: flex;
-        justify-content: center;
+    justify-content: center;
     align-items: baseline;
- height: 65vh;
+    flex-wrap: wrap;
     p{
         line-height: 1.2;
     }
     .span{
         background-color: #FFA500;
         padding: 5px;
+        margin-right: 10%;
     }
-        .one{
-           
-           @include page()
-          
+        .one{   
+           @include page() 
         }
         .two{
             @include page()
@@ -57,29 +55,7 @@ p{
             @include page()
         }
     }
-    .pages_3{
-        display: flex;
-        justify-content: center;
-    align-items: baseline;
-    h1{
-        
-    }
-    span{
-        background-color: #FFA500;
-        padding: 5px;
-    }
-    .one{
 
-        @include page()
-
-    }
-    .two{
-        @include page()
-    }
-    .three{
-        @include page()
-    }
-       }
-   } 
   
+}
 }

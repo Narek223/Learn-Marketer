@@ -6,6 +6,10 @@
   left: 0;
   width: 100vw;
 }
+.header .MenuIcon {
+  color: #FFA500;
+  display: none;
+}
 .header header {
   display: flex;
   justify-content: space-around;

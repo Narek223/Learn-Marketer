@@ -55,7 +55,13 @@
   font-weight: 500;
   font-size: 1.1;
 }
-.mainn .worker .images .imgone .img_one ul {
+.mainn .worker .images .imgone .img_one {
+  margin-bottom: 20px;
+  height: 100vh;
+  position: relative;
+}
+.mainn .worker .images .imgone .img_one:hover ul {
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
@@ -63,6 +69,13 @@
   background-color: #003366;
   color: #f5f6f8;
   text-align: center;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  position: absolute;
+  top: 90%;
+}
+.mainn .worker .images .imgone .img_one ul {
+  display: none;
 }
 .mainn .worker .images .imgone .img_one ul li {
   list-style: none;

@@ -12,6 +12,7 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  overflow: hidden;
 }
 .conteier_4 .opinion_2 .opinion button {
   border: none;

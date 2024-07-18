@@ -1,8 +1,11 @@
 import React from "react";
-import {arr} from './choose.js'
 import styles from './choose.module.scss'
+import { arr } from "./choose";
+import ChooseCard from "./ChooseCard";
 
 export default function Choose() {
+
+
   return (
     <div className={styles.container}>
       <div className={styles.title_2}>
@@ -12,19 +15,13 @@ export default function Choose() {
         <p>
           At LearnMarketer, we are dedicated to providing top-notch education
           and resources to help you thrive in <br /> the dynamic world of
-          digital marketing.{" "}
+          digital marketing.
         </p>
       </div>
       <div className={styles.main}>
-       
+
           {arr.map((elem) => (
-            <div className={styles.one} key={elem.id}>
-              <img src={elem.img} alt={elem.title} />
-              <div className={styles.text}>
-                <h1>{elem.title}</h1>
-                <p>{elem.text}</p>
-              </div>
-            </div>
+            <ChooseCard key={elem.id} img={elem.img} title={elem.title} text={elem.text}/>
           ))}
      
       </div>

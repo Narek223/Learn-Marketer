@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  height: 65vh;
+  flex-wrap: wrap;
 }
 .main_2 .main_3 .pages p {
   line-height: 1.2;
@@ -31,6 +31,7 @@
 .main_2 .main_3 .pages .span {
   background-color: #FFA500;
   padding: 5px;
+  margin-right: 10%;
 }
 .main_2 .main_3 .pages .one {
   line-height: 1.5;
@@ -63,47 +64,5 @@
   margin: 0 2%;
 }
 .main_2 .main_3 .pages .three h3 {
-  font-weight: 500;
-}
-.main_2 .main_3 .pages_3 {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-.main_2 .main_3 .pages_3 span {
-  background-color: #FFA500;
-  padding: 5px;
-}
-.main_2 .main_3 .pages_3 .one {
-  line-height: 1.5;
-  width: 25%;
-  border: 1px solid white;
-  padding: 10px;
-  box-shadow: 0 0 15px 0 rgba(9, 24, 26, 0.0392156863);
-  margin: 0 2%;
-}
-.main_2 .main_3 .pages_3 .one h3 {
-  font-weight: 500;
-}
-.main_2 .main_3 .pages_3 .two {
-  line-height: 1.5;
-  width: 25%;
-  border: 1px solid white;
-  padding: 10px;
-  box-shadow: 0 0 15px 0 rgba(9, 24, 26, 0.0392156863);
-  margin: 0 2%;
-}
-.main_2 .main_3 .pages_3 .two h3 {
-  font-weight: 500;
-}
-.main_2 .main_3 .pages_3 .three {
-  line-height: 1.5;
-  width: 25%;
-  border: 1px solid white;
-  padding: 10px;
-  box-shadow: 0 0 15px 0 rgba(9, 24, 26, 0.0392156863);
-  margin: 0 2%;
-}
-.main_2 .main_3 .pages_3 .three h3 {
   font-weight: 500;
 }/*# sourceMappingURL=cours.module.css.map */

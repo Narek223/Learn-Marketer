@@ -13,12 +13,13 @@ import styles from './workers.module.scss'
 import Primary_button from "../../../shered_components/buttons/primary_button/Primary_button";
 
 export default function Workers() {
+  
   return (
     <div className={styles.mainn}>
       <div className={styles.worker}>
         <div className={styles.blog}>
           <h1>
-            Our{" "}
+            Our
             <span>
               Best
               <br /> Workers
@@ -39,7 +40,7 @@ export default function Workers() {
           <div className={styles.imgone}>
             <div className={styles.img_one}>
               <img src={one} />
-              <ul>
+              <ul >
                 <li>
                   <FaFacebookF />
                 </li>
