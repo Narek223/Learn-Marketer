@@ -1,5 +1,4 @@
 import React from "react";
-import groub2 from "../../assets/Group.png";
 import styles from "./home.module.scss";
 import History from "./history/History";
 import Choose from "./choose/Choose";
@@ -14,7 +13,7 @@ import img from "../../assets/Frame 1.png";
 export default function Home() {
   return (
     <div>
-      <div className={styles.homepage}>
+       <div className={styles.homepage}>
         <div className={styles.home}>
           <h1>
             Find most exciting <span>online courses</span>
@@ -31,13 +30,13 @@ export default function Home() {
         <div className={styles.img}>
           <img src={img} />
         </div>
-      </div>
-      <History />
+      </div> 
+       <History />
       <Choose />
       <Courses />
-      <Opinion />
-      <Workers />
-      <Faq />
+      <Opinion /> 
+       <Workers />
+      <Faq /> 
     </div>
   );
 }

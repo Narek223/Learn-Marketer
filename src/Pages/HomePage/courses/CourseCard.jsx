@@ -5,7 +5,9 @@ export default function CourseCard({img,title,duration,id,mode,description}) {
 
   return (
     <div className={styles.one} key={id}>
+      <div className={styles.image}>
               <img src={img} alt={title} />
+              </div>
               <p>
                 <span className={styles.span}>{duration}</span>
                 {mode}

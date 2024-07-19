@@ -10,6 +10,7 @@
   color: #003366;
   background-color: white;
   border: 2px solid #ffa500;
+  cursor: pointer;
 }
 .secendary_button:active {
   transform: scale(0.8);

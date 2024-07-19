@@ -1,42 +1,59 @@
-.header{
-    background-color: #003366;
-    z-index: 10;
-    position: fixed;
-  top: 0;
+.header {
+  background-color: #003366;
+  width: 100%;
+  height: 60px;
+  z-index: 10;
+  position: fixed;
   left: 0;
-  width: 100vw;
-
- .MenuIcon{
-  color: #FFA500;
-  display: none;
-
- }
-    header{
-       display: flex;
-       justify-content: space-around;
-       p{
-        margin-left: 150px;
-        margin-right: 100px;
-        color: white;
-        cursor: pointer;
-       }
-    
-         ul{
-             display: flex;
-             justify-content: space-evenly;
-            width: 50%;
-             .link{
-              color: white;
-             }
-             li{
-              width: 30%;
-                cursor: pointer;
-                 color: white;
-                 list-style: none;
-                 
-             }
-             
-         }
+  top: 0;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .image{
+    img{
+      object-fit: cover;
     }
+   
+  }
+  .MenuIcon{
+    color: #FFA500;
+    display: none;
+   }
+
+  .container {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0 151px;
+
+   
+
+.link{
+ text-decoration: none;
+ color: white;
+}
+    .nav {
+      width: 70%;
+     display: flex;
+     justify-content: space-evenly;
+
+    }
+    .changeLanguage{
+   
+     
+      p{
  
+     
+        color: white;
+      }
+    }
+  }
+  @media screen and (max-width:1000px) {
+    .MenuIcon{
+      color: #FFA500;
+      display: block;
+     }
+  }
 }

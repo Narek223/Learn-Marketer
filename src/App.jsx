@@ -11,14 +11,12 @@ import './App.css'
 
   return (
     <div>
-    <Header/>
-      <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/About' element={<About />} />
-      </Routes>
-     <Footer/>
- 
-
+      <Header/>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/About' element={<About />} />
+        </Routes>
+       <Footer/> 
     </div>
   )
 }

@@ -72,10 +72,9 @@
   background-color: #003366;
   color: #f5f6f8;
   text-align: center;
-  animation-duration: 2s;
-  animation-delay: 1s;
+  transition: 0.5s;
   position: absolute;
-  top: 71%;
+  top: 73%;
 }
 .mainn .worker .images .imgone .img_one ul {
   display: none;

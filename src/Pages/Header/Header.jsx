@@ -1,34 +1,69 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import styles from'./header.module.css'
+import styles from "./header.module.css";
 import { FaAlignJustify } from "react-icons/fa";
 import { MdClear } from "react-icons/md";
-
+import logo from "../../../public/assets/logo/logo.png";
 
 export default function Header() {
+  const [show, setshow] = useState(false);
 
-const [show,setshow]= useState(false)
-
-const handleShowNavBar=()=>{
-   setshow(!show)
-}
+  const handleShowNavBar = () => {
+    setshow(!show);
+  };
 
   return (
-    <div className={styles.header}>
-   <header>
-    <div > 
-   <p className={styles.MenuIcon} onClick={handleShowNavBar}>{show===false?<FaAlignJustify/>:<MdClear />}</p> 
-    </div>
-      <p><NavLink   to='/' style={{ textDecoration:'none',color:'white'}}>LearnMarketer</NavLink></p>
-<ul>
-    <li><NavLink className={styles.link}  to='/' style={{ textDecoration:'none'}}>Home</NavLink></li>
-    <li><NavLink className={styles.link}  to='/About' style={{ textDecoration:'none'}}>About</NavLink></li>
-    <li>Course</li>
-    <li>Blog</li>
-    <li>Contact</li>
-</ul>
-<p>EN</p>
-     </header>
-    </div>
-  )
+    <header className={styles.header}>
+      <div className={styles.container}>
+
+      <p className={styles.MenuIcon} onClick={handleShowNavBar}>
+          {!show ? <FaAlignJustify /> : <MdClear />}
+        </p>
+
+        <div className={styles.image}>
+          <img src={logo} />
+        </div>
+
+        <nav className={styles.nav}>
+        <NavLink
+                className={styles.link}
+                to="/"
+              
+              >
+                Home
+            </NavLink>
+            <NavLink
+                className={styles.link}
+                to="About"
+              >
+                About
+              </NavLink>
+              <NavLink
+                className={styles.link}
+                to="About"
+              >
+                Course
+              </NavLink>
+              <NavLink
+                className={styles.link}
+                
+              >
+                Blog
+              </NavLink>
+              <NavLink
+                className={styles.link}
+                
+              >
+                Contact
+              </NavLink>
+          
+        </nav>
+        <div className={styles.changeLanguage}>
+          <p >EN</p>
+        </div>
+      </div>
+
+   
+    </header>
+  );
 }

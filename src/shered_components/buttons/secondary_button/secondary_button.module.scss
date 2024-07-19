@@ -10,6 +10,7 @@ transition: 0.5s;
 color:  #003366;
 background-color: white;
 border: 2px solid #ffa500;
+cursor: pointer;
 &:active{
     transform: scale(0.8);
     animation-duration: 2s;
