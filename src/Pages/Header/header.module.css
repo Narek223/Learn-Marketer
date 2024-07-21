@@ -19,20 +19,25 @@
   display: none;
 }
 .header .container {
-  width: 70%;
+  width: 100%;
   height: 60px;
   display: flex;
   align-items: center;
-  margin: 0 151px;
+  justify-content: space-between;
+  padding: 0 151px;
 }
 .header .container .link {
   text-decoration: none;
   color: white;
 }
 .header .container .nav {
-  width: 70%;
   display: flex;
   justify-content: space-evenly;
+  padding: 15px 50px 15px 50px;
+  flex-grow: 1;
+}
+.header .container .changeLanguage {
+  margin-left: auto;
 }
 .header .container .changeLanguage p {
   color: white;

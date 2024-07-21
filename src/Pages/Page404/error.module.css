@@ -1,0 +1,21 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  line-height: 1.5;
+  text-align: center;
+  margin: 4% 0%;
+}
+.error p:nth-child(1) {
+  color: #FFA500;
+  font-size: 40px;
+  line-height: 1.5;
+}
+.error .err {
+  padding: 15px;
+  width: 100%;
+  max-width: 627px;
+  margin-left: 155px;
+}/*# sourceMappingURL=error.module.css.map */

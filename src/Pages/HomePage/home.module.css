@@ -29,6 +29,11 @@
 }
 .homepage .home .btn {
   display: flex;
+  padding: 10px 0 10px 0;
+}
+.homepage .home .btn .src {
+  text-decoration: none;
+  color: white;
 }
 .homepage .home p {
   font-size: 2em;

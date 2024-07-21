@@ -40,7 +40,7 @@ export default function Header() {
               </NavLink>
               <NavLink
                 className={styles.link}
-                to="About"
+                to='Course'
               >
                 Course
               </NavLink>

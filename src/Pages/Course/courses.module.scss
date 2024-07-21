@@ -1,0 +1,20 @@
+.conteiner{
+line-height: 1.5;
+    margin: 10% 0;
+    .section{
+       margin: 5% 6%; 
+        display: flex;
+
+        P{
+            width: 30%;
+            height: 160px;
+            line-height: 32px;
+            font-weight: 400;
+            font-size: 20px;
+            margin-bottom: 150px;
+            color: #003366;
+        }
+
+
+    }
+}
