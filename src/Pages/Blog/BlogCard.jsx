@@ -1,18 +1,21 @@
+import React from 'react'
 import one from '../../assets/Rectangle 8636.png'
 import two from '../../assets/Rectangle 8636 (1).png'
 import three from '../../assets/Rectangle 8636 (2).png'
 import four from '../../assets/Rectangle 8636 (3).png'
 import fife from '../../assets/Rectangle 8636 (4).png'
 import six from '../../assets/Rectangle 8636 (5).png'
+import styles from './blog.module.scss'
+import { NavLink } from "react-router-dom";
 
-
-   export let arr=[
+export default function BlogCard() {
+    let arr=[
         {
             id:1,
           img: one,
           data:'12.06.2024',
           h1:"The Ultimate Guide to SEO in 2024",
-          p: "Stay updated with the latest SEO trends and techniques for 2024. From understanding Google’s latest algorithm updates to mastering advanced SEO tactics, this comprehensive guide will help you optimize your website for better search engine rankings."
+          p: "Stay updated with the latest SEO trends and techniques for 2024. From understanding Google’s latest algorithm updates to mastering advanced SEO tactics,this comprehensive guide will help you optimize your website for better search engine rankings."
         },
         {
             id:2,
@@ -20,8 +23,6 @@ import six from '../../assets/Rectangle 8636 (5).png'
             data:'12.06.2024',
             h1:"Top Social Media Marketing Strategies for Businesses",
             p:"Discover effective social media marketing strategies tailored for small businesses. Learn how to build a strong social media presence, create engaging content, and leverage paid advertising to reach your target audience and drive growth.",
-
-
         },
         {
             id:3,
@@ -49,8 +50,27 @@ import six from '../../assets/Rectangle 8636 (5).png'
             img: six,
             data:'12.06.2024',  
             h1:' Effective PPC Campaigns: Tips and Tricks',
-            p:'Pay-per-click (PPC) advertising can drive significant traffic and conversions if done right. Learn the essentials of creating and managing successful PPC campaigns, including keyword research, ad creation, and performance analysis.'
+            p:'Pay-per-click (PPC) advertising can drive significant traffic and conversions if done right. Learn the essentials of creating and managing successful PPC campaigns,  including keyword research, ad creation, and performance analysis.'
         }
     ]
+  return (
 
- 
+    <div className={styles.blog}>
+          <NavLink
+          className={styles.link
+          }
+          to="/Blog/SocialMedia" 
+        >
+    
+{arr.map((elem) => (
+       <div className={styles.blogs} key={elem.id}>
+         <img src={elem.img}  />
+         <p className={styles.data}>{elem.data}</p>
+         <p className={styles.title}>{elem.h1}</p>
+         <p className={styles.text}>{elem.p}</p>
+       </div>
+     ))}
+           </NavLink>
+    </div>
+  )
+}

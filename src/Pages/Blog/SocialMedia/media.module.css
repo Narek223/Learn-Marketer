@@ -1,0 +1,54 @@
+.socialMedia {
+  padding: 5% 10%;
+}
+.socialMedia .buttons {
+  width: 20%;
+  font-weight: 600;
+  color: #003366;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  font-size: 22px;
+}
+.socialMedia .buttons .link {
+  text-decoration: none;
+}
+.socialMedia .buttons p {
+  cursor: pointer;
+}
+.socialMedia .buttons p:nth-child(even) {
+  color: #FFA500;
+}
+.socialMedia .mainPart .h1 {
+  color: #003366;
+  font-size: 50px;
+  font-weight: 700;
+  width: 60%;
+}
+.socialMedia .mainPart .h1 span {
+  color: #FFA500;
+}
+.socialMedia .mainPart .NextPart {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.socialMedia .mainPart h1 {
+  font-size: 22px;
+  color: #003366;
+}
+.socialMedia .mainPart .FirstPart {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.socialMedia .mainPart .img {
+  width: 40%;
+}
+.socialMedia p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 70%;
+}/*# sourceMappingURL=media.module.css.map */

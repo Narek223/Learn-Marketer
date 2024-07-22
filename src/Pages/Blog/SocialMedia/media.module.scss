@@ -1,0 +1,61 @@
+.socialMedia{
+    padding: 5% 10%;
+    .buttons{
+
+            width: 20%;
+            font-weight: 600;
+            color: #003366;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: baseline;
+            font-size: 22px;
+           .link{
+            text-decoration: none;
+           }
+            p{
+                cursor: pointer;
+                &:nth-child(even){
+                    color: #FFA500;
+                }
+            }
+           
+    }
+    .mainPart{
+        .h1{
+            color:#003366;
+            font-size: 50px;
+            font-weight: 700;
+            width: 60%;
+            span{
+                color: #FFA500;
+            }
+        }
+        .NextPart{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+    flex-direction: row;
+}
+       
+            h1{
+                font-size: 22px;
+                color: #003366;
+            }
+           .FirstPart{
+
+            display: flex;
+            flex-direction: column;
+            width: 40vw;
+           } 
+           .img{
+            width: 40%;
+
+           }
+        }
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 70%;
+}
+    }
