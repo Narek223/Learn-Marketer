@@ -1,0 +1,78 @@
+.conteiner{
+    padding: 5% 10%;
+
+   .buttons{
+    width: 15%;
+    font-weight: 600;
+    color: #003366;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+   .link{
+    text-decoration: none;
+   }
+    p{
+        cursor: pointer;
+        &:nth-child(2){
+            color: #FFA500;
+        }
+    }
+   }
+    .title{
+        height: 20%;
+        h1{
+            font-size: 50px;
+            color: #003366;
+            span{
+                color: #FFA500;
+            }
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            padding: 15px;
+        }
+    }
+    .blog{
+   
+      cursor: pointer;
+        display: flex;
+        flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+        .blogs{
+         padding: 5px;
+            border-radius: 5%;
+ width: 45%;
+ border: 1px solid white;
+        padding: 10px;
+        box-shadow: 0 0 15px 5px #09181A0A;
+        margin: 5px;
+        p{
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+ .data{
+    color: #FFA500;
+ }
+ .title{
+    color: #003366;
+ }
+
+        }
+        .text{
+            display: flex;
+            line-height: 24px;
+            color: #1D1D1D;
+            font-size: 16px;
+        
+        }
+        img{
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+}

@@ -46,13 +46,12 @@ export default function Header() {
               </NavLink>
               <NavLink
                 className={styles.link}
-                
+                to="Blog"
               >
                 Blog
               </NavLink>
               <NavLink
                 className={styles.link}
-                
               >
                 Contact
               </NavLink>

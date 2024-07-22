@@ -1,0 +1,74 @@
+.main{
+ 
+    
+.title{
+    h1{
+        font-size: 50px;
+        color: #003366;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28.8px;
+    }
+}
+.mainTwo{
+display: flex;
+flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    img{
+        object-fit:cover;
+    
+    }
+
+    .text{
+       
+        display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    padding: 15px;
+    flex-direction: column;
+    line-height: 0.1;
+    
+    }
+    button{
+        background-color: #BACEE2;
+        color: rgb(42, 38, 38);
+        border-radius: 10%;
+     height: 15%;
+  padding: 10px;
+     margin-top: 5%;
+     cursor: pointer;
+    
+     &:hover {
+        background-color: orange;
+     }
+    }
+    .instructors{
+        border-radius: 10px;
+        background-color: #003366;
+        width: 45%;
+        height: 20%;
+        margin: 15px;
+        display: flex;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: space-evenly;
+        align-items: stretch;
+        flex-wrap: wrap;
+       
+img{
+    object-fit: contain;
+}
+display: flex;
+h1{
+    color: white;
+}
+p{
+    color: #CCCCCC;
+}
+    }
+}
+}

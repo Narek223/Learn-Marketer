@@ -2,6 +2,8 @@ import React from 'react'
 import styles from  './about.module.scss'
 import photo from '../../assets/Group23.png'
 import Numbers from './Numbers'
+import Instructors from './BestInstructors/Instructors'
+
 
 export default function About() {
 
@@ -24,6 +26,7 @@ export default function About() {
     </div>
   </div>
 <Numbers/>
+<Instructors/>
 </div>
   )
 }

@@ -33,7 +33,7 @@
 .header .container .nav {
   display: flex;
   justify-content: space-evenly;
-  padding: 15px 50px 15px 50px;
+  padding: 15px 80px 15px 60px;
   flex-grow: 1;
 }
 .header .container .changeLanguage {
