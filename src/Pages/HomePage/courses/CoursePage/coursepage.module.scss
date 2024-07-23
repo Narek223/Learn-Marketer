@@ -1,0 +1,65 @@
+.course{
+    padding: 5% 25%;
+    .buttons{
+  width: 15%;
+  font-weight: 600;
+  color: #003366;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+ .link{
+  text-decoration: none;
+ }
+  p{
+      cursor: pointer;
+      &:nth-child(2){
+          color: #FFA500;
+      }
+  }
+ }
+
+
+
+    .main{
+        width: 100%;
+        display: flex;
+       
+img{
+    object-fit: contain;
+}
+
+
+        .second{
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                color: #003366;
+                font-size: 30px;
+                font-weight: 400;
+            }
+            ul{
+                li{
+                    line-height: 40px;
+           
+                    color: #1D1D1D;
+                }
+            }
+        }
+    }
+    .first{
+        h1{
+            text-align: center;
+            color: #003366;
+            font-size: 30px;
+            span{
+                color: #FFA500;
+            }
+        }
+    }
+}
+
+
+
+
+

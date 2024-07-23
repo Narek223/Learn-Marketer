@@ -1,1 +1,49 @@
-/*# sourceMappingURL=coursepage.module.css.map */
+.course {
+  padding: 5% 25%;
+}
+.course .buttons {
+  width: 15%;
+  font-weight: 600;
+  color: #003366;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+.course .buttons .link {
+  text-decoration: none;
+}
+.course .buttons p {
+  cursor: pointer;
+}
+.course .buttons p:nth-child(2) {
+  color: #FFA500;
+}
+.course .main {
+  width: 100%;
+  display: flex;
+}
+.course .main img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.course .main .second {
+  display: flex;
+  flex-direction: column;
+}
+.course .main .second h1 {
+  color: #003366;
+  font-size: 30px;
+  font-weight: 400;
+}
+.course .main .second ul li {
+  line-height: 40px;
+  color: #1D1D1D;
+}
+.course .first h1 {
+  text-align: center;
+  color: #003366;
+  font-size: 30px;
+}
+.course .first h1 span {
+  color: #FFA500;
+}/*# sourceMappingURL=coursepage.module.css.map */

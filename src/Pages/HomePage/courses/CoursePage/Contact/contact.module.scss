@@ -1,0 +1,66 @@
+.form{
+display: flex;
+justify-content: center;
+flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+
+line-height: 0.9;
+
+
+    .formTwo{
+        width: 40%;
+        h1{
+            color:#003366 ;
+            font-weight: 600;
+            line-height: 40px;
+            font-size: 2em;
+            span{
+                color:#FFA500;
+            }
+        }
+    }
+    .registr{
+    width: 100%;
+        input{
+            border: 1px solid #003366;
+            outline: none;
+            background-color: rgba(149, 155, 184, 0.0);
+            width: 100%;
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 5px;
+            line-height: 0.2;
+        } 
+        .error{
+            font-size: 15px;
+            color: red;
+            font-weight: 200;
+            text-align: center;
+            line-height: 0.2;
+        }
+        .button{
+       width: 100%;
+       text-align: center;
+  
+       margin-top: 20px;
+       button{
+        width: 100%;
+       }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
