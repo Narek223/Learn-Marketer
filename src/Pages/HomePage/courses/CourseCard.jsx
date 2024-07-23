@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./cours.module.scss";
+import { NavLink } from "react-router-dom";
 
 export default function CourseCard({img,title,duration,id,mode,description}) {
 
@@ -14,7 +15,12 @@ export default function CourseCard({img,title,duration,id,mode,description}) {
               </p>
               <h2>{title}</h2>
               <p>{description}</p>
-              <h3>Read more...</h3>
+              <NavLink
+              to='/Course/Contact'
+                className={styles.link}
+              >
+                   <h3>Read more...</h3>
+              </NavLink>
             </div>
   )
 }

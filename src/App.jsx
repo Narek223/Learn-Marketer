@@ -8,6 +8,7 @@ import Error from './Pages/Page404/Error';
 import Course from './Pages/Course/Course';
 import Blog from './Pages/Blog/Blog';
 import Media from './Pages/Blog/SocialMedia/Media';
+import CoursePage from './Pages/HomePage/courses/CoursePage/CoursePage';
 import './App.css'
 
  export default function App() {
@@ -22,6 +23,7 @@ import './App.css'
           <Route path='/Course' element={<Course />} />
           <Route path='/Blog' element={<Blog />} />
           <Route path='/Blog/SocialMedia' element={<Media />} />
+          <Route path='/Course/Contact' element={<CoursePage />} />
           <Route path='*' element={<Error />} />
         </Routes>
        <Footer/> 

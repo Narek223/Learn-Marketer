@@ -28,7 +28,6 @@ export default function Header() {
         <NavLink
                 className={styles.link}
                 to="/"
-              
               >
                 Home
             </NavLink>

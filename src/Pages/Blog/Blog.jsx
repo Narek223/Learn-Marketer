@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import BlogCart from "./BlogCard.jsx";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
+
 export default function Blog() {
   return (
     <div className={styles.conteiner}>

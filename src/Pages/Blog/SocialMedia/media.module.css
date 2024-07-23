@@ -31,8 +31,6 @@
 .socialMedia .mainPart .NextPart {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
 }
 .socialMedia .mainPart h1 {
   font-size: 22px;
@@ -41,14 +39,65 @@
 .socialMedia .mainPart .FirstPart {
   display: flex;
   flex-direction: column;
-  width: 40vw;
 }
 .socialMedia .mainPart .img {
-  width: 40%;
+  margin-right: 50px;
+}
+.socialMedia .mainPart .img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 25px;
+  width: 50vw;
+  height: 500px;
+}
+.socialMedia .mainPart .secondPart {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 15px;
+}
+.socialMedia .mainPart .secondPart .second {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+}
+.socialMedia .mainPart .secondPart .second ul {
+  width: 430px;
+}
+.socialMedia .mainPart .secondPart .second ul li {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.socialMedia .mainPart .finalPart ul li {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.socialMedia .mainPart .read {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  border-left: 5px solid red;
+  margin-top: 55px;
+}
+.socialMedia .mainPart .read .src {
+  color: white;
+  text-decoration: none;
+  width: 10%;
+}
+.socialMedia .mainPart .read h1 {
+  padding: 15px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 39px;
+  color: #003366;
 }
 .socialMedia p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  width: 70%;
+  width: 90%;
 }/*# sourceMappingURL=media.module.css.map */
