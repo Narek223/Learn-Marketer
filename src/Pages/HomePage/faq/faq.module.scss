@@ -6,27 +6,39 @@
     margin-top: 10%;
 
     .faq{
-        width: 35%;
+      
         height: 100vh;
         color: #003366;
-.line{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-    overflow: hidden;
-}
-    h1{
-        font-size: 2.2em;
-    }
-    h2{
-        line-height: 1.5;
-        font-weight: 400;
-    }
-    .question{
-        font-size: 1.2em;
-    }
-}
+        display: flex;
+        flex-direction: column;
+
+            .line{
+                width: 40vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                flex-wrap: wrap;
+                overflow: hidden;
+            }
+                h1{
+                    font-size: 2.2em;
+                }
+                h2{
+                    line-height: 1.5;
+                    font-weight: 400;
+                }
+                h3{
+                    font-weight: 500;
+                    font-size:  20px;
+                }
+                .question{
+                    font-size: 1.2em;
+                    font-weight: 600;
+                    width: 80%;
+                }
+        }
+
+
 }
   
   

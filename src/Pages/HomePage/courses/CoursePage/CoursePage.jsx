@@ -4,6 +4,9 @@ import imgone from '../../../../assets/Frame23.png'
 import imgtwo from '../../../../assets/Group55.png'
 import Contact from './Contact/Contact'
 import { NavLink } from "react-router-dom";
+import Faqs from './Faqs/NewFaqs'
+
+
 export default function CoursePage() {
 
 
@@ -46,6 +49,7 @@ export default function CoursePage() {
   <img src={imgone}/>
 </div>
 <Contact/>
+<Faqs/>
 
     </div>
   )

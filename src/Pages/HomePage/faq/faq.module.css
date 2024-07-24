@@ -6,11 +6,13 @@
   margin-top: 10%;
 }
 .cont .faq {
-  width: 35%;
   height: 100vh;
   color: #003366;
+  display: flex;
+  flex-direction: column;
 }
 .cont .faq .line {
+  width: 40vw;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -24,6 +26,12 @@
   line-height: 1.5;
   font-weight: 400;
 }
+.cont .faq h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
 .cont .faq .question {
   font-size: 1.2em;
+  font-weight: 600;
+  width: 80%;
 }/*# sourceMappingURL=faq.module.css.map */

@@ -1,0 +1,47 @@
+.faqs {
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    .h1 {
+        font-size: 40px;
+        color: #003366;
+        span {
+            color: #ffa500;
+        }
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        line-height: 1.5;
+        font-weight: 400;
+    }
+    .cont {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .faq {
+            width: 80%;
+          
+            .test {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                flex-wrap: wrap;
+                overflow: hidden;
+                h2 {
+                    color: #003366;
+                    font-weight: 400;
+                }
+                .questions {
+                    font-size: 1.2em;
+                    width: 80%;
+                    color: #003366;
+                }
+            }
+        }
+    }
+}

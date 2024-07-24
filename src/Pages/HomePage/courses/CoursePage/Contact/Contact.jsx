@@ -16,7 +16,7 @@ export default function Contact() {
     const initialValues = {
         name:"",
         email: '',
-        password: '',
+        phoneNumber: '',
     }
 
 

@@ -4,6 +4,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  height: 80vh;
   line-height: 0.9;
 }
 .form .formTwo {

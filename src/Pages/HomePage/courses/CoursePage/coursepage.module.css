@@ -2,7 +2,7 @@
   padding: 5% 25%;
 }
 .course .buttons {
-  width: 15%;
+  width: 20%;
   font-weight: 600;
   color: #003366;
   display: flex;
@@ -29,6 +29,7 @@
 .course .main .second {
   display: flex;
   flex-direction: column;
+  width: 20vw;
 }
 .course .main .second h1 {
   color: #003366;

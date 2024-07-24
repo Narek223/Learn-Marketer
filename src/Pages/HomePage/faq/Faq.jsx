@@ -1,16 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import vector from '../../../assets/Vector 28974.png';
-import { IoIosArrowDown, IoIosArrowUp }  from "react-icons/io";
+import { IoIosArrowDown, FaAngleRight }  from "react-icons/io";
 import styles from './faq.module.scss'
-
+import Faqs from './Faqs';
 
 export default function Faq() {
-  const [visibleIndex, setVisibleIndex] = useState(null);
 
-  const toggle = (index) => {
-    setVisibleIndex(visibleIndex === index ? null : index);
-  };
 
+  
   const questions = [
     {
       id:1,
@@ -38,13 +35,14 @@ export default function Faq() {
     <div className={styles.cont}>
       <div className={styles.faq}>
         <h1>FAQ</h1>
-        {questions.map((item, index) => (
-          <div key={item.id} className={styles.line}>
-            <h2 onClick={() => toggle(index)}>{item.question}</h2>
-            <p onClick={() => toggle(index)}>{visibleIndex === index ? <IoIosArrowUp /> : <IoIosArrowDown/> }</p>
-            {visibleIndex === index && <h2 className={styles.question}>{item.answer}</h2>}
-          </div>
-        ))}
+     
+        {
+   <Faqs first={questions} classone={styles.line} classtwo={styles.question} iconone={<FaAngleRight />} icontwo={<IoIosArrowDown/>} />
+        
+      }
+
+    
+
       </div>
       <img src={vector} alt="vector" />
     </div>
