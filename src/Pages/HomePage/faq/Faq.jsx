@@ -1,6 +1,7 @@
 import React from 'react';
 import vector from '../../../assets/Vector 28974.png';
-import { IoIosArrowDown, FaAngleRight }  from "react-icons/io";
+import { IoIosArrowDown,IoIosArrowForward}  from "react-icons/io";
+
 import styles from './faq.module.scss'
 import Faqs from './Faqs';
 
@@ -37,7 +38,7 @@ export default function Faq() {
         <h1>FAQ</h1>
      
         {
-   <Faqs first={questions} classone={styles.line} classtwo={styles.question} iconone={<FaAngleRight />} icontwo={<IoIosArrowDown/>} />
+   <Faqs first={questions} classone={styles.line} classtwo={styles.question} iconone={<IoIosArrowForward/> }icontwo={<IoIosArrowDown/>} />
         
       }
 

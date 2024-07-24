@@ -49,7 +49,12 @@ return(
 <Field type='tel' name='phoneNumber' placeholder='+374-(XX)-XX-XX-XX'/>
 <ErrorMessage name='phoneNumber' component='p' className={styles.error} />
 <div className={styles.button}>
-<Primary_button disabled={!formik.isValid}> SEND</Primary_button>
+
+      <Primary_button disabled={!formik.isValid}><NavLink
+          className={styles.link}
+          to="/request"
+        > SEND  </NavLink></Primary_button>
+    
 </div>
 
 

@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import styles from './faq.module.scss';
+
 
 
 export default function Faqs({first,classone,classtwo,iconone,icontwo}) {

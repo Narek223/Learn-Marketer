@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAngleDown, FaAngleRight } from "react-icons/fa";
+import { FaAngleDown, FaArrowRight} from "react-icons/fa";
 import Faqs from "../../../faq/Faqs";
 import styles from "./faqs.module.scss";
 
@@ -42,7 +42,7 @@ export default function NewFaqs() {
       {
         <Faqs
           first={questions}
-          iconone={<FaAngleRight />}
+          iconone={< FaArrowRight />}
           icontwo={<FaAngleDown />}
           classone={styles.test}
           classtwo={styles.questions}
