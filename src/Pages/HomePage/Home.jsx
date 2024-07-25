@@ -27,8 +27,8 @@ export default function Home() {
           </p>
           <div className={styles.btn}>
  <Primary_button><NavLink className={styles.src} to='Course'>Explore Courses </NavLink></Primary_button> 
-         
-           <Secondary_button>Cantact us</Secondary_button>
+
+           <Secondary_button> <NavLink to='Contact' className={styles.btnTwo}>Contact us </NavLink></Secondary_button>
           </div>
         </div>
         <div className={styles.img}>

@@ -4,6 +4,8 @@ import Faqs from "../../../faq/Faqs";
 import styles from "./faqs.module.scss";
 
 export default function NewFaqs() {
+
+  
   const questions = [
     {
       id: 1,

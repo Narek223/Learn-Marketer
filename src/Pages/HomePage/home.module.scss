@@ -8,8 +8,6 @@ position: relative;
         top: 15%;
        margin-top:15%;
        margin-left: 5%;
-     
-
         img{  
  background-size: contain;
  object-fit: contain;
@@ -31,6 +29,11 @@ position: relative;
      .btn{
             display: flex;
             padding: 10px 0 10px 0;
+            .btnTwo{
+color: #003366;
+text-decoration: none;
+
+            }
             .src{ 
        text-decoration: none;
                 color: white;

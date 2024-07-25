@@ -36,14 +36,66 @@
   font-size: 30px;
   font-weight: 400;
 }
+.course .main .second ul {
+  font-weight: 400;
+}
 .course .main .second ul li {
   line-height: 40px;
   color: #1D1D1D;
 }
+.course .first .buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.course .first .buttons button:nth-child(1) {
+  order: 1;
+}
+.course .first .buttons button:nth-child(2) {
+  order: 1;
+}
+.course .first .buttons button:nth-child(3) {
+  order: 2;
+}
+.course .first .buttons button:nth-child(4) {
+  order: 2;
+}
+.course .first .buttons button {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 15px 15px;
+  border: none;
+  color: #003366;
+  background-color: rgba(204, 204, 204, 0.27);
+}
+.course .first .main {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+.course .first .main p {
+  position: absolute;
+  width: 50%;
+  left: 15px;
+  line-height: 1.9;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+.course .first .main img {
+  width: 50vw;
+  height: 80vh;
+}
 .course .first h1 {
   text-align: center;
   color: #003366;
-  font-size: 30px;
+  font-size: 40px;
 }
 .course .first h1 span {
   color: #FFA500;

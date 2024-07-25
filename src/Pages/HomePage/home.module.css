@@ -31,6 +31,10 @@
   display: flex;
   padding: 10px 0 10px 0;
 }
+.homepage .home .btn .btnTwo {
+  color: #003366;
+  text-decoration: none;
+}
 .homepage .home .btn .src {
   text-decoration: none;
   color: white;

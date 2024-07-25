@@ -6,9 +6,8 @@
   padding: 15px 50px 15px 50px;
   margin: 5px;
   cursor: pointer;
-  transition: 0.5s;
+  text-decoration: none;
   color: #003366;
   background-color: white;
   border: 2px solid #ffa500;
-  cursor: pointer;
 }/*# sourceMappingURL=secondary_button.module.css.map */

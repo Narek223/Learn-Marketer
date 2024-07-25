@@ -1,0 +1,69 @@
+.conteiner {
+  padding: 5% 0;
+}
+.conteiner .two {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.conteiner .two h1 {
+  font-size: 2.8em;
+  color: #003366;
+}
+.conteiner .two h1 span {
+  color: #FFA500;
+}
+.conteiner .two .three {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+  margin-right: 8%;
+}
+.conteiner .two .three img {
+  order: 1;
+  margin-left: 50px;
+  width: 50%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.conteiner .two .three p {
+  order: 2;
+  line-height: 1.8;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+.conteiner .conteinerTwo {
+  padding: 3% 3%;
+}
+.conteiner .conteinerTwo h1 {
+  text-align: center;
+  color: #003366;
+  font-size: 2.8em;
+}
+.conteiner .conteinerTwo h1 span {
+  color: #FFA500;
+}
+.conteiner .conteinerTwo .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.conteiner .conteinerTwo .content .text {
+  width: 20%;
+}
+.conteiner .conteinerTwo .content .text p {
+  line-height: 2.1;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+.conteiner .conteinerTwo .content .contact ul {
+  line-height: 2.5;
+}
+.conteiner .conteinerTwo .content .contact ul li {
+  list-style: none;
+}/*# sourceMappingURL=contact.module.css.map */

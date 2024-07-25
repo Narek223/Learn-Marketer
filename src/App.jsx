@@ -10,13 +10,17 @@ import Blog from './Pages/Blog/Blog';
 import Media from './Pages/Blog/SocialMedia/Media';
 import CoursePage from './Pages/HomePage/courses/CoursePage/CoursePage';
 import  Request from './Pages/HomePage/courses/CoursePage/request/Request' 
+import Contact from './Pages/HomePage/contact/Contact';
+import ScrollToTop from './Pages/HomePage/ScrollToTop';
 import './App.css'
 
  export default function App() {
 
 
+
   return (
     <div>
+      <ScrollToTop/>
       <Header/>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -26,6 +30,7 @@ import './App.css'
           <Route path='/Blog/SocialMedia' element={<Media />} />
           <Route path='/Course/Contact' element={<CoursePage />} />
           <Route path='/request' element={<Request />} />
+          <Route path='/Contact' element={<Contact />} />
           <Route path='*' element={<Error />} />
         </Routes>
        <Footer/> 

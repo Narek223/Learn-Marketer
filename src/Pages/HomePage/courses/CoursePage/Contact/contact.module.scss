@@ -4,12 +4,11 @@ justify-content: center;
 flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-height: 80vh;
+height: 90vh;
 line-height: 0.9;
-
-
     .formTwo{
         width: 40%;
+        
         h1{
             color:#003366 ;
             font-weight: 600;
@@ -21,6 +20,11 @@ line-height: 0.9;
         }
     }
     .registr{
+        display: flex;
+        flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
     width: 100%;
         input{
             border: 1px solid #003366;
