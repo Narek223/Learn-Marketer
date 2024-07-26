@@ -10,13 +10,12 @@ import Secondary_button from "../../shered_components/buttons/secondary_button/S
 import Primary_button from "../../shered_components/buttons/primary_button/Primary_button";
 import img from "../../assets/Frame 1.png";
 
-
 import { NavLink } from "react-router-dom";
 
 export default function Home() {
   return (
     <div>
-       <div className={styles.homepage}>
+      <div className={styles.homepage}>
         <div className={styles.home}>
           <h1>
             Find most exciting <span>online courses</span>
@@ -26,21 +25,30 @@ export default function Home() {
             individuals
           </p>
           <div className={styles.btn}>
- <Primary_button><NavLink className={styles.src} to='Course'>Explore Courses </NavLink></Primary_button> 
+            <Primary_button>
+              <NavLink className={styles.src} to="Course">
+                Explore Courses{" "}
+              </NavLink>
+            </Primary_button>
 
-           <Secondary_button> <NavLink to='Contact' className={styles.btnTwo}>Contact us </NavLink></Secondary_button>
+            <Secondary_button>
+              {" "}
+              <NavLink className={styles.btnTwo} to="Contact">
+                Contact us{" "}
+              </NavLink>
+            </Secondary_button>
           </div>
         </div>
         <div className={styles.img}>
           <img src={img} />
         </div>
-      </div> 
-       <History />
+      </div>
+      <History />
       <Choose />
       <Courses />
-      <Opinion /> 
-       <Workers />
-      <Faq /> 
+      <Opinion />
+      <Workers />
+      <Faq />
     </div>
   );
 }

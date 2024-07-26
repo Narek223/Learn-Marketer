@@ -50,7 +50,7 @@ export default function Header() {
                 Blog
               </NavLink>
               <NavLink
-              to="Contact"
+              to="/Contact"
                 className={styles.link}
               >
                 Contact

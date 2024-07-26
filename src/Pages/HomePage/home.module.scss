@@ -32,6 +32,9 @@ position: relative;
             .btnTwo{
 color: #003366;
 text-decoration: none;
+&:hover{
+    color: #FFA500;
+}
 
             }
             .src{ 

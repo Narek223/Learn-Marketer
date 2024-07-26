@@ -43,7 +43,7 @@ export default function NewFaqs() {
     <div className={styles.faq}>
       {
         <Faqs
-          first={questions}
+          object={questions}
           iconone={< FaArrowRight />}
           icontwo={<FaAngleDown />}
           classone={styles.test}

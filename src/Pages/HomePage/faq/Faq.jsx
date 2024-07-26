@@ -39,7 +39,7 @@ export default function Faq() {
         <h1>FAQ</h1>
      
         {
-   <Faqs first={questions} classone={styles.line} classtwo={styles.question} iconone={<FaArrowRight/> }icontwo={<IoIosArrowDown/>} />
+   <Faqs object={questions} classone={styles.line} classtwo={styles.question} iconone={<FaArrowRight/> }icontwo={<IoIosArrowDown/>} />
         
       }
 

@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 
 
 
-export default function Faqs({first,classone,classtwo,iconone,icontwo}) {
+export default function Faqs({object,classone,classtwo,iconone,icontwo}) {
 
     const [visibleIndex, setVisibleIndex] = useState(null);
 
@@ -12,7 +12,7 @@ export default function Faqs({first,classone,classtwo,iconone,icontwo}) {
 
   return (
     <div >
- {first.map((item, index) => (
+ {object.map((item, index) => (
           <div key={item.id} className={classone}>
             <h2 onClick={() => toggle(index)}>{item.question}</h2>
             <p onClick={() => toggle(index)}>{visibleIndex === index ? iconone : icontwo }</p>

@@ -7,9 +7,12 @@
    margin: 5px;
    cursor: pointer;
    text-decoration: none;
+   transition: 0.8s;
 
 color:  #003366;
 background-color: white;
 border: 2px solid #ffa500;
-
+&:hover{
+    color: #FFA500;
+}
 }

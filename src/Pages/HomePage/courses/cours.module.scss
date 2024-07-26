@@ -11,6 +11,10 @@
         margin: 2% 2%;
         h3{
             font-weight: 500;
+            &:hover{
+                color: #FFA500;
+                transition: 0.5s;
+            }
         }
     }
     .title_2{
@@ -57,9 +61,7 @@ p{
         .three{
             @include page()
         }
-    }
-
-  
+    } 
 }
 .link{
     text-decoration: none;

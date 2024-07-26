@@ -1,11 +1,11 @@
 import React from 'react'
-import style from './secondary_button.module.scss'
+import styles from './secondary_button.module.scss'
 
 
-export default function Secondary_button({children}) {
+export default function Secondary_button({children,...props}) {
 
   return (
-    <button className={style.secendary_button}>
+    <button className={styles.secendary_button}>
 {children}
     </button>
   )

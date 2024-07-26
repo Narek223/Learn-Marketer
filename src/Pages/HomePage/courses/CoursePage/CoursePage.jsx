@@ -49,13 +49,18 @@ export default function CoursePage() {
               SEO.
             </p>
           </div>
+          <div className={styles.btnConteiner}>
+
           <div className={styles.buttons}>
+
           {array.map((elem) => (
             
              <button key={elem.id}>{elem.text}</button>
 
           
           ))}
+          </div>
+         
             </div>
         </div>
       </div>

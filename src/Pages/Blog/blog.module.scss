@@ -61,6 +61,10 @@
         p{
             font-size: 18px;
             font-weight: 400;
+            &:nth-child(3){
+                font-weight: 600;
+
+            }
         }
 
  .data{
