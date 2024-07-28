@@ -3,11 +3,13 @@ display: flex;
 align-items: flex-start;
 position: relative;
     .img {
+        
         position: absolute;
         left: 30%;
         top: 15%;
        margin-top:15%;
        margin-left: 5%;
+     z-index: 1;
         img{  
  background-size: contain;
  object-fit: contain;
@@ -27,9 +29,11 @@ position: relative;
 
 
      .btn{
+  
             display: flex;
             padding: 10px 0 10px 0;
             .btnTwo{
+                z-index: 2;
 color: #003366;
 text-decoration: none;
 &:hover{

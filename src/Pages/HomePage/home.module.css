@@ -10,6 +10,7 @@
   top: 15%;
   margin-top: 15%;
   margin-left: 5%;
+  z-index: 1;
 }
 .homepage .img img {
   background-size: contain;
@@ -32,8 +33,12 @@
   padding: 10px 0 10px 0;
 }
 .homepage .home .btn .btnTwo {
+  z-index: 2;
   color: #003366;
   text-decoration: none;
+}
+.homepage .home .btn .btnTwo:hover {
+  color: #FFA500;
 }
 .homepage .home .btn .src {
   text-decoration: none;

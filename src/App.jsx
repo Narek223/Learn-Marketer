@@ -22,6 +22,7 @@ import './App.css'
     <div>
       <ScrollToTop/>
       <Header/>
+      
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
@@ -34,6 +35,8 @@ import './App.css'
           <Route path='*' element={<Error />} />
         </Routes>
        <Footer/> 
+      
+
     </div>
   )
 }

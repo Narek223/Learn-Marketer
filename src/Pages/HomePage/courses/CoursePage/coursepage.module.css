@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 .course .buttons p:nth-child(2) {
-  color: #FFA500;
+  color: #ffa500;
 }
 .course .main {
   width: 100%;
@@ -41,29 +41,23 @@
 }
 .course .main .second ul li {
   line-height: 40px;
-  color: #1D1D1D;
+  color: #1d1d1d;
 }
-.course .first .buttons {
+.course .first .btnConteiner {
   width: 100%;
   display: flex;
-  flex-direction: column;
+}
+.course .first .btnConteiner .buttons {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
+  flex-wrap: wrap;
 }
-.course .first .buttons button:nth-child(1) {
-  order: 1;
-}
-.course .first .buttons button:nth-child(2) {
-  order: 1;
-}
-.course .first .buttons button:nth-child(3) {
-  order: 2;
-}
-.course .first .buttons button:nth-child(4) {
-  order: 2;
-}
-.course .first .buttons button {
+.course .first .btnConteiner .buttons button {
   border-radius: 5px;
+  width: 35%;
   margin: 5px;
   padding: 15px 15px;
   border: none;
@@ -98,5 +92,5 @@
   font-size: 40px;
 }
 .course .first h1 span {
-  color: #FFA500;
+  color: #ffa500;
 }/*# sourceMappingURL=coursepage.module.css.map */

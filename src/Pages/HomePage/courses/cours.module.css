@@ -43,6 +43,10 @@
 .main_2 .main_3 .pages .one h3 {
   font-weight: 500;
 }
+.main_2 .main_3 .pages .one h3:hover {
+  color: #FFA500;
+  transition: 0.5s;
+}
 .main_2 .main_3 .pages .two {
   line-height: 1.5;
   width: 25%;
@@ -54,6 +58,10 @@
 .main_2 .main_3 .pages .two h3 {
   font-weight: 500;
 }
+.main_2 .main_3 .pages .two h3:hover {
+  color: #FFA500;
+  transition: 0.5s;
+}
 .main_2 .main_3 .pages .three {
   line-height: 1.5;
   width: 25%;
@@ -64,6 +72,10 @@
 }
 .main_2 .main_3 .pages .three h3 {
   font-weight: 500;
+}
+.main_2 .main_3 .pages .three h3:hover {
+  color: #FFA500;
+  transition: 0.5s;
 }
 .main_2 .link {
   text-decoration: none;
