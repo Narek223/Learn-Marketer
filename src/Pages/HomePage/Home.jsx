@@ -25,18 +25,13 @@ export default function Home() {
             individuals
           </p>
           <div className={styles.btn}>
-            <Primary_button>
-              <NavLink className={styles.src} to="Course">
-                Explore Courses{" "}
-              </NavLink>
-            </Primary_button>
+            <NavLink className={styles.src} to="Course">
+              <Primary_button>Explore Courses </Primary_button>
+            </NavLink>
 
-            <Secondary_button>
-              {" "}
-              <NavLink className={styles.btnTwo} to="Contact">
-                Contact us{" "}
-              </NavLink>
-            </Secondary_button>
+            <NavLink className={styles.btnTwo} to="Contact">
+              <Secondary_button>Contact us </Secondary_button>
+            </NavLink>
           </div>
         </div>
         <div className={styles.img}>

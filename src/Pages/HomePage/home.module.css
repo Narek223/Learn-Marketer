@@ -30,17 +30,21 @@
 }
 .homepage .home .btn {
   display: flex;
-  padding: 10px 0 10px 0;
 }
 .homepage .home .btn .btnTwo {
+  width: 185px;
+  height: 60px;
   z-index: 2;
   color: #003366;
   text-decoration: none;
+  margin: 0 25px;
 }
 .homepage .home .btn .btnTwo:hover {
-  color: #FFA500;
+  color: #ffa500;
 }
 .homepage .home .btn .src {
+  width: 222px;
+  height: 60px;
   text-decoration: none;
   color: white;
 }

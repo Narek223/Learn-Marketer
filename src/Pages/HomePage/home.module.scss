@@ -1,18 +1,17 @@
 .homepage {
-display: flex;
-align-items: flex-start;
-position: relative;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
     .img {
-        
         position: absolute;
         left: 30%;
         top: 15%;
-       margin-top:15%;
-       margin-left: 5%;
-     z-index: 1;
-        img{  
- background-size: contain;
- object-fit: contain;
+        margin-top: 15%;
+        margin-left: 5%;
+        z-index: 1;
+        img {
+            background-size: contain;
+            object-fit: contain;
         }
     }
     height: 100vh;
@@ -27,24 +26,26 @@ position: relative;
             }
         }
 
-
-     .btn{
-  
+        .btn {
             display: flex;
-            padding: 10px 0 10px 0;
-            .btnTwo{
+           
+           
+            .btnTwo {
+                width: 185px;
+                height: 60px;
                 z-index: 2;
-color: #003366;
-text-decoration: none;
-&:hover{
-    color: #FFA500;
-}
-
+                color: #003366;
+                text-decoration: none;
+                margin: 0 25px;
+                &:hover {
+                    color: #ffa500;
+                }
             }
-            .src{ 
-       text-decoration: none;
+            .src {
+                width: 222px;
+                height: 60px;
+                text-decoration: none;
                 color: white;
-                
             }
         }
         p {

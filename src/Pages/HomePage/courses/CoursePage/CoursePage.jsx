@@ -6,6 +6,7 @@ import Contact from "./Contact/Contact";
 import { NavLink } from "react-router-dom";
 import Faqs from "./Faqs/NewFaqs";
 import { text } from "../../opinion/obj";
+import {  IoIosArrowForward } from "react-icons/io";
 
 export default function CoursePage() {
   let array = [
@@ -33,8 +34,8 @@ export default function CoursePage() {
         <NavLink className={styles.link} to="/">
           Home
         </NavLink>
-        <p> > </p>
-        <NavLink className={styles.link}>Course</NavLink>
+        <p> <IoIosArrowForward/>  </p>
+        <NavLink  to="/Course" className={styles.link} >Course</NavLink>
       </div>
       <div className={styles.first}>
         <h1>
@@ -50,18 +51,12 @@ export default function CoursePage() {
             </p>
           </div>
           <div className={styles.btnConteiner}>
-
-          <div className={styles.buttons}>
-
-          {array.map((elem) => (
-            
-             <button key={elem.id}>{elem.text}</button>
-
-          
-          ))}
-          </div>
-         
+            <div className={styles.buttons}>
+              {array.map((elem) => (
+                <button key={elem.id}>{elem.text}</button>
+              ))}
             </div>
+          </div>
         </div>
       </div>
       <div className={styles.main}>

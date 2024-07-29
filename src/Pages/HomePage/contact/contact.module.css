@@ -1,5 +1,32 @@
 .conteiner {
   padding: 5% 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.conteiner .img {
+  position: absolute;
+  left: 80%;
+  top: 180px;
+  z-index: 1;
+}
+.conteiner .buttons {
+  width: 12%;
+  font-weight: 600;
+  color: #003366;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding: 0 10%;
+}
+.conteiner .buttons .link {
+  text-decoration: none;
+}
+.conteiner .buttons p {
+  cursor: pointer;
+}
+.conteiner .buttons p:nth-child(2) {
+  color: #FFA500;
 }
 .conteiner .two {
   width: 100%;
@@ -23,6 +50,7 @@
   justify-content: center;
   align-items: center;
   line-height: 2.5;
+  z-index: 3;
 }
 .conteiner .two .contact ul li {
   padding: 0 58px;
@@ -60,6 +88,7 @@
   flex-direction: row;
   align-items: center;
   width: 70%;
+  z-index: 3;
 }
 .conteiner .two .three p {
   order: 2;

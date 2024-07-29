@@ -5,6 +5,7 @@ import BlogCart from "./BlogCard.jsx";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 
+
 export default function Blog() {
   return (
     <div className={styles.conteiner}>
@@ -12,7 +13,8 @@ export default function Blog() {
         <NavLink className={styles.link} to="/">
           HOME
         </NavLink>
-        <p> > </p>
+        <p> <IoIosArrowForward />
+        </p>
         <NavLink className={styles.link}> BLOG</NavLink>
       </div>
       <div className={styles.title}>

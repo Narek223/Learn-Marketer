@@ -1,12 +1,41 @@
 .conteiner {
     padding: 5% 0;
-
+    position: relative;
+  width: 100%;
+  overflow: hidden;
+    .img{
+     
+        position: absolute;
+        left:80%;
+        top: 180px;
+        z-index: 1;
+    }
+    .buttons{
+        width: 12%;
+        font-weight: 600;
+        color: #003366;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+        padding: 0 10%;
+       .link{
+        text-decoration: none;
+       }
+        p{
+            cursor: pointer;
+            &:nth-child(2){
+                color: #FFA500;
+            }
+        }
+       }
     .two {
+   
         width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+        
         .contact {
             width: 100%;
             display: flex;
@@ -15,12 +44,14 @@
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+ 
             ul {
                 text-align: center;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 line-height: 2.5;
+                z-index: 3;
 
                 li {
                     padding: 0 58px;
@@ -62,6 +93,7 @@
             flex-direction: row;
             align-items: center;
             width: 70%;
+            z-index: 3;
             
             p {
                 order: 2;

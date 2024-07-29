@@ -1,14 +1,13 @@
 import React from "react";
 import styles from "./cours.module.scss";
-import {courses} from './coursData.js'
+import { courses } from "./coursData.js";
 import CourseCard from "./CourseCard.jsx";
+import CoursePage from "./CoursePage/CoursePage.jsx";
+import { courseData } from "./CoursePage/CourseData.jsx";
+
 
 export default function Courses() {
-  
-
-
   return (
-
     <div className={styles.main_2}>
       <div className={styles.title_2}>
         <h1>
@@ -23,11 +22,11 @@ export default function Courses() {
       <div className={styles.main_3}>
         <div className={styles.pages}>
 
-        {courses.map((elem) => (
-             <CourseCard id={elem.id} img={elem.imgSrc} title={elem.title} mode={elem.mode} description={elem.description} duration={elem.duration} />
+          {courseData.map((elem) => (
+            <CourseCard key={elem.id} data={elem} />
           ))}
           
-        </div> 
+        </div>
       </div>
     </div>
   );

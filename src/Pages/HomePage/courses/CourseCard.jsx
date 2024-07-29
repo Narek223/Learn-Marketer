@@ -1,26 +1,22 @@
-import React from 'react'
+import React from "react";
 import styles from "./cours.module.scss";
 import { NavLink } from "react-router-dom";
 
-export default function CourseCard({img,title,duration,id,mode,description}) {
-
+export default function CourseCard({ data }) {
   return (
-    <div className={styles.one} key={id}>
+    <div className={styles.one}>
       <div className={styles.image}>
-              <img src={img} alt={title} />
-              </div>
-              <p>
-                <span className={styles.span}>{duration}</span>
-                {mode}
-              </p>
-              <h2>{title}</h2>
-              <p>{description}</p>
-              <NavLink
-              to='/Course/Contact'
-                className={styles.link}
-              >
-                   <h3>Read more...</h3>
-              </NavLink>
-            </div>
-  )
+        <img src={data.info.imgSrc} alt={data.title} />
+      </div>
+      <p>
+        <span className={styles.span}>{data.details[0]}</span>
+        {data.details[data.details.length -1]}
+      </p>
+      <h2>{data.courseInfo.title}</h2>
+      <p>{data.info.description}</p>
+      <NavLink to={`/Course/${data.id}`} className={styles.link}>
+        <h3>Read more...</h3>
+      </NavLink>
+    </div>
+  );
 }

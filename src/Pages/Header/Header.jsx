@@ -1,12 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./header.module.css";
 import { FaAlignJustify } from "react-icons/fa";
 import { MdClear } from "react-icons/md";
 import logo from "../../../public/assets/logo/logo.png";
+import { useLocation } from "react-router-dom";
 
 export default function Header() {
   const [show, setShow] = useState(false);
+  const ref=useRef()
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    setShow(false);
+  }, [pathname]);
 
   const handleShowNavBar = () => {
     setShow(!show);
@@ -19,11 +26,23 @@ export default function Header() {
   };
 
   useEffect(() => {
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, [show]);
+
+  useEffect(() => {
+    let close = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) {
+        setShow(false);
+      }
+    };
+    document.addEventListener("mousedown", close);
+    return () => {
+      document.removeEventListener("mousedown", close);
+    };
+  }, [ref]);
 
   return (
     <header className={styles.header}>
@@ -34,7 +53,7 @@ export default function Header() {
         <div className={styles.image}>
           <img src={logo} alt="logo" />
         </div>
-        <nav className={show ? styles.openNav : styles.nav}>
+        <nav className={show ? styles.openNav : styles.nav} ref={ref}>
           <NavLink className={styles.link} to="/">
             Home
           </NavLink>

@@ -41,7 +41,7 @@
 .header .container .nav .link {
   text-decoration: none;
   color: white;
-  margin: 0 75px;
+  margin: 0 6%;
 }
 .header .container .changeLanguage {
   margin-left: auto;
@@ -51,7 +51,7 @@
 }
 @media screen and (max-width: 1000px) {
   .header .container {
-    padding: 0 10px;
+    padding: 0 40px;
   }
   .header .container .nav {
     display: none;
@@ -68,7 +68,7 @@
     left: 0;
   }
   .header .container .openNav .link {
-    padding: 15px;
+    padding: 12px 40px;
     color: #003366;
     font-weight: 600;
     margin: 0;

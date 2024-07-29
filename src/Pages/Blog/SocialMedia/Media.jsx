@@ -4,20 +4,26 @@ import { NavLink } from "react-router-dom";
 import imgOne from "../../../assets/charlesdeluvio-Lks7vei-eAg-unsplash 1.png";
 import imgTwo from "../../../assets/Rectangle 8645.png";
 import Primary_button from "../../../shered_components/buttons/primary_button/Primary_button";
+import {  IoIosArrowForward } from "react-icons/io";
 
 export default function media() {
-
   return (
     <div className={styles.socialMedia}>
       <div className={styles.buttons}>
         <NavLink className={styles.link} to="/">
           Home
         </NavLink>
-        <p> > </p>
+        <p>
+          {" "}
+          <IoIosArrowForward />
+        </p>
         <NavLink className={styles.link} to="/Blog">
           Blog
         </NavLink>
-        <p> > </p>
+        <p>
+          {" "}
+          <IoIosArrowForward />
+        </p>
         <NavLink className={styles.link} to="/Blog">
           Articles
         </NavLink>
@@ -47,9 +53,7 @@ export default function media() {
                 having specific and measurable goals will guide your strategy
                 and help you track your progress.
               </p>
-        
 
-            
               <h1>Identify Your Target Audience</h1>
               <p>
                 Understanding your target audience is crucial for creating
@@ -91,31 +95,56 @@ export default function media() {
                 </li>
               </ul>
             </div>
-           
           </div>
           <div>
-              <img src={imgTwo} />
-            </div>
+            <img src={imgTwo} />
+          </div>
         </div>
         <div className={styles.finalPart}>
           <h1>Create High-Quality Content</h1>
-          <p>Content is king in social media marketing. Invest time in creating high-quality, engaging, and valuable content that aligns with your brand and appeals to your audience. Use a mix of content types, such as:</p>
-<ul>
-  <li>Images and Graphics: Eye-catching visuals that tell your brand story.</li>
-  <li>Videos: Engaging and informative videos that capture attention.</li>
-  <li>Blog Posts and Articles: Educational content that provides value to your audience.</li>
-  <li>Infographics: Shareable content that presents information in a visual format.</li>
-  <li>User-Generated Content: Content created by your customers that adds authenticity.</li>
-</ul>
+          <p>
+            Content is king in social media marketing. Invest time in creating
+            high-quality, engaging, and valuable content that aligns with your
+            brand and appeals to your audience. Use a mix of content types, such
+            as:
+          </p>
+          <ul>
+            <li>
+              Images and Graphics: Eye-catching visuals that tell your brand
+              story.
+            </li>
+            <li>
+              Videos: Engaging and informative videos that capture attention.
+            </li>
+            <li>
+              Blog Posts and Articles: Educational content that provides value
+              to your audience.
+            </li>
+            <li>
+              Infographics: Shareable content that presents information in a
+              visual format.
+            </li>
+            <li>
+              User-Generated Content: Content created by your customers that
+              adds authenticity.
+            </li>
+          </ul>
         </div>
         <div className={styles.read}>
-          <h1>Ready to take your social media marketing skills to the next level? Enroll in our Social Media Marketing Mastery course today and learn how to create effective strategies, produce engaging content, and achieve your business goals.</h1>
-         <div style={{width:'200px'}}>
-         <Primary_button><NavLink className={styles.src} to='/Blog'>Back to Blog </NavLink></Primary_button> 
-         </div>
-         
+          <h1>
+            Ready to take your social media marketing skills to the next level?
+            Enroll in our Social Media Marketing Mastery course today and learn
+            how to create effective strategies, produce engaging content, and
+            achieve your business goals.
+          </h1>
+          <div style={{ width: "200px" }}>
+            <Primary_button>
+              <NavLink className={styles.src} to="/Blog">
+                Back to Blog{" "}
+              </NavLink>
+            </Primary_button>
+          </div>
         </div>
-        
       </div>
     </div>
   );

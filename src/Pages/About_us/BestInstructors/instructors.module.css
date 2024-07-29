@@ -1,3 +1,7 @@
+.main .title {
+  width: 90%;
+  padding: 0 25px;
+}
 .main .title h1 {
   font-size: 50px;
   color: #003366;
