@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 export default function CourseCard({ data }) {
   return (
     <div className={styles.one}>
+       <NavLink to={`/Course/${data.id}`} className={styles.link}>
       <div className={styles.image}>
         <img src={data.info.imgSrc} alt={data.title} />
       </div>
@@ -14,7 +15,7 @@ export default function CourseCard({ data }) {
       </p>
       <h2>{data.courseInfo.title}</h2>
       <p>{data.info.description}</p>
-      <NavLink to={`/Course/${data.id}`} className={styles.link}>
+     
         <h3>Read more...</h3>
       </NavLink>
     </div>
