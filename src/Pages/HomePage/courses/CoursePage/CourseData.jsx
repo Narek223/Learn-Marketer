@@ -80,7 +80,7 @@ export const courseData = [
     courseInfo: {
       title: "Social Media Marketing Mastery",
       description:
-        "Social Media Marketing Mastery is a comprehensive course designed to teach you advanced strategies and techniques for effectively marketing your brand on various social media platforms. Learn to create engaging content, grow your audience, analyze performance metrics, and optimize campaigns to achieve your business goals. Perfect for marketers, entrepreneurs, and anyone looking to elevate their social media presence.",
+        "Social Media Marketing Mastery is a comprehensive course designed to teach you advanced strategies and techniques for effectively marketing your brand on various social media platforms.",
     },
     details: ["3 Month", "50000AMD", "3 Times a week", "Online / Offline"],
     KeyTopics: [

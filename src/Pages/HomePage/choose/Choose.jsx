@@ -14,14 +14,14 @@ export default function Choose() {
         </h1>
         <p>
           At LearnMarketer, we are dedicated to providing top-notch education
-          and resources to help you thrive in <br /> the dynamic world of
+          and resources to help you thrive in  the dynamic world of
           digital marketing.
         </p>
       </div>
       <div className={styles.main}>
 
           {arr.map((elem) => (
-            <ChooseCard key={elem.id} img={elem.img} title={elem.title} text={elem.text}/>
+            <ChooseCard key={elem.id} data={elem}/>
           ))}
      
       </div>

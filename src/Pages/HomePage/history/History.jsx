@@ -12,7 +12,7 @@ export default function History() {
 
       <div className={styles.our_history}>
         <div className={styles.title}>
-          <h1>Our History</h1>
+          <h1><span>Our</span> History</h1>
           <h1>Welcome to LearnMarketer!</h1>
         </div>
 
@@ -25,7 +25,7 @@ export default function History() {
           high-quality, accessible education to aspiring digital marketers
           around the world.
         </p>
-        <div style={{ width: "200px" }}>
+        <div style={{ width: "200px" }} className={styles.btn}>
           <Primary_button>Read more</Primary_button>
         </div>
       </div>

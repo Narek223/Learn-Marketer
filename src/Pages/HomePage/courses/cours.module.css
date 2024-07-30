@@ -1,92 +1,113 @@
-.main_2 img {
+.featuredCoursesContainer {
+  width: 100%;
+  min-height: 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.featuredCoursesContainer img {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.main_2 .title_2 {
-  text-align: center;
-}
-.main_2 .title_2 h1 {
+.featuredCoursesContainer .featuredCoursesTitle {
+  width: 100%;
+  min-height: 20px;
   color: #003366;
   font-size: 2.8em;
+  text-align: center;
+  padding-top: 55px;
 }
-.main_2 .title_2 h1 span {
-  color: #FFA500;
+.featuredCoursesContainer .featuredCoursesTitle span {
+  color: #ffa500;
 }
-.main_2 .title_2 p {
+.featuredCoursesContainer .featuredCoursesDescription {
+  width: 70%;
+  min-height: 15px;
+  text-align: center;
   font-size: 1.3em;
 }
-.main_2 .main_3 h2 {
-  font-weight: 500;
-}
-.main_2 .main_3 .pages {
+.featuredCoursesContainer .cardsBox {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
   flex-wrap: wrap;
 }
-.main_2 .main_3 .pages p {
+.featuredCoursesContainer .cardsBox p {
   line-height: 1.2;
 }
-.main_2 .main_3 .pages .span {
-  background-color: #FFA500;
+.featuredCoursesContainer .cardsBox .span {
+  background-color: #ffa500;
   padding: 5px;
   margin-right: 10%;
 }
-.main_2 .main_3 .pages .one {
+.featuredCoursesContainer .cardsBox .one {
   line-height: 1.5;
-  width: 21%;
+  width: 400px;
   border: 1px solid white;
   padding: 10px;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
   margin: 2% 2%;
 }
-.main_2 .main_3 .pages .one img {
+.featuredCoursesContainer .cardsBox .one img {
   width: 100%;
 }
-.main_2 .main_3 .pages .one h3 {
+.featuredCoursesContainer .cardsBox .one h3 {
   font-weight: 500;
 }
-.main_2 .main_3 .pages .one h3:hover {
-  color: #FFA500;
+.featuredCoursesContainer .cardsBox .one h3:hover {
+  color: #ffa500;
   transition: 0.5s;
 }
-.main_2 .main_3 .pages .two {
+.featuredCoursesContainer .cardsBox .one h2 {
+  font-weight: 200;
+}
+.featuredCoursesContainer .cardsBox .two {
   line-height: 1.5;
-  width: 21%;
+  width: 400px;
   border: 1px solid white;
   padding: 10px;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
   margin: 2% 2%;
 }
-.main_2 .main_3 .pages .two img {
+.featuredCoursesContainer .cardsBox .two img {
   width: 100%;
 }
-.main_2 .main_3 .pages .two h3 {
+.featuredCoursesContainer .cardsBox .two h3 {
   font-weight: 500;
 }
-.main_2 .main_3 .pages .two h3:hover {
-  color: #FFA500;
+.featuredCoursesContainer .cardsBox .two h3:hover {
+  color: #ffa500;
   transition: 0.5s;
 }
-.main_2 .main_3 .pages .three {
+.featuredCoursesContainer .cardsBox .three {
   line-height: 1.5;
-  width: 21%;
+  width: 400px;
   border: 1px solid white;
   padding: 10px;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
   margin: 2% 2%;
 }
-.main_2 .main_3 .pages .three img {
+.featuredCoursesContainer .cardsBox .three img {
   width: 100%;
 }
-.main_2 .main_3 .pages .three h3 {
+.featuredCoursesContainer .cardsBox .three h3 {
   font-weight: 500;
 }
-.main_2 .main_3 .pages .three h3:hover {
-  color: #FFA500;
+.featuredCoursesContainer .cardsBox .three h3:hover {
+  color: #ffa500;
   transition: 0.5s;
 }
-.main_2 .link {
+.featuredCoursesContainer .link {
   text-decoration: none;
-  color: #18181B;
+  color: #18181b;
+}
+
+@media screen and (max-width: 1000px) {
+  .one {
+    width: 40%;
+  }
 }/*# sourceMappingURL=cours.module.css.map */

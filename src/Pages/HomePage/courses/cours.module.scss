@@ -1,74 +1,102 @@
-.main_2{
-    img{
+.featuredCoursesContainer {
+    width: 100%;
+    min-height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    img {
         object-fit: cover;
     }
-    @mixin page{
+    @mixin page {
         line-height: 1.5;
-        width: 21%;
+        width: 400px;
         border: 1px solid white;
         padding: 10px;
-        box-shadow: 0 0 15px 0   rgba(217, 217, 217, 0.97);
+        box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
         margin: 2% 2%;
-        img{
+        img {
             width: 100%;
         }
-        h3{
+        h3 {
             font-weight: 500;
-            &:hover{
-                color: #FFA500;
+            &:hover {
+                color: #ffa500;
                 transition: 0.5s;
             }
         }
     }
-    .title_2{
+    .featuredCoursesTitle {
+        width: 100%;
+        min-height: 20px;
+        color: #003366;
+        font-size: 2.8em;
         text-align: center;
+        padding-top: 55px;
 
-h1{
-    color: #003366;
-    font-size: 2.8em;
-    span{
-        color:#FFA500; 
+        span {
+            color: #ffa500;
+        }
     }
-}
-p{
-    font-size: 1.3em; 
-}
+    .featuredCoursesDescription {
+        width: 70%;
+        min-height: 15px;
+        text-align: center;
+        font-size: 1.3em;
     }
-.main_3{
-    
-    h2{
-        font-weight: 500;
-    }
-    .pages{
+
+    .cardsBox {
         display: flex;
-    justify-content: center;
-    align-items: baseline;
-    flex-wrap: wrap;
-   
-   
-   
-    p{
-        line-height: 1.2;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        flex-wrap: wrap;
+
+        p {
+            line-height: 1.2;
+        }
+        .span {
+            background-color: #ffa500;
+            padding: 5px;
+            margin-right: 10%;
+        }
+        .one {
+            @include page();
+            h2{
+                font-weight: 200;
+            }
+        }
+        .two {
+            @include page();
+        }
+        .three {
+            @include page();
+        }
     }
-    .span{
-        background-color: #FFA500;
-        padding: 5px;
-        margin-right: 10%;
+
+    .link {
+        text-decoration: none;
+        color: #18181b;
     }
-        .one{   
-           @include page() 
-           
-        }
-        .two{
-            @include page()
-        }
-        .three{
-            @include page()
-        }
-    } 
 }
-.link{
-    text-decoration: none;
-    color: #18181B;
-}
+@media screen and (max-width: 1000px) {
+    @mixin page {
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+        h3 {
+            font-weight: 500;
+            &:hover {
+                color: #ffa500;
+                transition: 0.5s;
+            }
+        }
+    }
+    .one {
+        width: 40%;
+    }
 }

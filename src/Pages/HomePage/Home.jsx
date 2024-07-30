@@ -14,7 +14,9 @@ import { NavLink } from "react-router-dom";
 
 export default function Home() {
   return (
+
     <div>
+          {/*
       <div className={styles.homepage}>
         <div className={styles.home}>
           <h1>
@@ -38,11 +40,13 @@ export default function Home() {
           <img src={img} />
         </div>
       </div>
-      <History />
-      <Choose />
+  */}
+
+       <History /> 
+       <Choose /> 
       <Courses />
-      <Opinion />
-      <Workers />
+    { /* <Opinion /> */}
+    {/*  <Workers /> */}
       <Faq />
     </div>
   );

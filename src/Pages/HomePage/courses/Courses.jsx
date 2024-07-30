@@ -8,26 +8,25 @@ import { courseData } from "./CoursePage/CourseData.jsx";
 
 export default function Courses() {
   return (
-    <div className={styles.main_2}>
-      <div className={styles.title_2}>
-        <h1>
+    <div className={styles.featuredCoursesContainer}>
+    
+        <h1 className={styles.featuredCoursesTitle}>
           Featured<span> Courses</span>
         </h1>
-        <p>
+        <p className={styles.featuredCoursesDescription}>
           Explore our top-rated courses designed to equip you with the skills
-          and knowledge needed to excel in the <br /> digital marketing
+          and knowledge needed to excel in the  digital marketing
           landscape.
         </p>
-      </div>
-      <div className={styles.main_3}>
-        <div className={styles.pages}>
+      
+     
+        <div className={styles.cardsBox}>
 
           {courseData.map((elem) => (
             <CourseCard key={elem.id} data={elem} />
           ))}
           
         </div>
-      </div>
     </div>
   );
 }

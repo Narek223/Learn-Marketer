@@ -51,4 +51,17 @@
 .homepage .home p {
   font-size: 2em;
   padding: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .homepage {
+    display: block;
+  }
+  .homepage .img {
+    margin-top: 15%;
+    margin-left: 5%;
+  }
+  .homepage .home {
+    margin: 10%;
+  }
 }/*# sourceMappingURL=home.module.css.map */

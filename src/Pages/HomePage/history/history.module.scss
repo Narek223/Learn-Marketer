@@ -1,18 +1,15 @@
 .history {
-    height:80vh ;
+    height: 80vh;
     margin: 8% 10%;
     display: flex;
     flex-direction: row-reverse;
     align-content: space-between;
-    align-items: center; 
+    align-items: center;
     position: relative;
-    
-    .image{
-     position: absolute;
-    top:40%;
 
-
-    
+    .image {
+        position: absolute;
+        top: 40%;
     }
     .our_history {
         p {
@@ -23,18 +20,55 @@
         .title {
             text-align: center;
             line-height: 0.6;
-            
 
             h1 {
                 font-size: 50px;
                 font-weight: 700;
-            }
-            h1:nth-child(1) {
                 color: #003366;
             }
+
             h1:nth-child(2) {
-                color: #FFA500;
+                color: #ffa500;
             }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .history {
+        height: 60vh;
+        align-items: center;
+        padding: 10px;
+        .image {
+            display: none;
+        }
+        .our_history {
+            p {
+                width: 100%;
+                font-size: 1.1em;
+                line-height: 1.8;
+            }
+            .title {
+                text-align: center;
+                line-height: 0.6;
+
+                h1 {
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: #003366;
+                    span {
+                        color: #ffa500;
+                    }
+                }
+                h1:nth-child(1) {
+                    color: #003366;
+                }
+                h1:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+        .btn {
+            display: none;
         }
     }
 }
