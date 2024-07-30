@@ -29,8 +29,9 @@
         }
     }
     .featuredCoursesTitle {
+     
         width: 100%;
-        min-height: 20px;
+        min-height: 10px;
         color: #003366;
         font-size: 2.8em;
         text-align: center;
@@ -41,7 +42,8 @@
         }
     }
     .featuredCoursesDescription {
-        width: 70%;
+
+        width: 60%;
         min-height: 15px;
         text-align: center;
         font-size: 1.3em;
@@ -82,21 +84,23 @@
     }
 }
 @media screen and (max-width: 1000px) {
-    @mixin page {
-        width: 50%;
 
-        img {
-            width: 100%;
-        }
-        h3 {
-            font-weight: 500;
-            &:hover {
-                color: #ffa500;
-                transition: 0.5s;
-            }
+    .featuredCoursesContainer{
+        .cardsBox {
+            .one {
+                width: 300px;
+                border-radius: 6px;
+                img{
+                    object-fit: cover;
+                    border-radius: 6px;
+                }
+                 
+             }
         }
     }
-    .one {
-        width: 40%;
-    }
+
+    
+    
+
+    
 }

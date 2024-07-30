@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+  
     margin-top: 10%;
-
+min-height: 400px;
     .faq{
       
-        height: 100vh;
+      height: 60vh;
         color: #003366;
         display: flex;
         flex-direction: column;
@@ -45,15 +45,19 @@
 @media screen and (max-width: 1000px) {
 
 .cont{
+  
 display: flex;
 justify-content: flex-start;
     .faq{
         display: flex;
        padding: 0 25px;
+      min-height: 100px;
         .line{
-            width: 100%;
+         
+            width: 60vw;
         }
         h1{
+            margin-left: 55%;
          display: flex;
          justify-content: center;
             font-size: 2.8em;
@@ -62,7 +66,7 @@ justify-content: flex-start;
         .question{
             font-size: 1em;
             font-weight: 600;
-            width: 400%;
+            width: 90%;
         }
     }
     img{
@@ -72,3 +76,22 @@ justify-content: flex-start;
 
 }
   
+
+@media screen and (max-width: 600px) {
+
+    .cont{
+        .faq{
+            
+            .line{
+                width: 90vw;
+            }
+
+            h1{
+                margin-left: 25%;
+            }
+        }
+    }
+ 
+    
+    
+}
