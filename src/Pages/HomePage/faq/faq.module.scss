@@ -4,10 +4,10 @@
     align-items: center;
   
     margin-top: 10%;
-min-height: 400px;
+height: 600px;
     .faq{
       
-   
+        height: 500px;
         color: #003366;
         display: flex;
         flex-direction: column;
@@ -101,9 +101,9 @@ justify-content: flex-start;
         .faq{
             
             .line{
-                width: 50%;
+                width: 100vw;
                 h2{
-                    font-size: 18px;
+                    font-size: 16px;
                 }
             }
 
