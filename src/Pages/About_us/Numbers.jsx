@@ -3,6 +3,7 @@ import styles from "./about.module.scss";
 import imgOne from "../../assets/Vector.png";
 import imgTwo from "../../assets/Group (1).png";
 import imgThree from "../../assets/Vector (1).png";
+import CountUp from "react-countup";
 
 export default function Numbers() {
   let arr = [
@@ -28,6 +29,7 @@ export default function Numbers() {
 
   return (
     <div className={styles.aboutTwo}>
+      <CountUp start={0} end={14} duration={5} />
       {arr.map((elem) => (
         <div className={styles.one} key={elem.id}>
           <img src={elem.img} />

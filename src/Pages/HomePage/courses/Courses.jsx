@@ -9,7 +9,6 @@ import { courseData } from "./CoursePage/CourseData.jsx";
 export default function Courses() {
   return (
     <div className={styles.featuredCoursesContainer}>
-    
         <h1 className={styles.featuredCoursesTitle}>
           Featured<span> Courses</span>
         </h1>
@@ -18,10 +17,7 @@ export default function Courses() {
           and knowledge needed to excel in the  digital marketing
           landscape.
         </p>
-      
-     
         <div className={styles.cardsBox}>
-
           {courseData.map((elem) => (
             <CourseCard key={elem.id} data={elem} />
           ))}

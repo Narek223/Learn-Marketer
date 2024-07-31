@@ -29,7 +29,6 @@
         }
     }
     .featuredCoursesTitle {
-     
         width: 100%;
         min-height: 10px;
         color: #003366;
@@ -42,7 +41,6 @@
         }
     }
     .featuredCoursesDescription {
-
         width: 60%;
         min-height: 15px;
         text-align: center;
@@ -60,13 +58,34 @@
             line-height: 1.2;
         }
         .span {
+            width: 38px;
+            height: 13px;
             background-color: #ffa500;
             padding: 5px;
-            margin-right: 10%;
         }
         .one {
             @include page();
-            h2{
+            .infoBox {
+                width: 100%;
+                height: 15px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-right: 5px;
+                margin-top: 15px;
+                .duration {
+                    width: 80px;
+                    height: 27px;
+                    background-color: #ffa500;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .format {
+                }
+            }
+            h2 {
                 font-weight: 200;
             }
         }
@@ -84,23 +103,157 @@
     }
 }
 @media screen and (max-width: 1000px) {
-
-    .featuredCoursesContainer{
+    .featuredCoursesContainer {
+        .featuredCoursesDescription {
+            width: 100%;
+        }
         .cardsBox {
+            .cardDescription {
+                display: none;
+            }
             .one {
                 width: 300px;
                 border-radius: 6px;
-                img{
+                line-height: 1;
+
+                img {
                     object-fit: cover;
                     border-radius: 6px;
                 }
-                 
-             }
+            }
         }
     }
+}
+@media screen and (max-width: 600px) {
+    .featuredCoursesContainer {
+        .featuredCoursesDescription {
+            width: 100%;
+        }
+        .cardsBox {
+            padding: 5px;
+            .one {
+                width: 235px;
+                border-radius: 6px;
+                .one {
+                    width: 128px;
+                    height: 202px;
+                    border-radius: 6px;
+                    .infoBox {
+                        width: 100%;
+                        height: 15px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border: 1px solid #000;
+                        margin-top: 5px;
 
-    
-    
+                        .duration {
+                            width: 38px;
+                            height: 13px;
+                            background-color: #ffa500;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 9px;
+                        }
 
+                        .format {
+                            width: 80px;
+                            height: 13px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                h2 {
+                    font-size: 20px;
+                }
+
+                img {
+                    object-fit: cover;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .featuredCoursesContainer {
+        
+        .cardsBox {
+            .one {
+                width: 150px;
+                height: 202px;
+                border-radius: 6px;
+
+                .infoBox {
+                    width: 100%;
+                    height: 15px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .duration {
+                        width: 50px;
+                        height: 23px;
+                        background-color: #ffa500;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 10px;
+                    }
+
+                    .format {
+                        height: 13px;
+                        font-size: 15px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                h2 {
+                    font-size: 18px;
+                }
+
+                img {
+                    object-fit: cover;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .featuredCoursesContainer {
+        .featuredCoursesTitle{
+            font-size: 1.5em;
+        }
+        .featuredCoursesDescription{
+            width: 100%;
+            font-size: 1em;
+        }
+.cardsBox{
+    .one{
+        width: 140px;
+                height: 200px;
+                border-radius: 6px; 
+.infoBox{
+    .duration{
+        width: 40px;
+    }
     
+}
+
+                h2{
+                    font-size: 15px;
+                }
+    }
+}
+    }
+
 }
