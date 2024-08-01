@@ -12,7 +12,7 @@ export default function Workers() {
   
  
   return (
-    <div className={styles.mainn}>
+    <div className={styles.main}>
       <div className={styles.worker}>
         <div className={styles.blog}>
           <h1>
@@ -27,7 +27,7 @@ export default function Workers() {
             experienced professionals who are passionate about digital marketing
             and committed to your learning journey.
           </p>
-         <div style={{width:'150px'}}>
+         <div style={{width:'150px'}} className={styles.seeAllBtn}>
          <Primary_button> See All</Primary_button>
          </div>
    

@@ -65,4 +65,22 @@
 }
 .main .mainTwo .instructors p {
   color: #CCCCCC;
+}
+
+@media screen and (max-width: 1000px) {
+  .main .mainTwo .instructors {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main .mainTwo {
+    width: 100vw;
+  }
+  .main .mainTwo .instructors {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .main .mainTwo .instructors .text {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=instructors.module.css.map */

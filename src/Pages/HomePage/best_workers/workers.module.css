@@ -1,30 +1,30 @@
-.mainn {
+.main {
   height: 130vh;
   width: 100%;
   padding: 10% 12%;
   box-sizing: border-box;
 }
-.mainn .worker {
+.main .worker {
   display: flex;
   width: 100%;
 }
-.mainn .worker .blog {
+.main .worker .blog {
   width: 40%;
 }
-.mainn .worker .blog h1 {
-  color: #FFA500;
+.main .worker .blog h1 {
+  color: #ffa500;
   font-size: 60px;
   font-weight: 700;
 }
-.mainn .worker .blog h1 span {
+.main .worker .blog h1 span {
   color: #003366;
 }
-.mainn .worker .blog p {
+.main .worker .blog p {
   font-size: 18px;
   line-height: 1.8;
   width: 22vw;
 }
-.mainn .worker .images {
+.main .worker .images {
   width: 60vw;
   height: 70vh;
   background-image: url("../../../assets/Vector 28974.png");
@@ -34,11 +34,11 @@
   position: relative;
   z-index: 1;
 }
-.mainn .worker .images img {
+.main .worker .images img {
   width: 265px;
   height: 331px;
 }
-.mainn .worker .images .imgone {
+.main .worker .images .imgone {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,12 +50,12 @@
   bottom: 25%;
   z-index: 2;
 }
-.mainn .worker .images .imgone h1 {
+.main .worker .images .imgone h1 {
   margin-top: 10px;
   font-weight: 500;
   font-size: 1.1;
 }
-.mainn .worker .images .imgone .img_one {
+.main .worker .images .imgone .img_one {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@
   height: 100vh;
   position: relative;
 }
-.mainn .worker .images .imgone .img_one:hover ul {
+.main .worker .images .imgone .img_one:hover ul {
   width: 93%;
   display: flex;
   justify-content: space-evenly;
@@ -76,14 +76,14 @@
   position: absolute;
   top: 73%;
 }
-.mainn .worker .images .imgone .img_one ul {
+.main .worker .images .imgone .img_one ul {
   display: none;
 }
-.mainn .worker .images .imgone .img_one ul li {
+.main .worker .images .imgone .img_one ul li {
   text-align: center;
   list-style: none;
 }
-.mainn .worker .images .imgtwo {
+.main .worker .images .imgtwo {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,7 +94,7 @@
   bottom: 35%;
   z-index: 2;
 }
-.mainn .worker .images .imgtwo:hover ul {
+.main .worker .images .imgtwo:hover ul {
   width: 93%;
   display: flex;
   justify-content: space-evenly;
@@ -108,17 +108,17 @@
   position: absolute;
   top: 73%;
 }
-.mainn .worker .images .imgtwo ul {
+.main .worker .images .imgtwo ul {
   display: none;
 }
-.mainn .worker .images .imgtwo ul li {
+.main .worker .images .imgtwo ul li {
   list-style: none;
 }
-.mainn .worker .images .imgtwo h1 {
+.main .worker .images .imgtwo h1 {
   font-weight: 500;
   font-size: 1.5;
 }
-.mainn .worker .images .imgthree {
+.main .worker .images .imgthree {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,7 +129,7 @@
   top: 70%;
   z-index: 2;
 }
-.mainn .worker .images .imgthree:hover ul {
+.main .worker .images .imgthree:hover ul {
   width: 93%;
   display: flex;
   justify-content: space-evenly;
@@ -143,13 +143,108 @@
   position: absolute;
   top: 73%;
 }
-.mainn .worker .images .imgthree ul {
+.main .worker .images .imgthree ul {
   display: none;
 }
-.mainn .worker .images .imgthree ul li {
+.main .worker .images .imgthree ul li {
   list-style: none;
 }
-.mainn .worker .images .imgthree h1 {
+.main .worker .images .imgthree h1 {
   font-weight: 500;
   font-size: 1.5;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    position: relative;
+  }
+  .main .worker {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main .worker .blog {
+    width: 100%;
+  }
+  .main .worker .blog .seeAllBtn {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+  }
+  .main .worker .blog h1 {
+    font-size: 2.6em;
+    margin-left: 35%;
+  }
+  .main .worker .blog h1 span {
+    padding: 15px;
+  }
+  .main .worker .blog P {
+    text-align: center;
+    width: 80vw;
+  }
+  .main .worker .images {
+    background-image: none;
+  }
+  .main .worker .images .imgone {
+    position: absolute;
+    left: 15%;
+    top: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .main .worker .images .imgone h1 {
+    margin: 15px 0;
+  }
+  .main .worker .images .imgone .imgtwo {
+    position: absolute;
+    bottom: 0;
+  }
+  .main .worker .images .imgone .imgthree {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main .worker .blog p {
+    width: 100%;
+  }
+  .main .worker .blog h1 {
+    font-size: 2.6em;
+    margin-left: 35%;
+  }
+  .main .worker .images {
+    background-image: none;
+    width: 100%;
+  }
+  .main .worker .images .imgone h1 {
+    font-size: 16px;
+  }
+  .main .worker .images .imgone .img_one {
+    margin-left: -80px;
+    width: 100%;
+  }
+  .main .worker .images .imgone .img_one:hover ul {
+    width: 80%;
+    position: absolute;
+    top: 60%;
+  }
+  .main .worker .images .imgone .img_one img {
+    width: 90%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .main .worker .images .imgone .imgtwo {
+    width: 100%;
+  }
+  .main .worker .images .imgone .imgtwo:hover ul {
+    width: 80%;
+    position: absolute;
+    top: 60%;
+  }
+  .main .worker .images .imgone .imgtwo img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 90%;
+  }
 }/*# sourceMappingURL=workers.module.css.map */

@@ -24,7 +24,7 @@
 }
 .about .part_one h1 {
   font-size: 32px;
-  color: #FFA500;
+  color: #ffa500;
 }
 .about .part_one p {
   font-size: 20px;
@@ -39,29 +39,94 @@
   height: auto;
 }
 .about .aboutTwo {
-  margin-top: 10%;
-  margin-right: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
   display: flex;
-  justify-content: space-around;
-  line-height: 0.7;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
 }
 .about .aboutTwo .one {
-  width: 20%;
-  line-height: 0.7;
+  width: 30%;
+  min-width: 200px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-}
-.about .aboutTwo .one h1:nth-child(2) {
-  color: #FFA500;
-}
-.about .aboutTwo .one h1:nth-child(3) {
-  color: #1D1D1D;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 .about .aboutTwo .one img {
   background-color: rgb(230, 235, 240);
-  padding: 20px 15px;
-  border-radius: 40%;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.about .aboutTwo .one h1 {
+  font-size: 24px;
+  margin: 5px 0;
+}
+.about .aboutTwo .one h1:nth-child(2) {
+  color: #ffa500;
+  font-size: 36px;
+}
+.about .aboutTwo .one h1:nth-child(3) {
+  color: #1d1d1d;
+  font-size: 18px;
+}
+@media screen and (max-width: 1200px) {
+  .about .aboutTwo {
+    gap: 15px;
+  }
+  .about .aboutTwo .one {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .about .aboutTwo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .about .aboutTwo .one {
+    width: 100%;
+    min-width: unset;
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about {
+    margin: 9% 0;
+  }
+  .about .new_title {
+    display: none;
+  }
+  .about .content {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .about .content .part_one {
+    width: 100%;
+  }
+  .about .content .img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about {
+    padding: 8% 1%;
+  }
+  .about .part_one p {
+    width: 100vw;
+  }
 }/*# sourceMappingURL=about.module.css.map */

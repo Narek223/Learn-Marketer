@@ -74,3 +74,36 @@ p{
     }
 }
 }
+
+@media screen and (max-width: 1000px) {
+    .main{
+        .mainTwo{
+
+            .instructors{
+        
+                width: 100%;
+            }
+
+    }
+
+
+
+
+}
+}
+@media screen and (max-width: 400px) {
+
+    .main{
+        .mainTwo{
+            width: 100vw;
+            .instructors{
+         flex-wrap: nowrap;
+                width: 100%;
+                .text{
+                    font-size: 10px;
+                }
+            }
+    
+}
+    }
+}

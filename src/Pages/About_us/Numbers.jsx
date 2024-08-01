@@ -4,8 +4,15 @@ import imgOne from "../../assets/Vector.png";
 import imgTwo from "../../assets/Group (1).png";
 import imgThree from "../../assets/Vector (1).png";
 import CountUp from "react-countup";
+import { useInView } from 'react-intersection-observer';
+
 
 export default function Numbers() {
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
   let arr = [
     {
       id: 1,
@@ -26,14 +33,15 @@ export default function Numbers() {
       lastH1: "Project Complated",
     },
   ];
+ 
 
   return (
     <div className={styles.aboutTwo}>
-      <CountUp start={0} end={14} duration={5} />
+    
       {arr.map((elem) => (
-        <div className={styles.one} key={elem.id}>
+        <div className={styles.one} key={elem.id} ref={ref}>
           <img src={elem.img} />
-          <h1>{elem.firstH1}+</h1>
+          <h1>{   <CountUp start={0} end={inView ? elem.firstH1 : null} duration={3} delay={2} /> }+</h1>
           <h1>{elem.lastH1}</h1>
         </div>
       ))}

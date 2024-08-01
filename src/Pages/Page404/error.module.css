@@ -18,4 +18,13 @@
   width: 100%;
   max-width: 627px;
   margin-left: 155px;
+}
+
+@media screen and (max-width: 1000px) {
+  .error img {
+    width: 90%;
+  }
+  .error img .err {
+    margin-left: 5px;
+  }
 }/*# sourceMappingURL=error.module.css.map */
