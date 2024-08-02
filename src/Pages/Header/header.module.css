@@ -51,7 +51,7 @@
 }
 @media screen and (max-width: 1000px) {
   .header .container {
-    padding: 0 40px;
+    padding: 0 30px;
   }
   .header .container .nav {
     display: none;
@@ -86,6 +86,9 @@
 }
 
 @media screen and (max-width: 400px) {
+  .header {
+    height: 62px;
+  }
   .header .container .openNav {
     height: 60vh;
   }

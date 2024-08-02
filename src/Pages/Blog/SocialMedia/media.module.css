@@ -101,4 +101,20 @@
   font-weight: 400;
   line-height: 30px;
   width: 90%;
+}
+
+@media screen and (max-width: 1000px) {
+  .socialMedia .buttons {
+    padding: 8% 0%;
+  }
+  .socialMedia .mainPart .h1 {
+    width: 100%;
+  }
+  .socialMedia .mainPart .NextPart {
+    display: block;
+  }
+  .socialMedia .mainPart .NextPart .img img {
+    width: 100%;
+    height: auto;
+  }
 }/*# sourceMappingURL=media.module.css.map */

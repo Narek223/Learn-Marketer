@@ -130,9 +130,12 @@
       }
       .blogs {
         width: 40%;
+        height: 300px;
         p {
-          font-size: 11px;
+          height: auto;
+          font-size: 12px;
           line-height: 13px;
+      
         }
       }
       .buttons {

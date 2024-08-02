@@ -1,6 +1,6 @@
 .main .title {
   width: 90%;
-  padding: 0 25px;
+  padding: 0 20px;
 }
 .main .title h1 {
   font-size: 50px;
@@ -68,6 +68,12 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .main .title {
+    padding: 0;
+  }
+  .main .mainTwo {
+    margin-right: 15px;
+  }
   .main .mainTwo .instructors {
     width: 100%;
   }
@@ -75,6 +81,7 @@
 @media screen and (max-width: 400px) {
   .main .mainTwo {
     width: 100vw;
+    margin-left: -20px;
   }
   .main .mainTwo .instructors {
     flex-wrap: nowrap;
@@ -82,5 +89,11 @@
   }
   .main .mainTwo .instructors .text {
     font-size: 10px;
+  }
+  .main .title {
+    width: 100vw;
+  }
+  .main .title p {
+    width: 98vw;
   }
 }/*# sourceMappingURL=instructors.module.css.map */

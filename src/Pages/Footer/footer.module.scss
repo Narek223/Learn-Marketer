@@ -34,3 +34,13 @@ ul{
         width: 350px;
     }
 }
+@media screen and (max-width: 1000px) {
+    footer{
+        width: 100%;
+        img{
+            display: none;
+        }
+    }
+
+
+}

@@ -37,7 +37,6 @@ export default function Numbers() {
 
   return (
     <div className={styles.aboutTwo}>
-    
       {arr.map((elem) => (
         <div className={styles.one} key={elem.id} ref={ref}>
           <img src={elem.img} />

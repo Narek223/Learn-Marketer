@@ -1,9 +1,9 @@
 .main{
  
-    
+   
 .title{
     width: 90%;
-    padding: 0 25px;
+    padding: 0 20px;
     h1{
         font-size: 50px;
         color: #003366;
@@ -77,8 +77,12 @@ p{
 
 @media screen and (max-width: 1000px) {
     .main{
+        .title{
+            padding: 0;
+        }
+   
         .mainTwo{
-
+            margin-right: 15px;
             .instructors{
         
                 width: 100%;
@@ -94,8 +98,10 @@ p{
 @media screen and (max-width: 400px) {
 
     .main{
+        
         .mainTwo{
             width: 100vw;
+            margin-left: -20px;
             .instructors{
          flex-wrap: nowrap;
                 width: 100%;
@@ -104,6 +110,12 @@ p{
                 }
             }
     
+}
+.title{
+    width: 100vw;
+    p{
+width: 98vw;
+    }
 }
     }
 }

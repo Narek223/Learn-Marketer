@@ -126,3 +126,30 @@ p{
     width: 90%;
 }
     }
+
+    @media screen and (max-width: 1000px) {
+        .socialMedia{
+            .buttons{
+                padding: 8% 0%;
+            }
+            .mainPart{
+                .h1{
+                    width: 100%;
+                }
+                .NextPart{
+                    display: block;
+                    .blok{
+                        .FirstPart{
+
+                        }
+                    }
+                    .img{
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }

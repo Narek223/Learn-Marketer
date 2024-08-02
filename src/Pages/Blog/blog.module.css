@@ -122,9 +122,11 @@
   }
   .conteiner .blogs {
     width: 40%;
+    height: 300px;
   }
   .conteiner .blogs p {
-    font-size: 11px;
+    height: auto;
+    font-size: 12px;
     line-height: 13px;
   }
   .conteiner .buttons {

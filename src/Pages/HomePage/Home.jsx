@@ -46,7 +46,7 @@ export default function Home() {
        <Choose /> 
       <Courses />
     { /* <Opinion /> */}
-      <Workers /> 
+      {/* <Workers />  */}
       <Faq />
     </div>
   );
