@@ -136,8 +136,11 @@ min-height:400px;
   .container{
     width: 100%;
     .title_2{
-  
+  width: 100vw;
     margin: 0;
+    p{
+      margin: 0 15px 0 25px;
+    }
     }
     .main{
       display: flex;
@@ -161,6 +164,10 @@ min-height:400px;
           .title_2{
             width: 100%;
           margin:0px ;
+          P{
+            
+     margin: 0 2px 0 15px;
+          }
           }
           .main{
           width: 100%;
