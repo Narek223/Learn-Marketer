@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../assets/Frame 2 (2).png";
+import img from '../../../../public/assets/Homepage_Images/HistoryImages/Frame 2 (2).png'
 import styles from "./history.module.scss";
 import Primary_button from "../../../shered_components/buttons/primary_button/Primary_button";
 

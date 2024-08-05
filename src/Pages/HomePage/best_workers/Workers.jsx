@@ -1,7 +1,7 @@
-import React from "react";
-import one from "../../../assets/Rectangle (2).png";
-import two from "../../../assets/Rectangle.png";
-import three from "../../../assets/Rectangle (1).png";
+import React  from "react";
+import one from '../../../../public/assets/Homepage_Images/BestWorkers/Rectangle (2).png'
+import two from '../../../../public/assets/Homepage_Images/BestWorkers/Rectangle.png'
+import three from '../../../../public/assets/Homepage_Images/BestWorkers/Rectangle (1).png'
 import styles from './workers.module.scss'
 import Primary_button from "../../../shered_components/buttons/primary_button/Primary_button";
 import WorkersCard from "./workers-card/workersCard";
@@ -10,14 +10,21 @@ import WorkersCard from "./workers-card/workersCard";
 
 export default function Workers() {
   
- 
+
+
+  
+  
+  
+  
+  
   return (
     <div className={styles.main}>
       <div className={styles.worker}>
         <div className={styles.workersInfoBox}>
           <h1>
               Our
-              <span>
+
+               <span>
                   Best
                 <br /> Workers
               </span>
@@ -38,7 +45,7 @@ export default function Workers() {
           </div>
           <div styles={styles.images}>
             <WorkersCard imgSrc={two} name="Mary D. Greenwell" position="Head of SEO" worker={styles.shereon} />
-            <WorkersCard imgSrc={three} name="Mary D. Greenwell" position="Head of SEO" worker={styles.david} />
+        <WorkersCard imgSrc={three} name="Mary D. Greenwell" position="Head of SEO" worker={styles.david} /> 
           </div>
         </div>
 

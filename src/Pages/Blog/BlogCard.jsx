@@ -1,10 +1,12 @@
 import React from "react";
-import one from "../../assets/Rectangle 8636.png";
-import two from "../../assets/Rectangle 8636 (1).png";
-import three from "../../assets/Rectangle 8636 (2).png";
-import four from "../../assets/Rectangle 8636 (3).png";
-import fife from "../../assets/Rectangle 8636 (4).png";
-import six from "../../assets/Rectangle 8636 (5).png";
+import one from '../../../public/assets/BlogPageImages/Rectangle 8636.png'
+import two from '../../../public/assets/BlogPageImages/Rectangle 8636 (1).png'
+import three from '../../../public/assets/BlogPageImages/Rectangle 8636 (2).png'
+import four from '../../../public/assets/BlogPageImages/Rectangle 8636 (3).png'
+import fife from '../../../public/assets/BlogPageImages/Rectangle 8636 (4).png'
+import six from '../../../public/assets/BlogPageImages/Rectangle 8636 (5).png'
+
+
 import styles from "./blog.module.scss";
 import { NavLink } from "react-router-dom";
 import BlogCartTwo from "./BlogCartTwo";

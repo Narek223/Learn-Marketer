@@ -1,5 +1,5 @@
 import React from "react";
-import vector from "../../../assets/Vector 28974.png";
+import vector from '../../../../public/assets/Homepage_Images/Faq/Vector 28974.png'
 import { IoIosArrowDown } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa";
 

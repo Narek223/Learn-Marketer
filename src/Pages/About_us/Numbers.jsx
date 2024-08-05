@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "./about.module.scss";
-import imgOne from "../../assets/Vector.png";
-import imgTwo from "../../assets/Group (1).png";
-import imgThree from "../../assets/Vector (1).png";
+
+import imgOne from "../../../public/assets/AboutUsImages/Vector.png"
+import imgTwo from "../../../public/assets/AboutUsImages/Group (1).png"
+import imgThree from "../../../public/assets/AboutUsImages/Vector (1).png"
+
 import CountUp from "react-countup";
 import { useInView } from 'react-intersection-observer';
 

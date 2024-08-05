@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./about.module.scss";
-import photo from "../../assets/Group23.png";
+import photo from '../../../public/assets/AboutUsImages/Group23.png'
 import Numbers from "./Numbers";
 import Instructors from "./BestInstructors/Instructors";
 

@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./courses.module.scss";
+import newimg from "../../../public/assets/Homepage_Images/Featured Courses/Group 1000014917 (1).png"
 import Courses from "../HomePage/courses/Courses";
-import newimg from "../../assets/Group 1000014917 (1).png";
+
 export default function Course() {
   return (
     <div className={styles.conteiner}>

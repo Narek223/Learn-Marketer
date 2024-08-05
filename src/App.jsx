@@ -30,7 +30,7 @@ import './App.css'
           <Route path='/Course/:id' element={<CoursePage />} />
           <Route path='/Blog' element={<Blog />} />
           <Route path='/Blog/SocialMedia' element={<Media />} />
-          {/* <Route path='/Course/Contact' element={<CoursePage />} /> */}
+          <Route path='/Course/Contact' element={<CoursePage />} />
           <Route path='/request' element={<Request />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='*' element={<Error />} />

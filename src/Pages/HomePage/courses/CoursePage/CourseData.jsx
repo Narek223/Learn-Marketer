@@ -1,9 +1,12 @@
-import img1 from "../../../../assets/IMAGE.png";
-import img2 from "../../../../assets/IMAGE (1).png";
-import img3 from "../../../../assets/IMAGE (2).png";
-import img4 from "../../../../assets/IMAGE (3).png";
-import img5 from "../../../../assets/IMAGE (4).png";
-import img6 from "../../../../assets/IMAGE (5).png";
+import img1 from "../../../../../public/assets/Homepage_Images/Featured Courses/IMAGE.png";
+import img2 from "../../../../../public/assets/Homepage_Images/Featured Courses/IMAGE (1).png";
+import img3 from "../../../../../public/assets/Homepage_Images/Featured Courses/IMAGE (2).png";
+import img4 from "../../../../../public/assets/Homepage_Images/Featured Courses/IMAGE (3).png";
+import img5 from "../../../../../public/assets/Homepage_Images/Featured Courses/IMAGE (4).png";
+import img6 from "../../../../../public/assets/Homepage_Images/Featured Courses/IMAGE (5).png";
+
+
+
 
 export const courseData = [
   {

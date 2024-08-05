@@ -1,5 +1,5 @@
 import { useState } from "react";
-import pic from "../../../assets/Frame.png";
+import pic from '../../../../public/assets/Homepage_Images/Opinion/Frame.png'
 import { text } from "./obj";
 import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa";
 import styles from "./opinion.module.scss";

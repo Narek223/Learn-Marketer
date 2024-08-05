@@ -6,20 +6,19 @@
   align-items: center;
   .worker {
     display: flex;
-    border: 1px solid #000;
-    width: 1060px;
+    width: 1280px;
     height: 100%;
 
     .workersInfoBox {
       width: 370px;
       height: 400px;
       margin-top: 80px;
-      margin-right: 120px;
+      margin-right: 310px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
-      border: 1px solid green;
+  
 
       h1 {
         color: #ffa500;
@@ -30,6 +29,7 @@
         }
         }
         p {
+          width: 450px;
           font-size: 18px;
           line-height: 1.9;
       }
@@ -39,14 +39,16 @@
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
-      width: calc(100% - 370px - 120px);
+      width: calc(100% - 370px - 310px);
       height: 100%;
       background-image: url("../../../assets/Vector 28974.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100%;
-      border: 1px solid red;
-
+      line-height: 0;
+h1{
+  font-weight: 500;
+}
       .imgMary {
         width: 624px;
         height: 399px;
@@ -93,6 +95,52 @@
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .main{
+
+    .worker{
+ position: relative;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    .workersInfoBox{
+     
+margin: 0;
+      .seeAllBtn{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+      }
+    }
+    .imgBox{
+
+      .imgMary{
+        margin-top: 0;
+      }
+    }
+  }
+  
+
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  }
+
+
+
 
 // @media screen and (max-width: 1000px) {
 //   .main {

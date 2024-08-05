@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './error.module.scss'
-import ErrorPicture from '../../assets/page404.png'
-import error from  '../../assets/h2.png'
+import error from '../../../public/assets/404PageImage/h2.png'
+import ErrorPicture from '../../../public/assets/404PageImage/page404.png'
 
 export default function Error() {
   return (

@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./coursepage.module.scss";
-import imgone from "../../../../assets/Frame23.png";
-import imgtwo from "../../../../assets/Frame_3.png";
+
+import imgone from '../../../../../public/assets//Homepage_Images/CourseCard/Frame23.png'
+import imgtwo from '../../../../../public/assets//Homepage_Images/CourseCard/Frame_3.png'
+
 import Contact from "./Contact/Contact";
 import { NavLink, useParams } from "react-router-dom";
 import Faqs from "./Faqs/NewFaqs";

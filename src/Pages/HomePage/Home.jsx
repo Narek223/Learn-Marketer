@@ -8,8 +8,8 @@ import Faq from "./faq/Faq";
 import Workers from "./best_workers/Workers";
 import Secondary_button from "../../shered_components/buttons/secondary_button/Secondary_button";
 import Primary_button from "../../shered_components/buttons/primary_button/Primary_button";
-import img from "../../assets/Frame 1.png";
 
+import img from  '../../../public/assets/Homepage_Images/Home/Frame 1.png'
 import { NavLink } from "react-router-dom";
 
 export default function Home() {

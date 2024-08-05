@@ -1,7 +1,7 @@
 
-import img1 from "../../../assets/Number (1).png";
-import img2 from "../../../assets/Number.png";
-import img3 from "../../../assets/Number (2).png";
+import img1 from '../../../../public/assets/Homepage_Images/ChooseUs/Number (1).png'
+import img2 from '../../../../public/assets/Homepage_Images/ChooseUs/Number.png'
+import img3 from '../../../../public/assets/Homepage_Images/ChooseUs/Number (2).png'
 
 export let arr = [
     {

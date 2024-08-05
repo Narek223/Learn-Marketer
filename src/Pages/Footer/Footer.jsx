@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebookF,FaTelegramPlane, FaLinkedinIn,FaInstagram, FaYoutube  } from "react-icons/fa"
-import logo from '../../assets/log.png'
 
+import logo from '../../../public/assets/FooterImage/log.png'
 import styles from './footer.module.scss'
 
 
