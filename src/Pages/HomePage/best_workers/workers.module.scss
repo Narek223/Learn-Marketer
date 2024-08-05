@@ -1,13 +1,26 @@
 .main {
-  height: 130vh;
   width: 100%;
-  padding: 10% 12%;
-  box-sizing: border-box;
+  height: 934px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .worker {
     display: flex;
-    width: 100%;
-    .blog {
-      width: 40%;
+    border: 1px solid #000;
+    width: 1060px;
+    height: 100%;
+
+    .workersInfoBox {
+      width: 370px;
+      height: 400px;
+      margin-top: 80px;
+      margin-right: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      border: 1px solid green;
+
       h1 {
         color: #ffa500;
         font-size: 60px;
@@ -15,45 +28,38 @@
         span {
           color: #003366;
         }
-      }
-      p {
-        font-size: 18px;
-        line-height: 1.8;
-        width: 22vw;
+        }
+        p {
+          font-size: 18px;
+          line-height: 1.9;
       }
     }
-    .images {
-      width: 60vw;
-      height: 70vh;
+
+    .imgBox {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: calc(100% - 370px - 120px);
+      height: 100%;
       background-image: url("../../../assets/Vector 28974.png");
       background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;
-      position: relative;
-      z-index: 1;
-      img {
-        width: 265px;
-        height: 331px;
-      }
-      .imgone {
+      background-size: 100%;
+      border: 1px solid red;
+
+      .imgMary {
+        width: 624px;
+        height: 399px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        line-height: 0.3;
-        position: absolute;
-        left: 15%;
-        top: 10%;
-        z-index: 2;
-        bottom: 25%;
-
-        z-index: 2;
-
+        margin-top: 150px;
+        margin-right: 25px;
+        line-height: 0.9;
         h1 {
           margin-top: 10px;
           font-weight: 500;
           font-size: 1.1;
         }
-        .img_one {
+        .mary {
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -72,221 +78,162 @@
             text-align: center;
             transition: 0.5s;
             position: absolute;
-            top: 73%;
-          }
-
-          ul {
-            display: none;
-
-            li {
-              text-align: center;
-              list-style: none;
-            }
-          }
-        }
-      }
-      .imgtwo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        line-height: 0.3;
-        margin-left: 15%;
-        position: absolute;
-
-        left: 95%;
-        bottom: 35%;
-        z-index: 2;
-        &:hover ul {
-          width: 93%;
-          display: flex;
-          justify-content: space-evenly;
-          padding: 10px;
-          margin-top: -1%;
-          background-color: #003366;
-          color: #f5f6f8;
-          text-align: center;
-          animation-duration: 2s;
-          animation-delay: 1s;
-          position: absolute;
-          top: 73%;
-        }
-
-        ul {
-          display: none;
-
-          li {
-            list-style: none;
-          }
-        }
-        h1 {
-          font-weight: 500;
-          font-size: 1.5;
-        }
-      }
-      .imgthree {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        line-height: 0.3;
-        margin-left: 15%;
-        position: absolute;
-        left: 95%;
-        top: 70%;
-        z-index: 2;
-
-        &:hover ul {
-          width: 93%;
-          display: flex;
-          justify-content: space-evenly;
-          padding: 10px;
-          margin-top: -1%;
-          background-color: #003366;
-          color: #f5f6f8;
-          text-align: center;
-          animation-duration: 2s;
-          animation-delay: 1s;
-          position: absolute;
-          top: 73%;
-        }
-
-        ul {
-          display: none;
-
-          li {
-            list-style: none;
-          }
-        }
-        h1 {
-          font-weight: 500;
-          font-size: 1.5;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .main {
-    position: relative;
-    .worker {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      .blog {
-        width: 100%;
-
-        .seeAllBtn {
-          position: absolute;
-          top: 75%;
-          left: 40%;
-
-          button {
-          }
-        }
-        h1 {
-          font-size: 2.6em;
-          margin-left: 35%;
-
-          span {
-            padding: 15px;
-          }
-        }
-        P {
-          text-align: center;
-          width: 80vw;
-        }
-      }
-      .images {
-        background-image: none;
-        .imgone {
-          position: absolute;
-          left: 15%;
-          top: none;
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: column-reverse;
-          justify-content: center;
-          h1 {
-            margin: 15px 0;
-          }
-          .imgtwo {
-            position: absolute;
-            bottom: 0;
-          }
-          .imgthree {
-            display: none;
-          }
-        }
-      }
-    }
-  }
-}
-@media screen and (max-width: 600px) {
-    .main {
-     
-      .worker {
-        .blog {
-     p{
-        width: 100%;
-     }
-  
-          .seeAllBtn {
-          
-          
-    
-          }
-          h1 {
-            font-size: 2.6em;
-            margin-left: 35%;
-  
-            span {
-       
-            }
-          }
-          P {
-           
-           
+            top: 42%;
           }
         }
         .images {
-          background-image: none;
-          width: 100%;
-          .imgone {
-            h1 {
-           font-size: 16px;
-            }
-            .img_one{
-                margin-left: -80px;
-                width: 100%;
-                &:hover ul {
-                    width: 80%;
-                    position: absolute;
-                    top: 60%;
-                  }
-                img{
-                  width: 90%;  
-                  object-fit: contain;
-                }
-            }
-            .imgtwo {
-                width: 100%;
-                &:hover ul {
-                    width: 80%;
-                    position: absolute;
-                    top: 60%;
-                  }
-                img{
-                    object-fit: contain;
-                    width: 90%;    
-                }
-              
-            }
-            .imgthree {
-             
-            }
+          
+          .shereon {
+            
+          }
+          david {
           }
         }
       }
     }
   }
-  
+}
+
+// @media screen and (max-width: 1000px) {
+//   .main {
+//     position: relative;
+//     height: 100vw;
+//     .worker {
+//       width: 100%;
+//       display: flex;
+//       flex-direction: column;
+//       .blog {
+//         width: 100%;
+
+//         .seeAllBtn {
+//           position: absolute;
+//           top: 82%;
+//           left: 40%;
+
+//         }
+//         h1 {
+//           font-size: 2.6em;
+//           margin-left: 35%;
+
+//           span {
+//             padding: 15px;
+//           }
+//         }
+//         P {
+//           text-align: center;
+//           width: 100%;
+//         }
+//       }
+//       .images {
+//         background-image: none;
+//         min-height:200px;
+//         .imgone {
+//           position: absolute;
+//           left: 15%;
+//           top: none;
+//           display: flex;
+//           flex-wrap: wrap;
+//           flex-direction: column-reverse;
+//           justify-content: center;
+//           height: 100%;
+
+//       .img_one{
+//    height: auto;
+//         ul{
+//           margin-bottom: 240px;
+//         }
+//       }
+//           h1 {
+//             margin: 15px 0;
+//           }
+//           .imgtwo {
+//             position: absolute;
+
+//             top: 15px;
+//             height: 90%;
+//             display: flex;
+//             ul{
+//               margin-top: 0px;
+//             }
+//           }
+//           .imgthree {
+//             display: none;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+// @media screen and (max-width: 600px) {
+//     .main {
+// border: 1px solid green;
+//       .worker {
+//         .blog {
+//      p{
+//         width: 100%;
+//      }
+
+//           .seeAllBtn {
+
+//             position: absolute;
+//             top:100%;
+//             left: 40%;
+
+//           }
+//           h1 {
+//             font-size: 2.6em;
+//             margin-left: 35%;
+
+//             span {
+
+//             }
+//           }
+//           P {
+
+//           }
+//         }
+//         .images {
+//           background-image: none;
+//           width: 100%;
+//         padding: 55px 0px;
+//           .imgone {
+//             h1 {
+//            font-size: 16px;
+//             }
+//             .img_one{
+//                 margin-left: -80px;
+//                 width: 100%;
+//                 margin-bottom: 150px;
+//                 &:hover ul {
+//                     width: 80%;
+//                     position: absolute;
+//                     top: 60%;
+//                   }
+//                 img{
+//                   width: 90%;
+//                   object-fit: contain;
+//                   height: auto;
+//                 }
+//             }
+//             .imgtwo {
+//                 width: 100%;
+//                 height: auto;
+//                 &:hover ul {
+//                     width: 80%;
+//                     position: absolute;
+//                     top: 60%;
+//                   }
+//                 img{
+//                     object-fit: contain;
+//                     width: 90%;
+//                 }
+
+//             }
+//             .imgthree {
+
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }

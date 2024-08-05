@@ -10,7 +10,7 @@ import { useInView } from 'react-intersection-observer';
 export default function Numbers() {
 
   const [ref, inView] = useInView({
-    triggerOnce: true,
+    triggerOnce: false,
   });
 
   let arr = [
@@ -40,7 +40,7 @@ export default function Numbers() {
       {arr.map((elem) => (
         <div className={styles.one} key={elem.id} ref={ref}>
           <img src={elem.img} />
-          <h1>{   <CountUp start={0} end={inView ? elem.firstH1 : null} duration={3} delay={2} /> }+</h1>
+          <h1>{<CountUp start={0} end={inView ? elem.firstH1 : null} duration={3} delay={2} /> }+</h1>
           <h1>{elem.lastH1}</h1>
         </div>
       ))}

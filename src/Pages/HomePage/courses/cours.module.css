@@ -194,6 +194,9 @@
   }
 }
 @media screen and (max-width: 400px) {
+  .featuredCoursesContainer .cardsBox {
+    justify-content: space-between;
+  }
   .featuredCoursesContainer .cardsBox .one {
     width: 150px;
     height: 202px;
@@ -238,6 +241,9 @@
   .featuredCoursesContainer .featuredCoursesDescription {
     width: 100%;
     font-size: 1em;
+  }
+  .featuredCoursesContainer .cardsBox {
+    justify-content: space-between;
   }
   .featuredCoursesContainer .cardsBox .one {
     width: 140px;
