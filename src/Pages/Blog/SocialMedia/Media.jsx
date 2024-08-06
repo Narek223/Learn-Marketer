@@ -3,6 +3,7 @@ import styles from "./media.module.scss";
 import { NavLink } from "react-router-dom";
 import imgOne from  "../../../../public/assets/BlogCardImages/charlesdeluvio-Lks7vei-eAg-unsplash 1.png"
 import imgTwo from  "../../../../public/assets/BlogCardImages/Rectangle 8645.png"
+import imgthree from '../../../../public/assets/BlogCardImages/Rectangle 8645 (1).png'
 import Primary_button from "../../../shered_components/buttons/primary_button/Primary_button";
 import {  IoIosArrowForward } from "react-icons/io";
 
@@ -96,7 +97,7 @@ export default function media() {
               </ul>
             </div>
           </div>
-          <div>
+          <div className={styles.img}>
             <img src={imgTwo} />
           </div>
         </div>
@@ -129,7 +130,12 @@ export default function media() {
               adds authenticity.
             </li>
           </ul>
+     
+          <img src={imgthree} className={styles.secondimg} />
+       
+          
         </div>
+      
         <div className={styles.read}>
           <h1>
             Ready to take your social media marketing skills to the next level?

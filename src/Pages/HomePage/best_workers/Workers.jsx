@@ -25,8 +25,9 @@ export default function Workers() {
               Our
 
                <span>
+                <span className={styles.best}>
                   Best
-                <br /> Workers
+                <br /> </span> Workers
               </span>
             </h1>
             <p>
