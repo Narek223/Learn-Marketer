@@ -31,7 +31,7 @@ export default function Contact() {
    
     <div className={styles.contact}>
     <ul>
-        <li><FaMapMarkerAlt className={styles.icon}/> Yerevan / Halabyan 18/1</li>
+        <li > <a href="https://www.google.com/maps/place/40.1974479,44.4771885" target="_blank"><FaMapMarkerAlt className={styles.icon}/> Yerevan / Halabyan 18/1</a></li>
         <li> <FaLocationArrow className={styles.icon} /> info@Marketer.am</li>
         <li><IoCallSharp className={styles.icon} /> +374 93 55 55 66 </li>
     </ul>
