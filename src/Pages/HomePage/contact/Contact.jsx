@@ -23,6 +23,7 @@ export default function Contact() {
  <div className={styles.two}>
 
  <h1>Get <span>in</span> Touch</h1>
+ <img src={contactimg} className={styles.mediaimg}/>
     <div className={styles.three}>
         <p>We’re here to help you every step of the way. Whether you have questions about our courses, need technical support, or just want to learn more about how [Your Digital Marketing Course Website Name] can help you achieve your goals, don’t hesitate to reach out. Our friendly and knowledgeable team is ready to assist you.</p>
 
@@ -32,7 +33,7 @@ export default function Contact() {
     <ul>
         <li><FaMapMarkerAlt className={styles.icon}/> Yerevan / Halabyan 18/1</li>
         <li> <FaLocationArrow className={styles.icon} /> info@Marketer.am</li>
-      
+        <li><IoCallSharp className={styles.icon} /> +374 93 55 55 66 </li>
     </ul>
     
      <p><IoCallSharp className={styles.icon} /> +374 93 55 55 66 </p>

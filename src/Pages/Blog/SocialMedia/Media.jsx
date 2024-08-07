@@ -66,7 +66,7 @@ export default function media() {
             </div>
           </div>
           <div className={styles.img}>
-            <img src={imgOne} />
+            <img src={imgOne} className={styles.firstimg} />
           </div>
         </div>
         <div className={styles.secondPart}>
@@ -98,7 +98,7 @@ export default function media() {
             </div>
           </div>
           <div className={styles.img}>
-            <img src={imgTwo} />
+            <img src={imgTwo} className={styles.pic} />
           </div>
         </div>
         <div className={styles.finalPart}>

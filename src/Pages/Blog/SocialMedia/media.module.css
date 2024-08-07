@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 .socialMedia .buttons p:nth-child(even) {
-  color: #FFA500;
+  color: #ffa500;
 }
 .socialMedia .mainPart .h1 {
   color: #003366;
@@ -27,7 +27,7 @@
   width: 60%;
 }
 .socialMedia .mainPart .h1 span {
-  color: #FFA500;
+  color: #ffa500;
 }
 .socialMedia .mainPart .NextPart {
   width: 100%;
@@ -41,10 +41,10 @@
   display: flex;
   flex-direction: column;
 }
-.socialMedia .mainPart .img {
-  margin-right: 50px;
+.socialMedia .mainPart .FirstPart .secondimg {
+  display: none;
 }
-.socialMedia .mainPart .img img {
+.socialMedia .mainPart .img .firstimg {
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 25px;
@@ -75,6 +75,9 @@
   line-height: 30px;
   font-weight: 400;
 }
+.socialMedia .mainPart .finalPart .secondimg {
+  display: none;
+}
 .socialMedia .mainPart .read {
   display: flex;
   justify-content: center;
@@ -104,8 +107,11 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .socialMedia {
+    width: 100%;
+  }
   .socialMedia .buttons {
-    padding: 8% 0%;
+    margin: 8% 0%;
   }
   .socialMedia .mainPart .h1 {
     width: 100%;
@@ -113,8 +119,99 @@
   .socialMedia .mainPart .NextPart {
     display: block;
   }
+  .socialMedia .mainPart .NextPart .blok .img {
+    display: none;
+  }
   .socialMedia .mainPart .NextPart .img img {
     width: 100%;
     height: auto;
+  }
+  .socialMedia .mainPart .secondPart .img {
+    display: none;
+  }
+  .socialMedia .mainPart .secondPart .second {
+    margin: 0;
+    align-items: flex-start;
+  }
+  .socialMedia .mainPart .finalPart h1 {
+    display: none;
+  }
+  .socialMedia .mainPart .finalPart .secondimg {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .socialMedia {
+    width: 100%;
+  }
+  .socialMedia .buttons {
+    margin: 15% 0%;
+  }
+  .socialMedia .mainPart .h1 {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  .socialMedia .mainPart .secondPart .img {
+    display: none;
+  }
+  .socialMedia .mainPart .finalPart .secondimg {
+    display: block;
+    height: 152px;
+    width: 100%;
+    border-radius: 25px;
+  }
+  .socialMedia .mainPart .read {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+  }
+  .socialMedia .mainPart .read h1 {
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .socialMedia {
+    width: 100%;
+    margin: 5% 2%;
+  }
+  .socialMedia p {
+    width: 100vw;
+    font-size: 20px;
+  }
+  .socialMedia ul {
+    width: 90vw;
+  }
+  .socialMedia ul li {
+    width: 90vw;
+    font-size: 35px;
+  }
+  .socialMedia .buttons {
+    margin: 22% 0%;
+    height: 10px;
+  }
+  .socialMedia .mainPart .h1 {
+    font-size: 1.6em;
+    line-height: 1.5;
+  }
+  .socialMedia .mainPart .NextPart .img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .socialMedia .mainPart .NextPart .img img {
+    width: 100vw;
+  }
+  .socialMedia .mainPart .secondPart {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .socialMedia .mainPart .secondPart .second {
+    width: 100vw;
   }
 }/*# sourceMappingURL=media.module.css.map */

@@ -4,11 +4,16 @@
   width: 100%;
   overflow: hidden;
 }
+.conteiner .mediaimg {
+  display: none;
+}
 .conteiner .img {
   position: absolute;
   left: 80%;
   top: 180px;
   z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .conteiner .buttons {
   width: 12%;
@@ -26,7 +31,7 @@
   cursor: pointer;
 }
 .conteiner .buttons p:nth-child(2) {
-  color: #FFA500;
+  color: #ffa500;
 }
 .conteiner .two {
   width: 100%;
@@ -63,6 +68,9 @@
   font-size: 2em;
   padding: 0 25px;
   color: #003366;
+}
+.conteiner .two .contact ul li:nth-child(3) {
+  display: none;
 }
 .conteiner .two .contact p {
   font-weight: 600;
@@ -131,4 +139,90 @@
   line-height: 2.1;
   font-weight: 500;
   font-size: 1.1em;
+}
+
+@media screen and (max-width: 1000px) {
+  .conteiner {
+    padding: 5% 0;
+  }
+  .conteiner .buttons {
+    padding: 5% 4%;
+  }
+  .conteiner .mediaimg {
+    display: block;
+    width: 40vw;
+    height: 500px;
+  }
+  .conteiner .two .contact ul {
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: nowrap;
+  }
+  .conteiner .two .contact ul li {
+    padding: 15px 0px;
+  }
+  .conteiner .two .contact ul li:nth-child(3) {
+    display: block;
+  }
+  .conteiner .two .contact p {
+    display: none;
+  }
+  .conteiner .two .three p {
+    width: 100%;
+    padding: 0;
+  }
+  .conteiner .conteinerTwo img {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .conteiner .two .mediaimg {
+    width: auto;
+  }
+  .conteiner .two .three {
+    width: 90%;
+    padding: 0 4%;
+  }
+  .conteiner .two .contact {
+    align-items: stretch;
+    align-content: flex-start;
+  }
+  .conteiner .two .img {
+    display: none;
+  }
+  .conteiner .conteinerTwo {
+    padding: 0;
+  }
+  .conteiner .conteinerTwo h1 {
+    width: 80%;
+  }
+  .conteiner .conteinerTwo .content {
+    justify-content: flex-start;
+  }
+  .conteiner .conteinerTwo .content .text {
+    text-align: left;
+    width: 80%;
+  }
+  .conteiner .conteinerTwo .content .text p {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .conteiner .buttons {
+    padding: 12% 8%;
+  }
+  .conteiner .two .mediaimg {
+    width: 90vw;
+    height: 400px;
+  }
+  .conteiner .two .three {
+    text-align: left;
+  }
+  .conteiner .two .contact {
+    width: 100%;
+  }
+  .conteiner .conteinerTwo h1 {
+    width: 100%;
+    font-size: 2.1em;
+  }
 }/*# sourceMappingURL=contact.module.css.map */

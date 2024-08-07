@@ -1,5 +1,5 @@
 .featuredCoursesContainer {
-    width: 100%;
+   margin: 0;
     min-height: 200px;
     margin-top: 50px;
     display: flex;
@@ -104,6 +104,7 @@
 }
 @media screen and (max-width: 1000px) {
     .featuredCoursesContainer {
+        width: 100%;
         .featuredCoursesDescription {
             width: 100%;
         }
@@ -126,6 +127,7 @@
 }
 @media screen and (max-width: 600px) {
     .featuredCoursesContainer {
+        width: 100%;
         .featuredCoursesDescription {
             width: 100%;
         }
@@ -182,8 +184,10 @@
 
 @media screen and (max-width: 400px) {
     .featuredCoursesContainer {
-        
+      
+        width: 100%;
         .cardsBox {
+            width: 100%;
             justify-content: space-between;
             .one {
                 width: 150px;
