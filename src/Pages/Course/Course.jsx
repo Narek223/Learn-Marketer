@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./courses.module.scss";
-import newimg from "../../../public/assets/Homepage_Images/Featured Courses/Group 1000014917 (1).png"
+import newimg from "../../assets/Homepage_Images/Featured Courses/Group 1000014917 (1).png"
 import Courses from "../HomePage/courses/Courses";
 
 export default function Course() {

@@ -1,16 +1,12 @@
 import React from "react";
 import styles from "./about.module.scss";
-
-import imgOne from "../../../public/assets/AboutUsImages/Vector.png"
-import imgTwo from "../../../public/assets/AboutUsImages/Group (1).png"
-import imgThree from "../../../public/assets/AboutUsImages/Vector (1).png"
-
+import imgOne from "../../../src/assets/AboutUsImages/Vector.png";
+import imgTwo from "../../../src/assets/AboutUsImages/Group (1).png";
+import imgThree from "../../../src/assets/AboutUsImages/Vector (1).png";
 import CountUp from "react-countup";
-import { useInView } from 'react-intersection-observer';
-
+import { useInView } from "react-intersection-observer";
 
 export default function Numbers() {
-
   const [ref, inView] = useInView({
     triggerOnce: false,
   });
@@ -35,14 +31,23 @@ export default function Numbers() {
       lastH1: "Project Complated",
     },
   ];
- 
 
   return (
     <div className={styles.aboutTwo}>
       {arr.map((elem) => (
         <div className={styles.one} key={elem.id} ref={ref}>
           <img src={elem.img} />
-          <h1>{<CountUp start={0} end={inView ? elem.firstH1 : null} duration={3} delay={2} /> }+</h1>
+          <h1>
+            {
+              <CountUp
+                start={0}
+                end={inView ? elem.firstH1 : null}
+                duration={3}
+                delay={2}
+              />
+            }
+            +
+          </h1>
           <h1>{elem.lastH1}</h1>
         </div>
       ))}

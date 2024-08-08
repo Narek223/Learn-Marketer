@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from './contact.module.scss'
-import contactimg from '../../../../public/assets/ContactPageImages/Frame_5.png'
+import contactimg from  "../../../assets/ContactPageImages/Frame_5.png"
+
 import { FaMapMarkerAlt, FaLocationArrow } from "react-icons/fa";
 import {  IoIosArrowForward } from "react-icons/io";
 import { IoCallSharp } from "react-icons/io5";
-import vector from  "../../../../public/assets/ContactPageImages/Vector 28973.png"
+import vector from  "../../../assets/ContactPageImages/Vector 28973.png"
+
 import { NavLink } from "react-router-dom";
 
 
@@ -32,8 +34,8 @@ export default function Contact() {
     <div className={styles.contact}>
     <ul>
         <li > <a href="https://www.google.com/maps/place/40.1974479,44.4771885" target="_blank"><FaMapMarkerAlt className={styles.icon}/> Yerevan / Halabyan 18/1</a></li>
-        <li> <FaLocationArrow className={styles.icon} /> info@Marketer.am</li>
-        <li><IoCallSharp className={styles.icon} /> +374 93 55 55 66 </li>
+        <li><a href="mailto:info@Marketer.am"> <FaLocationArrow className={styles.icon} /> info@Marketer.am</a></li>
+        <li><a href="tel:+37493555566"><IoCallSharp className={styles.icon} /> +374 93 55 55 66 </a> </li>
     </ul>
     
      <p><IoCallSharp className={styles.icon} /> +374 93 55 55 66 </p>

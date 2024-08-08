@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import styles from "./header.module.css";
 import { FaAlignJustify } from "react-icons/fa";
 import { MdClear } from "react-icons/md";
-import logo from "../../../public/assets/logo/logo.png";
+import logo from "../../assets/logo/logo.png"
 import { useLocation } from "react-router-dom";
 
 export default function Header() {

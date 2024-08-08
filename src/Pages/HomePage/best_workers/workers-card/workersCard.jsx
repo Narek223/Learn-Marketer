@@ -28,9 +28,6 @@ export default function WorkersCard({ imgSrc, name, position, worker }) {
             ))}
           </div>
         </div>
-        {/* {socialIcons.map(({ icon: Icon, id:index }) => (
-                <li key={index}><Icon /></li>
-                ))} */}
       </div>
 
       <h1>{name}</h1>

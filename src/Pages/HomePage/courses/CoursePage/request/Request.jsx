@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './request.module.scss'
 import Primary_button from '../../../../../shered_components/buttons/primary_button/Primary_button'
-import photo from '../../../../../../public/assets/Homepage_Images/ThankYou/Group (4).png'
+import photo from '../../../../../assets/Homepage_Images/ThankYou/Group (4).png'
 import { NavLink } from "react-router-dom";
 
 export default function Request() {

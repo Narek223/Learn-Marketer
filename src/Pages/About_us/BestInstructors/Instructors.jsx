@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./instructors.module.scss";
 import InstructorsCard from "./InstructorsCard"
-import imgOne from '../../../../public/assets/AboutUsImages/Ellipse 1212.png'
-import imgTwo from '../../../../public/assets/AboutUsImages/Ellipse 1213.png'
-import imgThree from '../../../../public/assets/AboutUsImages/Ellipse 1214.png'
-import imgFour from '../../../../public/assets/AboutUsImages/Ellipse 1210.png'
-import imgFife from '../../../../public/assets/AboutUsImages/Ellipse 1211.png'
-import imgSix from '../../../../public/assets/AboutUsImages/Ellipse 1206.png'
+import imgOne from '../../../assets/AboutUsImages/Ellipse 1212.png'
+import imgTwo from '../../../assets/AboutUsImages/Ellipse 1213.png'
+import imgThree from '../../../assets/AboutUsImages/Ellipse 1214.png'
+import imgFour from '../../../assets/AboutUsImages/Ellipse 1210.png'
+import imgFife from '../../../assets/AboutUsImages/Ellipse 1211.png'
+import imgSix from '../../../assets/AboutUsImages/Ellipse 1206.png'
 
 export default function Instructors() {
 
