@@ -10,7 +10,7 @@ import Blog from './Pages/Blog/Blog';
 import Media from './Pages/Blog/SocialMedia/Media';
 import CoursePage from './Pages/HomePage/courses/CoursePage/CoursePage';
 import  Request from './Pages/HomePage/courses/CoursePage/request/Request' 
-import Contact from './Pages/HomePage/contact/Contact';
+import Contact from './Pages/contact/Contact';
 import ScrollToTop from './Pages/HomePage/ScrollToTop';
 import './App.css'
 

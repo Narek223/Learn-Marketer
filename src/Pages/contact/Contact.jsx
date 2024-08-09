@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './contact.module.scss'
-import contactimg from  "../../../assets/ContactPageImages/Frame_5.png"
+import contactimg from  "../../assets/ContactPageImages/Frame_5.png"
 
 import { FaMapMarkerAlt, FaLocationArrow } from "react-icons/fa";
 import {  IoIosArrowForward } from "react-icons/io";
 import { IoCallSharp } from "react-icons/io5";
-import vector from  "../../../assets/ContactPageImages/Vector 28973.png"
+import vector from  "../../assets/ContactPageImages/Vector 28973.png"
 
 import { NavLink } from "react-router-dom";
 

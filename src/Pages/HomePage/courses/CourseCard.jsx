@@ -9,10 +9,7 @@ export default function CourseCard({ data }) {
       <div className={styles.image}>
         <img src={data.info.imgSrc} alt={data.title} />
       </div>
-      {/* <p>
-        <span className={styles.span}>{data.details[0]}</span>
-        {data.details[data.details.length -1]}
-      </p> */}
+
       <div className={styles.infoBox}>
         <div className={styles.duration}>
         <p>{data.details[0]}</p>

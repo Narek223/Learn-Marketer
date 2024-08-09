@@ -1,17 +1,18 @@
 import { useState } from "react";
-import pic from '../../../assets/Homepage_Images/Opinion/Frame.png'
-import { text } from "./obj";
+import pic from "../../../assets/Homepage_Images/Opinion/Frame.png";
+import { text } from "./data";
 import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa";
 import styles from "./opinion.module.scss";
+import contactimg from "../../../assets/ContactPageImages/Frame_5.png";
 
 export default function Opinion() {
-  let [stete, setstate] = useState(0);
+  let [state, setstate] = useState(0);
 
   let next = () => {
-    setstate(stete == text.length - 1 ? 0 : stete + 1);
+    setstate(state == text.length - 1 ? 0 : state + 1);
   };
   let prev = () => {
-    setstate(stete === 0 ? text.length - 1 : stete - 1);
+    setstate(state === 0 ? text.length - 1 : state - 1);
   };
 
   return (
@@ -20,30 +21,31 @@ export default function Opinion() {
         What <span className={styles.span}> people say</span>
       </h1>
       <div className={styles.opinion_2}>
-        <div>
+        <div className={styles.images}>
           <img src={pic} />
+          <img src={contactimg} />
         </div>
 
         <div className={styles.opinion}>
           <div className={styles.text}>
             <div className={styles.stars}>
-              <p>{text[stete].name}</p>
+              <p>{text[state].name}</p>
               <div className={styles.icons}>
-                <FaStar className={styles.stars} />
-                <FaStar className={styles.stars} />
-                <FaStar className={styles.stars} />
-                <FaStar className={styles.stars} />
-                <FaStar className={styles.stars} />
+                {Array.from({ length: 5 }, (_, index) => (
+                  <FaStar className={styles.stars} key={index} />
+                ))}
               </div>
             </div>
-            <p>{text[stete].p} </p>
-            <p>{text[stete].text} </p>
-            <button onClick={prev}>
-              <FaArrowLeft />
-            </button>
-            <button onClick={next}>
-              <FaArrowRight />
-            </button>
+            <p>{text[state].p} </p>
+            <p className={styles.description}>{text[state].text} </p>
+            <div className={styles.buttons}>
+              <button onClick={prev}>
+                <FaArrowLeft />
+              </button>
+              <button onClick={next}>
+                <FaArrowRight />
+              </button>
+            </div>
           </div>
         </div>
       </div>
