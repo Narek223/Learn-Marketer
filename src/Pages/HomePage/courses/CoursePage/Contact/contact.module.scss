@@ -64,9 +64,42 @@ line-height: 0.9;
 
 
 
+@media screen and (max-width: 1200px) {
+.form{
+    .formTwo{
+        width: 90%;
+        h1{
+
+        }
+    }
+    .registr{
+        width: 40vw;
+
+    }
+}
+
+}
 
 
-
+@media screen and (max-width: 600px) {
+    .form{
+        .formTwo{
+            width: 90%;
+            h1{
+                width: 100vw;
+                font-size: 35px;
+            }
+        }
+        .registr{
+            width: 80vw;
+    
+        }
+    }
+    
+    }
+    
+    
+    
 
 
 

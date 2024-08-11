@@ -54,4 +54,25 @@
 .form .link {
   color: aliceblue;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .form .formTwo {
+    width: 90%;
+  }
+  .form .registr {
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .form .formTwo {
+    width: 90%;
+  }
+  .form .formTwo h1 {
+    width: 100vw;
+    font-size: 35px;
+  }
+  .form .registr {
+    width: 80vw;
+  }
 }/*# sourceMappingURL=contact.module.css.map */

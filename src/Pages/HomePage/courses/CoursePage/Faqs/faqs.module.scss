@@ -47,3 +47,85 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .faqs {
+      .h1{
+          width: 70vw;
+      }
+        .cont{
+            width: 85vw;
+            height: 500px;
+        }
+    }
+  }
+
+
+@media screen and (max-width: 1000px) {
+      .faqs {
+        .h1{
+            width: 70vw;
+        }
+          .cont{
+              width: 90vw;
+              height: 500px;
+          }
+      }
+    }
+  
+
+    @media screen and (max-width: 600px) {
+        .faqs {
+            padding: 12% 0;
+          .h1{
+              width: 70vw;
+              font-size: 25px;
+              line-height: 1.7;
+              font-weight: 300;
+              margin-right: 35px;
+          }
+            .cont{
+                width: 80vw;
+                height: 300px;
+                .faq{
+                    width: 90vw;
+                    .test{
+                        .questions{
+                            font-size: 15px;
+                        }
+                        h2{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+      }
+    
+    
+      @media screen and (max-width: 400px) {
+        .faqs {
+          .h1{
+              width: 80vw;
+              font-size: 25px;
+          }
+            .cont{
+                width: 90vw;
+                height: 400px;
+                .faq{
+                    width: 90vw;
+                    .test{
+                        .questions{
+                            font-size: 13px;
+                        }
+                        h2{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+      }
+    
+    
+    

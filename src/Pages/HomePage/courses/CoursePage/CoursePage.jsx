@@ -49,25 +49,25 @@ export default function CoursePage() {
           </div>
         </div>
       </div>
-      <div className={styles.main}>
-        <div>
-          <div className={styles.second}>
-            <h1>Key Topics</h1>
-            <ul>
-              {courseKeyTopics.map((elem) => (
-                <li>{elem}</li>
-              ))}
-            </ul>
-            <h1>Course Highlights</h1>
-            <ul>
-              {CourseHighlights.map((elem) => (
-                <li>{elem}</li>
-              ))}
-            </ul>
-          </div>
-        </div>
-        <img src={imgone} />
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <Contact />
       <Faqs />
     </div>

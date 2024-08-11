@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './choose.module.scss'
-import { arr } from "./choose";
+import { arr } from "./data";
 import ChooseCard from "./ChooseCard";
 
 export default function Choose() {

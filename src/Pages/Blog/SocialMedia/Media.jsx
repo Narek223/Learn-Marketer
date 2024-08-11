@@ -12,21 +12,21 @@ export default function media() {
     <div className={styles.socialMedia}>
       <div className={styles.buttons}>
         <NavLink className={styles.link} to="/">
-          Home
+          HOME
         </NavLink>
         <p>
           {" "}
           <IoIosArrowForward />
         </p>
         <NavLink className={styles.link} to="/Blog">
-          Blog
+          BLOG
         </NavLink>
         <p>
           {" "}
           <IoIosArrowForward />
         </p>
         <NavLink className={styles.link} to="/Blog">
-          Articles
+          ARTICLES
         </NavLink>
       </div>
       <div className={styles.mainPart}>

@@ -43,4 +43,67 @@
   font-size: 1.2em;
   width: 80%;
   color: #003366;
+}
+
+@media screen and (max-width: 1200px) {
+  .faqs .h1 {
+    width: 70vw;
+  }
+  .faqs .cont {
+    width: 85vw;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .faqs .h1 {
+    width: 70vw;
+  }
+  .faqs .cont {
+    width: 90vw;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .faqs {
+    padding: 12% 0;
+  }
+  .faqs .h1 {
+    width: 70vw;
+    font-size: 25px;
+    line-height: 1.7;
+    font-weight: 300;
+    margin-right: 35px;
+  }
+  .faqs .cont {
+    width: 80vw;
+    height: 300px;
+  }
+  .faqs .cont .faq {
+    width: 90vw;
+  }
+  .faqs .cont .faq .test .questions {
+    font-size: 15px;
+  }
+  .faqs .cont .faq .test h2 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .faqs .h1 {
+    width: 80vw;
+    font-size: 25px;
+  }
+  .faqs .cont {
+    width: 90vw;
+    height: 400px;
+  }
+  .faqs .cont .faq {
+    width: 90vw;
+  }
+  .faqs .cont .faq .test .questions {
+    font-size: 13px;
+  }
+  .faqs .cont .faq .test h2 {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=faqs.module.css.map */

@@ -95,4 +95,82 @@
 }
 .course .first h1 span {
   color: #ffa500;
+}
+
+@media screen and (max-width: 1000px) {
+  .course {
+    padding: 12% 22%;
+  }
+  .course .first .main img {
+    width: 60vw;
+  }
+  .course .main .second {
+    width: 300px;
+  }
+  .course .faqs .cont {
+    width: 90vw;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .course {
+    padding: 8% 10%;
+    min-height: 300px;
+  }
+  .course .first {
+    min-height: 300px;
+  }
+  .course .first .main {
+    position: static;
+    min-height: 300px;
+  }
+  .course .first .main p {
+    position: static;
+    width: 100%;
+    font-size: 1.1em;
+  }
+  .course .first .main img {
+    display: none;
+  }
+  .course .first .btnConteiner {
+    justify-content: center;
+  }
+  .course .first .btnConteiner .buttons button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .course {
+    padding: 15% 5%;
+    min-height: 300px;
+  }
+  .course .first {
+    min-height: 300px;
+  }
+  .course .first h1 {
+    font-size: 30px;
+    text-align: start;
+  }
+  .course .first .main {
+    position: static;
+    min-height: 100px;
+  }
+  .course .first .main p {
+    position: static;
+    width: 100%;
+    font-size: 1.1em;
+  }
+  .course .first .main img {
+    display: none;
+  }
+  .course .first .btnConteiner {
+    justify-content: center;
+  }
+  .course .first .btnConteiner .buttons {
+    width: 100%;
+  }
+  .course .first .btnConteiner .buttons button {
+    width: 100%;
+    height: 58px;
+  }
 }/*# sourceMappingURL=coursepage.module.css.map */

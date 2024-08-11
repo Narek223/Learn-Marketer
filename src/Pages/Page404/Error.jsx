@@ -8,7 +8,7 @@ export default function Error() {
     <div className={styles.error}>
 <p>Opps... Page not found</p>
 
-<img src={error}/>
+<img className={styles.errorimg} src={error}/>
 <img  className={styles.err} src={ErrorPicture}/>
 
     </div>

@@ -46,7 +46,7 @@
   font-weight: 800;
 }
 .container .main img {
-  padding: 25px;
+  padding: 25px 0;
 }
 .container .main .one {
   width: 80%;
@@ -57,20 +57,18 @@
   border-right-color: #657790;
   line-height: 20px;
 }
-.container .main .one .text {
-  padding: 25px;
-}
 .container .main .one .text p {
   line-height: 1.5;
   color: #657790;
-  font-weight: 800;
+  font-weight: 400;
 }
 .container .main .one p {
-  padding: 15px;
+  padding: 15px 0;
 }
 
 @media screen and (max-width: 1000px) {
   .container {
+    margin: 100px 20px;
     min-height: 400px;
   }
   .container .title_2 p {

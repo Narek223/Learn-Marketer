@@ -21,4 +21,27 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 1.6;
+}
+
+@media screen and (max-width: 1000px) {
+  .request {
+    padding: 20% 0;
+  }
+  .request .requestTwo img {
+    width: 80vw;
+  }
+  .request .requestTwo p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .request {
+    padding: 25% 0;
+  }
+  .request .requestTwo img {
+    width: 80vw;
+  }
+  .request .requestTwo p {
+    width: 90%;
+  }
 }/*# sourceMappingURL=request.module.css.map */
