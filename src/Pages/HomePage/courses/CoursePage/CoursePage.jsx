@@ -52,7 +52,33 @@ export default function CoursePage() {
 
 
 
+      <div className={styles.main}>
+    <div>
+      <div className={styles.second}>
+        <h1>Key Topics</h1>
+        <ul>
+          <li>Advanced Keyword Research </li>
+          <li>On-Page and Off-Page SEO </li>
+          <li>Technical SEO Optimization </li>
+          <li> Link Building Strategies</li>
+          <li>SEO Analytics and Reporting </li>
+        </ul>
+        <div className={styles.CourseHighlights}>
+        <h1>Course Highlights</h1>
+        <ul>
+          <li>Expert-led tutorials </li>
+          <li>Real-world SEO projects </li>
+          <li>Access to SEO tools and resources </li>
+          <li> Certification upon completion</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div className={styles.CurseImg}>
+    <img src={imgone} />
+    </div>
 
+  </div>
 
 
 

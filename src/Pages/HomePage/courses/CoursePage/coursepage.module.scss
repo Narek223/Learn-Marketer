@@ -1,5 +1,6 @@
 .course {
   padding: 5% 25%;
+
   .buttons {
     width: 20%;
     font-weight: 600;
@@ -7,45 +8,27 @@
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
+
     .link {
       text-decoration: none;
     }
+
     p {
       cursor: pointer;
+
       &:nth-child(2) {
         color: #ffa500;
       }
     }
   }
-  .main {
-    width: 100%;
-    display: flex;
 
-    img {
-      object-fit: contain;
-    }
-    .second {
-      display: flex;
-      flex-direction: column;
-      width: 25vw;
-      h1 {
-        color: #003366;
-        font-size: 30px;
-        font-weight: 400;
-      }
-      ul {
-        font-weight: 400;
-        li {
-          line-height: 40px;
-          color: #1d1d1d;
-        }
-      }
-    }
-  }
   .first {
+    height: 950px;
+
     .btnConteiner {
       width: 100%;
       display: flex;
+
       .buttons {
         width: 90%;
         display: flex;
@@ -75,10 +58,10 @@
       justify-content: center;
       align-items: flex-end;
       position: relative;
+
       p {
         position: absolute;
         width: 50%;
-
         padding: 10px;
         left: 15px;
         bottom: 1px;
@@ -86,80 +69,167 @@
         font-size: 1.1em;
         font-weight: 400;
       }
+
       img {
         width: 50vw;
         height: 80vh;
+        object-fit: contain;
       }
     }
+
     h1 {
       text-align: center;
       color: #003366;
       font-size: 40px;
+
       span {
         color: #ffa500;
       }
     }
   }
-}
-@media screen and (max-width: 1000px) {
-  .course {
-    padding: 12% 22%;
-    .buttons {
-    }
-    .first {
-        .main{
-            img{
-                width: 60vw;
-            }
+
+  .main {
+    width: 100%;
+    display: flex;
+
+    .second {
+      display: flex;
+      flex-direction: column;
+      width: 25vw;
+
+      h1 {
+        color: #003366;
+        font-size: 30px;
+        font-weight: 400;
+      }
+
+      ul {
+        font-weight: 400;
+
+        li {
+          line-height: 40px;
+          color: #1d1d1d;
         }
-    }
-    .main {
-        .second{
-            width:300px;
+      }
+
+      .CourseHighlights {
+        h1 {
+          font-size: 30px;
+          color: #003366;
         }
-  
-    }
-    .form {
-    }
-    .faqs {
-        .cont{
-            width: 90vw;
-            height: 500px;
+
+        ul {
+          li {
+            line-height: 40px;
+            color: #1d1d1d;
+          }
         }
+      }
+    }
+
+    .CurseImg {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .course {
+    padding: 12% 22%;
+    min-height: 300px;
+
+    .first {
+      height: 500px;
+
+      .main {
+        position: static;
+        flex-direction: column;
+
+        img {
+          display: none;
+        }
+
+        p {
+          position: static;
+          width: 100%;
+          font-size: 1.1em;
+        }
+      }
+    }
+
+    .main {
+      flex-direction: column;
+
+      .CurseImg {
+        width: 80%;
+        display: flex;
+  
+        img{
+          margin-right: 195px;
+        }
+      }
+
+      .second {
+        width: 100%;
+
+        .CourseHighlights {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .course {
     padding: 8% 10%;
     min-height: 300px;
-    .buttons {
-    }
+
     .first {
-      min-height: 300px;
-        .main{
+      height: 700px;
+
+      .main {
+        position: static;
+        min-height: 300px;
+
+        .second {
+          .CourseHighlights {
+            h1 {
+              width: 55%;
+            }
+          }
+        }
+
+        p {
           position: static;
-          min-height: 300px;
+          width: 100%;
+          font-size: 1.1em;
+        }
 
-          p{
-            position: static;
+        img {
+          display: none;
+        }
+      }
+
+      .btnConteiner {
+        justify-content: center;
+
+        .buttons {
+          button {
             width: 100%;
-            font-size: 1.1em;
-          }
-            img{
-              display: none;
-            }
-        }
-        .btnConteiner{
-          justify-content: center;
-          .buttons{
-            button{
-              width: 100%;
-            }
           }
         }
+      }
     }
-
   }
 }
 
@@ -167,38 +237,48 @@
   .course {
     padding: 15% 5%;
     min-height: 300px;
-    .buttons {
-    }
+
     .first {
       min-height: 300px;
-      h1{
+
+      h1 {
         font-size: 30px;
         text-align: start;
       }
-        .main{
-          position: static;
-          min-height: 100px;
 
-          p{
-            position: static;
-            width: 100%;
-            font-size: 1.1em;
-          }
-            img{
-              display: none;
-            }
+      .main {
+        position: static;
+        min-height: 100px;
+
+        p {
+          position: static;
+          width: 100%;
+          font-size: 1.1em;
         }
-        .btnConteiner{
-          justify-content: center;
-          .buttons{
-            width: 100%;
-            button{
-              width: 100%;
-              height: 58px;
-            }
-          }
+
+        img {
+          display: none;
         }
+      }
     }
 
+    .main {
+      .second {
+     
+
+        .CourseHighlights {
+          h1 {
+            width: 65%;
+          }
+        }
+      }
+
+      .CurseImg {
+        width: 100%;
+        img{
+          margin-right: 155px;
+        }
+      }
+    }
   }
 }
