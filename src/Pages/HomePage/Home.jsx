@@ -49,8 +49,7 @@ export default function Home() {
        <History /> 
        <Choose /> 
       <Courses />
-     <Opinion /> 
-       <Workers /> 
+
       <Faq />
     </div>
   );

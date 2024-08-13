@@ -49,6 +49,11 @@
 .header .container .changeLanguage p {
   color: white;
 }
+@media screen and (max-width: 1200px) {
+  .header .container {
+    padding: 0 30px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .header .container {
     padding: 0 30px;

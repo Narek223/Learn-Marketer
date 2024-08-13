@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./cours.module.scss";
-
 import CourseCard from "./CourseCard.jsx";
-
 import { courseData } from "./CoursePage/CourseData.jsx";
 
 

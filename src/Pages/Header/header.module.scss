@@ -57,6 +57,14 @@
     }
   }
 
+
+  @media screen and (max-width: 1200px) {
+    .container {
+      padding: 0 30px;
+    }
+
+
+  }
   @media screen and (max-width: 1000px) {
 
     .container {

@@ -35,11 +35,53 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .history {
+        height: 500px;
+    margin: 0;
+        padding:  0 30px;
+    
+        .image {
+            display: none;
+        }
+        .our_history {
+            width: 100%;
+            p {
+                width: 100%;
+                font-size: 1.1em;
+                line-height: 1.8;
+            }
+            .title {
+                text-align: center;
+                line-height: 0.6;
+
+                h1 {
+                    font-size: 50px;
+                    font-weight: 700;
+                    color: #003366;
+                    span {
+                        color: #ffa500;
+                    }
+                }
+                h1:nth-child(1) {
+                    color: #003366;
+                }
+                h1:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+        .btn {
+            display: none;
+        }
+    }
+}
 @media screen and (max-width: 1000px) {
     .history {
         height: 500px;
         align-items: center;
-        padding: 10px;
+        padding: 0 30px;
     
         .image {
             display: none;

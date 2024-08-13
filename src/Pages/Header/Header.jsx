@@ -51,7 +51,9 @@ export default function Header() {
           {!show ? <FaAlignJustify /> : <MdClear />}
         </p>
         <div className={styles.image}>
+        <NavLink className={styles.link} to="/">
           <img src={logo} alt="logo" />
+          </NavLink>
         </div>
         <nav className={show ? styles.openNav : styles.nav} ref={ref}>
           <NavLink className={styles.link} to="/">

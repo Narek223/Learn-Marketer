@@ -125,12 +125,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .featuredCoursesContainer {
-    width: 100%;
-  }
-  .featuredCoursesContainer .featuredCoursesDescription {
-    width: 100%;
-  }
   .featuredCoursesContainer .cardsBox .cardDescription {
     display: none;
   }
