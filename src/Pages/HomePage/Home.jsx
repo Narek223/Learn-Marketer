@@ -48,8 +48,9 @@ export default function Home() {
 
        <History /> 
        <Choose /> 
-      <Courses />
-
+      <Courses /> 
+      {/* <Opinion/> */}
+     {/* <Workers/> */}
       <Faq />
     </div>
   );

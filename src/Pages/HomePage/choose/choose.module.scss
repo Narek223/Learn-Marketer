@@ -41,7 +41,7 @@
     width: 85%;
       border-radius: 8px;
       margin-left: 8vw;
-        padding: 15px;
+    
         display: flex;
         justify-content: center;
         margin-top: 100px;
@@ -96,8 +96,8 @@ width: 98%;
   }
 @media screen and (max-width: 1000px) {
 .container{
-  margin: 100px 20px;
-
+  margin: 100px 0px;
+  padding: 0 30px;
 min-height:400px;
   .title_2{
  p{
@@ -127,6 +127,7 @@ min-height:400px;
     .one{
       width: 100%;
       border: none;
+      padding: 0;
       img{
          padding: 25px 5px;
       }
@@ -149,6 +150,7 @@ min-height:400px;
 
   .container{
     width: 100%;
+    padding: 0 30px;
     .title_2{
   width: 100vw;
     margin: 0;
@@ -160,6 +162,7 @@ min-height:400px;
       display: flex;
       align-items: flex-end;
       .one{
+        padding: 0;
        p{
         width: 100%;
        }
