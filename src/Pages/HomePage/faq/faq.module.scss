@@ -116,9 +116,12 @@ justify-content: flex-start;
             h1{
                 margin-left: 10%;
             }
+            h2{
+             font-size:1em;
+            }
             width: 100%;
 .line{
-    width: 80%;
+    width: 100%;
 }
         }
     }
@@ -126,10 +129,11 @@ justify-content: flex-start;
 @media screen and (max-width: 600px) {
 
     .cont{
+      
         .faq{
             
             .line{
-                width: 90vw;
+                width: 80vw;
             }
 
             h1{
@@ -145,7 +149,7 @@ justify-content: flex-start;
 @media screen and (max-width:570px) {
 
     .cont{
-  
+
         display: flex;
         justify-content: flex-start;
             .faq{
@@ -154,7 +158,7 @@ justify-content: flex-start;
               min-height: 100px;
                 .line{
                  
-                    width: 100vw;
+                    width: 80vw;
                 }
                 h1{
                     margin-left: 55%;

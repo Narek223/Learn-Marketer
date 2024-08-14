@@ -1,6 +1,5 @@
 .conteiner {
   line-height: 1.5;
-  margin: 10% 0;
 }
 .conteiner .section {
   margin: 5% 6%;
@@ -16,15 +15,28 @@
   color: #003366;
 }
 
+@media screen and (max-width: 1270px) {
+  .conteiner .section {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .conteiner .section img {
+    width: 40%;
+  }
+}
 @media screen and (max-width: 1000px) {
   .conteiner {
     line-height: 1.5;
     margin: 10% 0;
   }
   .conteiner .section {
-    margin: 5% 6%;
+    margin: 5% 30px;
     display: flex;
     flex-direction: column-reverse;
+  }
+  .conteiner .section img {
+    width: 80%;
   }
   .conteiner .section P {
     width: 100%;
@@ -45,6 +57,9 @@
     margin: 5% 6%;
     display: flex;
     flex-direction: column-reverse;
+  }
+  .conteiner .section img {
+    width: 100%;
   }
   .conteiner .section P {
     width: 100vw;

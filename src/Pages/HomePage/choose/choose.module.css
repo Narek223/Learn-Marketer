@@ -25,10 +25,9 @@
 }
 .container .main {
   border: 1px solid #657790;
-  width: 85%;
+  width: 80%;
   border-radius: 8px;
-  margin-left: 8vw;
-  padding: 15px;
+  margin-left: 10vw;
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -75,10 +74,24 @@
     margin-left: 0;
     width: 98%;
   }
+  .container .main .one .text h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .container .title {
+    padding: 0 151px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container .main {
+    width: 94vw;
+  }
 }
 @media screen and (max-width: 1000px) {
   .container {
-    margin: 100px 20px;
+    margin: 100px 0px;
+    padding: 0 30px;
     min-height: 400px;
   }
   .container .title_2 p {
@@ -102,6 +115,7 @@
   .container .main .one {
     width: 100%;
     border: none;
+    padding: 0;
   }
   .container .main .one img {
     padding: 25px 5px;
@@ -113,11 +127,14 @@
 }
 @media screen and (max-width: 600px) {
   .container {
-    width: 100%;
+    width: 80%;
+    padding: 0 30px;
   }
   .container .title_2 {
-    width: 100vw;
+    font-size: 1em;
+    width: 80vw;
     margin: 0;
+    padding: 0;
   }
   .container .title_2 p {
     margin: 0 15px 0 25px;
@@ -125,6 +142,9 @@
   .container .main {
     display: flex;
     align-items: flex-end;
+  }
+  .container .main .one {
+    padding: 0;
   }
   .container .main .one p {
     width: 100%;

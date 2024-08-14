@@ -82,6 +82,11 @@
   position: absolute;
   top: 42%;
 }
+@media screen and (max-width: 1400px) {
+  .main .worker {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 1000px) {
   .main .worker {
     position: relative;

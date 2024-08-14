@@ -38,9 +38,9 @@
     }
     .main{
       border: 1px solid #657790;
-    width: 85%;
+    width: 80%;
       border-radius: 8px;
-      margin-left: 8vw;
+      margin-left: 10vw;
     
         display: flex;
         justify-content: center;
@@ -89,10 +89,33 @@ width: 90%;
 .main{
 margin-left: 0;
 width: 98%;
+.one{
+  .text{
+    h1{
+      font-size: 25px;
+    }
+  }
+}
 }
   }
   
   
+  }
+  @media screen and (max-width: 1350px) {
+.container{
+  .title{
+    padding: 0 151px;
+  }
+}
+
+  }
+  @media screen and (max-width: 1200px) {
+.container{
+  .main{
+    width: 94vw;
+  }
+}
+
   }
 @media screen and (max-width: 1000px) {
 .container{
@@ -149,11 +172,15 @@ min-height:400px;
 
 
   .container{
-    width: 100%;
+
+    width: 80%;
     padding: 0 30px;
     .title_2{
-  width: 100vw;
+   font-size: 1em;
+  width: 80vw;
     margin: 0;
+    padding: 0;
+   
     p{
       margin: 0 15px 0 25px;
     }

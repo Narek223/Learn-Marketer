@@ -121,23 +121,24 @@
     align-items: baseline;
     padding: 15px 0;
     width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
   }
   .homepage .home .btn {
     width: 100%;
   }
+  .homepage .home .btn button {
+    width: 100%;
+  }
   .homepage .home h1 {
-    font-size: 2.5em;
+    font-size: 2.8em;
   }
   .homepage .home p {
     width: 90%;
   }
   .homepage .home .homeimg {
-    padding-left: 55px;
+    padding-left: 95px;
     display: block;
     height: 215px;
-    width: 250px;
+    width: 350px;
     -o-object-fit: contain;
        object-fit: contain;
   }
@@ -157,7 +158,12 @@
     width: 100%;
   }
   .homepage .home .btn {
-    width: 90%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .homepage .home .btn button {
+    width: 100%;
   }
   .homepage .home h1 {
     font-size: 3em;

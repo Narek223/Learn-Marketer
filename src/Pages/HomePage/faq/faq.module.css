@@ -101,13 +101,16 @@
   .cont .faq h1 {
     margin-left: 10%;
   }
+  .cont .faq h2 {
+    font-size: 1em;
+  }
   .cont .faq .line {
-    width: 80%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
   .cont .faq .line {
-    width: 90vw;
+    width: 80vw;
   }
   .cont .faq h1 {
     margin-left: 25%;
@@ -124,7 +127,7 @@
     min-height: 100px;
   }
   .cont .faq .line {
-    width: 100vw;
+    width: 80vw;
   }
   .cont .faq h1 {
     margin-left: 55%;

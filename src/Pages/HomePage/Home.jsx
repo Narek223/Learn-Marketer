@@ -49,8 +49,8 @@ export default function Home() {
        <History /> 
        <Choose /> 
       <Courses /> 
-      {/* <Opinion/> */}
-     {/* <Workers/> */}
+     {/* <Opinion/>  */}
+      {/* <Workers/>  */}
       <Faq />
     </div>
   );

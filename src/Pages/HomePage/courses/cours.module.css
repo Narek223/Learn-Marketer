@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: 20px;
+  overflow-x: hidden;
 }
 .featuredCoursesContainer img {
   -o-object-fit: cover;
@@ -47,7 +48,8 @@
 }
 .featuredCoursesContainer .cardsBox .one {
   line-height: 1.5;
-  width: 400px;
+  width: 350px;
+  height: 400px;
   border: 1px solid white;
   padding: 10px;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
@@ -62,6 +64,9 @@
 .featuredCoursesContainer .cardsBox .one h3:hover {
   color: #ffa500;
   transition: 0.5s;
+}
+.featuredCoursesContainer .cardsBox .one .image {
+  padding: 0;
 }
 .featuredCoursesContainer .cardsBox .one .infoBox {
   width: 100%;
@@ -85,7 +90,8 @@
 }
 .featuredCoursesContainer .cardsBox .two {
   line-height: 1.5;
-  width: 400px;
+  width: 350px;
+  height: 400px;
   border: 1px solid white;
   padding: 10px;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
@@ -103,7 +109,8 @@
 }
 .featuredCoursesContainer .cardsBox .three {
   line-height: 1.5;
-  width: 400px;
+  width: 350px;
+  height: 400px;
   border: 1px solid white;
   padding: 10px;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
@@ -124,12 +131,30 @@
   color: #18181b;
 }
 
+@media screen and (max-width: 1300px) {
+  .featuredCoursesContainer .cardsBox {
+    justify-content: flex-start;
+  }
+  .featuredCoursesContainer .cardsBox .cardDescription {
+    display: none;
+  }
+  .featuredCoursesContainer .cardsBox .one {
+    width: 480px;
+    border-radius: 6px;
+    line-height: 1;
+  }
+  .featuredCoursesContainer .cardsBox .one img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .featuredCoursesContainer .cardsBox .cardDescription {
     display: none;
   }
   .featuredCoursesContainer .cardsBox .one {
-    width: 300px;
+    width: 400px;
     border-radius: 6px;
     line-height: 1;
   }
@@ -142,6 +167,9 @@
 @media screen and (max-width: 600px) {
   .featuredCoursesContainer {
     width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
   }
   .featuredCoursesContainer .featuredCoursesDescription {
     width: 100%;
@@ -196,7 +224,10 @@
 }
 @media screen and (max-width: 400px) {
   .featuredCoursesContainer {
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    margin-left: 20px;
   }
   .featuredCoursesContainer .cardsBox {
     width: 100%;

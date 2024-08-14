@@ -121,6 +121,7 @@
 }
 @media screen and (max-width: 800px) {
   .homepage {
+    
  height:auto;
 
     .img {
@@ -131,26 +132,31 @@
         display: flex;
         flex-direction: column;
         align-items:baseline;
+       
         padding: 15px 0;
       width: 100%;
-      object-fit: contain;
+ 
    
       .btn{
         width: 100%;
+ 
+        button{
+          width: 100%;
+        }
        
       }
       h1 {
-        font-size: 2.5em;
+        font-size: 2.8em;
       }
       p {
         width: 90%;
       }
 
       .homeimg {
-padding-left: 55px;
+padding-left: 95px;
         display: block;
         height: 215px;
-        width: 250px;
+        width: 350px;
         object-fit: contain;
       }
     }
@@ -158,9 +164,11 @@ padding-left: 55px;
 }
 @media screen and (max-width: 600px) {
   .homepage {
+
  height:auto;
     .img {
       display: none;
+     
     }
 
     .home {
@@ -171,7 +179,13 @@ padding-left: 55px;
       width: 100%;
    
       .btn{
-        width: 90%;
+        width: 100%;
+        margin: 0;
+     padding:0;
+        button{
+          width: 100%;
+        }
+       
       }
       h1 {
         font-size: 3em;
@@ -192,6 +206,7 @@ padding-left: 55px;
 
 @media screen and (max-width: 400px) {
 .homepage{
+
     .home{
         h1{
             font-size: 40px;
