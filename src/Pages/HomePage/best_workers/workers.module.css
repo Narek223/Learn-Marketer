@@ -84,7 +84,41 @@
 }
 @media screen and (max-width: 1400px) {
   .main .worker {
+    width: 85%;
+  }
+  .main .worker .workersInfoBox {
+    margin-right: 220px;
+  }
+  .main .worker .workersInfoBox h1 {
+    font-size: 55px;
+  }
+  .main .worker .workersInfoBox p {
+    width: 400px;
+  }
+  .main .worker .imgBox .imgMary {
+    width: 580px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .main .worker {
     width: 90%;
+  }
+  .main .worker .workersInfoBox {
+    margin-right: 100px;
+  }
+  .main .worker .workersInfoBox h1 {
+    font-size: 50px;
+  }
+  .main .worker .workersInfoBox p {
+    width: 380px;
+  }
+  .main .worker .imgBox {
+    width: 50%;
+    background-image: none;
+  }
+  .main .worker .imgBox .imgMary {
+    width: 540px;
+    height: auto;
   }
 }
 @media screen and (max-width: 1000px) {

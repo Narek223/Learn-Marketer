@@ -149,12 +149,45 @@
     border-radius: 6px;
   }
 }
+@media screen and (max-width: 1130px) {
+  .featuredCoursesContainer .cardsBox {
+    justify-content: center;
+  }
+  .featuredCoursesContainer .cardsBox .cardDescription {
+    display: none;
+  }
+  .featuredCoursesContainer .cardsBox .one {
+    width: 450px;
+    border-radius: 6px;
+    line-height: 1;
+  }
+  .featuredCoursesContainer .cardsBox .one img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .featuredCoursesContainer .cardsBox .cardDescription {
     display: none;
   }
   .featuredCoursesContainer .cardsBox .one {
     width: 400px;
+    border-radius: 6px;
+    line-height: 1;
+  }
+  .featuredCoursesContainer .cardsBox .one img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .featuredCoursesContainer .cardsBox .cardDescription {
+    display: none;
+  }
+  .featuredCoursesContainer .cardsBox .one {
+    width: 300px;
     border-radius: 6px;
     line-height: 1;
   }

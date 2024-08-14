@@ -93,14 +93,58 @@
   }
 }
 @media screen and (max-width: 1400px) {
-.main{
-  .worker{
-    width: 90%;
+  .main {
+    .worker {
+      width: 85%;
+      .workersInfoBox {
+        margin-right: 220px;
+        h1 {
+          font-size: 55px;
+        }
+        p {
+          width: 400px;
+        }
+      }
+      .imgBox {
+        .imgMary {
+          width: 580px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    .worker {
+      width: 90%;
+      .workersInfoBox {
+        margin-right: 100px;
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          width: 380px;
+        }
+      }
+      .imgBox {
+        width: 50%;
+        background-image: none;
+        .imgMary {
+          width: 540px;
+          height: auto;
+        }
+      }
+    }
   }
 }
 
 
-}
+
+
+
+
+
 @media screen and (max-width: 1000px) {
   .main {
     .worker {

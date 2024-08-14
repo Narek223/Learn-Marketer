@@ -133,7 +133,27 @@
 
 }
 
+@media screen and (max-width: 1130px) {
+    .featuredCoursesContainer {
+      
+        .cardsBox {
+            justify-content: center;
+            .cardDescription {
+                display: none;
+            }
+            .one {
+                width: 450px;
+                border-radius: 6px;
+                line-height: 1;
 
+                img {
+                    object-fit: cover;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 1000px) {
     .featuredCoursesContainer {
@@ -158,6 +178,31 @@
         }
     }
 }
+
+@media screen and (max-width: 950px) {
+    .featuredCoursesContainer {
+      
+        .featuredCoursesDescription {
+            
+        }
+        .cardsBox {
+            .cardDescription {
+                display: none;
+            }
+            .one {
+                width: 300px;
+                border-radius: 6px;
+                line-height: 1;
+
+                img {
+                    object-fit: cover;
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 600px) {
     .featuredCoursesContainer {
         width: 100%;
