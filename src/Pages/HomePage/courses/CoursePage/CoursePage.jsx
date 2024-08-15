@@ -22,17 +22,7 @@ export default function CoursePage() {
 
   return (
     <div className={styles.course}>
-      <div className={styles.buttons}>
-        <NavLink className={styles.link} to="/">
-          Home
-        </NavLink>
-        <p>
-          <IoIosArrowForward />
-        </p>
-        <NavLink to="/Course" className={styles.link}>
-          Course
-        </NavLink>
-      </div>
+      
       <div className={styles.first}>
         <h1>{courseTitle}</h1>
         <div>

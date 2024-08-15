@@ -135,6 +135,7 @@
       img {
         width: 100%;
         height: auto;
+        object-fit: contain
       }
     }
   }
@@ -235,7 +236,7 @@
 
 @media screen and (max-width: 400px) {
   .course {
-    padding: 15% 5%;
+    padding: 15% 30px;
     min-height: 300px;
 
     .first {

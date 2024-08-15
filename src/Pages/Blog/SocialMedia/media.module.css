@@ -1,5 +1,5 @@
 .socialMedia {
-  padding: 5% 10%;
+  padding: 5% 151px;
 }
 .socialMedia .buttons {
   width: 20%;
@@ -106,9 +106,21 @@
   width: 90%;
 }
 
+@media screen and (max-width: 1200px) {
+  .socialMedia {
+    width: 90%;
+    padding: 5% 30px;
+  }
+  .socialMedia .mainPart .NextPart .blok .FirstPart {
+    width: 500px;
+  }
+  .socialMedia .mainPart .read {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 1000px) {
   .socialMedia {
-    width: 100%;
+    width: 90%;
   }
   .socialMedia .buttons {
     margin: 8% 0%;
@@ -119,11 +131,14 @@
   .socialMedia .mainPart .NextPart {
     display: block;
   }
+  .socialMedia .mainPart .NextPart .blok .FirstPart {
+    width: 100%;
+  }
   .socialMedia .mainPart .NextPart .blok .img {
     display: none;
   }
   .socialMedia .mainPart .NextPart .img img {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
   .socialMedia .mainPart .secondPart .img {

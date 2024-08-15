@@ -167,9 +167,6 @@
     bottom: 125px;
     left: 40%;
   }
-  .main .worker .imgBox {
-    margin-left: 85px;
-  }
   .main .worker .imgBox .imgMary {
     width: auto;
   }
@@ -184,7 +181,7 @@
     padding: 0 55px 0 145px;
   }
   .main .worker .imgBox {
-    margin-left: 80px;
+    margin-left: 50px;
   }
   .main .worker .imgBox .imgMary {
     line-height: 0;

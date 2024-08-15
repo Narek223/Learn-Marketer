@@ -1,22 +1,5 @@
 .conteiner {
-  padding: 5% 10%;
-  .buttons {
-    width: 15%;
-    font-weight: 600;
-    color: #003366;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-    .link {
-      text-decoration: none;
-    }
-    p {
-      cursor: pointer;
-      &:nth-child(2) {
-        color: #ffa500;
-      }
-    }
-  }
+  padding: 5% 151px;
   .title {
     height: 20%;
     h1 {
@@ -98,9 +81,15 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+.conteiner{
+  padding: 5% 30px;
+}
+
+}
 @media screen and (max-width: 700px) {
   .conteiner {
-    padding: 5% 1%;
+    padding: 5% 30px;
     .title {
         h1{
             margin: 5% 1%;
@@ -108,19 +97,24 @@
       
     }
     .blogs {
+      width: 42%;
+
       p {
         font-size: 15px;
       }
     }
-    .buttons {
-      display: none;
-    }
+    // .buttons {
+      // display: none;
+    // }
   }
 }
 
 @media screen and (max-width: 500px) {
     .conteiner {
-      padding: 12% 1%;
+  
+      .main{
+
+      }
       .title {
           h1{
               margin: 5% 1%;
@@ -137,9 +131,9 @@
       
         }
       }
-      .buttons {
-        display: none;
-      }
+      // .buttons {
+        // display: none;
+      // }
     }
   }
   

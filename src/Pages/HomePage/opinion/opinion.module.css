@@ -74,6 +74,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .conteier_4 {
+    margin: 15% 30px;
+  }
   .conteier_4 .opinion_2 p:nth-child(3) {
     line-height: 20px;
     font-size: 17px;
@@ -101,6 +104,9 @@
   .conteier_4 .opinion_2 .images img:nth-child(2) {
     display: block;
   }
+  .conteier_4 .opinion_2 .opinion .text {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 600px) {
   .conteier_4 {
@@ -110,7 +116,6 @@
   }
   .conteier_4 .opinion_2 {
     align-items: center;
-    flex-direction: column-reverse;
     width: 95%;
   }
   .conteier_4 .opinion_2 .images {
@@ -126,8 +131,8 @@
     height: 500px;
     display: block;
     position: absolute;
-    right: 65%;
-    bottom: 2%;
+    right: 55%;
+    bottom: 21%;
   }
   .conteier_4 .opinion_2 .opinion {
     width: 60%;
@@ -168,8 +173,12 @@
   .conteier_4 .opinion_2 .opinion {
     width: 100%;
   }
+  .conteier_4 .opinion_2 .opinion .text {
+    width: 100%;
+  }
   .conteier_4 .opinion_2 .opinion .text .description {
-    font-size: 19px;
+    width: 100%;
+    font-size: 14px;
   }
   .conteier_4 .opinion_2 .opinion .text .buttons {
     font-size: 1em;

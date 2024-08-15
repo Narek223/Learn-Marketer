@@ -83,15 +83,34 @@ line-height: 0.9;
 
 @media screen and (max-width: 600px) {
     .form{
+
         .formTwo{
             width: 90%;
             h1{
-                width: 100vw;
+                width: 80%;
                 font-size: 35px;
             }
         }
         .registr{
-            width: 80vw;
+            width: 70vw;
+    
+        }
+    }
+    
+    }
+    
+    @media screen and (max-width: 400px) {
+    .form{
+        
+        .formTwo{
+            width:90%;
+            h1{
+                width: 90%;
+                font-size: 35px;
+            }
+        }
+        .registr{
+            width: 70vw;
     
         }
     }
@@ -99,6 +118,13 @@ line-height: 0.9;
     }
     
     
+    
+
+
+
+
+
+
     
 
 

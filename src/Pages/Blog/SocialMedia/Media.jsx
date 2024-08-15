@@ -5,30 +5,13 @@ import imgOne from  "../../../assets/BlogCardImages/charlesdeluvio-Lks7vei-eAg-u
 import imgTwo from  "../../../assets/BlogCardImages/Rectangle 8645.png"
 import imgthree from '../../../assets/BlogCardImages/Rectangle 8645 (1).png'
 import Primary_button from "../../../shered_components/buttons/primary_button/Primary_button";
-import {  IoIosArrowForward } from "react-icons/io";
+import {IoIosArrowForward } from "react-icons/io";
+import Path from "../../../shered_components/path trace/Path";
 
 export default function media() {
   return (
     <div className={styles.socialMedia}>
-      <div className={styles.buttons}>
-        <NavLink className={styles.link} to="/">
-          HOME
-        </NavLink>
-        <p>
-          {" "}
-          <IoIosArrowForward />
-        </p>
-        <NavLink className={styles.link} to="/Blog">
-          BLOG
-        </NavLink>
-        <p>
-          {" "}
-          <IoIosArrowForward />
-        </p>
-        <NavLink className={styles.link} to="/Blog">
-          ARTICLES
-        </NavLink>
-      </div>
+      {<Path path="Home"  currentPage="Blog" icon={<IoIosArrowForward />} nextPage="Articles" link='/Blog'/>}
       <div className={styles.mainPart}>
         <h1 className={styles.h1}>
           <span> Top Social Media </span> Marketing Strategies for Small

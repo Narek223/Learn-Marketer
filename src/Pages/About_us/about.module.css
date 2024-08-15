@@ -1,5 +1,5 @@
 .about {
-  padding: 8% 10%;
+  padding: 5% 151px;
   display: flex;
   flex-direction: column;
   margin-left: 2%;
@@ -79,11 +79,8 @@
   font-size: 18px;
 }
 @media screen and (max-width: 1200px) {
-  .about .aboutTwo {
-    gap: 15px;
-  }
-  .about .aboutTwo .one {
-    width: 45%;
+  .about {
+    padding: 5% 30px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -106,9 +103,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .about {
-    padding: 80px 20px;
-  }
   .about .new_title {
     display: none;
   }
@@ -135,7 +129,7 @@
 }
 @media screen and (max-width: 400px) {
   .about .part_one p {
-    width: 100vw;
+    width: 95vw;
   }
   .about .aboutTwo {
     display: flex;

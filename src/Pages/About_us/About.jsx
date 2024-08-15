@@ -3,10 +3,12 @@ import styles from "./about.module.scss";
 import photo from '../../assets/AboutUsImages/Group23.png'
 import Numbers from "./Numbers";
 import Instructors from "./BestInstructors/Instructors";
+import Path from "../../shered_components/path trace/Path";
 
 export default function About() {
   return (
     <div className={styles.about}>
+         {<Path path="Home"  currentPage="About"/>}
       <div className={styles.new_title}>
         <h1>We Have 7 Years Of Experience On Digital Agency</h1>
       </div>

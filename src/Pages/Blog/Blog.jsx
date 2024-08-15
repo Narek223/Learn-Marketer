@@ -1,22 +1,14 @@
 import React from "react";
 import styles from "./blog.module.scss";
-import { NavLink } from "react-router-dom";
 import BlogCart from "./BlogCard.jsx";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-
+import Path from "../../shered_components/path trace/Path.jsx";
 
 
 export default function Blog() {
   return (
     <div className={styles.conteiner}>
-      <div className={styles.buttons}>
-        <NavLink className={styles.link} to="/">
-          HOME
-        </NavLink>
-        <p> <IoIosArrowForward />
-        </p>
-        <NavLink className={styles.link}> BLOG</NavLink>
-      </div>
+      {<Path path="Home"  currentPage="Blog"/>}
       <div className={styles.title}>
         <h1>
           Welcome to the LearnMarketer <span>Blog! </span>

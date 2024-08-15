@@ -75,6 +75,8 @@
 
 @media screen and (max-width: 1000px) {
     .conteier_4 {
+        margin: 15% 30px;
+ 
         .opinion_2 {
             p:nth-child(3) {
                 line-height: 20px;
@@ -100,7 +102,9 @@
 }
 @media screen and (max-width: 800px) {
     .conteier_4 {
+
         .opinion_2 {
+
             width: 100%;
             .images {
                 margin-right: 50px;
@@ -113,6 +117,7 @@
             }
             .opinion {
                 .text {
+                    margin: 0;
                     .stars {
                     }
                     .description {
@@ -131,7 +136,7 @@
         .opinion_2 {
             align-items: center;
 
-            flex-direction: column-reverse;
+       
             width: 95%;
             .images {
                 margin: 0;
@@ -144,8 +149,8 @@
                     height: 500px;
                     display: block;
                     position: absolute;
-                    right: 65%;
-                    bottom: 2%;
+                    right: 55%;
+                    bottom: 21%;
                 }
             }
             .opinion {
@@ -199,10 +204,12 @@
             .opinion {
                 width: 100%;
                 .text {
+                    width: 100%;
                     .stars {
                     }
                     .description {
-                        font-size: 19px;
+                        width: 100%;
+                        font-size: 14px;
                     }
                     .buttons {
                         font-size: 1em;

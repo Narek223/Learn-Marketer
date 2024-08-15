@@ -1,5 +1,5 @@
 .socialMedia {
-    padding: 5% 10%;
+    padding: 5% 151px;
 
 
     .buttons {
@@ -122,9 +122,30 @@
     }
 }
 
+
+@media screen and (max-width: 1200px) {
+    .socialMedia {
+        width: 90%;
+        padding: 5% 30px;
+        .mainPart{
+            .NextPart{
+                .blok{
+                    .FirstPart{
+                        width: 500px;
+                    }
+                }
+            }
+            .read{
+                width: 90%;
+            }
+        }
+        }
+    }
+
+
 @media screen and (max-width: 1000px) {
     .socialMedia {
-        width: 100%;
+        width: 90%;
         .buttons {
             margin: 8% 0%;
         }
@@ -136,6 +157,7 @@
                 display: block;
                 .blok {
                     .FirstPart {
+                        width: 100%;
                     }
                     .img {
                         display: none;
@@ -143,7 +165,7 @@
                 }
                 .img {
                     img {
-                        width: 100%;
+                        width: 90%;
                         height: auto;
                     }
                 }
