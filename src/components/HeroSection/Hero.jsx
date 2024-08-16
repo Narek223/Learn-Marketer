@@ -8,23 +8,34 @@ import img from "../../assets/Homepage_Images/Home/Frame 1.png";
 function Hero() {
   return (
     <div className={styles.heroContainer}>
-      <div className={styles.home}>
-        <h1>
-          Find most exciting <span>online courses</span>
+      {/* <div className={styles.home}> */}
+      <div className={styles.infoBox}>
+        <h1 className={styles.pageTitle}>
+          Find most exciting <span className={styles.orangeText}>online courses</span>
         </h1>
+
         <p>
           At LearnMarketer, our journey began in 2017 with a vision to empower
           individuals.
         </p>
-        {/* <img src={medaiImg} className={styles.homeimg} /> */}
-        <div className={styles.btn}>
-          <NavLink className={styles.src} to="Course">
+
+        <div className={styles.buttonBox}>
+          <NavLink className={styles.courseBtn} to="Course">
             <Primary_button>Explore Courses </Primary_button>
           </NavLink>
 
-          <NavLink className={styles.btnTwo} to="Contact">
+          <NavLink className={styles.contactBtn} to="Contact">
             <Secondary_button>Contact us </Secondary_button>
           </NavLink>
+        </div>
+
+      </div>
+        
+      
+        {/* <img src={medaiImg} className={styles.homeimg} /> */}
+        
+        <div className={styles.ImgBox}>
+
         </div>
         {/* <h1>
           Find most exciting <span>online courses</span>
@@ -47,7 +58,7 @@ function Hero() {
       <div className={styles.img}>
         <img src={img} />
         <img src={medaiImg} /> */}
-      </div>
+      {/* </div> */}
     </div>
   );
 }

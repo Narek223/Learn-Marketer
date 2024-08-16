@@ -1,77 +1,104 @@
 .heroContainer {
-    width: 100vw;
+    // width: 100%;
     min-height: 200px;
     margin-top: 60px;
+    padding: 0 151px;
     display: flex;
-    border: 1px solid #000;
-
-
-
-
-    
-    // align-items: flex-start;
-    // position: relative;
-
-    // .home {
-    //     margin: 10%;
-    //     width: 35%;
-    //     .homeimg {
-    //       display: none;
-    //     }
-    //     h1 {
-    //       color: #003366;
-    //       font-size: 4em;
-    //       span {
-    //         color: #ffa500;
-    //       }
-    //     }
-    
-    //     .btn {
-    //       display: flex;
-    
-    //       .btnTwo {
-    //         width: 185px;
-    //         height: 60px;
-    //         z-index: 2;
-    //         color: #003366;
-    //         text-decoration: none;
-    //         margin: 0 25px;
-    //         &:hover {
-    //           color: #ffa500;
-    //         }
-    //       }
-    //       .src {
-    //         width: 222px;
-    //         height: 60px;
-    //         text-decoration: none;
-    //         color: white;
-    //       }
-    //     }
-    //     p {
-    //       font-size: 2em;
-    //       padding: 5px;
-    //     }
-    //   }
-
-    //   .img {
-    //     position: absolute;
-    //     left: 30%;
-    //     top: 15%;
-    //     margin-top: 15%;
-    //     margin-left: 5%;
-    //     z-index: 1;
-    //     img {
-    //       background-size: contain;
-    //       object-fit: contain;
-    //       &:nth-child(2) {
-    //         display: none;
-    //       }
-    //     }
-    //   }
-      
-
+    justify-content: center;
+    align-items: center;
 }
 
+.infoBox {
+    width: 60%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1px solid green;
+}
+
+.pageTitle {
+    width: 485px;
+    min-height: 20px;
+    font-size: 54px;
+}
+
+.orangeText {
+    font-size: 54px;
+    color: #FFA500;
+}
+
+.buttonBox {
+    width: 420px;
+    min-height: 50px;
+}
+
+.ImgBox {
+    width: 40%;
+    min-height: 200px;
+    border: 1px solid orange;
+}
+
+// align-items: flex-start;
+// position: relative;
+
+// .home {
+//     margin: 10%;
+//     width: 35%;
+//     .homeimg {
+//       display: none;
+//     }
+//     h1 {
+//       color: #003366;
+//       font-size: 4em;
+//       span {
+//         color: #ffa500;
+//       }
+//     }
+
+//     .btn {
+//       display: flex;
+
+//       .btnTwo {
+//         width: 185px;
+//         height: 60px;
+//         z-index: 2;
+//         color: #003366;
+//         text-decoration: none;
+//         margin: 0 25px;
+//         &:hover {
+//           color: #ffa500;
+//         }
+//       }
+//       .src {
+//         width: 222px;
+//         height: 60px;
+//         text-decoration: none;
+//         color: white;
+//       }
+//     }
+//     p {
+//       font-size: 2em;
+//       padding: 5px;
+//     }
+//   }
+
+//   .img {
+//     position: absolute;
+//     left: 30%;
+//     top: 15%;
+//     margin-top: 15%;
+//     margin-left: 5%;
+//     z-index: 1;
+//     img {
+//       background-size: contain;
+//       object-fit: contain;
+//       &:nth-child(2) {
+//         display: none;
+//       }
+//     }
+//   }
 
 // @media screen and (max-width: 1400px) {
 //     .heroContainer {
@@ -80,7 +107,7 @@
 //         left: 40%;
 //         img {
 //           width: 40vw;
-  
+
 //           &:nth-child(1) {
 //             display: block;
 //             left: 30%;
@@ -91,7 +118,7 @@
 //           }
 //         }
 //       }
-  
+
 //       .home {
 //         margin: 15% 12%;
 //         h1 {
@@ -103,14 +130,14 @@
 //       }
 //     }
 //   }
-  
+
 //   @media screen and (max-width: 1200px) {
 //     .heroContainer {
 //       .img {
 //         left: 50%;
 //         img {
 //           width: 30vw;
-  
+
 //           &:nth-child(1) {
 //             display: none;
 //           }
@@ -119,7 +146,7 @@
 //           }
 //         }
 //       }
-  
+
 //       .home {
 //         margin: 15% 30px;
 //         width: 50%;
@@ -134,29 +161,28 @@
 //   }
 //   @media screen and (max-width: 800px) {
 //     .heroContainer {
-      
+
 //    height:auto;
-  
+
 //       .img {
 //         display: none;
 //       }
-  
+
 //       .home {
 //           display: flex;
 //           flex-direction: column;
 //           align-items:baseline;
-         
+
 //           padding: 15px 0;
 //         width: 100%;
-   
-     
+
 //         .btn{
 //           width: 100%;
-   
+
 //           button{
 //             width: 100%;
 //           }
-         
+
 //         }
 //         h1 {
 //           font-size: 2.8em;
@@ -164,7 +190,7 @@
 //         p {
 //           width: 90%;
 //         }
-  
+
 //         .homeimg {
 //   padding-left: 95px;
 //           display: block;
@@ -181,16 +207,16 @@
 //    height:auto;
 //       .img {
 //         display: none;
-       
+
 //       }
-  
+
 //       .home {
 //           display: flex;
 //           flex-direction: column;
 //           align-items:baseline;
 //           padding: 15px 0;
 //         width: 100%;
-     
+
 //         .btn{
 //           width: 100%;
 //           margin: 0;
@@ -198,7 +224,7 @@
 //           button{
 //             width: 100%;
 //           }
-         
+
 //         }
 //         h1 {
 //           font-size: 3em;
@@ -206,7 +232,7 @@
 //         p {
 //           width: 90%;
 //         }
-  
+
 //         .homeimg {
 //   padding-left: 55px;
 //           display: block;
@@ -216,10 +242,10 @@
 //       }
 //     }
 //   }
-  
+
 //   @media screen and (max-width: 400px) {
 //   .heroContainer{
-  
+
 //       .home{
 //           h1{
 //               font-size: 40px;
@@ -230,12 +256,12 @@
 //           .homeimg{
 //               object-fit: contein;
 //               height: 315px;
-       
+
 //           }
 //           .btn{
 //               width: 100%;
 //           }
 //       }
 //   }
-  
+
 //   }
