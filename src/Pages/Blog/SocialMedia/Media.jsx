@@ -6,7 +6,7 @@ import imgTwo from  "../../../assets/BlogCardImages/Rectangle 8645.png"
 import imgthree from '../../../assets/BlogCardImages/Rectangle 8645 (1).png'
 import Primary_button from "../../../shered_components/buttons/primary_button/Primary_button";
 import {IoIosArrowForward } from "react-icons/io";
-import Path from "../../../shered_components/path trace/Path";
+import Path from "../../../shered_components/pathTrace/Path";
 
 export default function media() {
   return (

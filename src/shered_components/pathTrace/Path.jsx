@@ -1,10 +1,9 @@
 import React from "react";
 import styles from "./path.module.scss";
 import { NavLink } from "react-router-dom";
-import {  IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
-
-export default function Path({ path, currentPage,link,icon,nextPage }) {
+export default function Path({ path, currentPage, link, icon, nextPage }) {
   return (
     <div className={styles.main}>
       <div className={styles.buttons}>
@@ -14,11 +13,11 @@ export default function Path({ path, currentPage,link,icon,nextPage }) {
         <p>
           <IoIosArrowForward />
         </p>
-        <NavLink className={styles.link} to={link}>{currentPage}</NavLink>
-        <p>
-{icon}
-  </p>
-  <NavLink className={styles.link} >{nextPage}</NavLink>
+        <NavLink className={styles.link} to={link}>
+          {currentPage}
+        </NavLink>
+        <p>{icon}</p>
+        <NavLink className={styles.link}>{nextPage}</NavLink>
       </div>
     </div>
   );

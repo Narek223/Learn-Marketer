@@ -12,7 +12,7 @@
 .main .buttons p {
   cursor: pointer;
   font-size: 22;
-  margin: 5px;
+  margin: 5px 0;
 }
 .main .buttons p:nth-child(2) {
   color: #ffa500;

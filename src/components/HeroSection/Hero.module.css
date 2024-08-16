@@ -1,0 +1,7 @@
+.heroContainer {
+  width: 100vw;
+  min-height: 200px;
+  margin-top: 60px;
+  display: flex;
+  border: 1px solid #000;
+}/*# sourceMappingURL=Hero.module.css.map */

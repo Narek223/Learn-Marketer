@@ -125,14 +125,11 @@
     display: none;
   }
   .conteier_4 .opinion_2 .images img:nth-child(2) {
-    -o-object-fit: cover;
-       object-fit: cover;
     width: 400px;
     height: 500px;
     display: block;
     position: absolute;
     right: 55%;
-    bottom: 21%;
   }
   .conteier_4 .opinion_2 .opinion {
     width: 60%;

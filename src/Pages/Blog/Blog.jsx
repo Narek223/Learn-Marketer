@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./blog.module.scss";
 import BlogCart from "./BlogCard.jsx";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import Path from "../../shered_components/path trace/Path.jsx";
+import Path from "../../shered_components/pathTrace/Path.jsx";
 
 
 export default function Blog() {
