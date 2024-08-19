@@ -23,6 +23,10 @@
   height: 100%;
 }
 .header .container .MenuIcon {
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
   color: #FFA500;
   display: none;
   cursor: pointer;
@@ -42,9 +46,6 @@
   text-decoration: none;
   color: white;
   margin: 0 6%;
-}
-.header .container .changeLanguage {
-  margin-left: auto;
 }
 .header .container .changeLanguage p {
   color: white;
@@ -83,10 +84,7 @@
     font-size: 1.5em;
   }
   .header .container .MenuIcon {
-    display: block;
-  }
-  .header .container .image {
-    margin-left: auto;
+    display: flex;
   }
 }
 

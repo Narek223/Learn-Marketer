@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import styles from "./header.module.css";
 import { FaAlignJustify } from "react-icons/fa";
 import { MdClear } from "react-icons/md";
-import logo from "../../assets/logo/logo.png"
+import logo from "../../assets/logo/mobile-logo.png"
 import { useLocation } from "react-router-dom";
 
 export default function Header() {
@@ -47,13 +47,13 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <p className={styles.MenuIcon} onClick={handleShowNavBar}>
+        <div className={styles.MenuIcon} onClick={handleShowNavBar}>
           {!show ? <FaAlignJustify /> : <MdClear />}
-        </p>
+        </div>
         <div className={styles.image}>
-        <NavLink className={styles.link} to="/">
-          <img src={logo} alt="logo" />
-          </NavLink>
+          <NavLink className={styles.link} to="/">
+            <img src={logo} alt="logo" />
+            </NavLink>
         </div>
         <nav className={show ? styles.openNav : styles.nav} ref={ref}>
           <NavLink className={styles.link} to="/">

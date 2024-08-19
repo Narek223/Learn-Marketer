@@ -3,7 +3,7 @@ import styles from "./about.module.scss";
 import photo from '../../assets/AboutUsImages/Group23.png'
 import Numbers from "./Numbers";
 import Instructors from "./BestInstructors/Instructors";
-import Path from "../../shered_components/path trace/Path";
+import Path from "../../shered_components/pathTrace/Path";
 
 export default function About() {
   return (

@@ -84,7 +84,6 @@
   text-align: center;
   align-items: center;
   flex-direction: column;
-  border-left: 5px solid red;
   margin-top: 55px;
 }
 .socialMedia .mainPart .read .src {
@@ -98,6 +97,7 @@
   font-size: 24px;
   line-height: 39px;
   color: #003366;
+  border-left: 5px solid red;
 }
 .socialMedia p {
   font-size: 16px;
@@ -115,7 +115,7 @@
     width: 500px;
   }
   .socialMedia .mainPart .read {
-    width: 90%;
+    width: 90vw;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -182,7 +182,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: start;
+    width: 100%;
   }
   .socialMedia .mainPart .read h1 {
     font-size: 20px;

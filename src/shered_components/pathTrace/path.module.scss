@@ -1,0 +1,57 @@
+.main {
+  margin: 25px 0;
+
+  .buttons {
+    width: 10%;
+    font-weight: 600;
+    color: #003366;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .link {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+
+    p {
+      cursor: pointer;
+      font-size: 22px;
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+.ArrowIcon{
+  color: #ffa500;
+
+}
+   
+   
+   
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .main {
+    margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main {
+    margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    margin: 50px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    margin: 55px 0;
+  }
+}

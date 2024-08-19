@@ -269,8 +269,8 @@
     margin: 0;
     padding: 0;
     
-        width: 100vw;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 40px;
 
         .cardsBox {
             width: 100%;
@@ -300,7 +300,7 @@
 
                     .format {
                         height: 13px;
-                        font-size: 15px;
+                        font-size: 12px;
                         display: flex;
                         justify-content: center;
                         align-items: center;

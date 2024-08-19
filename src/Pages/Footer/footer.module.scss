@@ -44,7 +44,17 @@ ul{
 
 
 }
+@media screen and (max-width: 400px) {
 
+    footer{
+        height: 100%;
+        .footer{
+            text-align: center;
+            margin-left:55px;
+        }
+    }
+    
+    }
 @media screen and (max-width: 400px) {
 
 footer{
