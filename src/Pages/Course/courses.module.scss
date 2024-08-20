@@ -1,6 +1,8 @@
 .conteiner {
     line-height: 1.5;
-
+    .featuredCoursesContainer{
+    margin-left: 0;
+}
     .section {
         margin: 5% 6%;
         display: flex;
@@ -60,6 +62,7 @@
     .conteiner {
         line-height: 1.5;
         margin: 10% 0;
+        
         .section {
             margin: 5% 6%;
             display: flex;

@@ -58,13 +58,19 @@
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
-  border-radius: 10px;
+}
+.about .aboutTwo .one .imgbox {
+  width: 116px;
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgb(230, 235, 240);
 }
 .about .aboutTwo .one img {
-  background-color: rgb(230, 235, 240);
-  padding: 20px;
-  border-radius: 50%;
-  margin-bottom: 15px;
+  width: 46px;
+  height: 48px;
 }
 .about .aboutTwo .one h1 {
   font-size: 24px;
@@ -140,6 +146,13 @@
   .about .aboutTwo .one {
     width: 22vw;
     margin-right: 30px;
+  }
+  .about .aboutTwo .one .imgbox {
+    width: 81px;
+    height: 81px;
+  }
+  .about .aboutTwo .one h1:nth-child(2) {
+    font-size: 29px;
   }
   .about .aboutTwo .one img {
     border-radius: 30px;

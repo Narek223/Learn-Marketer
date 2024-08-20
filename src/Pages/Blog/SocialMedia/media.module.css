@@ -168,21 +168,31 @@
   .socialMedia .mainPart .h1 {
     font-size: 1.5em;
     line-height: 1.5;
+    width: 70%;
   }
   .socialMedia .mainPart .secondPart .img {
     display: none;
   }
+  .socialMedia .mainPart .secondPart .second ul {
+    width: 90%;
+  }
+  .socialMedia .mainPart .finalPart ul li {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 90%;
+  }
   .socialMedia .mainPart .finalPart .secondimg {
     display: block;
     height: 152px;
-    width: 100%;
+    width: 90%;
     border-radius: 25px;
   }
   .socialMedia .mainPart .read {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
   }
   .socialMedia .mainPart .read h1 {
     font-size: 20px;
@@ -191,11 +201,10 @@
 }
 @media screen and (max-width: 400px) {
   .socialMedia {
-    width: 100%;
-    margin: 5% 2%;
+    width: 90%;
   }
   .socialMedia p {
-    width: 100vw;
+    width: 100%;
     font-size: 20px;
   }
   .socialMedia ul {
@@ -210,6 +219,7 @@
     height: 10px;
   }
   .socialMedia .mainPart .h1 {
+    width: 90%;
     font-size: 1.6em;
     line-height: 1.5;
   }
@@ -225,8 +235,22 @@
     padding: 0;
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
   .socialMedia .mainPart .secondPart .second {
-    width: 100vw;
+    width: 100%;
+  }
+  .socialMedia .mainPart .secondPart .second ul {
+    width: auto;
+  }
+  .socialMedia .mainPart .finalPart .secondimg {
+    width: 100%;
+  }
+  .socialMedia .mainPart .read {
+    width: 100%;
+  }
+  .socialMedia .mainPart .read h1 {
+    width: 100%;
+    line-height: 25px;
   }
 }/*# sourceMappingURL=media.module.css.map */

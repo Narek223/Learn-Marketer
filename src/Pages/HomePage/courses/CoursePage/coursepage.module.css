@@ -206,12 +206,13 @@
     position: static;
     width: 100%;
     font-size: 1.1em;
+    padding: 0;
   }
   .course .first .main img {
     display: none;
   }
   .course .main .second .CourseHighlights h1 {
-    width: 65%;
+    width: 80%;
   }
   .course .main .CurseImg {
     width: 100%;

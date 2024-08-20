@@ -1,0 +1,24 @@
+.cardContainer {
+    width: 380px;
+    height: 100%;
+    padding-left: 48px;
+    border-right: 1px solid #E5EAF1;
+
+    &:nth-child(3) { 
+        border: none;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .cardContainer {
+        width: 100%;  
+        height: unset;
+        min-height: 50px;
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 40px;
+    }   
+}

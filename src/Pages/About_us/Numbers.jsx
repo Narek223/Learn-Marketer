@@ -36,7 +36,10 @@ export default function Numbers() {
     <div className={styles.aboutTwo}>
       {arr.map((elem) => (
         <div className={styles.one} key={elem.id} ref={ref}>
-          <img src={elem.img} />
+          <div className={styles.imgbox}>
+            <img src={elem.img} />
+          </div>
+
           <h1>
             {
               <CountUp

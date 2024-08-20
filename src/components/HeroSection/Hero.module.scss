@@ -87,6 +87,17 @@
     }
   }
 }
+@media screen and (max-width: 1310px) {
+  .heroContainer {
+    .infoBox {
+    }
+    .ImgBox {
+      img {
+        right: 10px;
+      }
+    }
+  }
+}
 @media screen and (max-width: 1300px) {
   .heroContainer {
     .infoBox {
@@ -95,7 +106,18 @@
       width: 35%;
 
       img {
-        right: 40px;
+     
+        height: 300px;
+        object-fit: cover;
+        margin-top: 50px;
+        margin-right: 100px;
+        &:nth-child(1) {
+          display: none;
+        }
+
+        &:nth-child(2) {
+          display: block;
+        }
       }
     }
   }
@@ -187,19 +209,24 @@
 
 @media screen and (max-width: 600px) {
     .heroContainer {
+   
+    
 
-        width: 100%;
+        width: 98%;
       height: 100%;
       display: flex;
       align-items: center;
       overflow-x: hidden;
       .infoBox {
-  width: 100%;
+  width: 80%;
         display: flex;
   align-items:flex-start;
-  padding: 0 80px;
-        .pageTitle {
-        }
+  justify-content: center;
+
+  p{
+    width: 80%;
+  }
+      
   
         .homeimg {
           display: block;
@@ -222,9 +249,17 @@
 .heroContainer{
 
 .infoBox{
+  width: 100%;
     padding: 0 20px;
     p{
-        width: 100%;
+      width: 90%;
+    }
+    .buttonBox{
+      width: 400px;
+      button{
+        padding: 15px 0;
+   width: 190px;
+      }
     }
 }
 

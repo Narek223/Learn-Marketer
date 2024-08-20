@@ -1,6 +1,9 @@
 .conteiner {
   line-height: 1.5;
 }
+.conteiner .featuredCoursesContainer {
+  margin-left: 0;
+}
 .conteiner .section {
   margin: 5% 6%;
   display: flex;

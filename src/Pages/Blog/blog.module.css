@@ -129,7 +129,6 @@
   }
   .conteiner .blogs p {
     height: auto;
-    font-size: 12px;
-    line-height: 13px;
+    line-height: 10px;
   }
 }/*# sourceMappingURL=blog.module.css.map */

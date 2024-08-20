@@ -1,3 +1,6 @@
+.main {
+  margin: 25px 0;
+}
 .main .buttons {
   width: 10%;
   font-weight: 600;
@@ -8,13 +11,17 @@
 }
 .main .buttons .link {
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .main .buttons p {
   cursor: pointer;
-  font-size: 22;
+  font-size: 22px;
   margin: 5px 0;
+  display: flex;
+  align-items: center;
 }
-.main .buttons p:nth-child(2) {
+.main .buttons p .ArrowIcon {
   color: #ffa500;
 }
 
@@ -26,6 +33,11 @@
 @media screen and (max-width: 1200px) {
   .main {
     margin: 25px 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main {
+    margin: 50px 0;
   }
 }
 @media screen and (max-width: 400px) {
