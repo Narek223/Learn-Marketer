@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './choose.module.scss'
-import { arr } from "./data";
+import { chooseData } from "./data";
 import ChooseCard from "./chooseCard/ChooseCard";
 
 export default function Choose() {
@@ -20,7 +20,7 @@ export default function Choose() {
       </div>
       <div className={styles.main}>
 
-          {arr.map((elem) => (
+          {chooseData.map((elem) => (
             <ChooseCard key={elem.id} data={elem}/>
           ))}
      

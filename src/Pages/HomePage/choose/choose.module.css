@@ -1,7 +1,7 @@
 .container {
   min-height: 400px;
   margin: 100px 0;
-  border: 1px solid #000;
+  width: 100%;
 }
 .container .title_2 {
   text-align: center;
@@ -17,24 +17,22 @@
   color: #003366;
 }
 .container .title_2 h1 .change_color {
-  color: #FFA500;
+  color: #ffa500;
 }
 .container .title_2 p {
   font-size: 1.1em;
   margin: 0 50px 0 50px;
 }
 .container .main {
-  border: 1px solid #657790;
+  border: 1px solid #E5EAF1;
   width: 80%;
   border-radius: 8px;
   margin-left: 10vw;
+  padding: 42px 0px;
   display: flex;
   justify-content: center;
   margin-top: 100px;
   align-items: flex-start;
-}
-.container .main div:nth-child(3) {
-  border: none;
 }
 .container .main div:nth-child(3) .text_3 {
   padding: 25px;
@@ -50,6 +48,7 @@
 .container .main .one {
   width: 80%;
   padding: 15px 25px;
+  padding-left: 55px;
   border-right-width: 2px;
   border-right-height: 25px;
   border-right-style: solid;
@@ -90,6 +89,7 @@
 }
 @media screen and (max-width: 1000px) {
   .container {
+    width: 90%;
     margin: 100px 0px;
     padding: 0 30px;
     min-height: 400px;
@@ -126,9 +126,12 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
   .container .title_2 {
     font-size: 1em;
-    width: 100%;
+    width: 80%;
     margin: 0;
     padding: 0;
   }
@@ -138,6 +141,7 @@
   .container .main {
     display: flex;
     align-items: flex-end;
+    width: 80%;
   }
   .container .main .one {
     padding: 0;

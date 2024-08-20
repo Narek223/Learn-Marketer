@@ -159,17 +159,16 @@
 }
 @media screen and (max-width: 600px) {
   .heroContainer {
-    width: 98%;
+    width: 85%;
     height: 100%;
     display: flex;
     align-items: center;
     overflow-x: hidden;
   }
   .heroContainer .infoBox {
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
   }
   .heroContainer .infoBox p {
     width: 80%;
@@ -185,16 +184,34 @@
     display: none;
   }
 }
+@media screen and (max-width: 500px) {
+  .heroContainer .infoBox .buttonBox {
+    width: 380px;
+  }
+  .heroContainer .infoBox .buttonBox button {
+    width: 180px;
+    padding: 15px 20px 15px 20px;
+  }
+  .heroContainer .infoBox p {
+    width: 100%;
+  }
+  .heroContainer .ImgBox {
+    display: none;
+  }
+}
 @media screen and (max-width: 400px) {
   .heroContainer .infoBox {
     width: 100%;
     padding: 0 20px;
   }
+  .heroContainer .infoBox p {
+    width: 90%;
+  }
   .heroContainer .infoBox .buttonBox {
-    width: 400px;
+    width: 350px;
   }
   .heroContainer .infoBox .buttonBox button {
-    padding: 15px 0;
-    width: 190px;
+    width: 155px;
+    padding: 15px 20px 15px 20px;
   }
 }/*# sourceMappingURL=Hero.module.css.map */

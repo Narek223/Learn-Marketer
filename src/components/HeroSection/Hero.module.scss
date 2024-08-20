@@ -106,7 +106,6 @@
       width: 35%;
 
       img {
-     
         height: 300px;
         object-fit: cover;
         margin-top: 50px;
@@ -185,7 +184,6 @@
     height: 100%;
 
     .infoBox {
-
       display: flex;
 
       .pageTitle {
@@ -193,9 +191,9 @@
 
       .homeimg {
         display: block;
-    
+
         display: block;
-       
+
         width: 350px;
         object-fit: contain;
       }
@@ -206,68 +204,79 @@
   }
 }
 
-
 @media screen and (max-width: 600px) {
-    .heroContainer {
-   
-    
-
-        width: 98%;
-      height: 100%;
+  .heroContainer {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    .infoBox {
+      width: 90%;
       display: flex;
-      align-items: center;
-      overflow-x: hidden;
-      .infoBox {
-  width: 80%;
-        display: flex;
-  align-items:flex-start;
-  justify-content: center;
+      align-items: flex-start;
 
-  p{
-    width: 80%;
+
+      p {
+        width: 80%;
+      }
+
+      .homeimg {
+        display: block;
+        margin-right: 95px;
+
+        width: 350px;
+        object-fit: contain;
+      }
+    }
+    .ImgBox {
+      display: none;
+    }
   }
-      
-  
-        .homeimg {
-          display: block;
-          margin-right: 95px;
+}
+@media screen and (max-width: 500px) {
+  .heroContainer {
+    .infoBox {
+      .buttonBox {
+        width: 380px;
 
-          width: 350px;
-          object-fit: contain;
+        button {
+          width: 180px;
+          padding: 15px 20px 15px 20px;
         }
       }
-      .ImgBox {
-        display: none;
+      p {
+        width: 100%;
+      }
+
+      .homeimg {
+      }
+    }
+    .ImgBox {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .heroContainer {
+    .infoBox {
+      width: 100%;
+      padding: 0 20px;
+      p {
+        width: 90%;
+      }
+
+      .buttonBox {
+        width: 350px;
+        button {
+          width: 155px;
+          padding: 15px 20px 15px 20px;
+        }
       }
     }
   }
-
-
-
-  
-    @media screen and (max-width: 400px) {
-.heroContainer{
-
-.infoBox{
-  width: 100%;
-    padding: 0 20px;
-    p{
-      width: 90%;
-    }
-    .buttonBox{
-      width: 400px;
-      button{
-        padding: 15px 0;
-   width: 190px;
-      }
-    }
 }
-
-}
-  }
-  
-
-
 
 // align-items: flex-start;
 // position: relative;
