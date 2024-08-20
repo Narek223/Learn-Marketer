@@ -10,13 +10,13 @@ export default function Path({ path, currentPage, link, icon, nextPage }) {
         <NavLink className={styles.link} to="/">
           {path}
         </NavLink>
-        <p>
+        <p className={styles.ArrowIcon}>
           <IoIosArrowForward />
         </p>
         <NavLink className={styles.link} to={link}>
           {currentPage}
         </NavLink>
-        <p>{icon}</p>
+        <p className={styles.ArrowIcon} >{icon}</p>
         <NavLink className={styles.link}>{nextPage}</NavLink>
       </div>
     </div>
