@@ -32,7 +32,7 @@ export default function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

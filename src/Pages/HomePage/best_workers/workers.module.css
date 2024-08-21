@@ -99,11 +99,12 @@
     width: 580px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .main .worker {
     width: 90%;
   }
   .main .worker .workersInfoBox {
+    width: 40%;
     margin-right: 100px;
   }
   .main .worker .workersInfoBox h1 {
@@ -114,6 +115,33 @@
   }
   .main .worker .imgBox {
     width: 50%;
+    background-image: none;
+  }
+  .main .worker .imgBox .imgMary {
+    width: 540px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .main {
+    width: 90%;
+    padding: 0 30px;
+  }
+  .main .worker {
+    width: 100%;
+  }
+  .main .worker .workersInfoBox {
+    width: 40%;
+    margin-right: 50px;
+  }
+  .main .worker .workersInfoBox h1 {
+    font-size: 50px;
+  }
+  .main .worker .workersInfoBox p {
+    width: 380px;
+  }
+  .main .worker .imgBox {
+    width: calc(10% - 50px);
     background-image: none;
   }
   .main .worker .imgBox .imgMary {
@@ -156,8 +184,16 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .main {
+    width: 80%;
+  }
+  .main .worker .workersInfoBox {
+    margin: 0;
+    width: 100%;
+  }
   .main .worker .workersInfoBox p {
     text-align: center;
+    width: 100%;
   }
   .main .worker .workersInfoBox h1 {
     font-size: 50px;
@@ -167,29 +203,10 @@
     bottom: 125px;
     left: 40%;
   }
+  .main .worker .imgBox {
+    width: 100%;
+  }
   .main .worker .imgBox .imgMary {
     width: auto;
-  }
-}
-@media screen and (max-width: 400px) {
-  .main .worker .workersInfoBox h1 {
-    margin-left: 55px;
-  }
-  .main .worker .workersInfoBox p {
-    text-align: start;
-    width: 400px;
-    padding: 0 55px 0 145px;
-  }
-  .main .worker .imgBox {
-    margin-left: 50px;
-  }
-  .main .worker .imgBox .imgMary {
-    line-height: 0;
-  }
-  .main .worker .imgBox .imgMary h1 {
-    font-size: 20px;
-  }
-  .main .worker .imgBox .imgMary p {
-    font-size: 15px;
   }
 }/*# sourceMappingURL=workers.module.css.map */

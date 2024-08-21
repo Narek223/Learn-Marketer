@@ -114,11 +114,12 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .main {
     .worker {
       width: 90%;
       .workersInfoBox {
+        width: 40%;
         margin-right: 100px;
         h1 {
           font-size: 50px;
@@ -140,6 +141,35 @@
 }
 
 
+@media screen and (max-width: 1130px) {
+  .main {
+    width: 90%;
+    padding: 0 30px;
+    .worker {
+      width: 100%;
+
+      .workersInfoBox {
+        width: 40%;
+        margin-right: 50px;
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          width: 380px;
+        }
+      }
+      .imgBox {
+  
+        width: calc(50% - 40% - 50px);
+        background-image: none;
+        .imgMary {
+          width: 540px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
 
 
 
@@ -183,13 +213,18 @@
 }
 @media screen and (max-width: 600px) {
   .main {
+    width: 80%;
     .worker {
       .workersInfoBox {
+        margin: 0;
+        width: 100%;
 p{
   text-align: center;
+  width: 100%;
 }
 h1{
   font-size: 50px;
+
 }
 
 .seeAllBtn {
@@ -199,7 +234,7 @@ h1{
 }
       }
       .imgBox {
-    
+    width: 100%;
         .imgMary {
           width:auto;
           
@@ -210,37 +245,37 @@ h1{
 }
 
 
-@media screen and (max-width: 400px) {
+// @media screen and (max-width: 400px) {
 
-  .main{
-    .worker{
-      .workersInfoBox{
-       h1{
-        margin-left: 55px;
-       }
-        p{
-          text-align: start;
-          width: 400px;
-        padding: 0 55px 0 145px;
-        }
-      }
-      .imgBox{
-        margin-left: 50px;
+//   .main{
+//     .worker{
+//       .workersInfoBox{
+//        h1{
 
-        .imgMary{
-          line-height: 0;
-          h1{
-            font-size: 20px;
-          }
-          p{
-            font-size: 15px;
-          }
-        }
-      }
-    }
-  }
+//        }
+//         p{
+//           text-align: start;
+//           width:100%;
+   
+//         }
+//       }
+//       .imgBox{
+   
 
-
+//         .imgMary{
+//           line-height: 0;
+//           h1{
+//             font-size: 20px;
+//           }
+//           p{
+//             font-size: 15px;
+//           }
+//         }
+//       }
+//     }
+//   }
 
 
-}
+
+
+// }

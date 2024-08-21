@@ -31,7 +31,7 @@
   line-height: 0.1;
 }
 .main .mainTwo button {
-  background-color: #BACEE2;
+  background-color: #bacee2;
   color: rgb(42, 38, 38);
   border-radius: 10%;
   height: 15%;
@@ -64,7 +64,7 @@
   color: white;
 }
 .main .mainTwo .instructors p {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 
 @media screen and (max-width: 1000px) {
@@ -80,6 +80,7 @@
 }
 @media screen and (max-width: 400px) {
   .main .mainTwo {
+    width: 100vw;
     margin-left: -20px;
   }
   .main .mainTwo .instructors {

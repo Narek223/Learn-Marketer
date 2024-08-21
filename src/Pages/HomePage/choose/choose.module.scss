@@ -5,6 +5,7 @@
   @mixin cont {
     width: 80%;
     padding: 15px 25px;
+    padding-left: 55px;
   }
   @mixin border {
     border-right-width: 2px;
@@ -110,6 +111,7 @@
 }
 @media screen and (max-width: 1000px) {
   .container {
+    width: 90%;
     margin: 100px 0px;
     padding: 0 30px;
     min-height: 400px;
@@ -155,7 +157,7 @@
     width: 100%;
     .title_2 {
       font-size: 1em;
-      width: 100%;
+      width: 80%;
       margin: 0;
       padding: 0;
 
@@ -166,6 +168,7 @@
     .main {
       display: flex;
       align-items: flex-end;
+      width: 80%;
       .one {
         padding: 0;
         p {

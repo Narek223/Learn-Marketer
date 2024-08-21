@@ -157,8 +157,23 @@
     display: none;
   }
 }
+@media screen and (max-width: 700px) {
+  .heroContainer {
+    width: 80%;
+  }
+  .heroContainer .infoBox {
+    width: 80%;
+  }
+  .heroContainer .infoBox p {
+    width: 100%;
+  }
+  .heroContainer .ImgBox {
+    display: none;
+  }
+}
 @media screen and (max-width: 600px) {
   .heroContainer {
+    padding: 0;
     width: 98%;
     height: 100%;
     display: flex;
@@ -170,6 +185,9 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
   }
   .heroContainer .infoBox p {
     width: 80%;
@@ -185,16 +203,43 @@
     display: none;
   }
 }
-@media screen and (max-width: 400px) {
-  .heroContainer .infoBox {
+@media screen and (max-width: 500px) {
+  .heroContainer .infoBox .pageTitle {
     width: 100%;
-    padding: 0 20px;
+  }
+  .heroContainer .infoBox .homeimg {
+    width: 300px;
+  }
+  .heroContainer .infoBox p {
+    width: 80%;
   }
   .heroContainer .infoBox .buttonBox {
     width: 400px;
   }
   .heroContainer .infoBox .buttonBox button {
     padding: 15px 0;
-    width: 190px;
+    width: 180px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .heroContainer .infoBox .pageTitle {
+    width: 100%;
+    font-size: 36px;
+  }
+  .heroContainer .infoBox .pageTitle .orangeText {
+    font-size: 36px;
+  }
+  .heroContainer .infoBox .homeimg {
+    width: 300px;
+  }
+  .heroContainer .infoBox p {
+    width: 100%;
+  }
+  .heroContainer .infoBox .buttonBox {
+    width: 350px;
+  }
+  .heroContainer .infoBox .buttonBox button {
+    padding: 15px 0;
+    width: 160px;
   }
 }/*# sourceMappingURL=Hero.module.css.map */

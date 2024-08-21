@@ -58,7 +58,19 @@
         }
     }
 }
+@media screen and (max-width:600px) {
 
+    .cardContainer{
+        width:100%;
+        h1{
+            font-size: 20px;
+          }
+          p{
+            font-size: 15px;
+          }
+    }
+    }
+    
 @media screen and (max-width:400px) {
 
 .cardContainer{
