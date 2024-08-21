@@ -1,12 +1,23 @@
-.history {
- 
+.historyContainer { 
+    width: 100%;
     height: 500px;
-    margin: 8% 10%;
     display: flex;
-    flex-direction: row-reverse;
-    align-content: space-between;
-    align-items: center;
+    padding-top: 60px;
+    padding-left: 151px;
+    padding-right: 151px;
+    justify-content: center;
+    align-items: flex-start;
     position: relative;
+
+    .historyContent {
+        width: 1618px;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #000;
+    }
    
 
     .image {
@@ -16,9 +27,11 @@
     .our_history {
         width: 100%;
         p {
-            width: 55%;
+            width: 681px;
+            min-height: 50px;
+            font-size: 18px;
             font-size: 1.1em;
-            line-height: 1.8;
+            line-height: 24px;
         }
         .title {
             text-align: center;
@@ -38,8 +51,7 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .history {
-        height: 500px;
+    .historyContainer {
     margin: 0;
         padding:  0 30px;
     
@@ -79,8 +91,7 @@
     }
 }
 @media screen and (max-width: 1000px) {
-    .history {
-        height: 500px;
+    .historyContainer {
         align-items: center;
         padding: 0 30px;
     
@@ -119,8 +130,7 @@
     }
 }
 @media screen and (max-width:400px) {
-    .history {
-      width: 100%;
+    .historyContainer {
         align-items: center;
         padding: 10px;
         margin: 89px 1px;

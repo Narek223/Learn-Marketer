@@ -14,11 +14,11 @@ export default function Home() {
        <Hero /> 
       <History />
       <Workers /> 
-        {/* <Choose />
+         <Choose />
         <Courses />
       <Opinion />
     <Workers /> 
-      <Faq />      */}
+      <Faq />      
     </div>
   );
 }
