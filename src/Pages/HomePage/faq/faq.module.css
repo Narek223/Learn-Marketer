@@ -1,7 +1,7 @@
 .cont {
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding: 0 151px;
   margin-top: 10%;
   height: 600px;
 }
@@ -18,6 +18,7 @@
   align-items: baseline;
   flex-wrap: wrap;
   overflow: hidden;
+  padding: 20px 0;
 }
 .cont .faq h1 {
   font-size: 2.2em;
@@ -50,11 +51,11 @@
     width: 60vw;
   }
   .cont .faq h1 {
-    margin-left: 55%;
     display: flex;
     justify-content: center;
     font-size: 2.8em;
     color: rgb(255, 165, 0);
+    padding: 10px 0;
   }
   .cont .faq .question {
     font-size: 1em;
@@ -65,21 +66,27 @@
     display: none;
   }
 }
+@media screen and (max-width: 1200px) {
+  .cont {
+    padding: 0 30px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .cont {
+    width: 100%;
+    padding: 0 30px;
     display: flex;
     justify-content: flex-start;
   }
   .cont .faq {
     display: flex;
-    padding: 0 30px;
+    width: 100%;
     min-height: 100px;
   }
   .cont .faq .line {
     width: 60vw;
   }
   .cont .faq h1 {
-    margin-left: 50%;
     display: flex;
     justify-content: center;
     font-size: 2.8em;
@@ -98,19 +105,16 @@
   .cont .faq {
     width: 100%;
   }
-  .cont .faq h1 {
-    margin-left: 10%;
-  }
-  .cont .faq h2 {
-    font-size: 1em;
-  }
   .cont .faq .line {
     width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
   .cont .faq .line {
-    width: 80vw;
+    width: 100%;
+  }
+  .cont .faq .line h2 {
+    font-size: 15px;
   }
   .cont .faq h1 {
     margin-left: 25%;
@@ -118,6 +122,7 @@
 }
 @media screen and (max-width: 570px) {
   .cont {
+    padding: 0;
     display: flex;
     justify-content: flex-start;
   }
@@ -127,10 +132,9 @@
     min-height: 100px;
   }
   .cont .faq .line {
-    width: 80vw;
+    width: 100%;
   }
   .cont .faq h1 {
-    margin-left: 55%;
     display: flex;
     justify-content: center;
     font-size: 2.5em;
@@ -145,14 +149,19 @@
     display: none;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 470px) {
   .cont .faq .line {
-    width: 100vw;
+    width: 100%;
   }
   .cont .faq .line h2 {
     font-size: 16px;
   }
-  .cont .faq h1 {
-    margin-left: 25%;
+}
+@media screen and (max-width: 407px) {
+  .cont .faq .line {
+    width: 100%;
+  }
+  .cont .faq .line h2 {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=faq.module.css.map */

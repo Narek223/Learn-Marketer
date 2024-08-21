@@ -12,13 +12,15 @@ export default function Home() {
   return (
     <div className={styles.home}>
        <Hero /> 
-      <History />
-      <Workers /> 
-         <Choose />
-        <Courses />
-      <Opinion />
-    <Workers /> 
-      <Faq />      
+      {/* <History /> */}
+  
+  
+
+         {/* <Choose /> */}
+        {/* <Courses /> */}
+      {/* <Opinion /> */}
+    {/* <Workers />  */}
+ <Faq />       
     </div>
   );
 }

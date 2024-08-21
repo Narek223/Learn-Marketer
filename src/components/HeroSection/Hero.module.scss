@@ -10,6 +10,7 @@
 }
 
 .infoBox {
+
   width: 60%;
   min-height: 200px;
   display: flex;
@@ -21,6 +22,7 @@
     display: none;
   }
   p {
+    padding: 10px 0;
     width: 485px;
   }
 }

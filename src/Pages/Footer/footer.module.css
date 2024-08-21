@@ -1,7 +1,6 @@
 footer {
   width: 100%;
   display: flex;
-  line-height: 0.5;
   flex-direction: column;
   justify-content: center;
   flex-wrap: nowrap;
@@ -16,7 +15,6 @@ footer .footer {
 }
 footer ul {
   display: flex;
-  margin-right: 55px;
 }
 footer ul li {
   font-size: 1.2em;

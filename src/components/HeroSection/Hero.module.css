@@ -20,6 +20,7 @@
   display: none;
 }
 .infoBox p {
+  padding: 10px 0;
   width: 485px;
 }
 

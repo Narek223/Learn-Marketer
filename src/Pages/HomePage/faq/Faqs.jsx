@@ -11,7 +11,7 @@ export default function Faqs({object,classone,classtwo,iconone,icontwo}) {
   };
 
   return (
-    <div >
+    <div  >
  {object.map((item, index) => (
           <div key={item.id} className={classone}>
             <h2 onClick={() => toggle(index)}>{item.question}</h2>
