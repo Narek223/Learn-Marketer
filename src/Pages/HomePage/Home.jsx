@@ -13,11 +13,11 @@ export default function Home() {
     <div className={styles.home}>
        <Hero /> 
       <History />
-       <Choose />
-       <Courses />
+        <Choose />
+       {/* <Courses />
       <Opinion />
       <Workers /> 
-      <Faq />   
+      <Faq />     */}
     </div>
   );
 }
