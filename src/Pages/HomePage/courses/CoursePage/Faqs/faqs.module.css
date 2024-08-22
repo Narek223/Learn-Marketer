@@ -9,6 +9,7 @@
 .faqs .h1 {
   font-size: 40px;
   color: #003366;
+  padding: 15px 0;
 }
 .faqs .h1 span {
   color: #ffa500;
@@ -34,6 +35,7 @@
   align-items: baseline;
   flex-wrap: wrap;
   overflow: hidden;
+  padding: 20px 0;
 }
 .faqs .cont .faq .test h2 {
   color: #003366;
@@ -43,6 +45,7 @@
   font-size: 1.2em;
   width: 80%;
   color: #003366;
+  padding: 10px 0;
 }
 
 @media screen and (max-width: 1500px) {
@@ -72,6 +75,29 @@
     height: 500px;
   }
 }
+@media screen and (max-width: 850px) {
+  .faqs {
+    padding: 12% 0;
+  }
+  .faqs .h1 {
+    width: 70vw;
+    font-size: 25px;
+    margin-right: 35px;
+  }
+  .faqs .cont {
+    width: 80vw;
+    height: 300px;
+  }
+  .faqs .cont .faq {
+    width: 90vw;
+  }
+  .faqs .cont .faq .test .questions {
+    font-size: 15px;
+  }
+  .faqs .cont .faq .test h2 {
+    font-size: 17px;
+  }
+}
 @media screen and (max-width: 600px) {
   .faqs {
     padding: 12% 0;
@@ -94,7 +120,7 @@
     font-size: 15px;
   }
   .faqs .cont .faq .test h2 {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 400px) {

@@ -77,6 +77,19 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 500px) {
+  .main .mainTwo .instructors {
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+  }
+  .main .mainTwo .text h1 {
+    font-size: 18px;
+  }
+  .title {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 400px) {
   .main .mainTwo {
     width: 100vw;

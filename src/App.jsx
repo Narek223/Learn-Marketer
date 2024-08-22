@@ -11,7 +11,7 @@ import Media from "./Pages/Blog/SocialMedia/Media";
 import CoursePage from "./Pages/HomePage/courses/CoursePage/CoursePage";
 import Request from "./Pages/HomePage/courses/CoursePage/request/Request";
 import Contact from "./Pages/contact/Contact";
-import ScrollToTop from "./Pages/HomePage/ScrollToTop";
+import ScrollToTop from "./Functions/ScrollToTop/Scroll";
 import "./App.css";
 
 export default function App() {

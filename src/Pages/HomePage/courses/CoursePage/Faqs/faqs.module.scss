@@ -9,6 +9,7 @@
     .h1 {
         font-size: 40px;
         color: #003366;
+        padding: 15px 0;
         span {
             color: #ffa500;
         }
@@ -34,6 +35,7 @@
                 align-items: baseline;
                 flex-wrap: wrap;
                 overflow: hidden;
+                padding: 20px 0;
                 h2 {
                     color: #003366;
                     font-weight: 400;
@@ -42,6 +44,7 @@
                     font-size: 1.2em;
                     width: 80%;
                     color: #003366;
+                    padding: 10px 0;
                 }
             }
         }
@@ -84,7 +87,34 @@
       }
     }
   
-
+    @media screen and (max-width: 850px) {
+        .faqs {
+            padding: 12% 0;
+          .h1{
+              width: 70vw;
+              font-size: 25px;
+    
+              margin-right: 35px;
+          }
+            .cont{
+                width: 80vw;
+                height: 300px;
+                .faq{
+                    width: 90vw;
+                    .test{
+                        .questions{
+                            font-size: 15px;
+                        }
+                        h2{
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+      }
+  
+      
     @media screen and (max-width: 600px) {
         .faqs {
             padding: 12% 0;
@@ -105,7 +135,7 @@
                             font-size: 15px;
                         }
                         h2{
-                            font-size: 17px;
+                            font-size: 15px;
                         }
                     }
                 }

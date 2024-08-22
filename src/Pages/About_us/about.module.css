@@ -23,6 +23,7 @@
   line-height: 1.8;
 }
 .about .part_one h1 {
+  padding: 10px 0;
   font-size: 32px;
   color: #ffa500;
 }
@@ -84,9 +85,17 @@
   color: #1d1d1d;
   font-size: 18px;
 }
+@media screen and (max-width: 1300px) {
+  .about .content .img {
+    margin-top: 10%;
+  }
+}
 @media screen and (max-width: 1200px) {
   .about {
     padding: 5% 30px;
+  }
+  .about .content .img {
+    margin-top: 5%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -131,6 +140,37 @@
   .about .aboutTwo img {
     -o-object-fit: contain;
        object-fit: contain;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about .part_one p {
+    width: 95vw;
+  }
+  .about .aboutTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .about .aboutTwo .one {
+    width: 22vw;
+    margin-right: 30px;
+  }
+  .about .aboutTwo .one .imgbox {
+    width: 81px;
+    height: 81px;
+  }
+  .about .aboutTwo .one h1:nth-child(2) {
+    font-size: 29px;
+  }
+  .about .aboutTwo .one img {
+    border-radius: 30px;
+    min-width: 1%;
+    height: 25px;
+  }
+  .about .aboutTwo .one h1:nth-child(3) {
+    overflow: hidden;
+    height: 20px;
   }
 }
 @media screen and (max-width: 400px) {

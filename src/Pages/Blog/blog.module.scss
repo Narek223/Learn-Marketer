@@ -97,7 +97,7 @@
       
     }
     .blogs {
-      width: 42%;
+      width: 48%;
 
       p {
         font-size: 15px;
@@ -122,7 +122,7 @@
         
       }
       .blogs {
-        width: 40%;
+        width: 45%;
         height: 300px;
         p {
           height: auto;
@@ -142,6 +142,7 @@
 margin: 25px 0;
       }
       .title {
+        padding: 2px 0;
           h1{
             font-size: 2.1em;
               margin: 5% 1%;
@@ -151,12 +152,12 @@ margin: 25px 0;
         }
       }
       .blogs {
-        width: 40%;
+        width: 45%;
         height: 310px;
         p {
           height: auto;
-       
-          line-height: 10px;
+       font-size: 10px;
+          line-height: 12px;
       
         }
       }

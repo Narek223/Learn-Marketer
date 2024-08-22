@@ -8,15 +8,15 @@
     justify-content: flex-start;
     padding: 20px;
     overflow-x: hidden;
+
     img {
         object-fit: cover;
     }
+
     @mixin page {
-      
         width: 350px;
         height: 450px;
         border: 1px solid white;
-
         box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
         margin: 2% 2%;
         img {
@@ -30,6 +30,7 @@
             }
         }
     }
+
     .featuredCoursesTitle {
         width: 100%;
         min-height: 10px;
@@ -42,6 +43,7 @@
             color: #ffa500;
         }
     }
+
     .featuredCoursesDescription {
         width: 60%;
         min-height: 15px;
@@ -62,11 +64,35 @@
             background-color: #ffa500;
             padding: 5px;
         }
+
         .one {
             @include page();
+
             .image {
                 padding: 0;
+                overflow: hidden; 
+   
+                object-fit: contain;
+                margin:0 ;
+        
+                
+                img {
+                    transition: transform 0.5s ease, filter 0.5s ease;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover; 
+
+                    display: block;
+                      filter: brightness(0.8);
+                }
             }
+
+            &:hover {
+                .image img {
+                    transform: scale(1.2); 
+                }
+            }
+
             .infoConteiner {
                 padding: 0 10px;
 
@@ -90,20 +116,24 @@
                     .format {
                     }
                 }
+
                 h2 {
                     font-weight: 200;
                     padding: 10px 0;
                     font-size: 23px;
                 }
+
                 .cardDescription {
                     margin: 25px 0;
                     height: 80px;
                 }
             }
         }
+
         .two {
             @include page();
         }
+
         .three {
             @include page();
         }
@@ -115,6 +145,7 @@
         height: 100%;
     }
 }
+
 
 @media screen and (max-width: 1300px) {
     .featuredCoursesContainer {

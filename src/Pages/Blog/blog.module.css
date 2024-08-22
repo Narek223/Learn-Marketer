@@ -92,7 +92,7 @@
     margin: 5% 1%;
   }
   .conteiner .blogs {
-    width: 42%;
+    width: 48%;
   }
   .conteiner .blogs p {
     font-size: 15px;
@@ -103,7 +103,7 @@
     margin: 5% 1%;
   }
   .conteiner .blogs {
-    width: 40%;
+    width: 45%;
     height: 300px;
   }
   .conteiner .blogs p {
@@ -116,6 +116,9 @@
   .conteiner .main {
     margin: 25px 0;
   }
+  .conteiner .title {
+    padding: 2px 0;
+  }
   .conteiner .title h1 {
     font-size: 2.1em;
     margin: 5% 1%;
@@ -124,11 +127,12 @@
     padding: 0;
   }
   .conteiner .blogs {
-    width: 40%;
+    width: 45%;
     height: 310px;
   }
   .conteiner .blogs p {
     height: auto;
-    line-height: 10px;
+    font-size: 10px;
+    line-height: 12px;
   }
 }/*# sourceMappingURL=blog.module.css.map */

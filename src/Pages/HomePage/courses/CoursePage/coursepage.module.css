@@ -97,6 +97,9 @@
   line-height: 40px;
   color: #1d1d1d;
 }
+.course .main .second .CourseHighlights {
+  padding: 15px 0;
+}
 .course .main .second .CourseHighlights h1 {
   font-size: 30px;
   color: #003366;
@@ -158,7 +161,7 @@
 }
 @media screen and (max-width: 600px) {
   .course {
-    padding: 8% 10%;
+    padding: 60px 30px;
     min-height: 300px;
   }
   .course .first {
@@ -188,7 +191,7 @@
 }
 @media screen and (max-width: 400px) {
   .course {
-    padding: 15% 30px;
+    padding: 60px 30px;
     min-height: 300px;
   }
   .course .first {
@@ -197,6 +200,7 @@
   .course .first h1 {
     font-size: 30px;
     text-align: start;
+    padding: 10px 0;
   }
   .course .first .main {
     position: static;
@@ -206,7 +210,7 @@
     position: static;
     width: 100%;
     font-size: 1.1em;
-    padding: 0;
+    padding: 10px 0;
   }
   .course .first .main img {
     display: none;
