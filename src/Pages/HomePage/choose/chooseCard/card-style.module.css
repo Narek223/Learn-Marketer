@@ -11,6 +11,7 @@
 .cardContainer .text .chooseUsText {
   color: #657790;
   line-height: 1.6;
+  padding: 15px 0;
 }
 
 @media screen and (max-width: 1350px) {
@@ -45,5 +46,14 @@
   .cardContainer .text {
     width: 100%;
     text-align: start;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cardContainer .text {
+    width: 100%;
+    text-align: start;
+  }
+  .cardContainer .text .title {
+    padding: 15px 0;
   }
 }/*# sourceMappingURL=card-style.module.css.map */

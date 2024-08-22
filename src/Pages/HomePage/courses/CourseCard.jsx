@@ -9,6 +9,8 @@ export default function CourseCard({ data }) {
       <div className={styles.image}>
         <img src={data.info.imgSrc} alt={data.title} />
       </div>
+<div className={styles.infoConteiner}>
+
 
       <div className={styles.infoBox}>
         <div className={styles.duration}>
@@ -22,6 +24,7 @@ export default function CourseCard({ data }) {
       <p className={styles.cardDescription}>{data.info.description}</p>
      
         <h3>Read more...</h3>
+        </div>
       </NavLink>
     </div>
   );

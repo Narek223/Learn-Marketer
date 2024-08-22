@@ -37,9 +37,6 @@
   align-items: baseline;
   flex-wrap: wrap;
 }
-.featuredCoursesContainer .cardsBox p {
-  line-height: 1.2;
-}
 .featuredCoursesContainer .cardsBox .span {
   width: 38px;
   height: 13px;
@@ -47,11 +44,9 @@
   padding: 5px;
 }
 .featuredCoursesContainer .cardsBox .one {
-  line-height: 1.5;
   width: 350px;
-  height: 400px;
+  height: 450px;
   border: 1px solid white;
-  padding: 10px;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
   margin: 2% 2%;
 }
@@ -68,16 +63,18 @@
 .featuredCoursesContainer .cardsBox .one .image {
   padding: 0;
 }
-.featuredCoursesContainer .cardsBox .one .infoBox {
+.featuredCoursesContainer .cardsBox .one .infoConteiner {
+  padding: 0 10px;
+}
+.featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox {
   width: 100%;
   height: 15px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-right: 5px;
-  margin-top: 15px;
+  margin: 10px 0;
 }
-.featuredCoursesContainer .cardsBox .one .infoBox .duration {
+.featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox .duration {
   width: 80px;
   height: 27px;
   background-color: #ffa500;
@@ -85,15 +82,19 @@
   justify-content: center;
   align-items: center;
 }
-.featuredCoursesContainer .cardsBox .one h2 {
+.featuredCoursesContainer .cardsBox .one .infoConteiner h2 {
   font-weight: 200;
+  padding: 10px 0;
+  font-size: 23px;
+}
+.featuredCoursesContainer .cardsBox .one .infoConteiner .cardDescription {
+  margin: 25px 0;
+  height: 80px;
 }
 .featuredCoursesContainer .cardsBox .two {
-  line-height: 1.5;
   width: 350px;
-  height: 400px;
+  height: 450px;
   border: 1px solid white;
-  padding: 10px;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
   margin: 2% 2%;
 }
@@ -108,11 +109,9 @@
   transition: 0.5s;
 }
 .featuredCoursesContainer .cardsBox .three {
-  line-height: 1.5;
   width: 350px;
-  height: 400px;
+  height: 450px;
   border: 1px solid white;
-  padding: 10px;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
   margin: 2% 2%;
 }
@@ -129,6 +128,7 @@
 .featuredCoursesContainer .link {
   text-decoration: none;
   color: #18181b;
+  height: 100%;
 }
 
 @media screen and (max-width: 1300px) {
@@ -142,6 +142,7 @@
     width: 480px;
     border-radius: 6px;
     line-height: 1;
+    height: 400px;
   }
   .featuredCoursesContainer .cardsBox .one img {
     -o-object-fit: cover;
@@ -161,6 +162,9 @@
     border-radius: 6px;
     line-height: 1;
   }
+  .featuredCoursesContainer .cardsBox .one .infoConteiner h2 {
+    padding: 25px 0;
+  }
   .featuredCoursesContainer .cardsBox .one img {
     -o-object-fit: cover;
        object-fit: cover;
@@ -177,9 +181,6 @@
     border-radius: 6px;
     line-height: 1;
   }
-  .featuredCoursesContainer .cardsBox .one h2 {
-    height: 30px;
-  }
   .featuredCoursesContainer .cardsBox .one img {
     -o-object-fit: cover;
        object-fit: cover;
@@ -194,10 +195,7 @@
     width: 300px;
     border-radius: 6px;
     line-height: 1;
-    height: 320px;
-  }
-  .featuredCoursesContainer .cardsBox .one h2 {
-    height: 45px;
+    height: 350px;
   }
   .featuredCoursesContainer .cardsBox .one img {
     -o-object-fit: cover;
@@ -229,7 +227,7 @@
     height: 202px;
     border-radius: 6px;
   }
-  .featuredCoursesContainer .cardsBox .one .one .infoBox {
+  .featuredCoursesContainer .cardsBox .one .one .infoConteiner .infoBox {
     width: 100%;
     height: 15px;
     display: flex;
@@ -238,8 +236,8 @@
     border: 1px solid #000;
     margin-top: 5px;
   }
-  .featuredCoursesContainer .cardsBox .one .one .infoBox .duration {
-    width: 38px;
+  .featuredCoursesContainer .cardsBox .one .one .infoConteiner .infoBox .duration {
+    width: 15px;
     height: 13px;
     background-color: #ffa500;
     display: flex;
@@ -247,7 +245,7 @@
     align-items: center;
     font-size: 9px;
   }
-  .featuredCoursesContainer .cardsBox .one .one .infoBox .format {
+  .featuredCoursesContainer .cardsBox .one .one .infoConteiner .infoBox .format {
     width: 80px;
     height: 13px;
     display: flex;
@@ -257,6 +255,9 @@
   }
   .featuredCoursesContainer .cardsBox .one h2 {
     font-size: 20px;
+  }
+  .featuredCoursesContainer .cardsBox .one h3 {
+    font-size: 15px;
   }
   .featuredCoursesContainer .cardsBox .one img {
     -o-object-fit: cover;
@@ -268,43 +269,45 @@
   .featuredCoursesContainer {
     padding: 0;
     width: 100%;
-    margin-left: 30px;
+  }
+  .featuredCoursesContainer .featuredCoursesDescription {
+    font-size: 1.1em;
+    padding: 15px 15px;
   }
   .featuredCoursesContainer .cardsBox {
     width: 100%;
-    justify-content: space-between;
   }
   .featuredCoursesContainer .cardsBox .one {
     width: 150px;
-    height: 202px;
     border-radius: 6px;
-    height: 220px;
+    height: 200px;
   }
-  .featuredCoursesContainer .cardsBox .one .infoBox {
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox {
     width: 100%;
     height: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .featuredCoursesContainer .cardsBox .one .infoBox .duration {
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox .duration {
     width: 50px;
-    height: 23px;
+    height: 20px;
     background-color: #ffa500;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 10px;
   }
-  .featuredCoursesContainer .cardsBox .one .infoBox .format {
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox .format {
     height: 13px;
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .featuredCoursesContainer .cardsBox .one h2 {
-    font-size: 18px;
+  .featuredCoursesContainer .cardsBox .one .infoConteiner h2 {
+    font-size: 14px;
+    padding: 10px 0;
   }
   .featuredCoursesContainer .cardsBox .one img {
     -o-object-fit: cover;
@@ -319,6 +322,7 @@
   .featuredCoursesContainer .featuredCoursesDescription {
     width: 100%;
     font-size: 1em;
+    padding: 15px 15px;
   }
   .featuredCoursesContainer .cardsBox {
     justify-content: space-between;

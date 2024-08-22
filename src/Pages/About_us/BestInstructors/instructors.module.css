@@ -28,7 +28,6 @@
   align-content: stretch;
   padding: 15px;
   flex-direction: column;
-  line-height: 0.1;
 }
 .main .mainTwo button {
   background-color: #bacee2;

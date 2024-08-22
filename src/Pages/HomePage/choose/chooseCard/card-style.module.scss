@@ -13,6 +13,7 @@
         .chooseUsText{
             color: #657790;
             line-height: 1.6;
+            padding: 15px 0;
         }
     }
 }
@@ -54,6 +55,17 @@
         .text{
             width: 100%;
             text-align:start;
+        }
+    }   
+}
+@media screen and (max-width: 400px) {
+    .cardContainer {
+        .text{
+            width: 100%;
+            text-align:start;
+            .title{
+                padding: 15px 0;
+            }
         }
     }   
 }

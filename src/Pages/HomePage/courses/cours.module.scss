@@ -1,5 +1,5 @@
 .featuredCoursesContainer {
-   margin: 0;
+    margin: 0;
     min-height: 200px;
     margin-top: 50px;
     display: flex;
@@ -12,11 +12,11 @@
         object-fit: cover;
     }
     @mixin page {
-        line-height: 1.5;
+      
         width: 350px;
-        height: 400px;
+        height: 450px;
         border: 1px solid white;
-        padding: 10px;
+
         box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
         margin: 2% 2%;
         img {
@@ -56,9 +56,6 @@
         align-items: baseline;
         flex-wrap: wrap;
 
-        p {
-            line-height: 1.2;
-        }
         .span {
             width: 38px;
             height: 13px;
@@ -67,31 +64,41 @@
         }
         .one {
             @include page();
-            .image{
+            .image {
                 padding: 0;
             }
-            .infoBox {
-                width: 100%;
-                height: 15px;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                margin-right: 5px;
-                margin-top: 15px;
-                .duration {
-                    width: 80px;
-                    height: 27px;
-                    background-color: #ffa500;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
+            .infoConteiner {
+                padding: 0 10px;
 
-                .format {
+                .infoBox {
+                    width: 100%;
+                    height: 15px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin: 10px 0;
+
+                    .duration {
+                        width: 80px;
+                        height: 27px;
+                        background-color: #ffa500;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .format {
+                    }
                 }
-            }
-            h2 {
-                font-weight: 200;
+                h2 {
+                    font-weight: 200;
+                    padding: 10px 0;
+                    font-size: 23px;
+                }
+                .cardDescription {
+                    margin: 25px 0;
+                    height: 80px;
+                }
             }
         }
         .two {
@@ -105,24 +112,22 @@
     .link {
         text-decoration: none;
         color: #18181b;
+        height: 100%;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .featuredCoursesContainer {
-      
-
         .cardsBox {
             justify-content: flex-start;
             .cardDescription {
                 display: none;
             }
             .one {
-               
-
                 width: 480px;
                 border-radius: 6px;
                 line-height: 1;
+                height: 400px;
                 img {
                     object-fit: cover;
                     border-radius: 6px;
@@ -130,12 +135,10 @@
             }
         }
     }
-
 }
 
 @media screen and (max-width: 1130px) {
     .featuredCoursesContainer {
-      
         .cardsBox {
             justify-content: center;
             .cardDescription {
@@ -145,6 +148,11 @@
                 width: 450px;
                 border-radius: 6px;
                 line-height: 1;
+                .infoConteiner {
+                    h2 {
+                        padding: 25px 0;
+                    }
+                }
 
                 img {
                     object-fit: cover;
@@ -158,12 +166,9 @@
 @media screen and (max-width: 1000px) {
     .featuredCoursesContainer {
         @mixin page {
-         
             height: 400px;
-           
         }
         .featuredCoursesDescription {
-            
         }
         .cardsBox {
             .cardDescription {
@@ -174,9 +179,6 @@
                 width: 400px;
                 border-radius: 6px;
                 line-height: 1;
-h2{
-    height: 30px;
-}
                 img {
                     object-fit: cover;
                     border-radius: 6px;
@@ -189,12 +191,9 @@ h2{
 @media screen and (max-width: 950px) {
     .featuredCoursesContainer {
         @mixin page {
-         
-            height: 320px;
-           
+            height: 350px;
         }
         .featuredCoursesDescription {
-            
         }
         .cardsBox {
             .cardDescription {
@@ -205,9 +204,7 @@ h2{
                 border-radius: 6px;
                 line-height: 1;
                 @include page();
-h2{
-    height: 45px;
-}
+
                 img {
                     object-fit: cover;
                     border-radius: 6px;
@@ -220,9 +217,7 @@ h2{
 @media screen and (max-width: 600px) {
     .featuredCoursesContainer {
         @mixin page {
-         
             height: 280px;
-           
         }
         width: 100%;
         padding: 0;
@@ -242,7 +237,7 @@ h2{
                     width: 128px;
                     height: 202px;
                     border-radius: 6px;
-            
+.infoConteiner{
                     .infoBox {
                         width: 100%;
                         height: 15px;
@@ -253,7 +248,7 @@ h2{
                         margin-top: 5px;
 
                         .duration {
-                            width: 38px;
+                         width: 15px;
                             height: 13px;
                             background-color: #ffa500;
                             display: flex;
@@ -272,10 +267,13 @@ h2{
                         }
                     }
                 }
+                }
                 h2 {
                     font-size: 20px;
                 }
-
+h3{
+    font-size: 15px;
+}
                 img {
                     object-fit: cover;
                     border-radius: 6px;
@@ -288,25 +286,25 @@ h2{
 @media screen and (max-width: 400px) {
     .featuredCoursesContainer {
         @mixin page {
-         
-            height: 220px;
-           
+            height: 200px;
         }
+        .featuredCoursesDescription {
+            font-size: 1.1em;
+            padding: 15px 15px ;
+        }
+        padding: 0;
 
-    padding: 0;
-    
         width: 100%;
-        margin-left: 30px;
 
         .cardsBox {
             width: 100%;
-            justify-content: space-between;
-            
+
             .one {
                 width: 150px;
-                height: 202px;
+        
                 border-radius: 6px;
                 @include page();
+                .infoConteiner{
                 .infoBox {
                     width: 100%;
                     height: 15px;
@@ -316,7 +314,7 @@ h2{
 
                     .duration {
                         width: 50px;
-                        height: 23px;
+   height: 20px;
                         background-color: #ffa500;
                         display: flex;
                         justify-content: center;
@@ -326,14 +324,18 @@ h2{
 
                     .format {
                         height: 13px;
-                        font-size: 12px;
+                        font-size: 10px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
                     }
                 }
-                h2 {
-                    font-size: 18px;
+            }
+                .infoConteiner {
+                    h2 {
+                        font-size: 14px;
+                        padding: 10px 0;
+                    }
                 }
 
                 img {
@@ -346,33 +348,31 @@ h2{
 }
 
 @media screen and (max-width: 375px) {
-
     .featuredCoursesContainer {
-        .featuredCoursesTitle{
+        .featuredCoursesTitle {
             font-size: 1.5em;
         }
-        .featuredCoursesDescription{
+        .featuredCoursesDescription {
             width: 100%;
             font-size: 1em;
+            padding: 15px 15px ;
         }
-.cardsBox{
-    justify-content: space-between;
-    .one{
-        width: 140px;
+        .cardsBox {
+            justify-content: space-between;
+            .one {
+                width: 140px;
                 height: 200px;
-                border-radius: 6px; 
-.infoBox{
-    .duration{
-        width: 40px;
-    }
-    
-}
+                border-radius: 6px;
+                .infoBox {
+                    .duration {
+                        width: 40px;
+                    }
+                }
 
-                h2{
+                h2 {
                     font-size: 15px;
                 }
+            }
+        }
     }
-}
-    }
-
 }

@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
   .worker {
     display: flex;
     width: 1280px;
@@ -31,6 +32,7 @@
         width: 450px;
         font-size: 18px;
         line-height: 1.9;
+        padding: 15px 0;
       }
     }
 
@@ -44,7 +46,6 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: 100%;
-      line-height: 0;
       h1 {
         font-weight: 500;
       }
@@ -54,9 +55,9 @@
         display: flex;
         margin-top: 150px;
         margin-right: 25px;
-        line-height: 0.3;
+   
         h1 {
-          margin-top: 10px;
+        
           font-weight: 500;
           font-size: 1.1;
         }
@@ -82,18 +83,13 @@
             top: 42%;
           }
         }
-        .images {
-          .shereon {
-          }
-          david {
-          }
-        }
       }
     }
   }
 }
 @media screen and (max-width: 1400px) {
   .main {
+    padding: 50px 0;
     .worker {
       width: 85%;
       .workersInfoBox {
@@ -143,8 +139,8 @@
 
 @media screen and (max-width: 1130px) {
   .main {
-    width: 90%;
-    padding: 0 30px;
+    width: 100%;
+    padding: 50px 30px;
     .worker {
       width: 100%;
 
@@ -188,6 +184,7 @@
         margin-top: 15px;
         margin-right: 30px;
         align-items: center;
+        height: 200px;
         .best {
           display: none;
         }
@@ -196,7 +193,7 @@
         }
         .seeAllBtn {
           position: absolute;
-          bottom: 95px;
+          bottom: 160px;
           left: 43%;
         }
       }
@@ -211,9 +208,41 @@
     }
   }
 }
+@media screen and (max-width: 770px) {
+  .main {
+    width: 100%;
+    .worker {
+      .workersInfoBox {
+        margin: 0;
+        width: 80%;
+p{
+  text-align: center;
+  width: 100%;
+}
+h1{
+  font-size: 50px;
+
+}
+
+.seeAllBtn {
+  position: absolute;
+  bottom: 185px;
+  left: 40%;
+}
+      }
+      .imgBox {
+    width: 100%;
+        .imgMary {
+          width:auto;
+          
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 600px) {
   .main {
-    width: 80%;
+    width: 100%;
     .worker {
       .workersInfoBox {
         margin: 0;
@@ -229,7 +258,7 @@ h1{
 
 .seeAllBtn {
   position: absolute;
-  bottom: 125px;
+  bottom: 195px;
   left: 40%;
 }
       }
@@ -245,37 +274,45 @@ h1{
 }
 
 
-// @media screen and (max-width: 400px) {
+ @media screen and (max-width: 400px) {
 
-//   .main{
-//     .worker{
-//       .workersInfoBox{
-//        h1{
+  .main{
+    .worker{
+      .workersInfoBox{
+        height: 300px;
+       h1{
 
-//        }
-//         p{
-//           text-align: start;
-//           width:100%;
+       }
+        p{
+          text-align: start;
+          font-size: 16px;
+          width:100%;
    
-//         }
-//       }
-//       .imgBox{
+        }
+        .seeAllBtn {
+          position: absolute;
+          bottom: 150px;
+          left: 25%;
+        }
+      }
+     
+      .imgBox{
    
 
-//         .imgMary{
-//           line-height: 0;
-//           h1{
-//             font-size: 20px;
-//           }
-//           p{
-//             font-size: 15px;
-//           }
-//         }
-//       }
-//     }
-//   }
+        .imgMary{
+       
+          h1{
+            font-size: 20px;
+          }
+          p{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
 
 
 
 
-// }
+}
