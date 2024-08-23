@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 20px;
+  
     overflow-x: hidden;
 
     img {
@@ -70,26 +70,27 @@
 
             .image {
                 padding: 0;
-                overflow: hidden; 
-   
+                overflow: hidden;
+
                 object-fit: contain;
-                margin:0 ;
-        
-                
+                margin: 0;
+
                 img {
-                    transition: transform 0.5s ease, filter 0.5s ease;
+                    transition:
+                        transform 0.5s ease,
+                        filter 0.5s ease;
                     width: 100%;
                     height: 100%;
-                    object-fit: cover; 
+                    object-fit: cover;
 
                     display: block;
-                      filter: brightness(0.8);
+                    filter: brightness(0.8);
                 }
             }
 
             &:hover {
                 .image img {
-                    transform: scale(1.2); 
+                    transform: scale(1.2);
                 }
             }
 
@@ -97,10 +98,10 @@
                 padding: 0 10px;
 
                 .infoBox {
-                    width: 100%;
+                    width: 90%;
                     height: 15px;
                     display: flex;
-                    justify-content: flex-start;
+                    justify-content: space-between;
                     align-items: center;
                     margin: 10px 0;
 
@@ -146,11 +147,9 @@
     }
 }
 
-
 @media screen and (max-width: 1300px) {
     .featuredCoursesContainer {
         .cardsBox {
-            justify-content: flex-start;
             .cardDescription {
                 display: none;
             }
@@ -251,8 +250,7 @@
             height: 280px;
         }
         width: 100%;
-        padding: 0;
-        margin: 0;
+       
         overflow-x: hidden;
         .featuredCoursesDescription {
             width: 100%;
@@ -268,43 +266,44 @@
                     width: 128px;
                     height: 202px;
                     border-radius: 6px;
-.infoConteiner{
-                    .infoBox {
-                        width: 100%;
-                        height: 15px;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-                        border: 1px solid #000;
-                        margin-top: 5px;
-
-                        .duration {
-                         width: 15px;
-                            height: 13px;
-                            background-color: #ffa500;
+                    .infoConteiner {
+                        
+                        .infoBox {
+                            width: 100%;
+                            height: 15px;
                             display: flex;
-                            justify-content: center;
+                            justify-content: space-between;
                             align-items: center;
-                            font-size: 9px;
-                        }
+                            border: 1px solid #000;
+                            margin-top: 5px;
 
-                        .format {
-                            width: 80px;
-                            height: 13px;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            margin-right: 5px;
+                            .duration {
+                                width: 15px;
+                                height: 13px;
+                                background-color: #ffa500;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 9px;
+                            }
+
+                            .format {
+                                width: 80px;
+                                height: 13px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-right: 5px;
+                            }
                         }
                     }
                 }
-                }
                 h2 {
-                    font-size: 20px;
+                    font-size: 15px;
                 }
-h3{
-    font-size: 15px;
-}
+                h3 {
+                    font-size: 15px;
+                }
                 img {
                     object-fit: cover;
                     border-radius: 6px;
@@ -321,7 +320,7 @@ h3{
         }
         .featuredCoursesDescription {
             font-size: 1.1em;
-            padding: 15px 15px ;
+            padding: 15px 15px;
         }
         padding: 0;
 
@@ -331,41 +330,42 @@ h3{
             width: 100%;
 
             .one {
-                width: 150px;
-        
+                width: 165px;
+
                 border-radius: 6px;
                 @include page();
-                .infoConteiner{
-                .infoBox {
-                    width: 100%;
-                    height: 15px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-
-                    .duration {
-                        width: 50px;
-   height: 20px;
-                        background-color: #ffa500;
+                .infoConteiner {
+                    .infoBox {
+                        width: 100%;
+                        height: 15px;
                         display: flex;
-                        justify-content: center;
+                        justify-content: space-between;
                         align-items: center;
-                        font-size: 10px;
-                    }
 
-                    .format {
-                        height: 13px;
-                        font-size: 10px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
+                        .duration {
+                            width: 50px;
+                            height: 20px;
+                            background-color: #ffa500;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 10px;
+                        }
+
+                        .format {
+                            height: 13px;
+                            font-size: 10px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
                     }
                 }
-            }
                 .infoConteiner {
                     h2 {
                         font-size: 14px;
                         padding: 10px 0;
+                        height: 50px;
                     }
                 }
 
@@ -386,7 +386,7 @@ h3{
         .featuredCoursesDescription {
             width: 100%;
             font-size: 1em;
-            padding: 15px 15px ;
+            padding: 15px 15px;
         }
         .cardsBox {
             justify-content: space-between;

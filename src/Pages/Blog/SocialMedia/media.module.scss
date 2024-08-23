@@ -1,7 +1,6 @@
 .socialMedia {
     padding: 5% 151px;
 
-
     .buttons {
         width: 20%;
         font-weight: 600;
@@ -46,31 +45,30 @@
             .secondimg {
                 display: none;
             }
+            h1 {
+                padding: 15px 0;
+            }
         }
         .img {
-         
             .firstimg {
                 object-fit: contain;
                 border-radius: 25px;
                 width: 50vw;
                 height: 500px;
-               
             }
-
         }
 
         .secondPart {
             display: flex;
             flex-direction: row-reverse;
             align-items: center;
-
-            padding: 15px;
             .second {
                 display: flex;
                 flex-direction: column;
                 margin-left: 55px;
                 ul {
-                    width: 430px;
+                    width: 480px;
+                    padding: 0 30px;
                     li {
                         font-size: 16px;
                         line-height: 30px;
@@ -78,9 +76,14 @@
                     }
                 }
             }
+            P {
+                width: 80%;
+                padding: 15px 0;
+            }
         }
         .finalPart {
             ul {
+                padding: 0 60px;
                 li {
                     font-size: 16px;
                     line-height: 30px;
@@ -90,6 +93,9 @@
             .secondimg {
                 display: none;
             }
+            p {
+                padding: 15px 0;
+            }
         }
         .read {
             display: flex;
@@ -97,7 +103,7 @@
             text-align: center;
             align-items: center;
             flex-direction: column;
-           
+
             margin-top: 55px;
             .src {
                 color: white;
@@ -123,30 +129,55 @@
     }
 }
 
-
+@media screen and (max-width: 1400px) {
+    .socialMedia {
+        p {
+            width: 100%;
+            padding: 15px 0;
+        }
+        .mainPart {
+            .h1 {
+                width: 100%;
+                padding: 15px 0;
+            }
+            .NextPart {
+                .blok {
+                    .FirstPart {
+                    }
+                }
+                .img {
+                    img {
+                        object-fit: cover;
+                    }
+                }
+            }
+            .read {
+            }
+        }
+    }
+}
 @media screen and (max-width: 1200px) {
     .socialMedia {
-        width: 90%;
+        width: 100%;
         padding: 5% 30px;
-        .mainPart{
-            .NextPart{
-                .blok{
-                    .FirstPart{
+        .mainPart {
+            .NextPart {
+                .blok {
+                    .FirstPart {
                         width: 500px;
                     }
                 }
             }
-            .read{
-                width: 90vw;
+            .read {
+                width: 100%;
             }
         }
-        }
     }
-
+}
 
 @media screen and (max-width: 1000px) {
     .socialMedia {
-        width: 90%;
+        width: 100%;
         .buttons {
             margin: 8% 0%;
         }
@@ -189,6 +220,7 @@
                     height: auto;
                     width: 100%;
                     border-radius: 25px;
+                    padding: 15px 0;
                 }
             }
         }
@@ -198,14 +230,15 @@
 @media screen and (max-width: 600px) {
     .socialMedia {
         width: 100%;
+
         .buttons {
             margin: 15% 0%;
         }
         .mainPart {
             .h1 {
-                font-size: 1.5em;
+                font-size: 1.6em;
                 line-height: 1.5;
-                width:70% ;
+                width: 80%;
             }
             .NextPart {
             }
@@ -213,25 +246,30 @@
                 .img {
                     display: none;
                 }
-                .second{
-                    ul{
-                        width: 90%;
+                .second {
+                    ul {
+                        padding: 0 60px;
+                        width: 100%;
                     }
+                }
+                p {
+                    width: 100%;
                 }
             }
             .finalPart {
                 ul {
+                    padding: 0 60px;
                     li {
                         font-size: 15px;
                         line-height: 30px;
                         font-weight: 400;
-                        width: 90%;
+                        width: 100%;
                     }
                 }
                 .secondimg {
                     display: block;
                     height: 152px;
-                    width: 90%;
+                    width: 100%;
 
                     border-radius: 25px;
                 }
@@ -240,10 +278,10 @@
                 display: flex;
                 align-items: center;
                 flex-direction: column;
-              
-                width: 90%;
+
+                width: 100%;
                 h1 {
-                    font-size: 20px;
+                    font-size: 18px;
                     padding: 5px;
                 }
             }
@@ -253,20 +291,20 @@
 
 @media screen and (max-width: 400px) {
     .socialMedia {
+        width: 100%;
 
-        width: 90%;
-
-        p{
+        p {
             width: 100%;
-            font-size: 20px;
+            font-size: 15px;
+            padding: 10px 0;
         }
-        ul{
-            width: 90vw;
-         
-            li{
-                
-                width: 90vw;
-                font-size: 35px;
+        ul {
+            width: 100%;
+            padding: 0;
+
+            li {
+                width: 100%;
+                font-size: 15px;
             }
         }
         .buttons {
@@ -274,43 +312,53 @@
             height: 10px;
         }
         .mainPart {
+            h1 {
+                font-size: 15px;
+                padding: 10px 0;
+            }
             .h1 {
-                width: 90%;
-                font-size: 1.6em;
+                width: 100%;
+                font-size: 20px;
                 line-height: 1.5;
             }
             .NextPart {
                 .img {
                     display: flex;
-                    justify-content: center;
                     margin: 0;
                     img {
-                        width: 100vw;
+                        width: 90%;
                     }
                 }
             }
-            .secondPart{
+            .secondPart {
                 padding: 0;
                 display: flex;
                 flex-direction: row;
                 width: 100%;
-                .second{
+                .second {
                     width: 100%;
-                    ul{
+                    ul {
                         width: auto;
+                        padding: 0 30px;
+                    }
+                    h1 {
                     }
                 }
             }
-            .finalPart{
-                .secondimg{
+            .finalPart {
+                .secondimg {
                     width: 100%;
                 }
+                ul {
+                    padding: 0 30px;
+                }
             }
-            .read{
+            .read {
                 width: 100%;
-                h1{
+                font-size: 15px;
+                h1 {
                     width: 100%;
-                    line-height: 25px;
+                    line-height: 20px;
                 }
             }
         }

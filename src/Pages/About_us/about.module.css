@@ -144,7 +144,7 @@
 }
 @media screen and (max-width: 500px) {
   .about .part_one p {
-    width: 95vw;
+    width: 95%;
   }
   .about .aboutTwo {
     display: flex;

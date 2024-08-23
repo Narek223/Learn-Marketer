@@ -1,13 +1,11 @@
 import React from "react";
 import styles from "./coursepage.module.scss";
-import imgone from '../../../../assets/Homepage_Images/CourseCard/Frame23.png'
-import imgtwo from '../../../../assets/Homepage_Images/CourseCard/Frame_3.png'
-
+import imgone from "../../../../assets/Homepage_Images/CourseCard/Frame23.png";
+import imgtwo from "../../../../assets/Homepage_Images/CourseCard/Frame_3.png";
 import Contact from "./Contact/Contact";
-import { NavLink, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import Faqs from "./Faqs/NewFaqs";
-import { IoIosArrowForward } from "react-icons/io";
-import { courseData } from "./CourseData";
+import { courseData } from "../../../../Services/Data/Course/CourseData";
 
 export default function CoursePage() {
   const { id } = useParams();
@@ -22,7 +20,6 @@ export default function CoursePage() {
 
   return (
     <div className={styles.course}>
-      
       <div className={styles.first}>
         <h1>{courseTitle}</h1>
         <div>
@@ -40,49 +37,32 @@ export default function CoursePage() {
         </div>
       </div>
 
-
-
       <div className={styles.main}>
-    <div>
-      <div className={styles.second}>
-        <h1>Key Topics</h1>
-        <ul>
-          <li>Advanced Keyword Research </li>
-          <li>On-Page and Off-Page SEO </li>
-          <li>Technical SEO Optimization </li>
-          <li> Link Building Strategies</li>
-          <li>SEO Analytics and Reporting </li>
-        </ul>
-        <div className={styles.CourseHighlights}>
-        <h1>Course Highlights</h1>
-        <ul>
-          <li>Expert-led tutorials </li>
-          <li>Real-world SEO projects </li>
-          <li>Access to SEO tools and resources </li>
-          <li> Certification upon completion</li>
-        </ul>
+        <div>
+          <div className={styles.second}>
+            <h1>Key Topics</h1>
+            <ul>
+              <li>Advanced Keyword Research </li>
+              <li>On-Page and Off-Page SEO </li>
+              <li>Technical SEO Optimization </li>
+              <li> Link Building Strategies</li>
+              <li>SEO Analytics and Reporting </li>
+            </ul>
+            <div className={styles.CourseHighlights}>
+              <h1>Course Highlights</h1>
+              <ul>
+                <li>Expert-led tutorials </li>
+                <li>Real-world SEO projects </li>
+                <li>Access to SEO tools and resources </li>
+                <li> Certification upon completion</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className={styles.CurseImg}>
+          <img src={imgone} />
         </div>
       </div>
-    </div>
-    <div className={styles.CurseImg}>
-    <img src={imgone} />
-    </div>
-
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       <Contact />
       <Faqs />

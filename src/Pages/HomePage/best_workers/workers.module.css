@@ -242,6 +242,9 @@
   }
 }
 @media screen and (max-width: 400px) {
+  .main {
+    height: 700px;
+  }
   .main .worker .workersInfoBox {
     height: 300px;
   }
@@ -252,7 +255,7 @@
   }
   .main .worker .workersInfoBox .seeAllBtn {
     position: absolute;
-    bottom: 150px;
+    bottom: 10px;
     left: 25%;
   }
   .main .worker .imgBox .imgMary h1 {
@@ -260,5 +263,9 @@
   }
   .main .worker .imgBox .imgMary p {
     font-size: 15px;
+  }
+  .main .worker .imgBox img {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }/*# sourceMappingURL=workers.module.css.map */

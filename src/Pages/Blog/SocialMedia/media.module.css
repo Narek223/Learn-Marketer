@@ -44,6 +44,9 @@
 .socialMedia .mainPart .FirstPart .secondimg {
   display: none;
 }
+.socialMedia .mainPart .FirstPart h1 {
+  padding: 15px 0;
+}
 .socialMedia .mainPart .img .firstimg {
   -o-object-fit: contain;
      object-fit: contain;
@@ -55,7 +58,6 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  padding: 15px;
 }
 .socialMedia .mainPart .secondPart .second {
   display: flex;
@@ -63,12 +65,20 @@
   margin-left: 55px;
 }
 .socialMedia .mainPart .secondPart .second ul {
-  width: 430px;
+  width: 480px;
+  padding: 0 30px;
 }
 .socialMedia .mainPart .secondPart .second ul li {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
+}
+.socialMedia .mainPart .secondPart P {
+  width: 80%;
+  padding: 15px 0;
+}
+.socialMedia .mainPart .finalPart ul {
+  padding: 0 60px;
 }
 .socialMedia .mainPart .finalPart ul li {
   font-size: 16px;
@@ -77,6 +87,9 @@
 }
 .socialMedia .mainPart .finalPart .secondimg {
   display: none;
+}
+.socialMedia .mainPart .finalPart p {
+  padding: 15px 0;
 }
 .socialMedia .mainPart .read {
   display: flex;
@@ -106,21 +119,35 @@
   width: 90%;
 }
 
+@media screen and (max-width: 1400px) {
+  .socialMedia p {
+    width: 100%;
+    padding: 15px 0;
+  }
+  .socialMedia .mainPart .h1 {
+    width: 100%;
+    padding: 15px 0;
+  }
+  .socialMedia .mainPart .NextPart .img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 @media screen and (max-width: 1200px) {
   .socialMedia {
-    width: 90%;
+    width: 100%;
     padding: 5% 30px;
   }
   .socialMedia .mainPart .NextPart .blok .FirstPart {
     width: 500px;
   }
   .socialMedia .mainPart .read {
-    width: 90vw;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1000px) {
   .socialMedia {
-    width: 90%;
+    width: 100%;
   }
   .socialMedia .buttons {
     margin: 8% 0%;
@@ -156,6 +183,7 @@
     height: auto;
     width: 100%;
     border-radius: 25px;
+    padding: 15px 0;
   }
 }
 @media screen and (max-width: 600px) {
@@ -166,70 +194,82 @@
     margin: 15% 0%;
   }
   .socialMedia .mainPart .h1 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     line-height: 1.5;
-    width: 70%;
+    width: 80%;
   }
   .socialMedia .mainPart .secondPart .img {
     display: none;
   }
   .socialMedia .mainPart .secondPart .second ul {
-    width: 90%;
+    padding: 0 60px;
+    width: 100%;
+  }
+  .socialMedia .mainPart .secondPart p {
+    width: 100%;
+  }
+  .socialMedia .mainPart .finalPart ul {
+    padding: 0 60px;
   }
   .socialMedia .mainPart .finalPart ul li {
     font-size: 15px;
     line-height: 30px;
     font-weight: 400;
-    width: 90%;
+    width: 100%;
   }
   .socialMedia .mainPart .finalPart .secondimg {
     display: block;
     height: 152px;
-    width: 90%;
+    width: 100%;
     border-radius: 25px;
   }
   .socialMedia .mainPart .read {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
   }
   .socialMedia .mainPart .read h1 {
-    font-size: 20px;
+    font-size: 18px;
     padding: 5px;
   }
 }
 @media screen and (max-width: 400px) {
   .socialMedia {
-    width: 90%;
+    width: 100%;
   }
   .socialMedia p {
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
+    padding: 10px 0;
   }
   .socialMedia ul {
-    width: 90vw;
+    width: 100%;
+    padding: 0;
   }
   .socialMedia ul li {
-    width: 90vw;
-    font-size: 35px;
+    width: 100%;
+    font-size: 15px;
   }
   .socialMedia .buttons {
     margin: 22% 0%;
     height: 10px;
   }
+  .socialMedia .mainPart h1 {
+    font-size: 15px;
+    padding: 10px 0;
+  }
   .socialMedia .mainPart .h1 {
-    width: 90%;
-    font-size: 1.6em;
+    width: 100%;
+    font-size: 20px;
     line-height: 1.5;
   }
   .socialMedia .mainPart .NextPart .img {
     display: flex;
-    justify-content: center;
     margin: 0;
   }
   .socialMedia .mainPart .NextPart .img img {
-    width: 100vw;
+    width: 90%;
   }
   .socialMedia .mainPart .secondPart {
     padding: 0;
@@ -242,15 +282,20 @@
   }
   .socialMedia .mainPart .secondPart .second ul {
     width: auto;
+    padding: 0 30px;
   }
   .socialMedia .mainPart .finalPart .secondimg {
     width: 100%;
   }
+  .socialMedia .mainPart .finalPart ul {
+    padding: 0 30px;
+  }
   .socialMedia .mainPart .read {
     width: 100%;
+    font-size: 15px;
   }
   .socialMedia .mainPart .read h1 {
     width: 100%;
-    line-height: 25px;
+    line-height: 20px;
   }
 }/*# sourceMappingURL=media.module.css.map */

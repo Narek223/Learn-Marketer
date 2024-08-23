@@ -1,18 +1,15 @@
-import img1 from "../../../../assets/Homepage_Images/Featured Courses/IMAGE.png";
-import img2 from "../../../../assets/Homepage_Images/Featured Courses/IMAGE (1).png";
-import img3 from "../../../../assets/Homepage_Images/Featured Courses/IMAGE (2).png";
-import img4 from "../../../../assets/Homepage_Images/Featured Courses/IMAGE (3).png";
-import img5 from "../../../../assets/Homepage_Images/Featured Courses/IMAGE (4).png";
-import img6 from "../../../../assets/Homepage_Images/Featured Courses/IMAGE (5).png";
-
-
-
+import Marketing from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE.png";
+import Seo from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (1).png";
+import SocialMedia from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (2).png";
+import ContentMarketing from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (3).png";
+import EmailMarketing from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (4).png";
+import Analytics from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (5).png";
 
 export const courseData = [
   {
     id: 1,
     info: {
-      imgSrc: img1,
+      imgSrc: Marketing,
       duration: "4 Month",
       mode: "Online / Offline",
       title: "Digital Marketing Fundamentals",
@@ -42,7 +39,7 @@ export const courseData = [
   {
     id: 2,
     info: {
-      imgSrc: img2,
+      imgSrc: Seo,
       duration: "6 Month",
       mode: "Online / Offline",
       title: "Advanced SEO Techniques",
@@ -73,7 +70,7 @@ export const courseData = [
     id: 3,
     info: {
       id: 3,
-      imgSrc: img3,
+      imgSrc: SocialMedia,
       duration: "3 Month",
       mode: "Online / Offline",
       title: "Social Media Marketing Mastery",
@@ -104,7 +101,7 @@ export const courseData = [
   {
     id: 4,
     info: {
-      imgSrc: img4,
+      imgSrc: ContentMarketing,
       duration: "4 Month",
       mode: "Online / Offline",
       title: "Content Marketing Strategies",
@@ -134,7 +131,7 @@ export const courseData = [
   {
     id: 5,
     info: {
-      imgSrc: img5,
+      imgSrc: EmailMarketing,
       duration: "3 Month",
       mode: "Online / Offline",
       title: "Email Marketing for Businesses",
@@ -164,7 +161,7 @@ export const courseData = [
   {
     id: 6,
     info: {
-      imgSrc: img6,
+      imgSrc: Analytics,
       duration: "6 Month",
       mode: "Online / Offline",
       title: "Data Analytics for DM",

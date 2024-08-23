@@ -11,16 +11,13 @@ import Hero from "../../components/HeroSection/Hero";
 export default function Home() {
   return (
     <div className={styles.home}>
-        <Hero />  
-       <History /> 
-  
-  
-
-          <Choose /> 
-         <Courses /> 
+      <Hero />
+      <History />
+      <Choose />
+      <Courses />
       {/* <Opinion /> */}
-     <Workers />  
- <Faq />       
+      <Workers />
+      <Faq />
     </div>
   );
 }

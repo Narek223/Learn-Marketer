@@ -13,12 +13,12 @@ function Hero() {
         <h1 className={styles.pageTitle}>
           Find most exciting <span className={styles.orangeText}>online courses</span>
         </h1>
-         <img src={medaiImg} className={styles.homeimg} /> 
+       
         <p>
           At LearnMarketer, our journey began in 2017 with a vision to empower
           individuals.
         </p>
-
+        <img src={medaiImg} className={styles.homeimg} /> 
         <div className={styles.buttonBox}>
           <NavLink className={styles.courseBtn} to="Course">
             <Primary_button>Explore Courses </Primary_button>

@@ -277,12 +277,10 @@ h1{
  @media screen and (max-width: 400px) {
 
   .main{
+    height: 700px;
     .worker{
       .workersInfoBox{
         height: 300px;
-       h1{
-
-       }
         p{
           text-align: start;
           font-size: 16px;
@@ -291,7 +289,7 @@ h1{
         }
         .seeAllBtn {
           position: absolute;
-          bottom: 150px;
+          bottom: 10px;
           left: 25%;
         }
       }
@@ -307,6 +305,9 @@ h1{
           p{
             font-size: 15px;
           }
+        }
+        img{
+          object-fit: contain;
         }
       }
     }

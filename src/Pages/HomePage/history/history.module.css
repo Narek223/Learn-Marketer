@@ -69,7 +69,6 @@
   }
   .historyContainer .our_history .title {
     text-align: center;
-    line-height: 0.6;
   }
   .historyContainer .our_history .title h1 {
     font-size: 50px;
@@ -93,6 +92,7 @@
   .historyContainer {
     align-items: center;
     padding: 0 30px;
+    margin-top: 50px;
   }
   .historyContainer .image {
     display: none;
@@ -104,7 +104,6 @@
   }
   .historyContainer .our_history .title {
     text-align: center;
-    line-height: 0.6;
   }
   .historyContainer .our_history .title h1 {
     font-size: 50px;
@@ -127,7 +126,6 @@
 @media screen and (max-width: 400px) {
   .historyContainer {
     align-items: center;
-    padding: 10px;
     margin: 89px 1px;
   }
   .historyContainer p {

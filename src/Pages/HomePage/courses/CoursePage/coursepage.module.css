@@ -1,5 +1,5 @@
 .course {
-  padding: 5% 25%;
+  padding: 5% 23%;
 }
 .course .buttons {
   width: 20%;
@@ -92,6 +92,7 @@
 }
 .course .main .second ul {
   font-weight: 400;
+  padding: 15px 0;
 }
 .course .main .second ul li {
   line-height: 40px;

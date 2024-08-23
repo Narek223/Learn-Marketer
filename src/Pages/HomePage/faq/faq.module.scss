@@ -33,7 +33,6 @@
     .question {
       font-size: 1.2em;
       font-weight: 600;
-      padding: 10px 0;
       width: 80%;
     }
   }
@@ -182,7 +181,12 @@
 @media screen and (max-width: 407px) {
   .cont {
     .faq {
+      h1{
+        margin-left: 0;
+      }
+    height: 200px;
       .line {
+        padding: 10px 0;
         width: 100%;
         h2 {
           font-size: 14px;

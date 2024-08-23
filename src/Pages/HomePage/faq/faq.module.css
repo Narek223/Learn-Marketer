@@ -33,7 +33,6 @@
 .cont .faq .question {
   font-size: 1.2em;
   font-weight: 600;
-  padding: 10px 0;
   width: 80%;
 }
 
@@ -158,7 +157,14 @@
   }
 }
 @media screen and (max-width: 407px) {
+  .cont .faq {
+    height: 200px;
+  }
+  .cont .faq h1 {
+    margin-left: 0;
+  }
   .cont .faq .line {
+    padding: 10px 0;
     width: 100%;
   }
   .cont .faq .line h2 {
