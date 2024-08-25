@@ -1,9 +1,9 @@
-import SeoGuide from "../../../../src/assets/BlogPageImages/Rectangle 8636.png";
-import MediaMarketing from "../../../../src/assets/BlogPageImages/Rectangle 8636 (1).png";
-import MarketingPlan from "../../../../src/assets/BlogPageImages/Rectangle 8636 (2).png";
-import EmailMarketing from "../../../../src/assets/BlogPageImages/Rectangle 8636 (3).png";
-import DataAnalytics from "../../../../src/assets/BlogPageImages/Rectangle 8636 (4).png";
-import PPCCampaigns from "../../../../src/assets/BlogPageImages/Rectangle 8636 (5).png";
+import SeoGuide from "../../../assets/BlogPageImages/SeoGuide.png";
+import MediaMarketing from "../../../assets/BlogPageImages/MediaMarketing.png";
+import MarketingPlan from "../../../assets/BlogPageImages/MarketingPlan.png";
+import EmailMarketing from "../../../assets/BlogPageImages/EmailMarketing.png";
+import DataAnalytics from "../../../assets/BlogPageImages/DataAnalytics.png";
+import PPCCampaigns from "../../../assets/BlogPageImages/PPCCampaigns.png";
 
 export let BlogCardData = [
   {

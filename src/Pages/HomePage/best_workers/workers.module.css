@@ -2,9 +2,8 @@
   width: 100%;
   height: 934px;
   display: flex;
-  justify-content: center;
+  padding: 50px 151px;
   align-items: center;
-  padding: 50px 0;
 }
 .main .worker {
   display: flex;
@@ -82,15 +81,12 @@
   top: 42%;
 }
 
-@media screen and (max-width: 1400px) {
-  .main {
-    padding: 50px 0;
-  }
+@media screen and (max-width: 1430px) {
   .main .worker {
     width: 85%;
   }
   .main .worker .workersInfoBox {
-    margin-right: 220px;
+    margin-right: 180px;
   }
   .main .worker .workersInfoBox h1 {
     font-size: 55px;
@@ -98,11 +94,17 @@
   .main .worker .workersInfoBox p {
     width: 400px;
   }
+  .main .worker .imgBox {
+    width: calc(100% - 180px - 310px);
+  }
   .main .worker .imgBox .imgMary {
     width: 580px;
   }
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
+  .main {
+    padding: 0 30px;
+  }
   .main .worker {
     width: 90%;
   }

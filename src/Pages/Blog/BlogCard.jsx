@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./blog.module.scss";
 import { NavLink } from "react-router-dom";
 import BlogCartTwo from "./BlogCartTwo";
-import { BlogCardData } from "../../Services/Data/Blog/BlogCard";
+import { BlogCardData } from "../../Services/Data/Blog/blogData";
 
 export default function BlogCard() {
   return (

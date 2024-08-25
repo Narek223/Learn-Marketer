@@ -1,9 +1,9 @@
-import Marketing from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE.png";
-import Seo from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (1).png";
-import SocialMedia from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (2).png";
-import ContentMarketing from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (3).png";
-import EmailMarketing from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (4).png";
-import Analytics from "../../../../src/assets/Homepage_Images/Featured Courses/IMAGE (5).png";
+import Marketing from "../../../../src/assets/Homepage_Images/Featured Courses/Marketing.png";
+import Seo from "../../../assets/Homepage_Images/Featured Courses/Seo.png";
+import SocialMedia from "../../../assets/Homepage_Images/Featured Courses/SocialMedia.png";
+import ContentMarketing from "../../..//assets/Homepage_Images/Featured Courses/ContentMarketing.png";
+import EmailMarketing from "../../../assets/Homepage_Images/Featured Courses/EmailMarketing.png";
+import Analytics from "../../../assets/Homepage_Images/Featured Courses/Analytics.png";
 
 export const courseData = [
   {

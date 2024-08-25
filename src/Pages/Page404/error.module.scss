@@ -24,6 +24,7 @@ margin: 4% 0%;
 }
 @media screen and (max-width: 1000px) {
   .error{
+    padding: 60px 0;
     img{
       width: 90%;
     .err{
@@ -44,18 +45,29 @@ margin: 4% 0%;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    .err{
+      width: 80%;
+         margin-left: 100px;
+         
+        }
+    p:nth-child(1) {
+      color: #FFA500;
+      font-size: 30px;
+      line-height: 1.5;
+    
+    }
     p{
      text-align: center;
      margin-left: 30px;
+     font-size: 25px;
     }
     img{
       width: 20%;
-    .err{
   
-     
-     
-    }
+  
+  
+  
+  
    
    
     }

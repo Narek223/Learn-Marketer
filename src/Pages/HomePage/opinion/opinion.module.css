@@ -1,5 +1,5 @@
 .conteier_4 {
-  height: 100vh;
+  height: 100%;
   margin: 15% 13%;
 }
 .conteier_4 .opinion_2 {
@@ -25,6 +25,7 @@
   background-color: rgba(255, 255, 255, 0);
   font-size: 1.5em;
   cursor: pointer;
+  padding: 0 5px;
 }
 .conteier_4 .opinion_2 .text {
   width: 80%;
@@ -62,6 +63,7 @@
 }
 .conteier_4 .opinion_2 p:nth-child(2) {
   color: #ffa500;
+  padding: 15px 0;
 }
 
 .h1 {
@@ -79,24 +81,27 @@
   }
   .conteier_4 .opinion_2 p:nth-child(3) {
     line-height: 20px;
-    font-size: 17px;
+    font-size: 15px;
   }
   .conteier_4 .opinion_2 .images {
     width: 45%;
+    height: 500px;
   }
   .conteier_4 .opinion_2 .opinion .text .stars p {
     font-size: 1.2em;
   }
   .conteier_4 .opinion_2 .opinion .text .description {
-    height: 200px;
+    height: 230px;
   }
 }
 @media screen and (max-width: 800px) {
   .conteier_4 .opinion_2 {
+    padding: 60px 0;
     width: 100%;
   }
   .conteier_4 .opinion_2 .images {
     margin-right: 50px;
+    height: 300px;
   }
   .conteier_4 .opinion_2 .images img:nth-child(1) {
     display: none;
@@ -111,12 +116,10 @@
 @media screen and (max-width: 600px) {
   .conteier_4 {
     position: relative;
-    margin: 15% 4%;
     width: 100%;
   }
   .conteier_4 .opinion_2 {
     align-items: center;
-    width: 95%;
   }
   .conteier_4 .opinion_2 .images {
     margin: 0;
@@ -139,6 +142,9 @@
     width: 88%;
     padding: 0 25px;
   }
+  .conteier_4 .opinion_2 .opinion .text .stars P {
+    font-size: 14px;
+  }
   .conteier_4 .opinion_2 .opinion .text .buttons button:nth-child(1) {
     position: absolute;
     right: 100%;
@@ -152,7 +158,6 @@
 }
 @media screen and (max-width: 400px) {
   .conteier_4 {
-    margin: 0% 4%;
     height: 700px;
   }
   .conteier_4 h1 {

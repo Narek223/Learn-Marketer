@@ -1,6 +1,6 @@
-import ExperienceImg from "../../../assets/Homepage_Images/ChooseUs/Number (1).png";
-import SolutionsImg from "../../../assets/Homepage_Images/ChooseUs/Number.png";
-import StrategyImg from "../../../assets/Homepage_Images/ChooseUs/Number (2).png";
+import ExperienceImg from "../../../assets/Homepage_Images/ChooseUs/ExperienceImg.png";
+import SolutionsImg from "../../../assets/Homepage_Images/ChooseUs/SolutionsImg.png";
+import StrategyImg from "../../../assets/Homepage_Images/ChooseUs/StrategyImg.png";
 
 export let chooseData = [
   {

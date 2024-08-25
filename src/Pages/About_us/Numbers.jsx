@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./about.module.scss";
-import imgOne from "../../../src/assets/AboutUsImages/Vector.png";
-import imgTwo from "../../../src/assets/AboutUsImages/Group (1).png";
-import imgThree from "../../../src/assets/AboutUsImages/Vector (1).png";
+import CoursesImg from "../../../src/assets/AboutUsImages/CoursesImg.png";
+import HappyStudentsimg from "../../../src/assets/AboutUsImages/HappyStudentsimg.png";
+import ComplatedProject from "../../../src/assets/AboutUsImages/ComplatedProject.png";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
@@ -14,19 +14,19 @@ export default function Numbers() {
   let arr = [
     {
       id: 1,
-      img: imgOne,
+      img: CoursesImg,
       firstH1: 14,
       lastH1: "Courses",
     },
     {
       id: 2,
-      img: imgTwo,
+      img: HappyStudentsimg,
       firstH1: 1230,
       lastH1: "Happy students",
     },
     {
       id: 3,
-      img: imgThree,
+      img: ComplatedProject,
       firstH1: 3260,
       lastH1: "Project Complated",
     },

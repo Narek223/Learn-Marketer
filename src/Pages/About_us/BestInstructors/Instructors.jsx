@@ -1,49 +1,49 @@
 import React from "react";
 import styles from "./instructors.module.scss";
 import InstructorsCard from "./InstructorsCard"
-import imgOne from '../../../assets/AboutUsImages/Ellipse 1212.png'
-import imgTwo from '../../../assets/AboutUsImages/Ellipse 1213.png'
-import imgThree from '../../../assets/AboutUsImages/Ellipse 1214.png'
-import imgFour from '../../../assets/AboutUsImages/Ellipse 1210.png'
-import imgFife from '../../../assets/AboutUsImages/Ellipse 1211.png'
-import imgSix from '../../../assets/AboutUsImages/Ellipse 1206.png'
+import Kathryn from '../../../assets/AboutUsImages/Kathryn.png'
+import Armen from '../../../assets/AboutUsImages/Armen.png'
+import Cam from '../../../assets/AboutUsImages/Cam.png'
+import David from '../../../assets/AboutUsImages/David.png'
+import Wade from '../../../assets/AboutUsImages/Wade.png'
+import Eleanor from '../../../assets/AboutUsImages/Eleanor.png'
 
 export default function Instructors() {
 
   const array = [
     {
       id: 1,
-      img: imgOne,
+      img: Kathryn,
       h1: "Kathryn Murphy",
       p: "Marketolog",
     },
     {
       id: 2,
-      img: imgTwo,
+      img: Armen,
       h1: "Armen Asatryan",
       p: "Head of SEO",
     },
     {
       id: 3,
-      img: imgThree,
+      img: Cam,
       h1: " Cam Williamson",
       p: "Programmer ",
     },
     {
       id: 4,
-      img: imgFour,
+      img: David,
       h1: " David Grigoryan",
       p: "SMM ",
     },
     {
       id: 5,
-      img: imgFife,
+      img: Wade,
       h1: "Wade Warren ",
       p: "Head of SEO ",
     },
     {
       id: 6,
-      img: imgSix,
+      img: Eleanor,
       h1: "Eleanor Pena ",
       p: "Programmer",
     },

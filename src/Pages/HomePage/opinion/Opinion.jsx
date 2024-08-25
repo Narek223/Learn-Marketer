@@ -1,6 +1,6 @@
 import { useState } from "react";
 import pic from "../../../assets/Homepage_Images/Opinion/Frame.png";
-import { text } from "./data";
+import  {slider} from '../../../Services/Data/Opinion/opiniondata'
 import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa";
 import styles from "./opinion.module.scss";
 import contactimg from "../../../assets/ContactPageImages/Frame_5.png";
@@ -9,10 +9,10 @@ export default function Opinion() {
   let [state, setstate] = useState(0);
 
   let next = () => {
-    setstate(state == text.length - 1 ? 0 : state + 1);
+    setstate(state == slider.length - 1 ? 0 : state + 1);
   };
   let prev = () => {
-    setstate(state === 0 ? text.length - 1 : state - 1);
+    setstate(state === 0 ? slider.length - 1 : state - 1);
   };
 
   return (
@@ -29,15 +29,15 @@ export default function Opinion() {
         <div className={styles.opinion}>
           <div className={styles.text}>
             <div className={styles.stars}>
-              <p>{text[state].name}</p>
+              <p>{slider[state].name}</p>
               <div className={styles.icons}>
                 {Array.from({ length: 5 }, (_, index) => (
                   <FaStar className={styles.stars} key={index} />
                 ))}
               </div>
             </div>
-            <p>{text[state].p} </p>
-            <p className={styles.description}>{text[state].text} </p>
+            <p>{slider[state].p} </p>
+            <p className={styles.description}>{slider[state].text} </p>
             <div className={styles.buttons}>
               <button onClick={prev}>
                 <FaArrowLeft />

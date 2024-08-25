@@ -43,7 +43,7 @@
   padding: 5px;
 }
 .featuredCoursesContainer .cardsBox .one {
-  width: 350px;
+  width: 400px;
   height: 450px;
   border: 1px solid white;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
@@ -104,10 +104,10 @@
 }
 .featuredCoursesContainer .cardsBox .one .infoConteiner .cardDescription {
   margin: 25px 0;
-  height: 80px;
+  height: 50px;
 }
 .featuredCoursesContainer .cardsBox .two {
-  width: 350px;
+  width: 400px;
   height: 450px;
   border: 1px solid white;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
@@ -124,7 +124,7 @@
   transition: 0.5s;
 }
 .featuredCoursesContainer .cardsBox .three {
-  width: 350px;
+  width: 400px;
   height: 450px;
   border: 1px solid white;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);

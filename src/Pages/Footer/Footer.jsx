@@ -6,7 +6,7 @@ import {
   FaInstagram,
   FaYoutube,
 } from "react-icons/fa";
-import logo from "../../assets/FooterImage/log.png";
+import logo from "../../assets/FooterImage/footerLogo.png";
 import styles from "./footer.module.scss";
 
 export default function Footer() {
