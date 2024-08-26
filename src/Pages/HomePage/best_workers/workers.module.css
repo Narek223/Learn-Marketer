@@ -101,6 +101,29 @@
     width: 580px;
   }
 }
+@media screen and (max-width: 1250px) {
+  .main .worker {
+    width: 90%;
+  }
+  .main .worker .workersInfoBox {
+    width: 40%;
+    margin-right: 100px;
+  }
+  .main .worker .workersInfoBox h1 {
+    font-size: 50px;
+  }
+  .main .worker .workersInfoBox p {
+    width: 380px;
+  }
+  .main .worker .imgBox {
+    width: 50%;
+    background-image: none;
+  }
+  .main .worker .imgBox .imgMary {
+    width: 540px;
+    height: auto;
+  }
+}
 @media screen and (max-width: 1200px) {
   .main {
     padding: 0 30px;

@@ -34,14 +34,12 @@
   margin-top: 25px;
   padding: 20px;
   border-radius: 5px;
-  line-height: 0.2;
 }
 .form .registr .error {
   font-size: 15px;
   color: red;
-  font-weight: 200;
   text-align: center;
-  line-height: 0.2;
+  padding: 5px 0;
 }
 .form .registr .button {
   width: 100%;
@@ -73,7 +71,7 @@
     font-size: 35px;
   }
   .form .registr {
-    width: 70vw;
+    width: 100%;
   }
 }
 @media screen and (max-width: 400px) {

@@ -275,6 +275,36 @@
     border-radius: 6px;
   }
 }
+@media screen and (max-width: 500px) {
+  .featuredCoursesContainer .featuredCoursesDescription {
+    padding: 0 30px;
+  }
+  .featuredCoursesContainer .cardsBox .one {
+    width: 200px;
+    border-radius: 6px;
+    height: 250px;
+  }
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .duration {
+    font-size: 15px;
+  }
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .format {
+    height: 13px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .featuredCoursesContainer .cardsBox .one .infoConteiner h2 {
+    font-size: 15px;
+    padding: 10px 0;
+    height: 50px;
+  }
+  .featuredCoursesContainer .cardsBox img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+}
 @media screen and (max-width: 400px) {
   .featuredCoursesContainer {
     padding: 0;
@@ -339,7 +369,7 @@
     justify-content: space-between;
   }
   .featuredCoursesContainer .cardsBox .one {
-    width: 140px;
+    width: 160px;
     height: 200px;
     border-radius: 6px;
   }

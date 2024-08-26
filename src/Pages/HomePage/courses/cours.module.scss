@@ -1,415 +1,446 @@
 .featuredCoursesContainer {
- margin: 0;
-    min-height: 200px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    overflow-x: hidden;
+  margin: 0;
+  min-height: 200px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: hidden;
 
+  img {
+    object-fit: cover;
+  }
 
-
-
-
-
-
-
+  @mixin page {
+    width: 400px;
+    height: 450px;
+    border: 1px solid white;
+    box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
+    margin: 2% 2%;
     img {
-        object-fit: cover;
+      width: 100%;
+    }
+    h3 {
+      font-weight: 500;
+      &:hover {
+        color: #ffa500;
+        transition: 0.5s;
+      }
+    }
+  }
+
+  .featuredCoursesTitle {
+    width: 100%;
+    min-height: 10px;
+    color: #003366;
+    font-size: 2.8em;
+    text-align: center;
+    padding-top: 55px;
+
+    span {
+      color: #ffa500;
+    }
+  }
+
+  .featuredCoursesDescription {
+    width: 60%;
+    min-height: 15px;
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  .cardsBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+    .span {
+      width: 38px;
+      height: 13px;
+      background-color: #ffa500;
+      padding: 5px;
     }
 
-    @mixin page {
-        width: 400px;
-        height: 450px;
-        border: 1px solid white;
-        box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
-        margin: 2% 2%;
+    .one {
+      @include page();
+
+      .image {
+        padding: 0;
+        overflow: hidden;
+
+        object-fit: contain;
+        margin: 0;
+
         img {
-            width: 100%;
+          transition: transform 0.5s ease, filter 0.5s ease;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+
+          display: block;
+          filter: brightness(0.8);
         }
-        h3 {
-            font-weight: 500;
-            &:hover {
-                color: #ffa500;
-                transition: 0.5s;
-            }
+      }
+
+      &:hover {
+        .image img {
+          transform: scale(1.2);
         }
-    }
+      }
 
-    .featuredCoursesTitle {
-        width: 100%;
-        min-height: 10px;
-        color: #003366;
-        font-size: 2.8em;
-        text-align: center;
-        padding-top: 55px;
+      .infoConteiner {
+        padding: 0 10px;
 
-        span {
-            color: #ffa500;
-        }
-    }
+        .infoBox {
+          width: 90%;
+          height: 15px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 10px 0;
 
-    .featuredCoursesDescription {
-        width: 60%;
-        min-height: 15px;
-        text-align: center;
-        font-size: 1.3em;
-    }
-
-    .cardsBox {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: baseline;
-        flex-wrap: wrap;
-
-        .span {
-            width: 38px;
-            height: 13px;
+          .duration {
+            width: 80px;
+            height: 27px;
             background-color: #ffa500;
-            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .format {
+          }
         }
 
-        .one {
-            @include page();
-
-            .image {
-                padding: 0;
-                overflow: hidden;
-
-                object-fit: contain;
-                margin: 0;
-
-                img {
-                    transition:
-                        transform 0.5s ease,
-                        filter 0.5s ease;
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-
-                    display: block;
-                    filter: brightness(0.8);
-                }
-            }
-
-            &:hover {
-                .image img {
-                    transform: scale(1.2);
-                }
-            }
-
-            .infoConteiner {
-                padding: 0 10px;
-
-                .infoBox {
-                    width: 90%;
-                    height: 15px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    margin: 10px 0;
-
-                    .duration {
-                        width: 80px;
-                        height: 27px;
-                        background-color: #ffa500;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-
-                    .format {
-                    }
-                }
-
-                h2 {
-                    font-weight: 200;
-                    padding: 10px 0;
-                    font-size: 23px;
-                }
-
-                .cardDescription {
-                    margin: 25px 0;
-                    height: 50px;
-                }
-            }
+        h2 {
+          font-weight: 200;
+          padding: 10px 0;
+          font-size: 23px;
         }
 
-        .two {
-            @include page();
+        .cardDescription {
+          margin: 25px 0;
+          height: 50px;
         }
-
-        .three {
-            @include page();
-        }
+      }
     }
 
-    .link {
-        text-decoration: none;
-        color: #18181b;
-        height: 100%;
+    .two {
+      @include page();
     }
+
+    .three {
+      @include page();
+    }
+  }
+
+  .link {
+    text-decoration: none;
+    color: #18181b;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 1300px) {
-    .featuredCoursesContainer {
-        .cardsBox {
-            .cardDescription {
-                display: none;
-            }
-            .one {
-                width: 480px;
-                border-radius: 6px;
-                line-height: 1;
-                height: 400px;
-                img {
-                    object-fit: cover;
-                    border-radius: 6px;
-                }
-            }
+  .featuredCoursesContainer {
+    .cardsBox {
+      .cardDescription {
+        display: none;
+      }
+      .one {
+        width: 480px;
+        border-radius: 6px;
+        line-height: 1;
+        height: 400px;
+        img {
+          object-fit: cover;
+          border-radius: 6px;
         }
+      }
     }
+  }
 }
 
 @media screen and (max-width: 1130px) {
-    .featuredCoursesContainer {
-        .cardsBox {
-            justify-content: center;
-            .cardDescription {
-                display: none;
-            }
-            .one {
-                width: 450px;
-                border-radius: 6px;
-                line-height: 1;
-                .infoConteiner {
-                    h2 {
-                        padding: 25px 0;
-                    }
-                }
-
-                img {
-                    object-fit: cover;
-                    border-radius: 6px;
-                }
-            }
+  .featuredCoursesContainer {
+    .cardsBox {
+      justify-content: center;
+      .cardDescription {
+        display: none;
+      }
+      .one {
+        width: 450px;
+        border-radius: 6px;
+        line-height: 1;
+        .infoConteiner {
+          h2 {
+            padding: 25px 0;
+          }
         }
+
+        img {
+          object-fit: cover;
+          border-radius: 6px;
+        }
+      }
     }
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .featuredCoursesContainer {
-        @mixin page {
-            height: 400px;
-        }
-        .featuredCoursesDescription {
-        }
-        .cardsBox {
-            .cardDescription {
-                display: none;
-            }
-            .one {
-                @include page();
-                width: 400px;
-                border-radius: 6px;
-                line-height: 1;
-                img {
-                    object-fit: cover;
-                    border-radius: 6px;
-                }
-            }
-        }
+  .featuredCoursesContainer {
+    @mixin page {
+      height: 400px;
     }
+    .featuredCoursesDescription {
+    }
+    .cardsBox {
+      .cardDescription {
+        display: none;
+      }
+      .one {
+        @include page();
+        width: 400px;
+        border-radius: 6px;
+        line-height: 1;
+        img {
+          object-fit: cover;
+          border-radius: 6px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 950px) {
-    .featuredCoursesContainer {
-        @mixin page {
-            height: 350px;
-        }
-        .featuredCoursesDescription {
-        }
-        .cardsBox {
-            .cardDescription {
-                display: none;
-            }
-            .one {
-                width: 300px;
-                border-radius: 6px;
-                line-height: 1;
-                @include page();
-
-                img {
-                    object-fit: cover;
-                    border-radius: 6px;
-                }
-            }
-        }
+  .featuredCoursesContainer {
+    @mixin page {
+      height: 350px;
     }
+    .featuredCoursesDescription {
+    }
+    .cardsBox {
+      .cardDescription {
+        display: none;
+      }
+      .one {
+        width: 300px;
+        border-radius: 6px;
+        line-height: 1;
+        @include page();
+
+        img {
+          object-fit: cover;
+          border-radius: 6px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .featuredCoursesContainer {
-        @mixin page {
-            height: 280px;
-        }
-        width: 100%;
-       
-        overflow-x: hidden;
-        .featuredCoursesDescription {
-            width: 100%;
-        }
-        .cardsBox {
-            padding: 5px;
-            .one {
-                width: 235px;
-                height: 250px;
-                border-radius: 6px;
-                @include page();
-                .one {
-                    width: 128px;
-                    height: 202px;
-                    border-radius: 6px;
-                    .infoConteiner {
-                        
-                        .infoBox {
-                            width: 100%;
-                            height: 15px;
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            border: 1px solid #000;
-                            margin-top: 5px;
-
-                            .duration {
-                                width: 15px;
-                                height: 13px;
-                                background-color: #ffa500;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                font-size: 9px;
-                            }
-
-                            .format {
-                                width: 80px;
-                                height: 13px;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                margin-right: 5px;
-                            }
-                        }
-                    }
-                }
-                h2 {
-                    font-size: 15px;
-                }
-                h3 {
-                    font-size: 15px;
-                }
-                img {
-                    object-fit: cover;
-                    border-radius: 6px;
-                }
-            }
-        }
+  .featuredCoursesContainer {
+    @mixin page {
+      height: 280px;
     }
+    width: 100%;
+
+    overflow-x: hidden;
+    .featuredCoursesDescription {
+      width: 100%;
+    }
+    .cardsBox {
+      padding: 5px;
+      .one {
+        width: 235px;
+        height: 250px;
+        border-radius: 6px;
+        @include page();
+        .one {
+          width: 128px;
+          height: 202px;
+          border-radius: 6px;
+          .infoConteiner {
+            .infoBox {
+              width: 100%;
+              height: 15px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              border: 1px solid #000;
+              margin-top: 5px;
+
+              .duration {
+                width: 15px;
+                height: 13px;
+                background-color: #ffa500;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 9px;
+              }
+
+              .format {
+                width: 80px;
+                height: 13px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+        h2 {
+          font-size: 15px;
+        }
+        h3 {
+          font-size: 15px;
+        }
+        img {
+          object-fit: cover;
+          border-radius: 6px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .featuredCoursesContainer {
+    @mixin page {
+      height: 250px;
+    }
+    .featuredCoursesDescription {
+        padding: 0 30px;
+    }
+
+    .cardsBox {
+      .one {
+        width: 200px;
+        border-radius: 6px;
+        @include page();
+        .infoConteiner {
+          .duration {
+     font-size: 15px;
+          }
+
+          .format {
+            height: 13px;
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          h2 {
+            font-size: 15px;
+            padding: 10px 0;
+            height: 50px;
+          }
+        }
+      }
+
+      img {
+        object-fit: cover;
+        border-radius: 6px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .featuredCoursesContainer {
-        @mixin page {
-            height: 200px;
-        }
-        .featuredCoursesDescription {
-            font-size: 1.1em;
-            padding: 15px 15px;
-        }
-        padding: 0;
-
-        width: 100%;
-
-        .cardsBox {
-            width: 100%;
-
-            .one {
-                width: 165px;
-
-                border-radius: 6px;
-                @include page();
-                .infoConteiner {
-                    .infoBox {
-                        width: 100%;
-                        height: 15px;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-
-                        .duration {
-                            width: 50px;
-                            height: 20px;
-                            background-color: #ffa500;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            font-size: 10px;
-                        }
-
-                        .format {
-                            height: 13px;
-                            font-size: 10px;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                    }
-                }
-                .infoConteiner {
-                    h2 {
-                        font-size: 14px;
-                        padding: 10px 0;
-                        height: 50px;
-                    }
-                }
-
-                img {
-                    object-fit: cover;
-                    border-radius: 6px;
-                }
-            }
-        }
+  .featuredCoursesContainer {
+    @mixin page {
+      height: 200px;
     }
+    .featuredCoursesDescription {
+      font-size: 1.1em;
+      padding: 15px 15px;
+    }
+    padding: 0;
+
+    width: 100%;
+
+    .cardsBox {
+      width: 100%;
+
+      .one {
+        width: 165px;
+
+        border-radius: 6px;
+        @include page();
+        .infoConteiner {
+          .infoBox {
+            width: 100%;
+            height: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .duration {
+              width: 50px;
+              height: 20px;
+              background-color: #ffa500;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 10px;
+            }
+
+            .format {
+              height: 13px;
+              font-size: 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+        }
+        .infoConteiner {
+          h2 {
+            font-size: 14px;
+            padding: 10px 0;
+            height: 50px;
+          }
+        }
+
+        img {
+          object-fit: cover;
+          border-radius: 6px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .featuredCoursesContainer {
-        .featuredCoursesTitle {
-            font-size: 1.5em;
-        }
-        .featuredCoursesDescription {
-            width: 100%;
-            font-size: 1em;
-            padding: 15px 15px;
-        }
-        .cardsBox {
-            justify-content: space-between;
-            .one {
-                width: 140px;
-                height: 200px;
-                border-radius: 6px;
-                .infoBox {
-                    .duration {
-                        width: 40px;
-                    }
-                }
-
-                h2 {
-                    font-size: 15px;
-                }
-            }
-        }
+  .featuredCoursesContainer {
+    .featuredCoursesTitle {
+      font-size: 1.5em;
     }
+    .featuredCoursesDescription {
+      width: 100%;
+      font-size: 1em;
+      padding: 15px 15px;
+    }
+    .cardsBox {
+      justify-content: space-between;
+      .one {
+        width: 160px;
+        height: 200px;
+        border-radius: 6px;
+        .infoBox {
+          .duration {
+            width: 40px;
+          }
+        }
+
+        h2 {
+          font-size: 15px;
+        }
+      }
+    }
+  }
 }
