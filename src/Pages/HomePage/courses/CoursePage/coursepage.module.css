@@ -170,7 +170,7 @@
   }
   .course .first .main {
     position: static;
-    min-height: 300px;
+    min-height: 200px;
   }
   .course .first .main .second .CourseHighlights h1 {
     width: 55%;

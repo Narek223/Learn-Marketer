@@ -204,15 +204,53 @@
     display: none;
   }
   .featuredCoursesContainer .cardsBox .one {
-    width: 300px;
     border-radius: 6px;
     line-height: 1;
-    height: 350px;
+    height: 380px;
   }
   .featuredCoursesContainer .cardsBox .one img {
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 6px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .featuredCoursesContainer .cardsBox .cardDescription {
+    display: none;
+  }
+  .featuredCoursesContainer .cardsBox .one {
+    width: 330px;
+    height: 380px;
+  }
+  .featuredCoursesContainer .cardsBox .one img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+}
+@media screen and (max-width: 776px) {
+  .featuredCoursesContainer .featuredCoursesDescription {
+    width: 100%;
+  }
+  .featuredCoursesContainer .cardsBox .cardDescription {
+    display: none;
+  }
+  .featuredCoursesContainer .cardsBox .one {
+    width: 45%;
+    height: 330px;
+  }
+  .featuredCoursesContainer .cardsBox .one img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 6px;
+  }
+}
+@media screen and (max-width: 652px) {
+  .featuredCoursesContainer .cardsBox .one .infoConteiner {
+    padding: 10px 10px;
+  }
+  .featuredCoursesContainer .cardsBox .one .infoConteiner h2 {
+    width: 90%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -221,50 +259,47 @@
     overflow-x: hidden;
   }
   .featuredCoursesContainer .featuredCoursesDescription {
+    padding: 0 30px;
     width: 100%;
   }
-  .featuredCoursesContainer .cardsBox {
-    padding: 5px;
-  }
   .featuredCoursesContainer .cardsBox .one {
-    width: 235px;
-    height: 250px;
     border-radius: 6px;
     height: 280px;
   }
-  .featuredCoursesContainer .cardsBox .one .one {
-    width: 128px;
-    height: 202px;
-    border-radius: 6px;
+  .featuredCoursesContainer .cardsBox .one .infoConteiner {
+    padding: 0 10px;
   }
-  .featuredCoursesContainer .cardsBox .one .one .infoConteiner .infoBox {
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox {
     width: 100%;
     height: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #000;
-    margin-top: 5px;
+    font-size: 13px;
   }
-  .featuredCoursesContainer .cardsBox .one .one .infoConteiner .infoBox .duration {
-    width: 15px;
-    height: 13px;
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox .duration {
+    width: 75px;
+    height: 25px;
     background-color: #ffa500;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 9px;
+    font-size: 13px;
   }
-  .featuredCoursesContainer .cardsBox .one .one .infoConteiner .infoBox .format {
-    width: 80px;
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox .format {
     height: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 5px;
+    font-size: 13px;
+  }
+  .featuredCoursesContainer .cardsBox .one .infoConteiner h2 {
+    width: 100%;
   }
   .featuredCoursesContainer .cardsBox .one h2 {
     font-size: 15px;
+    width: 100%;
   }
   .featuredCoursesContainer .cardsBox .one h3 {
     font-size: 15px;
@@ -276,28 +311,36 @@
   }
 }
 @media screen and (max-width: 500px) {
-  .featuredCoursesContainer .featuredCoursesDescription {
-    padding: 0 30px;
-  }
   .featuredCoursesContainer .cardsBox .one {
-    width: 200px;
+    width: 100%;
     border-radius: 6px;
-    height: 250px;
+    height: 450px;
   }
-  .featuredCoursesContainer .cardsBox .one .infoConteiner .duration {
-    font-size: 15px;
+  .featuredCoursesContainer .cardsBox .one .infoConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 200px;
   }
-  .featuredCoursesContainer .cardsBox .one .infoConteiner .format {
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox .duration {
+    font-size: 21px;
+    width: 150px;
+    height: 35px;
+  }
+  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox .format {
     height: 13px;
-    font-size: 10px;
+    font-size: 21px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .featuredCoursesContainer .cardsBox .one .infoConteiner h2 {
-    font-size: 15px;
+    font-size: 21px;
     padding: 10px 0;
     height: 50px;
+  }
+  .featuredCoursesContainer .cardsBox .one .infoConteiner h3 {
+    font-size: 21px;
   }
   .featuredCoursesContainer .cardsBox img {
     -o-object-fit: cover;
@@ -306,54 +349,19 @@
   }
 }
 @media screen and (max-width: 400px) {
-  .featuredCoursesContainer {
-    padding: 0;
-    width: 100%;
+  .featuredCoursesContainer .featuredCoursesTitle {
+    font-size: 2.2em;
+    padding: 15px 0;
   }
   .featuredCoursesContainer .featuredCoursesDescription {
+    padding: 0;
     font-size: 1.1em;
-    padding: 15px 15px;
-  }
-  .featuredCoursesContainer .cardsBox {
-    width: 100%;
   }
   .featuredCoursesContainer .cardsBox .one {
-    width: 165px;
-    border-radius: 6px;
-    height: 200px;
-  }
-  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox {
-    width: 100%;
-    height: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 380px;
   }
   .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox .duration {
-    width: 50px;
-    height: 20px;
-    background-color: #ffa500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-  }
-  .featuredCoursesContainer .cardsBox .one .infoConteiner .infoBox .format {
-    height: 13px;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .featuredCoursesContainer .cardsBox .one .infoConteiner h2 {
-    font-size: 14px;
-    padding: 10px 0;
-    height: 50px;
-  }
-  .featuredCoursesContainer .cardsBox .one img {
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 6px;
+    width: 100px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -363,14 +371,9 @@
   .featuredCoursesContainer .featuredCoursesDescription {
     width: 100%;
     font-size: 1em;
-    padding: 15px 15px;
-  }
-  .featuredCoursesContainer .cardsBox {
-    justify-content: space-between;
+    padding: 15px 0;
   }
   .featuredCoursesContainer .cardsBox .one {
-    width: 160px;
-    height: 200px;
     border-radius: 6px;
   }
   .featuredCoursesContainer .cardsBox .one .infoBox .duration {

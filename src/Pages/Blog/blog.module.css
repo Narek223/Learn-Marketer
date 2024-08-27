@@ -1,12 +1,10 @@
 .conteiner {
   padding: 5% 151px;
 }
-.conteiner .title {
-  height: 20%;
-}
 .conteiner .title h1 {
   font-size: 50px;
   color: #003366;
+  padding: 0 10px;
 }
 .conteiner .title h1 span {
   color: #ffa500;
@@ -15,7 +13,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  padding: 15px;
+  padding: 10px 15px;
 }
 .conteiner .blog {
   cursor: pointer;
@@ -33,9 +31,9 @@
   align-items: baseline;
 }
 .conteiner .blogs {
-  padding: 5px;
   border-radius: 5%;
-  width: 45%;
+  width: 48%;
+  height: 620px;
   border: 1px solid white;
   padding: 10px;
   box-shadow: 0 0 15px 5px rgba(9, 24, 26, 0.0392156863);
@@ -44,6 +42,7 @@
 .conteiner .blogs p {
   font-size: 18px;
   font-weight: 400;
+  padding: 5px 0;
 }
 .conteiner .blogs p:nth-child(3) {
   font-weight: 600;
@@ -87,52 +86,67 @@
     padding: 5% 30px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .conteiner .blogs {
+    width: 48%;
+    height: 550px;
+  }
+  .conteiner .blogs p {
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 700px) {
   .conteiner .title h1 {
     margin: 5% 1%;
   }
   .conteiner .blogs {
     width: 48%;
+    height: 500px;
   }
   .conteiner .blogs p {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
   .conteiner .title h1 {
     margin: 5% 1%;
   }
   .conteiner .blogs {
-    width: 45%;
-    height: 300px;
+    width: 100%;
+    min-height: 300px;
+    height: 580px;
+  }
+  .conteiner .blogs .title {
+    padding: 10px 0;
   }
   .conteiner .blogs p {
     height: auto;
-    font-size: 12px;
-    line-height: 13px;
+    line-height: 23px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .conteiner .title h1 {
+    font-size: 40px;
+  }
+  .conteiner .blogs {
+    height: 530px;
   }
 }
 @media screen and (max-width: 400px) {
-  .conteiner .main {
-    margin: 25px 0;
-  }
-  .conteiner .title {
-    padding: 2px 0;
-  }
   .conteiner .title h1 {
-    font-size: 2.1em;
-    margin: 5% 1%;
-  }
-  .conteiner .title p {
-    padding: 0;
+    margin: 5% 0;
+    font-size: 30px;
   }
   .conteiner .blogs {
-    width: 45%;
-    height: 310px;
+    width: 100%;
+    min-height: 300px;
+    padding: 15px 10px;
+  }
+  .conteiner .blogs .title {
+    padding: 10px 0;
   }
   .conteiner .blogs p {
     height: auto;
-    font-size: 10px;
-    line-height: 12px;
+    line-height: 23px;
   }
 }/*# sourceMappingURL=blog.module.css.map */

@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./cours.module.scss";
 import CourseCard from "./CourseCard.jsx";
-import {courseData} from '../../../Services/Data/Course/courseData.jsx'
-
+import { courseData } from "../../../Services/Data/Course/CourseData.jsx";
 
 export default function Courses() {
   return (

@@ -3,80 +3,90 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100%; 
+  height: 100%;
   line-height: 1.5;
   text-align: center;
-margin: 4% 0%;
+  padding: 60px 0;
   p:nth-child(1) {
-    color: #FFA500;
+    color: #ffa500;
     font-size: 40px;
     line-height: 1.5;
- 
   }
-
   .err {
     padding: 15px;
     width: 100%;
     max-width: 627px;
-    margin-left: 155px; 
- 
+    margin-left: 155px;
   }
 }
 @media screen and (max-width: 1000px) {
-  .error{
+  .error {
     padding: 60px 0;
-    img{
-      width: 90%;
-    .err{
-      margin-left: 5px;
-    }
-   
-   
+    img {
+      .err {
+        margin-left: 5px;
+      }
     }
   }
-
 }
 
-
-@media screen and (max-width: 400px) {
-  .error{
+@media screen and (max-width: 600px) {
+  .error {
     width: 100%;
-    height: 80vh;
+    min-height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    .err{
+
+    .err {
       width: 80%;
-         margin-left: 100px;
-         
-        }
+      margin-left: 100px;
+    }
     p:nth-child(1) {
-      color: #FFA500;
+      color: #ffa500;
       font-size: 30px;
       line-height: 1.5;
-    
     }
-    p{
-     text-align: center;
-     margin-left: 30px;
-     font-size: 25px;
+    p {
+      text-align: center;
+      margin-left: 30px;
+      font-size: 25px;
     }
-    img{
+    img {
       width: 20%;
-  
-  
-  
-  
-  
-   
-   
     }
-    .errorimg{
-width: 70%;
+    .errorimg {
+      width: 70%;
     }
   }
-
-
-
-
+}
+@media screen and (max-width: 400px) {
+  .error {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0;
+    .err {
+      width: 80%;
+      margin-left: 100px;
+    }
+    p:nth-child(1) {
+      color: #ffa500;
+      font-size: 30px;
+      line-height: 1.5;
+    }
+    p {
+      text-align: center;
+      margin-left: 30px;
+      font-size: 25px;
+    }
+    img {
+      width: 20%;
+    }
+    .errorimg {
+      width: 70%;
+    }
+  }
 }
