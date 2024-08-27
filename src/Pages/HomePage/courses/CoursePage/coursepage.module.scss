@@ -88,7 +88,7 @@
     }
   }
 
-  .main {
+  .topics {
     width: 100%;
     display: flex;
 
@@ -167,7 +167,7 @@
       }
     }
 
-    .main {
+    .topics {
       flex-direction: column;
 
       .CurseImg {
@@ -191,7 +191,18 @@
     }
   }
 }
+@media screen and (max-width: 700px) {
 
+  .course{
+    .first{
+      .btnConteiner{
+        .buttons{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 600px) {
   .course {
     padding: 60px 30px;
@@ -200,7 +211,7 @@
     .first {
       height: 700px;
 
-      .main {
+      .topics {
         position: static;
         min-height: 200px;
 
@@ -267,7 +278,7 @@
       }
     }
 
-    .main {
+    .topics {
       .second {
      
 

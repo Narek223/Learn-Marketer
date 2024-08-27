@@ -5,12 +5,12 @@ import imgtwo from "../../../../assets/Homepage_Images/CourseCard/Frame_3.png";
 import Contact from "./Contact/Contact";
 import {  useParams } from "react-router-dom";
 import Faqs from "./Faqs/NewFaqs";
- import { courseData } from "../../../../Services/Data/Course/CourseData.jsx";
+ import { dataCourse } from  "../../../../Services/Data/Course/courseData"
 
 
 export default function CoursePage() {
   const { id } = useParams();
-  const course = courseData.find((c) => c.id === parseInt(id));
+  const course = dataCourse.find((c) => c.id === parseInt(id));
 
   const {
     courseInfo: { description: courseDscription, title: courseTitle },
@@ -38,7 +38,7 @@ export default function CoursePage() {
         </div>
       </div>
 
-      <div className={styles.main}>
+      <div className={styles.topics}>
         <div>
           <div className={styles.second}>
             <h1>Key Topics</h1>

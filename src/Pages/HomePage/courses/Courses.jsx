@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./cours.module.scss";
 import CourseCard from "./CourseCard.jsx";
-import { courseData } from "../../../Services/Data/Course/CourseData.jsx";
+import { dataCourse } from  "../../../Services/Data/Course/courseData.jsx"
 
 export default function Courses() {
   return (
@@ -15,7 +15,7 @@ export default function Courses() {
           landscape.
         </p>
         <div className={styles.cardsBox}>
-          {courseData.map((elem) => (
+          {dataCourse.map((elem) => (
             <CourseCard key={elem.id} data={elem} />
           ))}
           

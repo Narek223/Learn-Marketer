@@ -5,7 +5,7 @@ import ContentMarketing from "../../..//assets/Homepage_Images/Featured Courses/
 import EmailMarketing from "../../../assets/Homepage_Images/Featured Courses/EmailMarketing.png";
 import Analytics from "../../../assets/Homepage_Images/Featured Courses/Analytics.png";
 
-export const courseData = [
+export const dataCourse = [
   {
     id: 1,
     info: {
