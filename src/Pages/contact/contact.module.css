@@ -216,6 +216,9 @@
     align-items: stretch;
     align-content: flex-start;
   }
+  .global .conteiner .two .contact ul li {
+    padding: 10px 0;
+  }
   .global .conteiner .two .img {
     display: none;
   }
@@ -253,6 +256,9 @@
   }
   .global .conteiner .two .contact {
     width: 100%;
+  }
+  .global .conteiner .two .contact ul li {
+    padding: 8px 0;
   }
   .global .conteiner .conteinerTwo h1 {
     width: 100%;

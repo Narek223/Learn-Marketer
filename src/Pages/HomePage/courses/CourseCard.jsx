@@ -5,25 +5,23 @@ import { NavLink } from "react-router-dom";
 export default function CourseCard({ data }) {
   return (
     <div className={styles.one}>
-       <NavLink to={`/Course/${data.id}`} className={styles.link}>
-      <div className={styles.image}>
-        <img src={data.info.imgSrc} alt={data.title} />
-      </div>
-<div className={styles.infoConteiner}>
-
-
-      <div className={styles.infoBox}>
-        <div className={styles.duration}>
-        <p>{data.details[0]}</p>
+      <NavLink to={`/Course/${data.id}`} className={styles.link}>
+        <div className={styles.image}>
+          <img src={data.info.imgSrc} alt={data.title} />
         </div>
-        <div className={styles.format}>
-        {data.details[data.details.length -1]}
-        </div>
-      </div>
-      <h2>{data.courseInfo.title}</h2>
-      <p className={styles.cardDescription}>{data.info.description}</p>
-     
-        <h3>Read more...</h3>
+        <div className={styles.infoConteiner}>
+          <div className={styles.infoBox}>
+            <div className={styles.duration}>
+              <p>{data.details[0]}</p>
+            </div>
+            <div className={styles.format}>
+              {data.details[data.details.length - 1]}
+            </div>
+          </div>
+          <h2>{data.courseInfo.title}</h2>
+          <p className={styles.cardDescription}>{data.info.description}</p>
+
+          <h3>Read more...</h3>
         </div>
       </NavLink>
     </div>

@@ -14,7 +14,7 @@
   @mixin page {
     width: 400px;
     height: 450px;
-    border: 1px solid white;
+  
     box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
     margin: 2% 2%;
     img {
@@ -89,6 +89,7 @@
       &:hover {
         .image img {
           transform: scale(1.2);
+        
         }
       }
 
@@ -156,9 +157,18 @@
         border-radius: 6px;
         line-height: 1;
         height: 400px;
+        overflow: hidden;
         img {
           object-fit: cover;
           border-radius: 6px;
+          
+        }
+        &:hover {
+          border-radius: 6px;
+          .image img {
+         
+            border-radius: 6px;
+          }
         }
       }
     }
@@ -381,6 +391,7 @@
       .one {
         width: 100%;
         border-radius: 6px;
+        margin: 15px 0;
         @include page();
         .infoConteiner {
           display: flex;
@@ -430,7 +441,7 @@
     }
     .featuredCoursesDescription {
       padding: 0;
-      font-size: 1.1em;
+      font-size: 16px;
     }
     .cardsBox {
       .one {

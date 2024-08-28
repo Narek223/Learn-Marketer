@@ -6,7 +6,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  overflow-x: hidden;
 }
 .featuredCoursesContainer img {
   -o-object-fit: cover;
@@ -45,7 +44,6 @@
 .featuredCoursesContainer .cardsBox .one {
   width: 400px;
   height: 450px;
-  border: 1px solid white;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
   margin: 2% 2%;
 }
@@ -109,7 +107,6 @@
 .featuredCoursesContainer .cardsBox .two {
   width: 400px;
   height: 450px;
-  border: 1px solid white;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
   margin: 2% 2%;
 }
@@ -126,7 +123,6 @@
 .featuredCoursesContainer .cardsBox .three {
   width: 400px;
   height: 450px;
-  border: 1px solid white;
   box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
   margin: 2% 2%;
 }
@@ -155,10 +151,17 @@
     border-radius: 6px;
     line-height: 1;
     height: 400px;
+    overflow: hidden;
   }
   .featuredCoursesContainer .cardsBox .one img {
     -o-object-fit: cover;
        object-fit: cover;
+    border-radius: 6px;
+  }
+  .featuredCoursesContainer .cardsBox .one:hover {
+    border-radius: 6px;
+  }
+  .featuredCoursesContainer .cardsBox .one:hover .image img {
     border-radius: 6px;
   }
 }
@@ -184,6 +187,12 @@
   }
 }
 @media screen and (max-width: 1000px) {
+  .featuredCoursesContainer {
+    padding: 0 30px;
+  }
+  .featuredCoursesContainer .featuredCoursesDescription {
+    padding: 30px 0;
+  }
   .featuredCoursesContainer .cardsBox .cardDescription {
     display: none;
   }
@@ -197,6 +206,9 @@
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 6px;
+  }
+  .featuredCoursesContainer .section {
+    padding: 0 30px;
   }
 }
 @media screen and (max-width: 950px) {
@@ -256,10 +268,8 @@
 @media screen and (max-width: 600px) {
   .featuredCoursesContainer {
     width: 100%;
-    overflow-x: hidden;
   }
   .featuredCoursesContainer .featuredCoursesDescription {
-    padding: 0 30px;
     width: 100%;
   }
   .featuredCoursesContainer .cardsBox .one {
@@ -314,6 +324,7 @@
   .featuredCoursesContainer .cardsBox .one {
     width: 100%;
     border-radius: 6px;
+    margin: 15px 0;
     height: 450px;
   }
   .featuredCoursesContainer .cardsBox .one .infoConteiner {
@@ -355,7 +366,7 @@
   }
   .featuredCoursesContainer .featuredCoursesDescription {
     padding: 0;
-    font-size: 1.1em;
+    font-size: 16px;
   }
   .featuredCoursesContainer .cardsBox .one {
     height: 380px;

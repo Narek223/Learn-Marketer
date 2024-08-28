@@ -32,11 +32,11 @@
   .conteiner {
     line-height: 1.5;
     margin: 10% 0;
-    padding: 0 30px;
   }
   .conteiner .section {
     display: flex;
     flex-direction: column-reverse;
+    padding: 0 30px;
   }
   .conteiner .section img {
     width: 80%;

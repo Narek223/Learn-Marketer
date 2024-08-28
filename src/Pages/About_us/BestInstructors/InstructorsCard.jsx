@@ -1,7 +1,6 @@
 import React from "react";
 import button from '../../../assets/AboutUsImages/CoursesImg.png'
 import styles from "./instructors.module.scss";
-import { FiArrowUpRight } from "react-icons/fi";
 
 export default function InstructorsCard({ data }) {
   return (

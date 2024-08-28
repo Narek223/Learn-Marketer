@@ -1,14 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import styles from "./header.module.css";
 import { FaAlignJustify } from "react-icons/fa";
 import { MdClear } from "react-icons/md";
-import logo from "../../assets/logo/mobile-logo.png"
-import { useLocation } from "react-router-dom";
+import logo from "../../assets/logo/mobile-logo.png";
 
 export default function Header() {
   const [show, setShow] = useState(false);
-  const ref=useRef()
+  const ref = useRef();
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -33,7 +32,7 @@ export default function Header() {
   }, [show]);
 
   useEffect(() => {
-    let close = (e) => {
+    const close = (e) => {
       if (ref.current && !ref.current.contains(e.target)) {
         setShow(false);
       }
@@ -53,22 +52,47 @@ export default function Header() {
         <div className={styles.image}>
           <NavLink className={styles.link} to="/">
             <img src={logo} alt="logo" />
-            </NavLink>
+          </NavLink>
         </div>
         <nav className={show ? styles.openNav : styles.nav} ref={ref}>
-          <NavLink className={styles.link} to="/">
+          <NavLink
+            className={({ isActive }) => 
+              `${styles.link} ${isActive ? styles.active : ''}`
+            }
+            to="/"
+          >
             Home
           </NavLink>
-          <NavLink className={styles.link} to="/About">
+          <NavLink
+            className={({ isActive }) => 
+              `${styles.link} ${isActive ? styles.active : ''}`
+            }
+            to="/About"
+          >
             About
           </NavLink>
-          <NavLink className={styles.link} to="/Course">
+          <NavLink
+            className={({ isActive }) => 
+              `${styles.link} ${isActive ? styles.active : ''}`
+            }
+            to="/Course"
+          >
             Course
           </NavLink>
-          <NavLink className={styles.link} to="/Blog">
+          <NavLink
+            className={({ isActive }) => 
+              `${styles.link} ${isActive ? styles.active : ''}`
+            }
+            to="/Blog"
+          >
             Blog
           </NavLink>
-          <NavLink className={styles.link} to="/Contact">
+          <NavLink
+            className={({ isActive }) => 
+              `${styles.link} ${isActive ? styles.active : ''}`
+            }
+            to="/Contact"
+          >
             Contact
           </NavLink>
         </nav>

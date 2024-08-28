@@ -48,6 +48,9 @@
   color: white;
   margin: 0 6%;
 }
+.header .container .nav .active {
+  color: #FFA500;
+}
 .header .container .changeLanguage p {
   color: white;
 }

@@ -287,6 +287,11 @@
         .contact {
           align-items: stretch;
           align-content: flex-start;
+          ul{
+            li{
+              padding: 10px 0;
+            }
+          }
         }
         
         .img {
@@ -339,6 +344,11 @@
         
         .contact {
           width: 100%;
+          ul{
+            li{
+              padding: 8px 0;
+            }
+          }
         }
       }
       .conteinerTwo {
