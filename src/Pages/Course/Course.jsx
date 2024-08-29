@@ -2,12 +2,13 @@ import React from "react";
 import styles from "./courses.module.scss";
 import newimg from "../../assets/Homepage_Images/Featured Courses/Group 1000014917 (1).png"
 import Courses from "../HomePage/courses/Courses";
-import Path from '../../shered_components/pathTrace/Path';
+
 
 export default function Course() {
   return (
     <div className={styles.conteiner}>
-      {<Path path="Home"  currentPage="Contact"/>}
+    
+      
       <Courses />
       <div className={styles.section}>
         <img src={newimg} />
@@ -16,7 +17,7 @@ export default function Course() {
           and knowledge needed to excel in the digital marketing
           landscape.Explore our top-rated courses designed to equip you with the
           skills and knowledge needed to excel in the digital marketing
-          landscape.{" "}
+          landscape.
         </p>
       </div>
     </div>
