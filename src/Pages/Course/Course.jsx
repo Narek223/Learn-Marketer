@@ -14,7 +14,7 @@ export default function Course() {
           and knowledge needed to excel in the digital marketing
           landscape.Explore our top-rated courses designed to equip you with the
           skills and knowledge needed to excel in the digital marketing
-          landscape.{" "}
+          landscape.
         </p>
       </div>
     </div>

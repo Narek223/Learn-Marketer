@@ -4,17 +4,18 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   justify-content: flex-start;
+  padding: 0 151px;
 
   img {
     object-fit: cover;
   }
 
   @mixin page {
-    width: 400px;
+    width: 420px;
     height: 450px;
-  
+
     box-shadow: 0 0 15px 0 rgba(217, 217, 217, 0.97);
     margin: 2% 2%;
     img {
@@ -43,16 +44,17 @@
   }
 
   .featuredCoursesDescription {
-    width: 60%;
+    width: 100%;
     min-height: 15px;
     text-align: center;
     font-size: 1.3em;
+    padding: 0 25px;
   }
 
   .cardsBox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: baseline;
     flex-wrap: wrap;
 
@@ -89,7 +91,6 @@
       &:hover {
         .image img {
           transform: scale(1.2);
-        
         }
       }
 
@@ -112,9 +113,6 @@
             justify-content: center;
             align-items: center;
           }
-
-          .format {
-          }
         }
 
         h2 {
@@ -129,7 +127,6 @@
         }
       }
     }
-
     .two {
       @include page();
     }
@@ -145,15 +142,76 @@
     height: 100%;
   }
 }
+@media screen and (max-width: 1733px) {
+  .featuredCoursesContainer {
+    .cardsBox {
+      .one {
+        width: 400px;
+      }
+    }
+  }
+}
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1664px) {
+  .featuredCoursesContainer {
+    .cardsBox {
+      .one {
+        width: 360px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1550px) {
+  .featuredCoursesContainer {
+    .cardsBox {
+      .one {
+        width: 350px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1495px) {
+  .featuredCoursesContainer {
+    .cardsBox {
+      .one {
+        width: 330px;
+        
+        .infoConteiner{
+          h2{
+            width: 100%;
+            font-size: 20px;
+          }
+          .cardDescription{
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1426px) {
+  .featuredCoursesContainer {
+    .cardsBox {
+      justify-content: flex-start;
+      .one {
+        width: 300px;
+        .infoConteiner{
+          h2{
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1330px) {
   .featuredCoursesContainer {
     .cardsBox {
       .cardDescription {
         display: none;
       }
       .one {
-        width: 480px;
+        width: 450px;
         border-radius: 6px;
         line-height: 1;
         height: 400px;
@@ -161,12 +219,10 @@
         img {
           object-fit: cover;
           border-radius: 6px;
-          
         }
         &:hover {
           border-radius: 6px;
           .image img {
-         
             border-radius: 6px;
           }
         }
@@ -174,8 +230,38 @@
     }
   }
 }
-
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1280px) {
+  .featuredCoursesContainer {
+    .cardsBox {
+ 
+      .one {
+        width: 410px;
+        .infoConteiner{
+          h2{
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .featuredCoursesContainer {
+    padding: 0 30px;
+    .cardsBox {
+ justify-content: center;
+      .one {
+        width: 500px;
+        .infoConteiner{
+          h2{
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1147px) {
   .featuredCoursesContainer {
     .cardsBox {
       justify-content: center;
@@ -183,7 +269,7 @@
         display: none;
       }
       .one {
-        width: 450px;
+        width: 400px;
         border-radius: 6px;
         line-height: 1;
         .infoConteiner {
@@ -225,7 +311,7 @@
         }
       }
     }
-    .section{
+    .section {
       padding: 0 30px;
     }
   }
@@ -276,12 +362,12 @@
     }
   }
 }
-@media screen and (max-width:776px) {
+@media screen and (max-width: 776px) {
   .featuredCoursesContainer {
     @mixin page {
       height: 330px;
     }
-    .featuredCoursesDescription{
+    .featuredCoursesDescription {
       width: 100%;
     }
     .cardsBox {
@@ -290,7 +376,7 @@
       }
       .one {
         width: 45%;
-     
+
         @include page();
 
         img {
@@ -305,8 +391,6 @@
   .featuredCoursesContainer {
     .cardsBox {
       .one {
-       
-     
         .infoConteiner {
           padding: 10px 10px;
           h2 {
@@ -320,18 +404,15 @@
 @media screen and (max-width: 600px) {
   .featuredCoursesContainer {
     @mixin page {
-      height: 280px;
+      height: 300px;
     }
     width: 100%;
 
-  
     .featuredCoursesDescription {
-
       width: 100%;
     }
     .cardsBox {
       .one {
-
         border-radius: 6px;
         @include page();
 

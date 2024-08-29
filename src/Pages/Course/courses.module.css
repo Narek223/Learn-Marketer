@@ -1,6 +1,9 @@
 .conteiner {
   line-height: 1.5;
 }
+.conteiner .path {
+  padding: 5% 151px;
+}
 .conteiner .featuredCoursesContainer {
   margin-left: 0;
 }

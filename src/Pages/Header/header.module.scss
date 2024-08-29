@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   .container {
     width: 100%;
     height: 100%;
@@ -30,7 +30,7 @@
       height: 25px;
       justify-content: center;
       align-items: center;
-      color: #FFA500;
+      color: #ffa500;
       display: none;
       cursor: pointer;
       font-size: 24px;
@@ -51,49 +51,41 @@
         color: white;
         margin: 0 6%;
       }
-      .active{
-        color:#FFA500;
-       }
+      .active {
+        color: #ffa500;
+      }
     }
 
     .changeLanguage {
-
       p {
         color: white;
       }
     }
   }
 
-
   @media screen and (max-width: 1200px) {
     .container {
       padding: 0 30px;
     }
-
-
   }
   @media screen and (max-width: 1000px) {
-
     .container {
       padding: 0 30px;
 
       .nav {
-        display: none; 
+        display: none;
       }
 
       .openNav {
-        display: flex; 
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        height: 60vh;
         background-color: rgba(217, 217, 217, 97%);
         color: #003366;
         position: absolute;
         top: 60px;
         left: 0;
-       
-       
 
         .link {
           padding: 12px 40px;
@@ -109,21 +101,16 @@
       .MenuIcon {
         display: flex;
       }
-
-      
     }
   }
 }
 @media screen and (max-width: 400px) {
-.header{
-  height: 62px;
-.container{
-
-  .openNav{
-    height: 45vh;
-
+  .header {
+    height: 62px;
+    .container {
+      .openNav {
+        height: 45vh;
+      }
+    }
   }
-}
-}
-
 }

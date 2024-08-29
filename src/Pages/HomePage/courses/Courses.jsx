@@ -3,9 +3,12 @@ import styles from "./cours.module.scss";
 import CourseCard from "./CourseCard.jsx";
 import { dataCourse } from "../../../Services/Data/Course/courseData";
 
+
+
 export default function Courses() {
   return (
     <div className={styles.featuredCoursesContainer}>
+
         <h1 className={styles.featuredCoursesTitle}>
           Featured<span> Courses</span>
         </h1>
