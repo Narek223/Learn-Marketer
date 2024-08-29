@@ -5,7 +5,7 @@ import imgtwo from "../../../../assets/Homepage_Images/CourseCard/Frame_3.png";
 import Contact from "./Contact/Contact";
 import { useParams } from "react-router-dom";
 import Faqs from "./Faqs/NewFaqs";
-import { dataCourse } from "../../../../Services/Data/Course/CourseData";
+import { dataCourse } from "../../../../Services/Data/Course/courseData";
 
 export default function CoursePage() {
   const { id } = useParams();

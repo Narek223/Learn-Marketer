@@ -298,7 +298,19 @@ h1{
     }
   }
 }
-
+@media screen and (max-width: 437px) {
+.main{
+  .worker{
+    .workersInfoBox{
+      height:auto;
+      .seeAllBtn{
+        bottom: 126px;
+        left: 30%;
+      }
+    }
+  }
+}
+}
 
  @media screen and (max-width: 400px) {
 
